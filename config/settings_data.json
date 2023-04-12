@@ -2284,6 +2284,12 @@
           "layout": "left",
           "divider": false
         }
+      },
+      "8bb7973d-161f-4b26-917c-7a6b278bdc8c": {
+        "type": "customebanner",
+        "settings": {
+          "h2": "The Premiere Ecommerce Agency Transforming Emerging Businesses Into World-Class Brands Through The Power Of Shopify"
+        }
       }
     },
     "content_for_index": [
@@ -2310,7 +2316,8 @@
       "1617556687dbb3c50b",
       "1577818476138",
       "1616684715ec05dc3f",
-      "16166847257698b441"
+      "16166847257698b441",
+      "8bb7973d-161f-4b26-917c-7a6b278bdc8c"
     ],
     "blocks": {
       "6174324309569838175": {
