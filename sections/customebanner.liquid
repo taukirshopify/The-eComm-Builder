@@ -1,104 +1,9 @@
 <style>
-  /** integration-section **/
-
-  .integration-section {
-    position: relative;
-    display: block;
-    padding: 130px 0px 120px 0px;
-  }
-
-  .integration-section:before {
-    position: absolute;
-    content: '';
-    background: url(http://html.tonatheme.com/2019/Rivox/images/icons/shap-29.png);
-    width: 707px;
-    height: 1089px;
-    left: 0px;
-    top: -240px;
-    background-repeat: no-repeat;
-  }
-
-  .integration-section .integrations-block {
-    position: relative;
-    height: 550px;
-    max-width: 550px;
-    margin-left: -30px;
-    background-image: url(http://html.tonatheme.com/2019/Rivox/images/icons/integration-bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: 1;
-  }
-
-  .integration-section .integrations-block .icon {
-    position: absolute;
-    -webkit-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
-
-  .integration-section .integrations-block .icon a,
-  .integration-section .integrations-block .icon img {
-    position: relative;
-    display: inline-block;
-  }
-
-  .integration-section .integrations-block .icon img {
-    border-radius: 50%;
-    box-shadow: 0 23px 50px #d9d9e7;
-  }
-
-  .icon-1 {
-    left: 184px;
-    top: -46px;
-    -webkit-animation: zoom-fade 5s infinite linear;
-    animation: zoom-fade 5s infinite linear;
-  }
-
-  .icon-2 {
-    left: 70px;
-    top: 32%;
-    -webkit-animation: zoom-fade-two 5s infinite linear;
-    animation: zoom-fade-two 5s infinite linear;
-  }
-
-  .icon-3 {
-    right: 120px;
-    top: 20%;
-    -webkit-animation: zoom-fade-two 5s infinite linear;
-    animation: zoom-fade-two 5s infinite linear;
-  }
-
-  .icon-4 {
-    left: 30px;
-    bottom: 45px;
-    -webkit-animation: zoom-fade 5s infinite linear;
-    animation: zoom-fade 5s infinite linear;
-  }
-
-  .icon-5 {
-    right: 30%;
-    bottom: 87px;
-    -webkit-animation: zoom-fade-two 5s infinite linear;
-    animation: zoom-fade-two 5s infinite linear;
-  }
-
-  .icon-6 {
-    right: -4%;
-    bottom: 130px;
-    -webkit-animation: zoom-fade 5s infinite linear;
-    animation: zoom-fade 5s infinite linear;
-  }
-
-  img {
-    display: inline-block;
-    max-width: 100%;
-    height: auto;
-  }
-
   .holderCircle {
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     border-radius: 100%;
+    margin: 60px auto;
     position: relative;
   }
 
@@ -168,8 +73,8 @@
     position: absolute;
     left: 40px;
     top: 45px;
-    width: 610px;
-    height: 610px;
+    width: 410px;
+    height: 410px;
     border: 2px dotted #a733bb;
     border-radius: 100%;
     -webkit-animation: rotation 100s infinite linear;
@@ -177,9 +82,17 @@
   .dotCircle .itemDot:hover,
   .dotCircle .itemDot.active {
     color: #ffffff;
-    transition: 0.5s;
-
-    border: 2px solid #7d4ac7;
+    transition: 0.5s; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d4ac7+0,a733bb+100 */
+    background: #7d4ac7; /* Old browsers */
+    background: -moz-linear-gradient(left, #7d4ac7 0%, #a733bb 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #7d4ac7 0%, #a733bb 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+      to right,
+      #7d4ac7 0%,
+      #a733bb 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7d4ac7', endColorstr='#a733bb', GradientType=1); /* IE6-9 */
+    border: 2px solid #ffffff;
     -webkit-box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.13);
     -moz-box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.13);
     box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.13);
@@ -220,7 +133,7 @@
     transform: scale(1);
     transition: 0.5s;
   }
-  .contentCircle .CirItem img.nish {
+  .contentCircle .CirItem i {
     font-size: 180px;
     position: absolute;
     top: 0;
@@ -231,7 +144,8 @@
   }
   @media only screen and (min-width: 300px) and (max-width: 599px) {
     .holderCircle {
-      /* width: 300px; height: 300px;*/
+      width: 300px;
+      height: 300px;
       margin: 110px auto;
     }
     .holderCircle::after {
@@ -247,46 +161,6 @@
       left: 0;
       margin: auto;
     }
-  }
-  .round {
-    position: absolute;
-    left: 79px;
-    top: 62px;
-    width: 562px;
-    height: 590px;
-    border: 2px dotted #a733bb;
-    border-radius: 100%;
-    -webkit-animation: rotation 100s infinite linear;
-  }
-  /* .round-1 {
-        position: absolute;
-        left: 126px;
-        top: 85px;
-        width: 65%;
-        height: 75%;
-        border: 2px dotted #a733bb;
-        border-radius: 100%;
-        -webkit-animation: rotation 100s infinite linear;
-    } */
-  /* .round-2 {
-      position: absolute;
-        left: 122px;
-        top: 63px;
-        width: 508px;
-        height: 548px;
-        border: 2px dotted #a733bb;
-        border-radius: 100%;
-        -webkit-animation: rotation 100s infinite linear;
-    } */
-  .contentCircle {
-    width: 250px;
-    border-radius: 100%;
-    color: #222222;
-    position: relative;
-    top: 38%;
-    text-align: center;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
   @media only screen and (min-width: 600px) and (max-width: 767px) {
   }
@@ -318,8 +192,7 @@
 </div>
 
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <!-- ---- Include the above in your HEAD tag -------- -->
@@ -444,6 +317,7 @@
 <script>
   // A $( document ).ready() block.
   $(document).ready(function () {
+    var maxData = 3;
     let i = 2;
 
     $(document).ready(function () {
@@ -490,7 +364,7 @@
 
       setInterval(function () {
         var dataTab = $('.itemDot.active').data('tab');
-        if (dataTab > 6 || i > 6) {
+        if (dataTab > maxData || i > maxData) {
           dataTab = 1;
           i = 1;
         }
