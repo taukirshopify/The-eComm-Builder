@@ -1,0 +1,242 @@
+{% capture form_id %}AddToCartForm-{{ section_id }}{% endcapture %}
+{% form 'product', product, id: form_id, class: 'product-single__form' %}
+  {% unless product.has_only_default_variant %}
+    {% for option in product.options_with_values %}
+      {% if settings.variant_type == 'button' %}
+        {% include 'variant-button', section_id: section_id, option_drop: option %}
+      {% else %}
+        {% include 'variant-dropdown', section_id: section_id %}
+      {% endif %}
+    {% endfor %}
+  {% endunless %}
+
+  <select name="id" id="ProductSelect-{{ section_id }}" class="product-single__variants no-js">
+    {% for variant in product.variants %}
+      {% if variant.available %}
+        <option {% if variant == product.selected_or_first_available_variant %}
+          selected="selected" {% endif %}
+          value="{{ variant.id }}">
+          {{ variant.title }} - {{ variant.price | money_with_currency }}
+        </option>
+      {% else %}
+        <option disabled="disabled">
+          {{ variant.title }} - {{ 'products.product.sold_out' | t }}
+        </option>
+      {% endif %}
+    {% endfor %}
+  </select>
+
+  {% if settings.quantity_enable %}
+    <div class="product__quantity product__quantity--{{ settings.variant_type }}">
+      <label for="Quantity-{{ section_id }}">{{ 'products.product.quantity' | t }}</label>
+      {% include 'quantity-input', id: section_id, qty: 1, min: 1 %}
+    </div>
+  {% endif %}
+
+
+      <style>
+        .t1{color:yellow !important;}
+        .t2{color:red; display:none;}
+        .t3{color:green; display:none;}
+        
+        
+        
+        
+        
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+/* Style the buttons inside the tab */
+.tab a {
+border:1px solid #fbfbfb;
+background-color:white;
+  float: left;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.1s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab a:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab a.active {
+  background-color: #fbfbfb;
+  font-weight:bold;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  background-color: #fbfbfb;
+}
+        @media only screen and (max-width: 768px) {
+       .tab a {   
+  padding: 5px 10px !important; font-size:10px !important;
+        }
+      </style>
+      
+      
+      
+      
+      
+      
+ {% assign my_description = product.description | split: '<!-- split -->'  %}  
+<div class="tab">
+  <a class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">{{section.settings.first_tab}}</a>
+ {% if product.metafields.my_fields.second_tab_name == 'contact us' %}
+   <a class="tablinks" href="/pages/contact">
+    {% if product.metafields.my_fields.second_tab_name != blank %}
+    {{product.metafields.my_fields.second_tab_name}}
+    {% else %}
+    {{section.settings.second_tab}}
+    {% endif %}</a>
+ {% else %}
+   <a class="tablinks tablink-contact" onclick="openCity(event, 'Paris')">
+    
+    {% if product.metafields.my_fields.second_tab_name != blank %}
+    {{product.metafields.my_fields.second_tab_name}}
+    {% else %}
+    {{section.settings.second_tab}}
+    {% endif %}
+    
+    
+    
+    </a>
+   {% endif %}
+  <a class="tablinks" onclick="openCity(event, 'Tokyo')">{{section.settings.fix_tab1}}</a>
+  <a class="tablinks " onclick="openCity(event, 'Usa')">{{section.settings.fix_tab2}}</a>
+  
+</div>
+
+<div id="London" class="tabcontent">
+  <p>{{ my_description[0] }}</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  
+  <p>{{ my_description[1] }}</p>
+  
+  {% if product.metafields.my_fields.second_tab_name == 'contact us' %}
+  
+  <div class="form-vertical">
+    <a href="/pages/contact" class="" style="border:1px solid black; pading:20px;">CLICK HERE FOR CONTACT</a>
+        </div>
+  {% elsif product.metafields.my_fields.second_tab_name == 'design requirements' %}
+  {formbuilder:NzU0NDk=}
+  {% elsif product.metafields.my_fields.second_tab_name == 'size chart' %}
+  <img src="https://cdn.shopify.com/s/files/1/0054/8808/3030/files/sizechart.png?v=1648075981">
+  {% elsif product.metafields.my_fields.second_tab_name == 'SIZE CHART' %}
+  <img src="https://cdn.shopify.com/s/files/1/0054/8808/3030/files/waist.png?v=1648076373">
+  {% endif  %}
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <p>{{ my_description[2] }}</p>
+</div>
+      
+<div id="Usa" class="tabcontent">
+ 
+ 
+  <p> {{section.settings.fix_tab2_content}}</p>
+  
+</div>
+
+
+
+
+
+
+
+  {%- assign inventory_visible = false -%}
+  {%- if settings.inventory_enable and current_variant.inventory_management == 'shopify' -%}
+    {%- if current_variant.inventory_quantity <= settings.inventory_threshold and current_variant.inventory_quantity >= 0 -%}
+      {%- assign inventory_visible = true -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- if current_variant.inventory_quantity == 0 -%}
+    {%- assign inventory_visible = false -%}
+  {%- endif -%}
+
+  <div
+    id="ProductInventory-{{ section_id }}"
+    class="product__inventory {% unless inventory_visible %}hide{% endunless %}"
+    >
+    {% if current_variant.available %}
+      {{ 'products.product.stock_label' | t: count: current_variant.inventory_quantity }}
+    {% endif %}
+  </div>
+
+  {%- if settings.inventory_transfers_enable -%}
+    <div
+      id="ProductIncomingInventory-{{ section_id }}"
+      class="product__inventory{% if inventory_visible %} hide{% endif %}">
+      {%- if current_variant.incoming and inventory_visible == false -%}
+        {%- if current_variant.next_incoming_date -%}
+          {% assign date = current_variant.next_incoming_date | date: format: 'date' %}
+          {%- if current_variant.available -%}
+            {{ 'products.product.will_not_ship_until' | t: date: date }}
+          {%- else -%}
+            {{ 'products.product.will_be_in_stock_after' | t: date: date }}
+          {%- endif -%}
+        {%- else -%}
+          {{ 'products.product.waiting_for_stock' | t }}
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+
+  {%- assign enable_dynamic_buttons = false -%}
+  {% if settings.enable_payment_button and template != 'product.preorder' %}
+    {%- assign enable_dynamic_buttons = true -%}
+  {% endif %}
+
+  {% if enable_dynamic_buttons %}
+    <div class="payment-buttons">
+  {% endif %}
+
+    <button
+      {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
+      name="add"
+      id="AddToCart-{{ section_id }}"
+      class="btn btn--full add-to-cart{% if enable_dynamic_buttons %} btn--secondary{% endif %}"
+      {% unless current_variant.available %} disabled="disabled"{% endunless %}>
+      <span id="AddToCartText-{{ section_id }}">
+        {% if current_variant.available %}
+          {% if template == 'product.preorder' %}
+            {{ 'products.product.preorder' | t }}
+          {% else %}
+            {{ 'products.product.add_to_cart' | t }}
+          {% endif %}
+        {% else %}
+          {{ 'products.product.sold_out' | t }}
+        {% endif %}
+      </span>
+    </button>
+
+    {% if enable_dynamic_buttons %}
+      {{ form | payment_button }}
+    {% endif %}
+
+  {% if enable_dynamic_buttons %}
+    </div>
+  {% endif %}
+
+  <div id="VariantsJson-{{ section_id }}" class="hide" aria-hidden="true">
+    {{ product.variants | json }}
+  </div>
+  {% if product.options.size > 1 %}
+    <div id="CurrentVariantJson-{{ section_id }}" class="hide" aria-hidden="true">
+      {{ current_variant | json }}
+    </div>
+  {% endif %}
+{% endform %}

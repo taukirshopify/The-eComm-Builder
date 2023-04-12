@@ -1,0 +1,233 @@
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.rowsn::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="colsn-"] {
+  float: left;
+  padding: 15px;
+}
+
+/* For desktop: */
+.colsn-1 {width: 8.33%;}
+.colsn-10 {width: 83.33%;}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="colsn-"] {
+    width: 100%;
+  }
+    .fordesk{display:none;}
+}
+
+
+
+
+
+.logo_slider {
+  width:100%;
+  overflow: hidden;
+  white-space: nowrap;
+  border-radius:50px;
+}
+
+.ni {
+  width: 220px;
+  height: 220px;
+  display: inline-block;
+  text-align: center;
+  border-radius:50%;
+  border:0px;
+
+}
+  .ni1 {
+  width: 220px;
+  display: inline-block;
+  text-align: center;
+  border-radius:50%;
+  border:0px;
+  color:black !important;
+
+}
+  a {
+  color: white;
+    font-weight:bold;
+}
+.mov_btn{font-size:38px; cursor:pointer; background-color:{{section.settings.arrow_back}}; padding:{{section.settings.arrow_pad}}; border-radius:50%;color:{{section.settings.arrow}};}
+  .mov_btn:hover{opacity:{{section.settings.arrow_opacity}};}
+  
+  @media only screen and (min-width: 768px) {
+  .mov{margin-top:{{section.settings.arrow_adjustment}}%;}
+    .formobile{display:none;}
+}
+</style>
+
+<div class="rowsn">
+
+<div class="colsn-1 mov fordesk" style="text-align:right; "><span id="prev" class="mov_btn">&#8249;</span></div>
+<div  id="menu1" class="colsn-10">
+  
+  <p class="logo_slider">
+  
+
+{% for block in section.blocks %}
+  {% case block.type %}
+    {% when 'slide' %}  
+  <a href="{{block.settings.link}}">  <img class="ni border" src="{{block.settings.image | image_url}}"> </a> 
+     {% endcase %}
+{% endfor %}
+
+  </p>
+ <p class="logo_slider">
+  {% for block in section.blocks %}
+  {% case block.type %}
+    {% when 'slide' %}  
+  
+<a href="#">  <span class="ni1 border">{{block.settings.text}}</span> </a>
+   {% endcase %}
+{% endfor %}
+  </p>
+
+
+</div>
+<div class="colsn-1 mov fordesk"><span id="next" class="mov_btn" style="margin-top:25%;">&#8250;</span></div>
+</div>
+
+
+<div class="colsn-1 mov formobile" style="text-align:center;"><span id="prevm" class="mov_btn">&#8249;</span><span id="nextm" class="mov_btn" style="margin-top:25%;">&#8250;</span></div>
+
+<script>
+$('#prev').on('click', function() {
+  $('#menu1 .logo_slider').animate({
+    scrollLeft: '-=222'
+  }, 300, 'swing');
+});
+
+$('#next').on('click', function() {
+  $('#menu1 .logo_slider').animate({
+    scrollLeft: '+=222'
+  }, 300, 'swing');
+});
+  
+  
+$('#prevm').on('click', function() {
+  $('#menu1 .logo_slider').animate({
+    scrollLeft: '-=222'
+  }, 300, 'swing');
+});
+
+$('#nextm').on('click', function() {
+  $('#menu1 .logo_slider').animate({
+    scrollLeft: '+=222'
+  }, 300, 'swing');
+});
+</script>
+
+
+
+
+
+{% schema %}
+{
+  "name": "Categories",
+  "tag": "section",
+  "class": "slideshow",
+  "max_blocks": 15,
+  "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Heading"
+      },
+	 {
+      "type": "color",
+      "id": "arrow",
+      "label": "Arrows color",
+      "default": "#000000"
+     },
+{
+"type":"range",
+"min":0,
+"max":22,
+"step":1,
+"id":"arrow_adjustment",
+"label":"Arrow Adjustment",
+"default":1
+},
+	 {
+      "type": "color",
+      "id": "arrow_back",
+      "label": "Arrows Background color",
+      "default": "#FFFFFF"
+     },
+	 {
+        "type": "text",
+        "id": "arrow_opacity",
+        "label": "Arrows Hover Opacity",
+        "default": "0.9"
+      },
+	  {
+        "type": "text",
+        "id": "arrow_left",
+        "label": "Arrow Left",
+        "default": "&lt;",
+		"info":"&laquo; , &lt;"
+      },
+	  {
+        "type": "text",
+        "id": "arrow_right",
+        "label": "Arrow Right",
+        "default": "&gt;",
+		"info":"&raquo; , &gt;"
+      },
+	{
+        "type": "text",
+        "id": "arrow_pad",
+        "label": "Arrows padding",
+        "default": "2px 20px 8px 20px"
+      }
+  ],
+  "blocks": [
+     {
+       "name": "Portfolio",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         },
+         {
+           "type": "text",
+           "id": "text",
+           "label": "Heading",
+		   "default":"Heading"
+         },
+         {
+           "type": "url",
+           "id": "link",
+           "label": "Link"
+         }
+       ]
+     }
+   ],"presets": [
+      {
+        "name": "Categories",
+        "category": "home"
+      }
+    ]
+}
+{% endschema %}
+
+
+
+
+
+

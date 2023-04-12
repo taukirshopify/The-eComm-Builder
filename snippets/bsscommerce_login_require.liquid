@@ -1,0 +1,92 @@
+
+        {%- capture contentForQuerystring -%}{{ content_for_header }}{%- endcapture -%}
+        {%- assign page_url = contentForQuerystring | split:'"pageurl":"' | last | split:'"' | first | split:'.myshopify.com' | last |   replace:'\/','/' |    replace:'%20',' ' |    replace:'&','&'  -%}
+        {% assign page_url =  "https://" | append: page_url  %}
+        {% assign pageUrlWithParams = page_url | remove: shop.url %}
+        {% assign isApplyForceLogin = false %}
+        {% assign bssLtapCurrentPage = canonical_url | remove: shop.url %}
+        {% unless content_for_header contains "Shopify.preview_host" %}
+            {% assign old_content_for_layout = content_for_layout %}
+            {% if  template != "customers/reset_password" and template != "customers/register" and template != "customers/activate_account" and request.path != "/challenge" %}
+                {% assign bss_login_to_day_date = 'now' | date: '%s' %}
+                {% assign bsscommerce-password = "" %}
+                {% assign bss_login_from_date_11385 = 'Thu Jan 01 1970 00:00:00 GMT+0000 (Coordinated Universal Time)' | date: '%s' %}{% assign bss_login_to_date_11385 = 'Thu Dec 31 2099 23:59:59 GMT+0000 (Coordinated Universal Time)' | date: '%s' %}
+            {% if bss_login_from_date_11385 < bss_login_to_day_date and bss_login_to_day_date < bss_login_to_date_11385 %}
+                {% assign product_collection_11385 = "" | split: ',' %}
+                {% if request.path != '/' %}
+                    {% for collection in product.collections %}
+                        {% assign collection_id = collection.id | split:',' %}
+                        {% assign delimeter = "|" | split:',' %}
+                        {% assign product_collection_11385 = product_collection_11385 | concat:delimeter %}
+                        {% assign product_collection_11385 = product_collection_11385 | concat:collection_id %}
+                    {% endfor %}
+                {% endif %}
+                {% if product_collection_11385 contains "262534234198" or collection.id == 262534234198 or template == "list-collections" %}
+                    {% assign bsscommerce-password-11385 = "*bss*SQ*bss*" %}
+            {% capture passcode-message-11385 %}<p style="text-align: center;"><strong>After Subscring To Our Drop Shipping Program Enter Passcode Below To Access Site!!!</strong></p>{% endcapture %}
+            {% capture message_passcode_incorrect-11385 %}Incorrect password!{% endcapture %}
+            {% capture button_text_form_submit-11385 %}{% endcapture %}
+            {% capture input_placeholder_form_submit-11385 %}{% endcapture %}
+            {% assign passAttr = cart.attributes.bsscommerce-password-11385 %}
+            {% assign ruleId = "11385" %}
+            
+            {% if passAttr %}
+                {% assign passAttr = "*bss*" | append: passAttr | append: "*bss*" %}
+            {% endif %}
+            {% unless bsscommerce-password-11385 contains passAttr %}
+                    
+                        {% unless false %}
+            {% assign isApplyForceLogin = true %}
+            {% capture content_for_layout %}
+                
+                {% render 'bsscommerce-passcode', rule_id: ruleId, passcode_message: passcode-message-11385, password: bsscommerce-password-11385, entered_password: passAttr,
+                        message_passcode_incorrect: message_passcode_incorrect-11385,
+                        button_text_form_submit: button_text_form_submit-11385,
+                        input_placeholder_form_submit: input_placeholder_form_submit-11385
+            %}
+                {% capture login_require_custom_style %}
+                    {% render 'login_require_custom_style' %}
+                {% endcapture %}
+                {% unless login_require_custom_style contains "Liquid error" %}
+                    {{ login_require_custom_style }}
+                {% endunless %}
+            {% endcapture %}
+        {% else %}
+            {% assign isApplyForceLogin = false %}
+            {% assign content_for_layout = old_content_for_layout %}
+        {% endunless %}
+                    {% else %}
+                        {% unless true %}
+                            {% capture content_for_layout %}
+                                
+                                
+                                {% capture login_require_custom_style %}
+                                    {% render 'login_require_custom_style' %}
+                                {% endcapture %}
+                                {% unless login_require_custom_style contains "Liquid error" %}
+                                    {{ login_require_custom_style }}
+                                {% endunless %}
+                            {% endcapture %}
+                        {% else %}
+                            {% assign isApplyForceLogin = false %}
+                            {% assign content_for_layout = old_content_for_layout %}
+                        {% endunless %}
+                    {% endunless %}
+                {% endif %}
+            {% endif %}
+        
+            {% else %}
+                {% capture content_for_layout %}
+                    {% assign isApplyForceLogin = false %}
+                    {{old_content_for_layout}}
+                    {% capture login_require_custom_style %}
+                        {% render 'login_require_custom_style' %}
+                    {% endcapture %}
+                    {% unless login_require_custom_style contains "Liquid error" %}
+                        {{ login_require_custom_style }}
+                    {% endunless %}
+                {% endcapture %}
+            {% endif %}
+        {% endunless %}
+        
+        

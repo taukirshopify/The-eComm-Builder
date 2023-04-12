@@ -1,0 +1,18 @@
+<style>
+  @media only screen and (max-width: 768px){
+  .cs_btn{padding:1px !important; border:1px solid black; font-size:8px !important;}
+  }
+    @media only screen and (min-width: 768px){
+  .cs_btn{padding:5px !important; border:1px solid black; font-size:14px !important;}
+  }
+</style>
+
+<form method="post" action="/cart/add" style="text-align:center;">
+
+  <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+
+<!--   <input min="1" type="number" id="quantity" name="quantity" value="1"/><br> -->
+
+  <input class="cs_btn" type="submit" value="Sign Up"/>
+  <a  class="cs_btn" href="{{ product.url | within: collection }}">LEARN MORE</a>
+</form>

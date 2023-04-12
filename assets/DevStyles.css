@@ -1,0 +1,14 @@
+@media(max-width: 767px){
+  .colllection-refrence .grid.grid--uniform .grid__item {
+    width: 50% !important;
+  }
+}
+.grid.grid--uniform.grid--collection .plan-two.grid__item:first-child .custom-plan-details, body.seo.template-collection .grid.grid--uniform.grid--collection .plan-two.grid__item:nth-child(5) .custom-plan-details {
+    background: #8b13da;
+}
+.grid.grid--uniform.grid--collection .plan-two.grid__item .custom-plan-details {
+    background: #e1b74b;
+}
+.grid.grid--uniform.grid--collection .plan-two.grid__item:first-child .custom-plan-details li, body.seo.template-collection .grid.grid--uniform.grid--collection .plan-two.grid__item:nth-child(5) .custom-plan-details li {
+    color: white;
+}
