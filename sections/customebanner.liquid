@@ -189,6 +189,9 @@
     flex: 0 0 50%;
     max-width: 50%;
   }
+  p.phone {
+    display: none;
+    }
 }
 @media only screen and (max-width: 859px) and (min-width: 561px)  {
   .col-lg-6 {
@@ -197,11 +200,17 @@
     flex: 0 0 50%;
     max-width: 50%;
   }
+  p.phone {
+  display: none;
+  }
 }
 @media only screen and (max-width: 560px) and (min-width: 200px)  {
   .col-md-12{
     width: 100%;
     max-width: 100%;
+  }
+  .banner-wrapper{
+   display:none;
   }
   .banner-wrapper {
     line-height: 1.5;
@@ -234,6 +243,7 @@
 .contentCircle {
   display: none;
 }
+
 }
 .row {
   display: -ms-flexbox;
@@ -300,8 +310,9 @@
             </div>
             
             </div>
-
+  <p class="phone">The Premiere Ecommerce Agency Transforming Emerging Businesses Into World-Class Brands Through The Power Of Shopify </p>
           <div class="contentCircle">
+            
             <div class="CirItem title-box active CirItem1">
               <h2 class="title"><span>WEBSITE DESIGN</span></h2>
               <p>Our team provides custom website solutions for new or updated websites</p>
@@ -421,7 +432,7 @@
     position: absolute;
     content: '';
     background-color: #56048a;
-    background: url(http://html.tonatheme.com/2019/Rivox/images/icons/shap-29.png);
+    background: url('https://cdn.shopify.com/s/files/1/0054/8808/3030/files/D6A1F7.png?v=1681391490');
     width: 707px;
     height: 881px;
     right: 0px;
@@ -467,6 +478,13 @@
     font-size: 15px;
     line-height: 2em;
   }
+  p.phone {
+    position: absolute;
+    width: 150px;
+    top: 37%;
+    color: #f5f5f5;
+    right: 26%;
+}
 </style>
 
 {% schema %}
