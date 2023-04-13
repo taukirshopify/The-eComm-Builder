@@ -75,7 +75,7 @@
     top: 45px;
     width: 410px;
     height: 410px;
-    border: 2px dotted #D8B74C;
+    border: 2px dotted WHITE;
     border-radius: 100%;
     -webkit-animation: rotation 100s infinite linear;
 }
@@ -84,8 +84,7 @@
     color: #ffffff;
     transition: 0.5s; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d4ac7+0,a733bb+100 */
    background:white;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7d4ac7', endColorstr='#a733bb', GradientType=1); /* IE6-9 */
-    border: 2px solid #56048a;
+     border: 2px solid #56048a;
     -webkit-box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.13);
     -moz-box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.13);
     box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.13);
@@ -289,30 +288,50 @@
 
 
             <div class="itemDot active itemDot1  icon-1" data-tab="1">
+          <a href="/collections/website-design">   
              <img src="https://cdn.shopify.com/s/files/1/0054/8808/3030/files/WEBSITE_DESIGN_360x.png?v=1680197353" alt="">
+             <p>WEB DESIGN</p>
+           
+            </a>
+            
              <span class="forActive"></span>
             </div>
             
             
             <div class="itemDot itemDot2  icon-2" data-tab="2">
+              <a href="/collections/website-design"> 
             <img src="https://cdn.shopify.com/s/files/1/0054/8808/3030/files/SOCIAL_MEDIA_360x.png?v=1680197821" alt="">
-            
+            <p>SOCIAL MEDIA</p>
+          
+          </a>
             <span class="forActive"></span>
             </div>
             <div class="itemDot itemDot3  icon-3" data-tab="3">
+              <a href="/collections/website-design"> 
              <img src="https://cdn.shopify.com/s/files/1/0054/8808/3030/files/BRAND_DESIGN_1_360x.png?v=1680198714" alt="">
+             <p>BRAND DESIGN</p>
+            </a>
             <span class="forActive"></span>
             </div>
             <div class="itemDot itemDot4  icon-4" data-tab="4">
+              <a href="/collections/website-design"> 
              <img src="https://cdn.shopify.com/s/files/1/0054/8808/3030/files/SEARCH_ENGINE_OPTIMIZATION_360x.png?v=1680199096" alt="">
+             <p>SEO</p>
+            </a>
             <span class="forActive"></span>
             </div>
             <div class="itemDot itemDot5  icon-5" data-tab="5">
+              <a href="/collections/website-design"> 
              <img src="https://cdn.shopify.com/s/files/1/0054/8808/3030/files/DIGITAL_MARKETING_v2_360x.png?v=1680199191" alt="">
+             <p>DIGITAL MARKETING</p>
+            </a>
             <span class="forActive"></span>
             </div>
             <div class="itemDot itemDot6  icon-6" data-tab="6">
+              <a href="/collections/website-design"> 
              <img src="https://cdn.shopify.com/s/files/1/0054/8808/3030/files/CONTENT_WRITING_v2_360x.png?v=1680199456" alt="">
+             <p>CONTENT WRITING</p>
+            </a>
             <span class="forActive"></span>
             </div>
             
@@ -357,6 +376,18 @@
 <script>
   // A $( document ).ready() block.
   $(document).ready(function () {
+
+    $(".itemDot a").click(function(event) {
+
+      
+
+      var newWindowWidth = $(window).width();
+      if (newWindowWidth > 600) {
+        event.preventDefault();
+      }
+  });
+
+
     var maxData = 3;
     let i = 2;
 
@@ -455,6 +486,11 @@
     display: inline-block;
     padding:5px;    
   }
+  .itemDot a p {
+  display:none;
+}
+
+
   .dotCircle .itemDot {
     padding: 7px;
     display: block;
@@ -547,10 +583,28 @@
 
 }
 
+.itemDot a {
+line-height:1;
+}
 
 @media only screen and (max-width: 560px) and (min-width: 200px)  {
 
-
+  .itemDot a p {
+    display: block;
+    margin: 0;
+    line-height: 12px;
+    font-size: 12px;
+    color: #000;
+}
+.itemDot a {
+  display: inline-block;
+  line-height: 0;
+}
+.itemDot img {
+  display: inline-block;
+  width: 36px;
+  margin-bottom: 3px;
+}
 }
 </style>
 
