@@ -205,6 +205,13 @@
   }
 }
 @media only screen and (max-width: 560px) and (min-width: 200px)  {
+
+
+  .holderCircle:before {
+
+    width: 501px;
+    height: 489px;
+  }
   .col-md-12{
     width: 100%;
     max-width: 100%;
@@ -484,6 +491,55 @@
     top: 37%;
     color: #f5f5f5;
     right: 26%;
+}
+.holderCircle:before {
+  position: absolute;
+  content: "";
+  left: -58px;
+  bottom: -142px;
+  width: 701px;
+  height: 689px;
+  background: #56048A;
+  border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+  will-change: border-radius, transform, opacity;
+  animation: sliderShape 5s linear infinite;
+  display: block;
+  z-index: 0;
+  -webkit-animation: sliderShape 5s linear infinite;
+}
+
+@keyframes sliderShape{
+
+  0%,100%{
+
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+
+  }
+
+  34%{
+
+      border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+
+    transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+
+  }
+
+  50%{
+
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+
+  }
+
+  67%{
+
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+
+    transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+
+  }
+
 }
 </style>
 
