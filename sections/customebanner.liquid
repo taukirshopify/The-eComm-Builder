@@ -142,7 +142,7 @@
     color: #000000;
     opacity: 0.1;
   }
-  @media only screen and (min-width: 300px) and (max-width: 599px) {
+  {% comment %} @media only screen and (min-width: 300px) and (max-width: 599px) {
     .holderCircle {
       width: 300px;
       height: 300px;
@@ -161,7 +161,7 @@
       left: 0;
       margin: auto;
     }
-  }
+  } {% endcomment %}
   @media only screen and (min-width: 600px) and (max-width: 767px) {
   }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -185,21 +185,68 @@
     font-size: 17px;
     line-height: 2em;
   }
+  .overflow-hidden {
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 4000px) and (min-width: 860px)  {
+  .col-lg-6 {
+
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media only screen and (max-width: 859px) and (min-width: 561px)  {
+  .col-lg-6 {
+
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media only screen and (max-width: 560px) and (min-width: 200px)  {
+  .col-md-12{
+    width: 100%;
+    max-width: 100%;
+  }
+  .banner-wrapper {
+    line-height: 1.5;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding: 41px 14px;
+}
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.align-items-center {
+  align-items: center;
+}
+.col-md-12{
+}
 </style>
 
 <div class="bannaer-wrapper">
   <div class="page-width"></div>
 </div>
-
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+{% comment %} 
+ <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> {% endcomment %}
 
 <!-- ---- Include the above in your HEAD tag -------- -->
-<section class="iq-features wow animate__bounceInRight ">
-  <div class="container">
+<section class="iq-features overflow-hidden">
+  <div class="page-width">
     <div class="row align-items-center">
-      <div class="col-lg-6 col-md-12"></div>
+      <div class="col-lg-6 col-md-12">
+      
+       <h2 class="banner-wrapper">{{ section.settings.h2 }}</h2>
+      </div>
       <div class="col-lg-6 col-md-12">
         <div class="holderCircle">
           <div class="round"></div>
@@ -344,13 +391,18 @@
 </script>
 
 <style>
+  .banner-wrapper{
+   line-height:1.5;
+   position: relative;
+   z-index: 10;
+  }
   .holderCircle:before {
     position: absolute;
     content: '';
     background-color: #56048a;
     background: url(http://html.tonatheme.com/2019/Rivox/images/icons/shap-29.png);
     width: 707px;
-    height: 1089px;
+    height: 881px;
     right: 0px;
     bottom: -240px;
     transform: rotate(270deg);
