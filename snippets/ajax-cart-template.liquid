@@ -90,12 +90,8 @@
       </div>
       {{/items}}
 
-      {% endraw %}{% if settings.cart_notes_enable %}{% raw %}
-        <div class="appear-animation appear-delay-{{lastAnimationRow}}">
-          <label for="CartSpecialInstructions" class="ajaxcart__note">{% endraw %}{{ 'cart.general.note' | t }}{% raw %}</label>
-          <textarea name="note" class="input-full" id="CartSpecialInstructions">{{note}}</textarea>
-        </div>
-      {% endraw %}{% endif %}{% raw %}
+      {% endraw %}
+      {% raw %}
     </div>
     <div class="drawer__footer drawer__footer--fixed appear-animation appear-delay-{{lastAnimationRow}}">
       {{#if cartDiscounts }}
@@ -120,24 +116,10 @@
           <p class="ajaxcart__price">{{{totalPrice}}}</p>
         </div>
       </div>
-      <p class="ajaxcart__note">
-        {% endraw %}{{ 'cart.general.shipping_at_checkout' | t }}{% raw %}
-        {% endraw %}{% if settings.enable_currencies %}{%- unless shop.enabled_currencies.size > 1 -%}{% raw %}
-          {% endraw %}{{ 'cart.general.orders_processed_in_currency_html' | t: currency: shop.currency }}{% raw %}
-        {% endraw %}{%- endunless -%}{% endif %}{% raw %}
-      </p>
-      {% endraw %}{% if settings.cart_terms_conditions_enable %}
-        <p class="ajaxcart__note ajaxcart__note--terms">
-          <input type="checkbox" id="CartAgree" />
-          <label for="CartAgree">
-            {% if settings.cart_terms_conditions_link != blank %}
-              {{ 'cart.general.terms_html' | t: url: settings.cart_terms_conditions_link }}
-            {% else %}
-              {{ 'cart.general.terms' | t }}
-            {% endif %}
-          </label>
-        </p>
-      {% endif %}{% raw %}
+
+      {% endraw %}
+
+      {% raw %}
       {% endraw %}
         {% if additional_checkout_buttons and settings.cart_additional_buttons %}
           <div class="additional-checkout-buttons additional-checkout-buttons--vertical">{{ content_for_additional_checkout_buttons }}</div>

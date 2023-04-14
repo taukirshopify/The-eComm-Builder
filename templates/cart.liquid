@@ -196,18 +196,7 @@
                     {%- endunless -%}
                   {% endif %}
                 </small>
-                {% if settings.cart_terms_conditions_enable %}
-                  <p class="ajaxcart__note ajaxcart__note--terms">
-                    <input type="checkbox" id="CartPageAgree" />
-                    <label for="CartPageAgree">
-                      {% if settings.cart_terms_conditions_link != blank %}
-                        {{ 'cart.general.terms_html' | t: url: settings.cart_terms_conditions_link }}
-                      {% else %}
-                        {{ 'cart.general.terms' | t }}
-                      {% endif %}
-                    </label>
-                  </p>
-                {% endif %}
+
 
                 <div class="cart__checkout-wrapper">
                   
