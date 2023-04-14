@@ -567,7 +567,7 @@
 line-height:1;
 }
 
-@media only screen and (max-width: 560px) and (min-width: 200px)  {.
+@media only screen and (max-width: 560px) and (min-width: 200px)  {
 
 
   .itemDot a p {
@@ -649,6 +649,21 @@ display: none;
 }
 .bannar-conten {
   display: none;
+}
+.holderCircle:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -109px;
+  width: 642px;
+  height: 634px;
+  background: #56048A;
+  border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+  will-change: border-radius, transform, opacity;
+  animation: sliderShape 5s linear infinite;
+  display: block;
+  z-index: 0;
+  -webkit-animation: sliderShape 5s linear infinite;
 }
 }
 </style>
