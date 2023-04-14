@@ -1,9 +1,11 @@
+
+
 <style>
   .holderCircle {
     width: 500px;
     height: 500px;
     border-radius: 100%;
-    margin: 60px auto;
+    margin: 40px auto;
     position: relative;
   }
 
@@ -220,8 +222,8 @@
 </style>
 
 <div class="bannaer-wrapper">
-  <div class="page-width"></div>
-</div>
+  
+
 {% comment %} 
  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> {% endcomment %}
 
@@ -231,10 +233,10 @@
     <div class="row align-items-center">
       <div class="col-lg-6 col-md-12">
       
-       <h2 class="banner-wrapper">{{ section.settings.h2 }}</h2>
+       <h2 class="banner-wrapper" data-aos="fade-right">{{ section.settings.h2 }}</h2>
       </div>
       <div class="col-lg-6 col-md-12">
-        <div class="holderCircle">
+        <div class="holderCircle" data-aos="fade-left">
           <div class="round"></div>
 
           <div class="dotCircle">
@@ -322,12 +324,15 @@
     </div>
   </div>
 </section>
-
-
+</div>
 
 
 <script>
+  AOS.init();
+</script>
+<script>
   // A $( document ).ready() block.
+  
   $(document).ready(function () {
 
     $(".itemDot a").click(function(event) {
