@@ -233,9 +233,9 @@
     <div class="row align-items-center">
       <div class="col-lg-6 col-md-12">
         <div class="bannar-conten" data-aos="fade-right">
-  
-          <span>Welcome to The eComm Builder</span>
-       <h2 class="banner-wrapper" >{{ section.settings.h2 }}</h2>
+          <h2 class="banner-wrapper" > Welcome to The eComm Builder </h2>
+          <span>{{ section.settings.h2 }}</span>
+       
        <a href="/collections/discovery-call" class="btn">
         Learn More
       </a>
@@ -336,9 +336,7 @@
 </div>
 
 
-<script>
-  AOS.init();
-</script>
+
 <script>
   // A $( document ).ready() block.
   
@@ -433,20 +431,28 @@
     background: linear-gradient(358deg, #e9d492, transparent);
 }
   .bannar-conten span{
-    display: inline-block;
-    margin-bottom: 20px; 
-    font-size:28px;
+    display: block;
+    margin-bottom: 30px; 
+    font-size:20px;
   }
-  .banner-wrapper{
-   line-height:1.5;
-   position: relative;
-   z-index: 10;
-   margin-bottom: 30px;
-   text-transform: inherit;
-   font-size: 28px;
+  .banner-wrapper {
+    line-height: 1.5;
+    position: relative;
+    z-index: 10;
+    margin-bottom: 25px;
+    text-transform: inherit;
+    font-size: 43px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+  .bannar-conten a.bnt{
+   padding:15px 20px;
   }
-
-
+  a.btn {
+    padding: 12px 33px;
+    font-size: 16px;
+}
   img {
     vertical-align: baseline;
     border-style: none;
