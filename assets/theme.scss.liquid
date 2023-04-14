@@ -158,7 +158,7 @@
 
 @mixin accentFontStack {
   text-transform: uppercase;
-  letter-spacing: 0.3em;
+  letter-spacing: 0em;
 }
 
 @mixin accentFontSmallSize {
@@ -11674,7 +11674,21 @@ h2.h1.hero__title {
 .hero__subtitle {
     text-shadow: 1px 2px 5px black !important;
 }
-.btn{box-shadow: 1px 2px 5px black !important;}
+.btn{
+  
+  
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(80,4,138,0.45) !important;
+   -moz-box-shadow: 0px 0px 25px 0px rgba(80,4,138,0.45) !important;
+    box-shadow: 0px 0px 25px 0px rgba(80,4,138,0.45)!important;
+
+
+}
+.btn.btn--secondary{
+
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(80,4,138,0.15) !important;
+  -moz-box-shadow: 0px 0px 25px 0px rgba(80,4,138,0.15) !important;
+   box-shadow: 0px 0px 25px 0px rgba(80,4,138,0.15)!important;
+}
 .collection-extra-title{
     margin: 85px 0;
     display: flex;
