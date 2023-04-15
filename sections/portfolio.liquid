@@ -81,8 +81,9 @@
 {% for block in section.blocks %}
   {% case block.type %}
     {% when 'slide' %}
-  <a href="{{block.settings.link}}" target="_blank">
-      <div class="colss-3">
+  <a href="{{block.settings.link}}" target="_blank" >
+      <div class="colss-3" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
         <div class="flip-card">
   			<div class="flip-card-inner">
         
