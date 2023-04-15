@@ -24,3 +24,21 @@
     </div>
   </div>
 </div>
+
+
+<script>
+  $(document).ready(function() {
+
+  $( '.tobottom' ).on( 'click', function(e){
+    e.preventDefault();
+   
+    // Run a scroll animation to the position of the element which has the same id like the href value.
+    $( 'html, body' ).animate({
+      scrollTop: $("#CollectionSection").offset().top
+    }, '300' );
+  
+  
+  });
+
+});
+</script>
