@@ -1849,7 +1849,7 @@
       "f26d79dd-b27f-4c69-bbc4-d6e5fd6a9fca": {
         "type": "text-and-image",
         "custom_css": [
-
+          ".feature-row {overflow: hidden;}"
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/Red_Gradient_Profile_Photo_Instagram_Post.png",
