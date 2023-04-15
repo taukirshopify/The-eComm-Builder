@@ -16,8 +16,11 @@
             {% section 'image-with-text-dm-three' %}
             {% endcomment %}
             <!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/theecommbuilder/explore-meeting-clone" style="min-width:320px;height:630px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+   <section id="calende">
+  
+    <div class="calendly-inline-widget" data-url="https://calendly.com/theecommbuilder/explore-meeting-clone" style="min-width:320px;height:630px;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  </section>
 <!-- Calendly inline widget end -->
             {% comment %} 
              {% section 'text-coulm-collection' %}
@@ -30,3 +33,24 @@
     </div>
   </div>
 </div>
+
+
+
+<script>
+  $(document).ready(function() {
+
+  $( '.tobottom' ).on( 'click', function(e){
+    e.preventDefault();
+
+    console.log($("#lightningjs-usabilla_live"));
+   
+    // Run a scroll animation to the position of the element which has the same id like the href value.
+    $( 'html, body' ).animate({
+      scrollTop: $("#calende").offset().top
+    }, '300' );
+  
+  
+  });
+
+});
+</script>
