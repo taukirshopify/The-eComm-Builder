@@ -1463,7 +1463,7 @@
           "cf99ff72-4ce4-474a-9958-fcde24f61fa5-1677183554b864a260-1"
         ],
         "custom_css": [
-
+          "img:hover {\/* Start the shake animation and make the animation last for 0.5 seconds *\/ animation: shake 0.5s; \/* When the animation is finished, start again *\/ animation-iteration-count: infinite;}"
         ],
         "settings": {
           "title": "",
@@ -1526,6 +1526,9 @@
           "0c750415-5166-489a-b5ca-90f4f2383f5a-1677183554b864a260-0",
           "0c750415-5166-489a-b5ca-90f4f2383f5a-1677183554b864a260-2",
           "0c750415-5166-489a-b5ca-90f4f2383f5a-1677183554b864a260-1"
+        ],
+        "custom_css": [
+          "img:hover {\/* Start the shake animation and make the animation last for 0.5 seconds *\/ animation: shake 0.5s; \/* When the animation is finished, start again *\/ animation-iteration-count: infinite;}"
         ],
         "settings": {
           "title": "",
