@@ -3,8 +3,10 @@
 <div class="page-width">
   {% capture image_layout %}
     <div class="feature-row__item" data-aos="fade-left"  
-      data-aos-offset="500"
-      data-aos-duration="2000"
+    
+      
+
+
     >
       <div style="margin: 0 auto; max-width: {{ section.settings.image_width }}px;">
         {% if section.settings.image != blank %}
@@ -34,7 +36,7 @@
     {% endif %}
 
     <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }}" data-aos="fade-up"
-      data-aos-offset="300"
+      data-aos-offset="500"
       
       data-aos-easing="ease-in-sine">
       {% if section.settings.subtitle != blank %}
