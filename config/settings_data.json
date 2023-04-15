@@ -1539,7 +1539,7 @@
       "80ab5681-2ab5-44c2-817e-6eab6de335ec": {
         "type": "text-and-image",
         "custom_css": [
-
+          ".feature-row {overflow: hidden;}"
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/WE_ARE_A_SHOPIFY_AGENCY.png",
