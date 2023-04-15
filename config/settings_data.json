@@ -1555,7 +1555,7 @@
             "settings": {
               "enable_image": true,
               "image": "shopify:\/\/shop_images\/EXPERIENCED_PROFESSIONALS_v3_3x_726bff89-f136-438e-a80c-eda788b5764f.png",
-              "image_width": 280,
+              "image_width": 300,
               "title": "Certified Professionals",
               "text": "<p>We are certified marketing experts, brand specialists, copywriters, and web developers ready to take your business to the next level.<\/p>",
               "button_label": "",
@@ -1618,7 +1618,7 @@
             "settings": {
               "enable_image": true,
               "image": "shopify:\/\/shop_images\/EXCELLENT_CUSTOMER_SERVICE_v2_3x_10fd97e9-32cc-4aa9-93d9-54937db8b53c.png",
-              "image_width": 290,
+              "image_width": 300,
               "title": "Unparalleled Service",
               "text": "<p>We believe great customer service is the key to greater success. Our number one priority is to provide an excellent experience for our clients.<\/p>",
               "button_label": "",
