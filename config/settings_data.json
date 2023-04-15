@@ -1637,6 +1637,9 @@
           "35c734aa-de72-4196-b20b-84f4f22efeae",
           "9eb1f5f5-070c-49cd-a65e-30b3b115497d"
         ],
+        "custom_css": [
+          "img:hover {\/* Start the shake animation and make the animation last for 0.5 seconds *\/ animation: shake 0.5s; \/* When the animation is finished, start again *\/ animation-iteration-count: infinite;}"
+        ],
         "settings": {
           "title": "Our Competitive Advantage",
           "align_text": "center",
