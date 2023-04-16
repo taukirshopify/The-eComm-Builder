@@ -1019,6 +1019,7 @@
       },
       "1616684715ec05dc3f": {
         "type": "text-columns",
+        "disabled": true,
         "blocks": {
           "161668471597597619-0": {
             "type": "text_block",
