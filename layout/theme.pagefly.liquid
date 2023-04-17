@@ -26,10 +26,11 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
 /></noscript>
 <!-- End Facebook Pixel Code -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>  
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 
+<script src="{{ 'jquery.min.js' | asset_url }}" ></script>
+ 
+<script src="{{ 'aos.js' | asset_url }}" ></script>
 
-  
   {% render 'sizechartsrelentless' %}
 
   <meta charset="utf-8">
@@ -54,12 +55,14 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
   {%- if page_description -%}
   <meta name="description" content="{{ page_description | escape }}">
   {%- endif -%}
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
   {% include 'social-meta-tags' %}
 
   {% include 'font-face' %}
   {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
   {{ 'DevStyles.css' | asset_url | stylesheet_tag }}
+  {{ 'aos.css' | asset_url | stylesheet_tag }}
 
   {% style %}
     .collection-item__title {
