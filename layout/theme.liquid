@@ -94,7 +94,7 @@ asyncCall();
 
 
 
-async function loadStylesheets(urls, callback) {
+ function loadStylesheets(urls, callback) {
       var loaded = 0;
       var checkAllLoaded = function() {
         if (++loaded === urls.length && typeof callback === 'function') {
@@ -248,7 +248,7 @@ async function loadStylesheets(urls, callback) {
 
 
 
-  async function loadScripts(urls, length, success){
+   function loadScripts(urls, length, success){
     if(length > 0){
         script = document.createElement("script");
         script.src = urls[length-1];
