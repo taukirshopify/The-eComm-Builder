@@ -102,7 +102,7 @@ function loadScripts(urls, length, success){
 
 /* Write links sorted from last one to first to load */
 /* Here, jquery will be loaded first, then materialize and then wow libray. */
-urls = [ '{{ 'vendor-scripts-v5.js' | asset_url | split: '?' | first }}', '{{ 'theme.js' | asset_url }}', '{{ 'aos.js' | asset_url }}' ,'{{ 'jquery.min.js' | asset_url }}'];
+urls = [ ''{{ 'jquery.min.js' | asset_url }}' ,{{ 'vendor-scripts-v5.js' | asset_url | split: '?' | first }}', '{{ 'theme.js' | asset_url }}', '{{ 'aos.js' | asset_url }}'];
 
 loadScripts(urls, urls.length, function(){
   /* Codes inside of here will be executed after js files load */
