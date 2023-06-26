@@ -6,25 +6,6 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
 <html class="no-js" lang="{{ shop.locale }}">
 <head>{% render 'pagefly-head' %}{{ 'tiny.content.min.css' | asset_url | stylesheet_tag }}
   <meta name="google-site-verification" content="_tLUJCHaUWa4xPpzk_Jxzs1g7l4F3AxuZ-5x7Efz-xU" />
-  
-
-  <!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '287800103052070');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=287800103052070&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
 
  
 <script src="{{ 'jquery.min.js' | asset_url }}" ></script>
@@ -39,6 +20,7 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
   <meta name="theme-color" content="{{ settings.color_button }}">
   <link rel="canonical" href="{{ canonical_url }}">
   <meta name="format-detection" content="telephone=no">
+  <meta name="google-site-verification" content="ENHhzq1evKYvHXAW-TNEBzpkSTTuhmSltCX5M6oV5H8" />
 
   {%- if settings.favicon -%}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
