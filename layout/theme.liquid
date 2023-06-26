@@ -2,34 +2,11 @@
 <html class="no-js" lang="{{ shop.locale }}">
 <head>{% render 'pagefly-head' %}{{ 'tiny.content.min.css' | asset_url | stylesheet_tag }}
   <meta name="google-site-verification" content="_tLUJCHaUWa4xPpzk_Jxzs1g7l4F3AxuZ-5x7Efz-xU" />
-  
-
-  <!-- Facebook Pixel Code -->
-<script>
-  async function asyncCall() {
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '287800103052070');
-  fbq('track', 'PageView');
-}
-
-asyncCall();
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=287800103052070&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
 
  
-{% comment %} <script src="{{ 'jquery.min.js' | asset_url }}" ></script> {% endcomment %}
+<script src="{{ 'jquery.min.js' | asset_url }}" ></script>
  
-{% comment %} <script src="{{ 'aos.js' | asset_url }}" ></script> {% endcomment %}
+<script src="{{ 'aos.js' | asset_url }}" ></script>
 
   {% render 'sizechartsrelentless' %}
 
@@ -39,6 +16,7 @@ asyncCall();
   <meta name="theme-color" content="{{ settings.color_button }}">
   <link rel="canonical" href="{{ canonical_url }}">
   <meta name="format-detection" content="telephone=no">
+  <meta name="google-site-verification" content="ENHhzq1evKYvHXAW-TNEBzpkSTTuhmSltCX5M6oV5H8" />
 
   {%- if settings.favicon -%}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
@@ -60,9 +38,9 @@ asyncCall();
   {% include 'social-meta-tags' %}
 
   {% include 'font-face' %}
-  {% comment %} {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
+  {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
   {{ 'DevStyles.css' | asset_url | stylesheet_tag }}
-  {{ 'aos.css' | asset_url | stylesheet_tag }} {% endcomment %}
+  {{ 'aos.css' | asset_url | stylesheet_tag }}
 
   {% style %}
     .collection-item__title {
@@ -77,157 +55,6 @@ asyncCall();
   {% endstyle %}
 
   <script>
-
-// scripts.js
-
-
-
-function loadScripts(urls, length, success){
-  if(length > 0){
-      script = document.createElement("script");
-      script.src = urls[length-1];
-      console.log();
-      script.onload = function() {
-          console.log('%c Script: ' + urls[length-1] + ' loaded!', 'color: #4CAF50');
-          loadScripts(urls, length-1, success);               
-      };
-      document.getElementsByTagName("head")[0].appendChild(script);
-  }
-  else{
-      if(success){
-          success();
-      }
-  }
-}
-
-/* Write links sorted from last one to first to load */
-/* Here, jquery will be loaded first, then materialize and then wow libray. */
-urls = [  '{{ 'vendor-scripts-v5.js' | asset_url | split: '?' | first }}', '{{ 'aos.js' | asset_url }}'];
-
-
-<script src="{{ 'jquery.min.js' | asset_url  }}" ></script> 
-
-
-<script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
-
-loadScripts(urls, urls.length, function(){
-  /* Codes inside of here will be executed after js files load */
-  AOS.init();
-
-
-  $(".itemDot a").click(function(event) {
-
-      
-
-    var newWindowWidth = $(window).width();
-    if (newWindowWidth > 600) {
-      event.preventDefault();
-    }
-});
-
-
-  var maxData = 3;
-  let i = 2;
-
-  $(document).ready(function () {
-    var radius = 200;
-    var fields = $('.itemDot');
-    var container = $('.dotCircle');
-    var width = container.width();
-    radius = width / 2.5;
-
-    var height = container.height();
-    var angle = 0,
-      step = (2 * Math.PI) / fields.length;
-    fields.each(function () {
-      var x = Math.round(width / 2 + radius * Math.cos(angle) - $(this).width() / 2);
-      var y = Math.round(height / 2 + radius * Math.sin(angle) - $(this).height() / 2);
-      if (window.console) {
-        console.log($(this).text(), x, y);
-      }
-
-      $(this).css({
-        left: x + 'px',
-        top: y + 'px',
-      });
-      angle += step;
-    });
-
-    $('.itemDot').click(function () {
-      var dataTab = $(this).data('tab');
-      $('.itemDot').removeClass('active');
-      $(this).addClass('active');
-      $('.CirItem').removeClass('active');
-      $('.CirItem' + dataTab).addClass('active');
-      i = dataTab;
-
-      $('.dotCircle').css({
-        transform: 'rotate(' + (360 - (i - 1) * 36) + 'deg)',
-        transition: '2s',
-      });
-      $('.itemDot').css({
-        transform: 'rotate(' + (i - 1) * 36 + 'deg)',
-        transition: '1s',
-      });
-    });
-
-    setInterval(function () {
-      var dataTab = $('.itemDot.active').data('tab');
-      if (dataTab > maxData || i > maxData) {
-        dataTab = 1;
-        i = 1;
-      }
-      $('.itemDot').removeClass('active');
-      $('[data-tab="' + i + '"]').addClass('active');
-      $('.CirItem').removeClass('active');
-      $('.CirItem' + i).addClass('active');
-      i++;
-
-      $('.dotCircle').css({
-        transform: 'rotate(' + (360 - (i - 2) * 36) + 'deg)',
-        transition: '2s',
-      });
-      $('.itemDot').css({
-        transform: 'rotate(' + (i - 2) * 36 + 'deg)',
-        transition: '1s',
-      });
-    }, 5000);
-  });
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
- function loadStylesheets(urls, callback) {
-      var loaded = 0;
-      var checkAllLoaded = function() {
-        if (++loaded === urls.length && typeof callback === 'function') {
-          callback();
-        }
-      };
-      for (var i = 0; i < urls.length; i++) {
-        var link = document.createElement('link');
-        link.type = 'text/css';
-        link.rel = 'stylesheet';
-        link.href = urls[i];
-        link.onload = checkAllLoaded;
-        document.head.appendChild(link);
-      }
-    }
-
-    loadStylesheets(['{{ 'theme.scss.css' | asset_url}}', '{{ 'DevStyles.css' | asset_url  }}','{{ 'aos.css' | asset_url}}'], function() {
-     
-    });
-
     document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
 
     window.theme = window.theme || {};
@@ -261,7 +88,7 @@ loadScripts(urls, urls.length, function(){
 
   {% render 'header-scripts.zipifypages', renderctx: 'thm' %}{{ content_for_header }}
 
-  {% comment %} <script src="{{ 'vendor-scripts-v5.js' | asset_url | split: '?' | first }}" defer="defer"></script> {% endcomment %}
+  <script src="{{ 'vendor-scripts-v5.js' | asset_url | split: '?' | first }}" defer="defer"></script>
 
   {% if settings.enable_currencies %}
     {% unless shop.enabled_currencies.size > 1 %}
@@ -269,14 +96,9 @@ loadScripts(urls, urls.length, function(){
       <script src="{{ 'currencies.jquery.min.js' | asset_url | split: '?' | first }}" defer="defer"></script>
     {% endunless %}
     <link rel="stylesheet" href="{{ 'currency-flags.css' | asset_url }}">
-<script>
-    loadStylesheets(['{{ 'currency-flags.css' | asset_url }}'], function() {
-       
-    });
-  </script>
   {% endif %}
 
-  {% comment %} <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script> {% endcomment %}
+  <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
 
   {%- if request.page_type contains 'customers/' -%}
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
@@ -357,17 +179,6 @@ loadScripts(urls, urls.length, function(){
 {% render 'page-footer.zipifypages', renderctx: 'thm', ocuapp: ocuapp %}
 {% if product %}
 <script>
-
-
-
-  
-
-
-
-
-
-
-  
 window.addEventListener('load', function() {
 var _learnq = window._learnq || [];
 function addedToCart() {
@@ -412,32 +223,23 @@ for (var i = 0; i < atcButtons.length; i++) {
     })
 }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</script>
+<script>
+  AOS.init();
 </script>
 
 
-
 {% endif %}
+
+       <style>
+@media only screen and (min-width: 100px) and (max-width: 800px){
+  .page-width {
+
+   overflow: hidden;
+}
+
+}
+      
+       </style>
 </body>
 </html>
