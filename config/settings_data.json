@@ -1316,6 +1316,7 @@
           },
           "54707d40-aab5-4f70-ab9c-3d0c557fe7e3": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Computer_Screen_digital_mock_up_27.png",
               "text": "baby Store",
@@ -1347,6 +1348,14 @@
               "text": "Beauty Business",
               "link": "https:\/\/www.glowbeautysupply.com\/"
             }
+          },
+          "f95f9d84-1af6-4892-a553-c3b2e90b6f2a": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Computer_Screen_digital_mock_up_37.png",
+              "text": "DIGITAL ART STORE",
+              "link": ""
+            }
           }
         },
         "block_order": [
@@ -1362,7 +1371,8 @@
           "54707d40-aab5-4f70-ab9c-3d0c557fe7e3",
           "736c1989-9ddc-4719-ad9a-894fb46eb8db",
           "ffc5d076-2996-4ca5-a2bc-349fbc4d1c1f",
-          "0a8253b2-5de7-4622-b7ee-603ed0857139"
+          "0a8253b2-5de7-4622-b7ee-603ed0857139",
+          "f95f9d84-1af6-4892-a553-c3b2e90b6f2a"
         ],
         "settings": {
           "title": "",
@@ -2350,12 +2360,6 @@
       },
       "341186785192672687": {
         "type": "shopify:\/\/apps\/seal-subscriptions-loyalty\/blocks\/subscription-script-append\/13b25004-a140-4ab7-b5fe-29918f759699",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "310803922669194016": {
-        "type": "shopify:\/\/apps\/accessibly-ada-by-webinopoly\/blocks\/app-embed\/c6b6a8bf-eeda-4a85-af99-b26753bca91d",
         "disabled": false,
         "settings": {
         }
