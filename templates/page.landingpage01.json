@@ -2,12 +2,22 @@
   "sections": {
     "pf-41ef005a": {
       "type": "pf-41ef005a",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "69101528-2dcd-417f-b312-c8e63bf4a13a": {
+      "type": "clandingpagefooter",
+      "settings": {
+        "title": "With <span class=\"spacial\">Aneka<\/span>, You Become...",
+        "url": "",
+        "p": "Copyright © 2021 All rights reserved."
       }
     }
   },
   "order": [
-    "pf-41ef005a"
+    "pf-41ef005a",
+    "69101528-2dcd-417f-b312-c8e63bf4a13a"
   ],
   "layout": "theme.pagefly"
 }
