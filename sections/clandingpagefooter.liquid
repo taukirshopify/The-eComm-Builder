@@ -1,0 +1,82 @@
+<footer>
+    <div class="footer-top-area mb-5">
+        <div class="container">
+            <div class="row g-3 d-flex align-items-center  ">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="footer-top-img">
+                        <img class="img-fluid" src="{{ section.settings.img | img_url:'' }}" alt="">
+                    </div>
+                    <p class="footer-top-area-title">{{ section.settings.title }}</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 footer-right-side">
+                    <div class="icons">
+                        <a href="{{ section.settings.url }}"><span><i class="fa-brands fa-facebook"></i></span></a>
+                        <a href="{{ section.settings.url }}"><span><i class="fa-brands fa-instagram"></i></span></a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-buttom-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <nav>
+                        <ul>
+                            {% assign footer_menu_4 = section.settings.main-menu2 %}
+                            {% for link in linklists[footer_menu_4].links %}
+                            <li><a href="{{ link.url }}" >{{link.title}}</a></li>
+                 
+                            {% endfor  %}
+                      
+           
+                        </ul>
+                    </nav>
+                    <p class="mt-4">{{ section.settings.p }}</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+{% schema %}
+    {
+        "name": "Landing page 01 footer",
+        "class": "HURRY",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "img",
+                "label": "Logo"
+            },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "With <span class='spacial'>Aneka</span>, You Become...",
+            "placeholder": "Course Outline"
+          }, 
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Sect your Menu"
+        },    {
+    "type": "text",
+    "id": "p",
+    "label": "Dec",
+    "default": "Copyright © 2021 All rights reserved.",
+    "placeholder": "Copyright © 2021 All rights reserved."
+  }
+          
+        ],
+        
+        "presets": [
+            {
+            "name": "Landing page 01 footer"
+            }
+            ]
+        
+    }
+{% endschema %}

@@ -1,0 +1,86 @@
+<!-- features section -->
+<section class="features-section">
+    <div class="features-title mb-5">
+        <h2> {{ section.settings.title }}</h2>
+    </div>
+    <div class="container">
+        <div class="row g-3">
+            {% for item in section.blocks %}
+                  <!-- single feature -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="single-feature">
+                    <div class="single-feature-img">
+                        <img class="img-fluid" src="{{ item.settings.img | img_url:'' }}" alt="">
+                    </div>
+                    <div class="feature-description">
+                        <h2>{{ item.settings.title }}</h2>
+                        <p>{{ item.settings.u }}</p>
+                    </div>
+                </div>
+                <!-- single feature -->
+            </div>
+
+            {% endfor %}
+          
+        </div>
+
+    </div>
+</section>
+<!-- features section -->
+
+{% schema %}
+    {
+        "name": "BONUS FEARURES",
+        "class": "bundesfeatued",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "BONUS FEARURES",
+            "placeholder": "BONUS FEARURES"
+          },
+          {
+
+            "id": "video",
+            "label": "Video Upload",
+            "type": "video"
+           }
+        ],
+        "blocks": [
+            {
+                "type": "content",
+                "name": "cont",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "img",
+                        "label": "Select your Image"
+                    },
+                     {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Text-title",
+                        "default": "Chapter 1",
+                        "placeholder": "Chapter 1"
+                     },
+                     {
+                        "type": "text",
+                        "id": "p",
+                        "label": "Text-title",
+                        "default": "Getting Started With Shopify Store",
+                    
+                        "placeholder": "Getting Started With Shopify Store"
+                     }
+                ]
+            }
+        ],
+        "presets": [
+            {
+            "name": "BONUS FEARURES",
+            "category": "BONUS FEARURES"
+            }
+            ]
+        
+    }
+{% endschema %}

@@ -1,0 +1,100 @@
+    <!-- section-padding -->
+    <section>
+        <div class="section-padding">
+            <h2>{{ section.settings.title }}</h2>
+        </div>
+    </section>
+    <!-- section-padding -->
+
+    <!-- card section -->
+    <section class="card-section">
+        <div class="container">
+            <div class="row g-3">
+                <!-- single-card -->
+                {% for item in section.blocks %}
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card-img">
+                            <img class="{{ item.settings.img | img_url:'' }}" alt="">
+                        </div>
+                        <div class="card-description">
+                            <h4>{{ item.settings.title }}
+                            </h4>
+                            <p>{{ item.settings.p }}</p>
+                        </div>
+                    </div>
+                {% endfor %}
+     
+
+                <!-- single-card -->
+              
+            </div>
+        </div>
+    </section>
+    <!-- card section -->
+
+
+
+{% schema %}
+    {
+        "name": "With AK You Be",
+        "class": "HURRY",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "With <span class='spacial'>Aneka</span>, You Become...",
+            "placeholder": "Course Outline"
+          },
+   
+          {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Select your Image"
+          },
+          {
+            "type": "text",
+            "id": "title2",
+            "label": "Title two",
+            "default": "GET THE COURSE NOW",
+            "placeholder": "GET THE COURSE NOW"
+          }
+
+          
+        ],
+        "blocks": [
+            {
+                "type": "content",
+                "name": "cont",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "img",
+                        "label": "Select your Image"
+                    },
+                     {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Text-title",
+                        "default": "Chapter 1",
+                        "placeholder": "Someone Following A Step by Step System"
+                     },
+                     {
+                        "type": "text",
+                        "id": "p",
+                        "label": "Text-title",
+                        "default": "We makes it accessible for you to enter the world of online entrepreneurship. Each lesson is packed with practical advice you can understand and use straight away.",
+                    
+                        "placeholder": "We makes it .."
+                     }
+                ]
+            }
+        ],
+        "presets": [
+            {
+            "name": "With Aneka You Become"
+            }
+            ]
+        
+    }
+{% endschema %}

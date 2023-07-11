@@ -1,0 +1,43 @@
+    <!-- header start -->
+
+    <header>
+        <a href="#" class="logo">
+            <img style="width: 150px;" src="{{ section.settings.img | img_url:''}}" alt="">
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            {% assign footer_menu_4 = section.settings.main-menu2 %}
+            {% for link in linklists[footer_menu_4].links %}
+            <li><a href="{{ link.url }}" >{{link.title}}</a></li>
+ 
+            {% endfor  %}
+        </ul>
+        <div class="btn">
+            <button><a href="{{ section.settings.url }}">{{ section.settings.btn }}</a></button>
+        </div>
+    </header>
+    <!-- header end -->
+
+{% schema %}
+    {
+        "name": "LP header 01",
+        "class": "lp1",
+        "settings": [
+             {
+                "type": "image_picker",
+                "id": "img",
+                "label": "Logo"
+             },
+             {
+                "type": "link_list",
+                "id": "main-menu2",
+                "label": "Select your menu"
+             },
+            {
+                "type": "url",
+                "id": "url",
+                "label": "Sect your Menu"
+            }
+        ]
+    }
+{% endschema %}

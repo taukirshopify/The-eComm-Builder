@@ -1,0 +1,137 @@
+    <!-- section-padding -->
+    <section>
+        <div class="section-padding">
+            <h2>{{ section.settings.title }}</h2>
+        </div>
+    </section>
+    <!-- section-padding -->
+
+    <!-- Reviews section -->
+    <section class="reviews">
+        <div class="reviews-padding">
+            <div class="container">
+
+
+            {% for item in section.blocks %}
+                             <!-- row  -->
+
+                             
+                <div class="row g-3  {% if forloop.index != 1  %}
+                     mt-5
+                {% endif %}">
+                    <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+                        <div class="icons">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-8 col-sm-12 col-12">
+                        <div class="review-description ">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <div class="review-title">
+                                <h4>{{ item.settings.title }}</h4>
+                                <p>{{ item.settings.p }}</p>
+
+                            </div>
+                             {{ item.settings.rtext }}
+                            <i class="fa-solid fa-quote-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- row -->
+            {% endfor %}
+    
+
+              
+
+
+                <!-- Shopify section  -->
+                <section class="Shopify-padding">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="Shopify">
+                                <h2>{{ section.settings.title2 }}
+                                </h2>
+                                <p>{{ section.settings.p }}</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <!-- Shopify section  -->
+
+            </div>
+        </div>
+    </section>
+    <!-- Reviews section -->
+
+
+
+{% schema %}
+    {
+        "name": "See What My Students Say",
+        "class": "HURRY",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "With <span class='spacial'>Aneka</span>, You Become...",
+            "placeholder": "Course Outline"
+          },   {
+    "type": "text",
+    "id": "title2",
+    "label": "Title",
+    "default": "100% Setting up your Shopify Store",
+    "placeholder": "100% Setting up your Shopify Store"
+  },   {
+    "type": "text",
+    "id": "p",
+    "label": "Dec",
+    "default": "<b>Order right now with confidence!</b> We offer 100% Setting up your Shopify Store for <br> your successful journey.",
+    "placeholder": "100% Setting up your Shopify Store"
+  }
+          
+        ],
+        "blocks": [
+            {
+                "type": "content",
+                "name": "cont",
+                "settings": [
+  
+                     {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Text-title",
+                        "default": "Chapter 1",
+                        "placeholder": "Someone Following A Step by Step System"
+                     },
+                     {
+                        "type": "text",
+                        "id": "p",
+                        "label": "Text-title",
+                        "default": "<i>I truly enjoyed the workshop and learn a wealth of information. Aneka was able to answer all of my questions on how to set up my shop. She also provided quick and easy fixes for my shop issues. Her tips were very spot on and I'm very confident will put me in the right direction for earnings. She's amazing.</i>",
+                    
+                        "placeholder": "We makes it .."
+                     },
+                     {
+                        "type": "richtext",
+                        "id": "rtext",
+                        "label": "Dec",
+                        "default": "<p>Lisha  - on Sep 26, 2021</p>"
+                     }
+                ]
+            }
+        ],
+        "presets": [
+            {
+            "name": "See What My Students Say"
+            }
+            ]
+        
+    }
+{% endschema %}

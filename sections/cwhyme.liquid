@@ -1,0 +1,69 @@
+    <!-- slider section -->
+    <section class="slider">
+        <div class="CHOOSE">
+            <h2>{{ section.settings.title }}</h2>
+        </div>
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="slider-img">
+                        <img class="img-fluid" src="{{ section.settings.img | img_url:'' }}" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="slider-datails">
+                        <h4>{{ section.settings.rtext }}</h4>
+                        <div class="btn btn-5 ">
+                            <button><a href="#">{{ section.settings.title2 }}</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slider section -->
+
+
+    {% schema %}
+    {
+        "name": "HURRY, YOUR",
+        "class": "HURRY",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Course Outline ",
+            "placeholder": "Course Outline"
+          },
+   
+          {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Select your Image"
+          },
+          {
+            "type": "richtext",
+            "id": "rtext",
+            "label": "Dec",
+            "default": " <p><b>Aneka has been in the sea moss industry for over three years.</b> In that short period of time she has been able to scale her business from <b>making $58,000 in 2020 to already earning over $100,000 in 8 months time during 2021.</b> This income was generated from her Shopify site alone. She consistently receives over <b>200+ orders in a month</b> and she is ready to teach others how to do the same.</p>"
+          },
+          {
+            "type": "text",
+            "id": "title2",
+            "label": "Title two",
+            "default": "KNOW MORE",
+            "placeholder": "KNOW MORE"
+          }
+
+          
+        ],
+        "presets": [
+            {
+            "name": "HURRY, YOUR",
+            "category": "HURRY, YOUR"
+            }
+            ]
+        
+    }
+{% endschema %}

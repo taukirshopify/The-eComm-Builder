@@ -1,0 +1,80 @@
+ <!-- course section -->
+ <section class="course mt-5">
+    <div class="container">
+  
+        <!-- second row -->
+        <div class="row mt-5 g-3">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <video width="500" height="341" controls>
+                    <source src="{{ section.settings.video }}" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="couser-outline">
+                    <h2>{{ section.settings.title }}</h2>
+                  {% for item in section.blocks %}
+                    <p>{{ item.section.title }}</p>
+                    <p>{{ item.section.p }}</p>
+      
+                  {% endfor %}
+               
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- course section -->
+
+{% schema %}
+    {
+        "name": "Course Outline ",
+        "class": "Course Outline",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Course Outline ",
+            "placeholder": "Course Outline"
+          },
+          {
+
+            "id": "video",
+            "label": "Video Upload",
+            "type": "video"
+           }
+        ],
+        "blocks": [
+            {
+                "type": "content",
+                "name": "cont",
+                "settings": [
+                     {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Text-title",
+                        "default": "Chapter 1",
+                        "placeholder": "Chapter 1"
+                     },
+                     {
+                        "type": "text",
+                        "id": "p",
+                        "label": "Text-title",
+                        "default": "Getting Started With Shopify Store",
+                    
+                        "placeholder": "Getting Started With Shopify Store"
+                     }
+                ]
+            }
+        ],
+        "presets": [
+            {
+            "name": "Course Outline",
+            "category": "Course Outline"
+            }
+            ]
+        
+    }
+{% endschema %}

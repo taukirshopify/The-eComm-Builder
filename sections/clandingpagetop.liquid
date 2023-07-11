@@ -1,0 +1,176 @@
+    <!-- header end -->
+    <!-- clock section -->
+    <section class="clock">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="clock-title">
+                        <h2>{{ section.settings.p1 }}
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div id="clock">8:10:45 </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- clock section -->
+    <!-- bannar video -->
+    <section class="bannar-video">
+        <div class="container">
+            <div class="row d-flex align-items-center g-3">
+                <div class="col-lg-6 col-md-12 col-sm-12 ">
+                    <div class="bannar-title text-center">
+                        <h2>{{ section.settings.p2 }}</h2>
+
+                        <h4>{{ section.settings.p3 }}</h4>
+                    </div>
+                </div>
+                <div class="col-lg-6  col-md-12 col-sm-12 ">
+                    <video width="544" height="303" controls>
+                        <source src="https://youtu.be/FznwdryEbMk" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="btn btn-2 ">
+                <button><a href="#">{{ section.settings.p4 }}</a></button>
+            </div>
+        </div>
+    </section>
+    <!-- bannar video -->
+    <!-- bussiness section -->
+    <section class="bussiness">
+        <div class="bussiness-title">
+            <h2>{{section.settings.p5}}</h2>
+            <h4>{{ section.settings.p6 }} </h4>
+            <h4>{{ section.settings.p7 }}</b></h4>
+        </div>
+        <!-- bussiness row -->
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    {{ section.settings.text1 }}
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    {{ section.settings.text2 }}
+                </div>
+                <div class="col-md-4 col-sm-6 col-12">
+                    {{ section.settings.text3 }}
+
+                </div>
+            </div>
+
+
+            <div class="business-para mt-5">
+                <h4> {{ section.settings.p8 }}
+                </h4>
+            </div>
+        </div>
+    </section>
+    <!-- bussiness section -->
+
+    <section>
+        <div class="online-bussiness-padding">
+            <h2>{{ section.settings.p9 }}</h2>
+            <div class="btn  btn-3 ">
+                <button><a href="#">{{ section.settings.p10 }}</a></button>
+            </div>
+        </div>
+    </section>
+    <!-- bussiness section -->
+
+
+    {% schema %}
+        {
+            "name": "LD 1 top section",
+            "class": "ldtop",
+            "settings": [
+               {
+                "type": "text",
+                "id": "p1",
+                "label": "SPECIAL OFFER EXPIRES IN:",
+                "default": "SPECIAL OFFER EXPIRES IN:"
+               },
+               {
+                "type": "text",
+                "id": "p2",
+                "label": "LEARN HOW YOU CAN START text",
+                "default": "LEARN HOW YOU CAN START <br> A PROFITABLE SHOPIFY STORE <br> IN 30 DAYS <br> OR LESS..."
+               },
+               {
+                "type": "text",
+                "id": "p3",
+                "label": "(Without Needing Any Experience!)",
+                "default": "(Without Needing Any Experience!)"
+               },
+               {
+                "type": "text",
+                "id": "p4",
+                "label": "START BUILDING MY BUSSINESS",
+                "default": "START BUILDING MY BUSSINESS"
+               },
+               {
+                "type": "text",
+                "id": "p5",
+                "label": "Why Build a Shopify Store for your Business?",
+                "default": "Why Build a Shopify Store for your Business?"
+               },
+               {
+                "type": "text",
+                "id": "p6",
+                "label": "text",
+                "default": "<b>Shopify is one of the most popular eCommerce platforms offering</b> everything you need for your eCommerce store while having the easiest requirements to use. The platform <b>empowers over 1,000,000 businesses selling products online worldwide.</b> It provides you with a set of useful features that function your eCommerce website up to the par and effectively raise it to a higher level."
+               },
+               {
+                "type": "text",
+                "id": "p7",
+                "label": "Why Build a Shopify Store for your Business?",
+                "default": "Why Build a Shopify Store for your Business?"
+               },
+               {
+                "type": "richtext",
+                "id": "text1",
+                "label": "list one",
+                "default": "<p> <span>1.</span> Thousands of available <b>themes</b> (new ones coming out all the time</p> <p> <span>2.</span> <b>Stripe</b> and 3rd party shopping integrations</p> <p> <span>3.</span> Integrations with <b>PayPal</b></p><p> <span>4.</span> They support blogs and we all know content is king!</p><p> <span>5.</span> Tracking and maintaining customer data</p><p> <span>6.</span> Works like a regular website CMS</p><p> <span>7.</span> <b>Optimized for SEO</b> and easily customizable in regards to keywords</p>"
+               },
+               {
+                "type": "richtext",
+                "id": "text2",
+                "label": "list one",
+                "default": "<p> <span>8.</span> <b>You can use your MailChimp or other Email provider</b></p><p> <span>9.</span> You <b>can add coupons and discount codes</b></p> <p> <span>10.</span> Full HTML and CSS Editing abilities</p><p> <span>11.</span> A “Buy Now” call to action button to be placed on external sites</p><p> <span>12.</span> <b>POS Integration</b></p><p> <span>13.</span> You can make a customizable profile for your employees</p><p> <span>14.</span> Integrations with <b>live chats</b></p>"
+               },
+               {
+                "type": "richtext",
+                "id": "text3",
+                "label": "list one",
+                "default": "<p> <span>15.</span> Create <b>your own store Gift Cards</b></p><p> <span>16.</span> Advanced Reporting</p><p> <span>17.</span> An <b>Abandoned Cart feature built in!</b></p><p> <span>18.</span> Integration with help desks like ZenDesk</p><p> <span>19.</span> Analytics reporting</p><p> <span>20.</span> <b>Shipping carrier integration</b></p>"
+               },
+               {
+                "type": "text",
+                "id": "p8",
+                "label": "Text",
+                "default": "Our Ultimate Shopify course is great for new business owners <b>who want to master Shopify and learn how to create their own Shopify store.</b> Build your website at your pace. The course is designed to <b>get your store up and running in 30 days!!!</b> You will learn how to add products, track your inventory, set up discount codes, set up shipping rates, collections, tags, apps to add, track profit and loss, sales channel, set up email marketing, pricing products, set up Abandoned cart, Notifications, all legal policy’s, free theme selection… and much more."
+               },
+               {
+                "type": "text",
+                "id": "p9",
+                "label": "text",
+                "default": "A Proven System for Building Online Businesses"
+               },
+               {
+                "type": "text",
+                "id": "p10",
+                "label": "text",
+                "default": "SHOW ME HOW"
+               },
+               {
+                "type": "text",
+                "id": "p122",
+                "label": "START BUILDING MY BUSSINESS",
+                "default": "START BUILDING MY BUSSINESS"
+               }
+            ]
+        }
+    {% endschema %}
+    
