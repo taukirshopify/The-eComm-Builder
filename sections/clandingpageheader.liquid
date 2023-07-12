@@ -21,10 +21,27 @@
             {% endfor  %}
         </ul>
         <div class="btn">
-            <button><a href="{{ section.settings.url }}">{{ section.settings.btn }}</a></button>
+            <button><a href="">{{ section.settings.btn }}</a></button>
         </div>
     </header>
     <!-- header end -->
+
+    <script>
+        $(document).ready(function() {
+      
+        $( '.toproduct' ).on( 'click', function(e){
+          e.preventDefault();
+         
+          // Run a scroll animation to the position of the element which has the same id like the href value.
+          $( 'html, body' ).animate({
+            scrollTop: $("#CollectionSection").offset().top
+          }, '300' );
+        
+        
+        });
+      
+      });
+      </script>
 
 {% schema %}
     {
@@ -41,11 +58,12 @@
                 "id": "main-menu2",
                 "label": "Select your menu"
              },
-            {
-                "type": "url",
-                "id": "url",
-                "label": "Sect your Menu"
-            }
+                 {
+                    "type": "text",
+                    "id": "btn",
+                    "label": "Button Title",
+                    "default": " Buy Now "
+                 }
         ],
         "presets": [
             {
