@@ -23,7 +23,17 @@
     </section>
     <!-- slider section -->
 
-
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="dashboard-img">
+                        <img class="img-fluid" src="{{ section.settings.img2 | img_url:'' }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     {% schema %}
     {
         "name": "HURRY, YOUR",
@@ -54,6 +64,10 @@
             "label": "Title two",
             "default": "KNOW MORE",
             "placeholder": "KNOW MORE"
+          },   {
+            "type": "image_picker",
+            "id": "img2",
+            "label": "Select your Image"
           }
 
           
