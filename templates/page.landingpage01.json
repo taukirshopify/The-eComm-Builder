@@ -9,7 +9,8 @@
     "d2116d5b-0b24-47be-bd4f-9a258f6bc48d": {
       "type": "clandingpageheader",
       "settings": {
-        "main-menu2": "",
+        "img": "shopify:\/\/shop_images\/transparent-02.webp",
+        "main-menu2": "footer",
         "url": ""
       }
     },
