@@ -179,6 +179,12 @@
         "title2": "GET THE COURSE NOW"
       }
     },
+    "bbe855b8-e2ce-412e-b1c4-f5a1871f21a7": {
+      "type": "colokfooterlandingpageone",
+      "settings": {
+        "title": "Course Outline"
+      }
+    },
     "69101528-2dcd-417f-b312-c8e63bf4a13a": {
       "type": "clandingpagefooter",
       "settings": {
@@ -197,6 +203,7 @@
     "4afc9049-d5cf-46e5-8fc3-d3d9b08363f7",
     "82313d27-cce6-4fb0-9226-38daf6232c71",
     "bf1b2dfa-5793-4d51-be86-d3945e521bab",
+    "bbe855b8-e2ce-412e-b1c4-f5a1871f21a7",
     "69101528-2dcd-417f-b312-c8e63bf4a13a"
   ],
   "layout": "theme.pagefly"
