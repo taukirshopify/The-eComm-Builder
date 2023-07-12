@@ -33,14 +33,6 @@
         "p122": "START BUILDING MY BUSSINESS"
       }
     },
-    "69101528-2dcd-417f-b312-c8e63bf4a13a": {
-      "type": "clandingpagefooter",
-      "settings": {
-        "title": "With <span class=\"spacial\">Aneka<\/span>, You Become...",
-        "url": "",
-        "p": "Copyright © 2021 All rights reserved."
-      }
-    },
     "7706aac7-8440-43e8-b418-1b0e2665bb05": {
       "type": "clandingpageoutline",
       "blocks": {
@@ -186,17 +178,33 @@
         "img": "shopify:\/\/shop_images\/1_c35935df-1007-4309-9ac1-be1c5443448a.webp",
         "title2": "GET THE COURSE NOW"
       }
+    },
+    "bbe855b8-e2ce-412e-b1c4-f5a1871f21a7": {
+      "type": "colokfooterlandingpageone",
+      "settings": {
+        "title": "Course Outline"
+      }
+    },
+    "69101528-2dcd-417f-b312-c8e63bf4a13a": {
+      "type": "clandingpagefooter",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/transparent-02.webp",
+        "title": "With Aneka, You Become...",
+        "main-menu2": "menu01",
+        "p": "Copyright © 2021 All rights reserved."
+      }
     }
   },
   "order": [
     "pf-41ef005a",
     "d2116d5b-0b24-47be-bd4f-9a258f6bc48d",
     "ca7c3248-97b6-4b6a-b34c-5a8b76a2f9c7",
-    "69101528-2dcd-417f-b312-c8e63bf4a13a",
     "7706aac7-8440-43e8-b418-1b0e2665bb05",
     "4afc9049-d5cf-46e5-8fc3-d3d9b08363f7",
     "82313d27-cce6-4fb0-9226-38daf6232c71",
-    "bf1b2dfa-5793-4d51-be86-d3945e521bab"
+    "bf1b2dfa-5793-4d51-be86-d3945e521bab",
+    "bbe855b8-e2ce-412e-b1c4-f5a1871f21a7",
+    "69101528-2dcd-417f-b312-c8e63bf4a13a"
   ],
   "layout": "theme.pagefly"
 }
