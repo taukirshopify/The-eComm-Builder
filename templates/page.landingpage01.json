@@ -179,6 +179,45 @@
         "title2": "GET THE COURSE NOW"
       }
     },
+    "e06a07d6-760a-47af-834a-0086b0241d44": {
+      "type": "SeeWhatMyStudentsSay",
+      "blocks": {
+        "74974a48-365b-49f8-a481-2d7893372e1b": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter 1",
+            "p": "<i>I truly enjoyed the workshop and learn a wealth of information. Aneka was able to answer all of my questions on how to set up my shop. She also provided quick and easy fixes for my shop issues. Her tips were very spot on and I'm very confident will put me in the right direction for earnings. She's amazing.<\/i>",
+            "rtext": "<p>Lisha  - on Sep 26, 2021<\/p>"
+          }
+        },
+        "2f50669e-f68d-4ac1-9ce6-676333d86f74": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter 1",
+            "p": "<i>I truly enjoyed the workshop and learn a wealth of information. Aneka was able to answer all of my questions on how to set up my shop. She also provided quick and easy fixes for my shop issues. Her tips were very spot on and I'm very confident will put me in the right direction for earnings. She's amazing.<\/i>",
+            "rtext": "<p>Lisha  - on Sep 26, 2021<\/p>"
+          }
+        },
+        "b1db4d8b-2af8-4e6d-92d7-d904f6cf2f0b": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter 1",
+            "p": "<i>I truly enjoyed the workshop and learn a wealth of information. Aneka was able to answer all of my questions on how to set up my shop. She also provided quick and easy fixes for my shop issues. Her tips were very spot on and I'm very confident will put me in the right direction for earnings. She's amazing.<\/i>",
+            "rtext": "<p>Lisha  - on Sep 26, 2021<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "74974a48-365b-49f8-a481-2d7893372e1b",
+        "2f50669e-f68d-4ac1-9ce6-676333d86f74",
+        "b1db4d8b-2af8-4e6d-92d7-d904f6cf2f0b"
+      ],
+      "settings": {
+        "title": "With <span class=\"spacial\">Aneka<\/span>, You Become...",
+        "title2": "100% Setting up your Shopify Store",
+        "p": "<b>Order right now with confidence!<\/b> We offer 100% Setting up your Shopify Store for <br> your successful journey."
+      }
+    },
     "bbe855b8-e2ce-412e-b1c4-f5a1871f21a7": {
       "type": "colokfooterlandingpageone",
       "settings": {
@@ -203,6 +242,7 @@
     "4afc9049-d5cf-46e5-8fc3-d3d9b08363f7",
     "82313d27-cce6-4fb0-9226-38daf6232c71",
     "bf1b2dfa-5793-4d51-be86-d3945e521bab",
+    "e06a07d6-760a-47af-834a-0086b0241d44",
     "bbe855b8-e2ce-412e-b1c4-f5a1871f21a7",
     "69101528-2dcd-417f-b312-c8e63bf4a13a"
   ],
