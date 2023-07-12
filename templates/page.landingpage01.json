@@ -81,6 +81,7 @@
         "4501ea93-227a-416f-9beb-67f9dade305e": {
           "type": "content",
           "settings": {
+            "img": "shopify:\/\/shop_images\/1.webp",
             "title": "Chapter 1",
             "p": "Getting Started With Shopify Store"
           }
