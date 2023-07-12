@@ -136,8 +136,7 @@
         "20ba917f-f1ce-4e15-b869-e5f1da5f78d5"
       ],
       "settings": {
-        "title": "BONUS FEARURES",
-        "img": "shopify:\/\/shop_images\/1.webp"
+        "title": "BONUS FEARURES"
       }
     },
     "82313d27-cce6-4fb0-9226-38daf6232c71": {
@@ -171,7 +170,8 @@
         "65a1529f-ed44-4334-9a2e-bfc9f8e28622"
       ],
       "settings": {
-        "title": "With <span class=\"spacial\">Aneka<\/span>, You Become...",
+        "title": "With Aneka, You Become...",
+        "img": "shopify:\/\/shop_images\/1_c35935df-1007-4309-9ac1-be1c5443448a.webp",
         "title2": "GET THE COURSE NOW"
       }
     }
