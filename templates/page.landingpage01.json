@@ -36,8 +36,9 @@
     "69101528-2dcd-417f-b312-c8e63bf4a13a": {
       "type": "clandingpagefooter",
       "settings": {
-        "title": "With <span class=\"spacial\">Aneka<\/span>, You Become...",
-        "url": "",
+        "img": "shopify:\/\/shop_images\/transparent-02.webp",
+        "title": "With Aneka, You Become...",
+        "main-menu2": "menu01",
         "p": "Copyright © 2021 All rights reserved."
       }
     },
