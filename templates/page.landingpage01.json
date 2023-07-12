@@ -6,6 +6,14 @@
       "settings": {
       }
     },
+    "d2116d5b-0b24-47be-bd4f-9a258f6bc48d": {
+      "type": "clandingpageheader",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/transparent-02.webp",
+        "main-menu2": "footer",
+        "url": ""
+      }
+    },
     "ca7c3248-97b6-4b6a-b34c-5a8b76a2f9c7": {
       "type": "clandingpagetop",
       "settings": {
@@ -32,12 +40,128 @@
         "url": "",
         "p": "Copyright © 2021 All rights reserved."
       }
+    },
+    "7706aac7-8440-43e8-b418-1b0e2665bb05": {
+      "type": "clandingpageoutline",
+      "blocks": {
+        "d0de1d4b-80a5-4003-b14c-957bb0d63d2e": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter 1",
+            "p": "Getting Started With Shopify Store"
+          }
+        },
+        "093fbe9c-754f-41d7-b7ac-817b93622a38": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter 1",
+            "p": "Getting Started With Shopify Store"
+          }
+        },
+        "001c7bd2-f6bd-4986-a109-ed2edb1b947e": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter 1",
+            "p": "Getting Started With Shopify Store"
+          }
+        }
+      },
+      "block_order": [
+        "d0de1d4b-80a5-4003-b14c-957bb0d63d2e",
+        "093fbe9c-754f-41d7-b7ac-817b93622a38",
+        "001c7bd2-f6bd-4986-a109-ed2edb1b947e"
+      ],
+      "settings": {
+        "title": "Course Outline"
+      }
+    },
+    "4afc9049-d5cf-46e5-8fc3-d3d9b08363f7": {
+      "type": "bundelfeatured",
+      "blocks": {
+        "4501ea93-227a-416f-9beb-67f9dade305e": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter 1",
+            "p": "Getting Started With Shopify Store"
+          }
+        },
+        "fa8d1231-5043-4b43-971a-6aba0b2568dc": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter 1",
+            "p": "Getting Started With Shopify Store"
+          }
+        },
+        "7c55189a-a0f1-418a-a2a7-b2ba779495bf": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter 1",
+            "p": "Getting Started With Shopify Store"
+          }
+        },
+        "9c93b9a7-e5ec-4c38-bceb-dcdadb4544db": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter 1",
+            "p": "Getting Started With Shopify Store"
+          }
+        }
+      },
+      "block_order": [
+        "4501ea93-227a-416f-9beb-67f9dade305e",
+        "fa8d1231-5043-4b43-971a-6aba0b2568dc",
+        "7c55189a-a0f1-418a-a2a7-b2ba779495bf",
+        "9c93b9a7-e5ec-4c38-bceb-dcdadb4544db"
+      ],
+      "settings": {
+        "title": "BONUS FEARURES"
+      }
+    },
+    "82313d27-cce6-4fb0-9226-38daf6232c71": {
+      "type": "cwhyme",
+      "settings": {
+        "title": "Course Outline",
+        "rtext": "<p><b>Aneka has been in the sea moss industry for over three years.<\/b> In that short period of time she has been able to scale her business from <b>making $58,000 in 2020 to already earning over $100,000 in 8 months time during 2021.<\/b> This income was generated from her Shopify site alone. She consistently receives over <b>200+ orders in a month<\/b> and she is ready to teach others how to do the same.<\/p>",
+        "title2": "KNOW MORE"
+      }
+    },
+    "bf1b2dfa-5793-4d51-be86-d3945e521bab": {
+      "type": "WithAnekaYouBecome",
+      "blocks": {
+        "ab15680a-e51e-42a2-af78-74539ce68bf9": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter 1",
+            "p": "We makes it accessible for you to enter the world of online entrepreneurship. Each lesson is packed with practical advice you can understand and use straight away."
+          }
+        },
+        "65a1529f-ed44-4334-9a2e-bfc9f8e28622": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter 1",
+            "p": "We makes it accessible for you to enter the world of online entrepreneurship. Each lesson is packed with practical advice you can understand and use straight away."
+          }
+        }
+      },
+      "block_order": [
+        "ab15680a-e51e-42a2-af78-74539ce68bf9",
+        "65a1529f-ed44-4334-9a2e-bfc9f8e28622"
+      ],
+      "settings": {
+        "title": "With <span class=\"spacial\">Aneka<\/span>, You Become...",
+        "title2": "GET THE COURSE NOW"
+      }
     }
   },
   "order": [
     "pf-41ef005a",
+    "d2116d5b-0b24-47be-bd4f-9a258f6bc48d",
     "ca7c3248-97b6-4b6a-b34c-5a8b76a2f9c7",
-    "69101528-2dcd-417f-b312-c8e63bf4a13a"
+    "69101528-2dcd-417f-b312-c8e63bf4a13a",
+    "7706aac7-8440-43e8-b418-1b0e2665bb05",
+    "4afc9049-d5cf-46e5-8fc3-d3d9b08363f7",
+    "82313d27-cce6-4fb0-9226-38daf6232c71",
+    "bf1b2dfa-5793-4d51-be86-d3945e521bab"
   ],
   "layout": "theme.pagefly"
 }
