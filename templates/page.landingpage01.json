@@ -146,7 +146,6 @@
         "ab15680a-e51e-42a2-af78-74539ce68bf9": {
           "type": "content",
           "settings": {
-            "img": "shopify:\/\/shop_images\/1_c35935df-1007-4309-9ac1-be1c5443448a.webp",
             "title": "Chapter 1",
             "p": "We makes it accessible for you to enter the world of online entrepreneurship. Each lesson is packed with practical advice you can understand and use straight away."
           }
@@ -154,7 +153,6 @@
         "65a1529f-ed44-4334-9a2e-bfc9f8e28622": {
           "type": "content",
           "settings": {
-            "img": "shopify:\/\/shop_images\/3_69bffabe-04bf-41b2-a487-88ad178bff03.webp",
             "title": "Chapter 1",
             "p": "We makes it accessible for you to enter the world of online entrepreneurship. Each lesson is packed with practical advice you can understand and use straight away."
           }
@@ -162,7 +160,6 @@
         "95c80042-e1a1-4905-9169-502295c1059b": {
           "type": "content",
           "settings": {
-            "img": "shopify:\/\/shop_images\/4_78e87511-b39d-45ce-aacd-d9274f72cff4.webp",
             "title": "Chapter 1",
             "p": "We makes it accessible for you to enter the world of online entrepreneurship. Each lesson is packed with practical advice you can understand and use straight away."
           }
@@ -175,8 +172,10 @@
       ],
       "settings": {
         "title": "With Aneka, You Become...",
-        "img": "shopify:\/\/shop_images\/1_c35935df-1007-4309-9ac1-be1c5443448a.webp",
-        "title2": "GET THE COURSE NOW"
+        "img": "shopify:\/\/shop_images\/course-banner-1.webp",
+        "title2": "GET THE COURSE NOW",
+        "t2": "ENJOY OUR SPECIAL OFFER",
+        "p2": "YES I WONT TO ENROLL !!"
       }
     },
     "e06a07d6-760a-47af-834a-0086b0241d44": {
