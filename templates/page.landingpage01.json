@@ -123,6 +123,33 @@
         "rtext": "<p><b>Aneka has been in the sea moss industry for over three years.<\/b> In that short period of time she has been able to scale her business from <b>making $58,000 in 2020 to already earning over $100,000 in 8 months time during 2021.<\/b> This income was generated from her Shopify site alone. She consistently receives over <b>200+ orders in a month<\/b> and she is ready to teach others how to do the same.<\/p>",
         "title2": "KNOW MORE"
       }
+    },
+    "bf1b2dfa-5793-4d51-be86-d3945e521bab": {
+      "type": "WithAnekaYouBecome",
+      "blocks": {
+        "ab15680a-e51e-42a2-af78-74539ce68bf9": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter 1",
+            "p": "We makes it accessible for you to enter the world of online entrepreneurship. Each lesson is packed with practical advice you can understand and use straight away."
+          }
+        },
+        "65a1529f-ed44-4334-9a2e-bfc9f8e28622": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter 1",
+            "p": "We makes it accessible for you to enter the world of online entrepreneurship. Each lesson is packed with practical advice you can understand and use straight away."
+          }
+        }
+      },
+      "block_order": [
+        "ab15680a-e51e-42a2-af78-74539ce68bf9",
+        "65a1529f-ed44-4334-9a2e-bfc9f8e28622"
+      ],
+      "settings": {
+        "title": "With <span class=\"spacial\">Aneka<\/span>, You Become...",
+        "title2": "GET THE COURSE NOW"
+      }
     }
   },
   "order": [
@@ -132,7 +159,8 @@
     "69101528-2dcd-417f-b312-c8e63bf4a13a",
     "7706aac7-8440-43e8-b418-1b0e2665bb05",
     "4afc9049-d5cf-46e5-8fc3-d3d9b08363f7",
-    "82313d27-cce6-4fb0-9226-38daf6232c71"
+    "82313d27-cce6-4fb0-9226-38daf6232c71",
+    "bf1b2dfa-5793-4d51-be86-d3945e521bab"
   ],
   "layout": "theme.pagefly"
 }
