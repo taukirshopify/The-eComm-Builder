@@ -244,6 +244,16 @@
         "main-menu2": "menu01",
         "p": "Copyright © 2021 All rights reserved."
       }
+    },
+    "63a9042e-38a3-4cc2-9992-d2d4fb036298": {
+      "type": "featured-product",
+      "settings": {
+        "featured_product": "10x-black-friday-workshop-replay-package",
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "show_description": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -256,7 +266,8 @@
     "bf1b2dfa-5793-4d51-be86-d3945e521bab",
     "e06a07d6-760a-47af-834a-0086b0241d44",
     "bbe855b8-e2ce-412e-b1c4-f5a1871f21a7",
-    "69101528-2dcd-417f-b312-c8e63bf4a13a"
+    "69101528-2dcd-417f-b312-c8e63bf4a13a",
+    "63a9042e-38a3-4cc2-9992-d2d4fb036298"
   ],
   "layout": "theme.pagefly"
 }
