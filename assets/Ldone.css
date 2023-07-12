@@ -28,7 +28,7 @@ body {
 }
 
 /* all button css start  */
-.btn button {
+/* .btn button {
     border-radius: 20px;
     border: 5px solid #93DC9C;
     background-color: #3BB44A;
@@ -43,9 +43,9 @@ body {
     font-style: normal;
     font-family: 'Lato';
 
-}
+} */
 
-.btn-2 {
+/* .btn-2 {
     text-align: center;
     display: block;
     margin-top: 50px;
@@ -82,7 +82,7 @@ body {
 .btn-6 button {
     padding: 15px 60px;
 }
-
+ */
 
 /* all button css end  */
 
