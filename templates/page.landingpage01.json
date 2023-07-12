@@ -165,11 +165,20 @@
             "title": "Chapter 1",
             "p": "We makes it accessible for you to enter the world of online entrepreneurship. Each lesson is packed with practical advice you can understand and use straight away."
           }
+        },
+        "95c80042-e1a1-4905-9169-502295c1059b": {
+          "type": "content",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/4_78e87511-b39d-45ce-aacd-d9274f72cff4.webp",
+            "title": "Chapter 1",
+            "p": "We makes it accessible for you to enter the world of online entrepreneurship. Each lesson is packed with practical advice you can understand and use straight away."
+          }
         }
       },
       "block_order": [
         "ab15680a-e51e-42a2-af78-74539ce68bf9",
-        "65a1529f-ed44-4334-9a2e-bfc9f8e28622"
+        "65a1529f-ed44-4334-9a2e-bfc9f8e28622",
+        "95c80042-e1a1-4905-9169-502295c1059b"
       ],
       "settings": {
         "title": "With Aneka, You Become...",
