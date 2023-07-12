@@ -39,13 +39,20 @@
         "url": "",
         "p": "Copyright © 2021 All rights reserved."
       }
+    },
+    "7706aac7-8440-43e8-b418-1b0e2665bb05": {
+      "type": "clandingpageoutline",
+      "settings": {
+        "title": "Course Outline"
+      }
     }
   },
   "order": [
     "pf-41ef005a",
     "d2116d5b-0b24-47be-bd4f-9a258f6bc48d",
     "ca7c3248-97b6-4b6a-b34c-5a8b76a2f9c7",
-    "69101528-2dcd-417f-b312-c8e63bf4a13a"
+    "69101528-2dcd-417f-b312-c8e63bf4a13a",
+    "7706aac7-8440-43e8-b418-1b0e2665bb05"
   ],
   "layout": "theme.pagefly"
 }
