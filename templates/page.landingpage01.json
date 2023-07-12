@@ -81,6 +81,7 @@
         "4501ea93-227a-416f-9beb-67f9dade305e": {
           "type": "content",
           "settings": {
+            "img": "shopify:\/\/shop_images\/1.webp",
             "title": "Chapter 1",
             "p": "Getting Started With Shopify Store"
           }
@@ -88,6 +89,7 @@
         "fa8d1231-5043-4b43-971a-6aba0b2568dc": {
           "type": "content",
           "settings": {
+            "img": "shopify:\/\/shop_images\/7.webp",
             "title": "Chapter 1",
             "p": "Getting Started With Shopify Store"
           }
@@ -95,6 +97,7 @@
         "7c55189a-a0f1-418a-a2a7-b2ba779495bf": {
           "type": "content",
           "settings": {
+            "img": "shopify:\/\/shop_images\/3.webp",
             "title": "Chapter 1",
             "p": "Getting Started With Shopify Store"
           }
@@ -102,6 +105,23 @@
         "9c93b9a7-e5ec-4c38-bceb-dcdadb4544db": {
           "type": "content",
           "settings": {
+            "img": "shopify:\/\/shop_images\/8.webp",
+            "title": "Chapter 1",
+            "p": "Getting Started With Shopify Store"
+          }
+        },
+        "496f3101-98b6-48fd-bfbe-bf46686c039f": {
+          "type": "content",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/2.webp",
+            "title": "Chapter 1",
+            "p": "Getting Started With Shopify Store"
+          }
+        },
+        "20ba917f-f1ce-4e15-b869-e5f1da5f78d5": {
+          "type": "content",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/5.webp",
             "title": "Chapter 1",
             "p": "Getting Started With Shopify Store"
           }
@@ -111,10 +131,13 @@
         "4501ea93-227a-416f-9beb-67f9dade305e",
         "fa8d1231-5043-4b43-971a-6aba0b2568dc",
         "7c55189a-a0f1-418a-a2a7-b2ba779495bf",
-        "9c93b9a7-e5ec-4c38-bceb-dcdadb4544db"
+        "9c93b9a7-e5ec-4c38-bceb-dcdadb4544db",
+        "496f3101-98b6-48fd-bfbe-bf46686c039f",
+        "20ba917f-f1ce-4e15-b869-e5f1da5f78d5"
       ],
       "settings": {
-        "title": "BONUS FEARURES"
+        "title": "BONUS FEARURES",
+        "img": "shopify:\/\/shop_images\/1.webp"
       }
     },
     "82313d27-cce6-4fb0-9226-38daf6232c71": {
