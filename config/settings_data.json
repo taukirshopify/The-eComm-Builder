@@ -1091,19 +1091,6 @@
           "divider": false
         }
       },
-      "1617556687dbb3c50b": {
-        "type": "featured-collection",
-        "disabled": true,
-        "settings": {
-          "title": "SAMPLE SIZE Products",
-          "home_featured_products": "wholesale",
-          "per_row": 4,
-          "rows": 1,
-          "mobile_scrollable": true,
-          "view_all": true,
-          "divider": false
-        }
-      },
       "sezzle-widget": {
         "type": "sezzle-widget",
         "settings": {
@@ -2339,7 +2326,6 @@
       "2fe4debe-5f7e-4cf4-8b97-93185f9e674b",
       "03bb4a0f-c4a3-423f-a6f0-f71f7a056695",
       "16524292229ded6ca1",
-      "1617556687dbb3c50b",
       "1577818476138",
       "1616684715ec05dc3f",
       "16166847257698b441"
