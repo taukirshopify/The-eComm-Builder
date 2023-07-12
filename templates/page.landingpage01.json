@@ -6,6 +6,25 @@
       "settings": {
       }
     },
+    "ca7c3248-97b6-4b6a-b34c-5a8b76a2f9c7": {
+      "type": "clandingpagetop",
+      "settings": {
+        "p1": "SPECIAL OFFER EXPIRES IN:",
+        "p2": "LEARN HOW YOU CAN START <br> A PROFITABLE SHOPIFY STORE <br> IN 30 DAYS <br> OR LESS...",
+        "p3": "(Without Needing Any Experience!)",
+        "p4": "START BUILDING MY BUSSINESS",
+        "p5": "Why Build a Shopify Store for your Business?",
+        "p6": "<b>Shopify is one of the most popular eCommerce platforms offering<\/b> everything you need for your eCommerce store while having the easiest requirements to use. The platform <b>empowers over 1,000,000 businesses selling products online worldwide.<\/b> It provides you with a set of useful features that function your eCommerce website up to the par and effectively raise it to a higher level.",
+        "p7": "Why Build a Shopify Store for your Business?",
+        "text1": "<p> <span>1.<\/span> Thousands of available <b>themes<\/b> (new ones coming out all the time<\/p> <p> <span>2.<\/span> <b>Stripe<\/b> and 3rd party shopping integrations<\/p> <p> <span>3.<\/span> Integrations with <b>PayPal<\/b><\/p><p> <span>4.<\/span> They support blogs and we all know content is king!<\/p><p> <span>5.<\/span> Tracking and maintaining customer data<\/p><p> <span>6.<\/span> Works like a regular website CMS<\/p><p> <span>7.<\/span> <b>Optimized for SEO<\/b> and easily customizable in regards to keywords<\/p>",
+        "text2": "<p> <span>8.<\/span> <b>You can use your MailChimp or other Email provider<\/b><\/p><p> <span>9.<\/span> You <b>can add coupons and discount codes<\/b><\/p> <p> <span>10.<\/span> Full HTML and CSS Editing abilities<\/p><p> <span>11.<\/span> A “Buy Now” call to action button to be placed on external sites<\/p><p> <span>12.<\/span> <b>POS Integration<\/b><\/p><p> <span>13.<\/span> You can make a customizable profile for your employees<\/p><p> <span>14.<\/span> Integrations with <b>live chats<\/b><\/p>",
+        "text3": "<p> <span>15.<\/span> Create <b>your own store Gift Cards<\/b><\/p><p> <span>16.<\/span> Advanced Reporting<\/p><p> <span>17.<\/span> An <b>Abandoned Cart feature built in!<\/b><\/p><p> <span>18.<\/span> Integration with help desks like ZenDesk<\/p><p> <span>19.<\/span> Analytics reporting<\/p><p> <span>20.<\/span> <b>Shipping carrier integration<\/b><\/p>",
+        "p8": "Our Ultimate Shopify course is great for new business owners <b>who want to master Shopify and learn how to create their own Shopify store.<\/b> Build your website at your pace. The course is designed to <b>get your store up and running in 30 days!!!<\/b> You will learn how to add products, track your inventory, set up discount codes, set up shipping rates, collections, tags, apps to add, track profit and loss, sales channel, set up email marketing, pricing products, set up Abandoned cart, Notifications, all legal policy’s, free theme selection… and much more.",
+        "p9": "A Proven System for Building Online Businesses",
+        "p10": "SHOW ME HOW",
+        "p122": "START BUILDING MY BUSSINESS"
+      }
+    },
     "69101528-2dcd-417f-b312-c8e63bf4a13a": {
       "type": "clandingpagefooter",
       "settings": {
@@ -17,6 +36,7 @@
   },
   "order": [
     "pf-41ef005a",
+    "ca7c3248-97b6-4b6a-b34c-5a8b76a2f9c7",
     "69101528-2dcd-417f-b312-c8e63bf4a13a"
   ],
   "layout": "theme.pagefly"
