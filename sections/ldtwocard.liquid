@@ -4,7 +4,7 @@
     
             {% for item in section.blocks %}
                 <div class="row ">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-5  ">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-5  {% if item.settings.rever %}  {% endif %} ">
                         <img class="img-fluid" src="{{ item.settings.img | img_url:'' }}" alt="">
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-5">
@@ -51,7 +51,12 @@
                 "type": "feature",
                 "name": "feature",
                 "settings": [
-        
+             {
+                "type": "checkbox",
+                "id": "rever",
+                "label": "Please select YOur Image ",
+                "default": false
+             },
                     {
                         "type": "image_picker",
                         "id": "img",

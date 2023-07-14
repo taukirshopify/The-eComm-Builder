@@ -1,0 +1,77 @@
+
+    <!-- F.A.Q. section -->
+    <section class="faq section-padding">
+        <div class="container">
+
+            {% for item in section.blocks %}
+            <div class="single-faq mb-5">
+                <h4> <i class="fa-solid fa-circle-question"></i> {{ item.settings.title }}</h4>
+                <p>{{ item.settings.dec }}</p>
+            </div>
+        {% endfor %}
+            <button type="button" class="button rounded-pill"> <i class="fa-solid fa-angles-right"></i> {{ section.settings.btn }}</button>
+
+        </div>
+
+    </section>
+    <!-- F.A.Q. section -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {% schema %}
+    {
+        "name": "LD two Faq",
+        "class": "ldtwof",
+        "settings": [
+            {
+                "type": "text",
+                "id": "btn",
+                "label": "Title ",
+                "default": "Get eCommerce Brand Done For You"
+            }
+        ],
+
+        "blocks": [
+         
+            {
+                "type": "Faq",
+                "name": "faq",
+                "settings": [
+             
+        
+       
+                     {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Title",
+                        "default": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS"
+                     },
+                     {
+                        "type": "text",
+                        "id": "dec",
+                        "label": "Decription",
+                        "default": "First of all, order your eCommerce Website from us and well"
+                     }
+                ]
+            }
+        ],
+        
+        "presets": [
+            {
+            "name": "LD Two Dropshipping"
+            }
+            ]
+    }
+ {% endschema %}
