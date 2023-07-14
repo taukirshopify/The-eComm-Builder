@@ -1,57 +1,6 @@
-/* all btn */
-/* 
-.btn-2 {
-    display: block;
-    width: 100%;
-    border: none;
-    background-color: #317C8E;
-    color: #fff;
-    padding: 14px 28px;
-    font-weight: 700;
-    font-size: 19px;
-    cursor: pointer;
-    text-align: center;
-}
 
-.btn-3 p {
-    font-size: 11px;
-}
 
-.btn-3 {
-    font-size: 12px;
-    transition: .3s;
-}
 
-.btn-3:hover {
-    background-color: #2aa6c5fa;
-    box-shadow: none;
-} */
-
-/* .button {
-    display: block;
-    width: 100%;
-    border: none;
-    background-color: #317C8E;
-    color: #fff;
-    padding: 14px 28px;
-    font-weight: 700;
-    font-size: 35px;
-    cursor: pointer;
-    text-align: center;
-} */
-
-/* .button:hover {
-    box-shadow: 0 4px 2px -2px #317C8E;
-} */
-
-/* header css start */
-
-h2.bannar-title {
-    line-height: 1.5;
-}
-span.oredr-spacial {
-    color: #56048a;
-}
 
 .header {
     display: flex;
@@ -62,9 +11,6 @@ span.oredr-spacial {
 
 
 
-.section-padding {
-    padding: 0px 220px;
-}
 
 /* header css end */
 
@@ -121,10 +67,6 @@ input[type="text"] {
     margin-top: 20px;
 }
 
-video {
-    width: 80%;
-    height: auto;
-}
 
 /* bannar css end */
 
@@ -427,4 +369,11 @@ video {
     }
 
 
+}
+
+.bannar-title {
+    line-height: 1.5;
+}
+.oredr-spacial {
+    color: #56048a;
 }
