@@ -15,10 +15,34 @@
             "title": "Stunning Branded Website Design",
             "dec": "So Your Shopify Store Becomes A Magnet That Attracts"
           }
+        },
+        "aaba7201-870c-464e-b117-0c460313d8ed": {
+          "type": "feature",
+          "settings": {
+            "title": "Stunning Branded Website Design",
+            "dec": "So Your Shopify Store Becomes A Magnet That Attracts"
+          }
+        },
+        "1b33148c-f321-41b1-995d-e79bbb785d7f": {
+          "type": "feature",
+          "settings": {
+            "title": "Stunning Branded Website Design",
+            "dec": "So Your Shopify Store Becomes A Magnet That Attracts"
+          }
+        },
+        "dea5ba9d-ebb6-4c7f-9196-25aa823dd10f": {
+          "type": "feature",
+          "settings": {
+            "title": "Stunning Branded Website Design",
+            "dec": "So Your Shopify Store Becomes A Magnet That Attracts"
+          }
         }
       },
       "block_order": [
-        "60d211d0-e72d-4078-b2fa-e16b8f8cf6c4"
+        "60d211d0-e72d-4078-b2fa-e16b8f8cf6c4",
+        "aaba7201-870c-464e-b117-0c460313d8ed",
+        "1b33148c-f321-41b1-995d-e79bbb785d7f",
+        "dea5ba9d-ebb6-4c7f-9196-25aa823dd10f"
       ],
       "settings": {
         "img": "shopify:\/\/shop_images\/transparent-02.webp",
@@ -27,13 +51,48 @@
         "p": "Our Ecommerce Experts with 7+ Years of experience have designed over 15,000 eCommerce stores and are here to design your beautiful eCommerce Store next for only $20",
         "h2": "Order Now And You'll Receive:",
         "img2": "shopify:\/\/shop_images\/1_65588ae1-2f12-48db-837c-2bd6b140a7d8.png",
-        "buymore": "You can order multiple stores at the same time, check the ones you want so you can have a  selection of stores to pick from"
+        "buymore": "You can order multiple stores at the same time, check the ones you want so you can have a  selection of stores to pick from",
+        "img3": "shopify:\/\/shop_images\/credit-only_5.png",
+        "img4": "shopify:\/\/shop_images\/3_5f7b455f-4e12-4472-a6e1-d21951b04608.png",
+        "img5": "shopify:\/\/shop_images\/2_0e8f0b19-673a-4f50-96a9-c3a1e82d1556.png"
+      }
+    },
+    "b83acf83-599c-4347-bf04-cc20887f6cb4": {
+      "type": "ldtwocard",
+      "blocks": {
+        "e997b013-6323-4537-b9b5-b825eabb1f5b": {
+          "type": "feature",
+          "settings": {
+            "rever": true,
+            "img": "shopify:\/\/shop_images\/1_645033c7-3916-4ade-ade8-fe733f92cf85.png",
+            "title": "Save thousands of dollars on web design and the headaches that come with finding",
+            "dec": "Never worry about hiring an Ecommerce Web designer ever again! Our Experts will completely setup",
+            "btn": "Get eCommerce Brand Done For You"
+          }
+        },
+        "ed23b9de-2b6d-4f11-9b2b-8bce9b123260": {
+          "type": "feature",
+          "settings": {
+            "rever": true,
+            "img": "shopify:\/\/shop_images\/2_a3e6557d-8aa6-4604-907a-52b090005911.png",
+            "title": "Save thousands of dollars on web design and the headaches that come with finding",
+            "dec": "Never worry about hiring an Ecommerce Web designer ever again! Our Experts will completely setup",
+            "btn": "Get eCommerce Brand Done For You"
+          }
+        }
+      },
+      "block_order": [
+        "e997b013-6323-4537-b9b5-b825eabb1f5b",
+        "ed23b9de-2b6d-4f11-9b2b-8bce9b123260"
+      ],
+      "settings": {
       }
     }
   },
   "order": [
     "pf-41ef005a",
-    "d39cb692-babc-427a-a6c4-70fda21b78ef"
+    "d39cb692-babc-427a-a6c4-70fda21b78ef",
+    "b83acf83-599c-4347-bf04-cc20887f6cb4"
   ],
   "layout": "theme.pagefly"
 }
