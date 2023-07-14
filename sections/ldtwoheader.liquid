@@ -13,7 +13,7 @@
         background-image: url('{{ section.settings.imgbg | img_url:'' }}');
         background-repeat: no-repeat;
         /* background-position: center; */
-        background-size: contain;
+        background-size: cover;
     
     
     }
@@ -39,7 +39,7 @@
                     <h2 class="bannar-title">{{ section.settings.title }} </h2>
                     <div class="video mt-5">
                         <video muted autoplay loop playsinline controls>
-                            <source src="{{ c.settings.u.sources[1].url }}" type="video/mp4">
+                            <source src="{{ section.settings.u.sources[1].url }}" type="video/mp4">
                          </video>
                     </div>
                     <p>{{ section.settings.p }}</p>
