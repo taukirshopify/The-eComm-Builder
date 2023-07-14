@@ -8,6 +8,18 @@
     },
     "d39cb692-babc-427a-a6c4-70fda21b78ef": {
       "type": "ldtwoheader",
+      "blocks": {
+        "60d211d0-e72d-4078-b2fa-e16b8f8cf6c4": {
+          "type": "feature",
+          "settings": {
+            "title": "Stunning Branded Website Design",
+            "dec": "So Your Shopify Store Becomes A Magnet That Attracts"
+          }
+        }
+      },
+      "block_order": [
+        "60d211d0-e72d-4078-b2fa-e16b8f8cf6c4"
+      ],
       "settings": {
         "img": "shopify:\/\/shop_images\/transparent-02.webp",
         "title": "ECommerce Experts Launch You A Fully Optimized eCommerce Website within the next",
