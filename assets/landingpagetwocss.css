@@ -1,5 +1,5 @@
 /* all btn */
-
+/* 
 .btn-2 {
     display: block;
     width: 100%;
@@ -25,9 +25,9 @@
 .btn-3:hover {
     background-color: #2aa6c5fa;
     box-shadow: none;
-}
+} */
 
-.button {
+/* .button {
     display: block;
     width: 100%;
     border: none;
@@ -38,13 +38,18 @@
     font-size: 35px;
     cursor: pointer;
     text-align: center;
-}
+} */
 
-.button:hover {
+/* .button:hover {
     box-shadow: 0 4px 2px -2px #317C8E;
-}
+} */
 
 /* header css start */
+
+h2.bannar-title {
+    line-height: 1.5;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
