@@ -143,6 +143,30 @@
         "btn": "Get eCommerce Brand Done For You"
       }
     },
+    "b38b677a-414d-4624-b767-32e1fdf587ee": {
+      "type": "ldtwoexample",
+      "blocks": {
+        "c2725b72-95dd-4494-a92c-a86243adae07": {
+          "type": "feature",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Copy_of_Computer_Screen_digital_mock_up_27.png"
+          }
+        },
+        "10dd4a87-59c3-4ad7-bda6-ff5223796d6c": {
+          "type": "feature",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Computer_Screen_digital_mock_up_37.png"
+          }
+        }
+      },
+      "block_order": [
+        "c2725b72-95dd-4494-a92c-a86243adae07",
+        "10dd4a87-59c3-4ad7-bda6-ff5223796d6c"
+      ],
+      "settings": {
+        "title": "How Dropshipping Works !"
+      }
+    },
     "02b79b5e-60e1-40ce-995c-f5ebcbf381ba": {
       "type": "ldtwofaq",
       "blocks": {
@@ -224,30 +248,6 @@
         "dec": "There has never been a better time to get into E-commerce!",
         "btn": "Get eCommerce Brand Done For You"
       }
-    },
-    "b38b677a-414d-4624-b767-32e1fdf587ee": {
-      "type": "ldtwoexample",
-      "blocks": {
-        "c2725b72-95dd-4494-a92c-a86243adae07": {
-          "type": "feature",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Copy_of_Computer_Screen_digital_mock_up_27.png"
-          }
-        },
-        "10dd4a87-59c3-4ad7-bda6-ff5223796d6c": {
-          "type": "feature",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Computer_Screen_digital_mock_up_37.png"
-          }
-        }
-      },
-      "block_order": [
-        "c2725b72-95dd-4494-a92c-a86243adae07",
-        "10dd4a87-59c3-4ad7-bda6-ff5223796d6c"
-      ],
-      "settings": {
-        "title": "How Dropshipping Works !"
-      }
     }
   },
   "order": [
@@ -255,9 +255,9 @@
     "d39cb692-babc-427a-a6c4-70fda21b78ef",
     "b83acf83-599c-4347-bf04-cc20887f6cb4",
     "7da7e64d-43a3-4129-bf2e-e232193ac206",
+    "b38b677a-414d-4624-b767-32e1fdf587ee",
     "02b79b5e-60e1-40ce-995c-f5ebcbf381ba",
-    "ce0d62ad-e6ee-46e5-9451-beabbc3d5542",
-    "b38b677a-414d-4624-b767-32e1fdf587ee"
+    "ce0d62ad-e6ee-46e5-9451-beabbc3d5542"
   ],
   "layout": "theme.pagefly"
 }
