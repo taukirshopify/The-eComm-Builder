@@ -1,0 +1,139 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+{{ 'bootstrap.css' | asset_url | stylesheet_tag }}
+{{ 'landingpagetwocss' | asset_url | stylesheet_tag }}
+
+
+<section class=" header-padding section-padding">
+    <div class="container">
+        <!-- header section start-->
+        <div class="header">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-6">
+            <div class="logo">
+                <img class="img-fluid" src="{{ section.settings.img | img_url:'' }}" alt="">
+            </div>
+          </div>
+
+        </div>
+        <!-- header section end-->
+        <!-- banner section start-->
+        <div class="bannar">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <h2 class="bannar-title">{{ section.settings.title }} </h2>
+                    <div class="video mt-5">
+                        <video controls>
+                            <source src="{{  }}" type="video/mp4">
+                        </video>
+                    </div>
+                    <p>{{ section.settings.p }}</p>
+                    <div class="order-section">
+                        <h3 class="my-5">{{ section.settings.h2 }}</h3>
+
+                        {% for item in section.blocks %}
+                            <h4 class="mb-5"> <i class="fa-solid fa-check"></i> <span class="oredr-spacial"> {{ item.settings.title }} </span>{{ item.settings.dec }}
+                       </h4>
+                        {% endfor %}
+                    
+         
+
+
+
+                    </div>
+
+                    <button type="button" class="button rounded-pill mt-5"> <i class="fa-solid fa-angles-right"></i>
+                        Total Value: $12,973
+                    </button>
+
+                    <div class="price">
+                        <h3><del>Usually $2,997</del> Only $20</h3>
+                        <h4>One time payment</h4>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 bannar-right">
+                    <div class="bannar-right-img">
+                        <img class="img-fluid" src="{{ section.settings.img2 }}" alt="">
+                    </div>
+                    <p>{{ section.settings.buymore }}</p>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- banner section end-->
+    </div>
+
+</section>
+
+
+ {% schema %}
+    {
+        "name": "LD two Header",
+        "class": "ldtwo",
+        "settings": [
+           {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Header Image"
+           },
+           {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "ECommerce Experts Launch You A Fully Optimized eCommerce Website within the next"
+           },
+           {
+            "type": "text",
+            "id": "p",
+            "label": "Decription",
+            "default": "Our Ecommerce Experts with 7+ Years of experience have designed over 15,000 eCommerce stores and are here to design your beautiful eCommerce Store next for only $20"
+           },
+           {
+            "type": "text",
+            "id": "h2",
+            "label": "Featurs title",
+            "default": "Order Now And You'll Receive:"
+           },
+           {
+            "type": "image_picker",
+            "id": "img2",
+            "label": "Header Image"
+           },
+           {
+            "type": "text",
+            "id": "buymore",
+            "label": "Text",
+            "default": "You can order multiple stores at the same time, check the ones you want so you can have a  selection of stores to pick from"
+          
+           }
+        ],
+        "blocks": [
+            {
+                "type": "feature",
+                "name": "feature",
+                "settings": [
+                     {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Title",
+                        "default": "Stunning Branded Website Design"
+                     },
+                     {
+                        "type": "text",
+                        "id": "dec",
+                        "label": "Decription",
+                        "default": "So Your Shopify Store Becomes A Magnet That Attracts"
+                     }
+                ]
+            }
+        ],
+        
+        "presets": [
+            {
+            "name": "LD Two Header"
+            }
+            ]
+    }
+ {% endschema %}
+ 
