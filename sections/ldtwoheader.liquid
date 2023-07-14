@@ -38,9 +38,9 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <h2 class="bannar-title">{{ section.settings.title }} </h2>
                     <div class="video mt-5">
-                        <video controls>
-                            <source src="{{  }}" type="video/mp4">
-                        </video>
+                        <video muted autoplay loop playsinline controls>
+                            <source src="{{ c.settings.u.sources[1].url }}" type="video/mp4">
+                         </video>
                     </div>
                     <p>{{ section.settings.p }}</p>
                     <div class="order-section">
@@ -96,6 +96,12 @@
             "type": "image_picker",
             "id": "imgbg",
             "label": "Header Image"
+           },
+           {
+            
+            "id": "u",
+            "label": "Video Upload",
+            "type": "video"
            },
            {
             "type": "text",
