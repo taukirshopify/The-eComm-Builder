@@ -59,6 +59,30 @@
     },
     "b83acf83-599c-4347-bf04-cc20887f6cb4": {
       "type": "ldtwocard",
+      "blocks": {
+        "ed23b9de-2b6d-4f11-9b2b-8bce9b123260": {
+          "type": "feature",
+          "settings": {
+            "rever": false,
+            "title": "Save thousands of dollars on web design and the headaches that come with finding",
+            "dec": "Never worry about hiring an Ecommerce Web designer ever again! Our Experts will completely setup",
+            "btn": "Get eCommerce Brand Done For You"
+          }
+        },
+        "e997b013-6323-4537-b9b5-b825eabb1f5b": {
+          "type": "feature",
+          "settings": {
+            "rever": true,
+            "title": "Save thousands of dollars on web design and the headaches that come with finding",
+            "dec": "Never worry about hiring an Ecommerce Web designer ever again! Our Experts will completely setup",
+            "btn": "Get eCommerce Brand Done For You"
+          }
+        }
+      },
+      "block_order": [
+        "ed23b9de-2b6d-4f11-9b2b-8bce9b123260",
+        "e997b013-6323-4537-b9b5-b825eabb1f5b"
+      ],
       "settings": {
       }
     }
