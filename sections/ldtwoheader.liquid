@@ -10,7 +10,7 @@
 
 <style>
     .header-padding {
-        background-image: url('{{ section.settings.imgbg | img_url }}');
+        background-image: url('{{ section.settings.imgbg | img_url:'' }}');
         background-repeat: no-repeat;
         /* background-position: center; */
         background-size: contain;
@@ -72,7 +72,36 @@
                         <img class="img-fluid" src="{{ section.settings.img2 | img_url }}" alt="">
                     </div>
                     <p>{{ section.settings.buymore }}</p>
-                    
+                    <div class="two-part">
+                        <div class="first-part">
+                            <form class="form">
+                                <label for="name"> Full Name:</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name" required="">
+
+                                <label for="email">Email:</label>
+                                <input type="text" id="email" name="email" placeholder="Enter your email" required="">
+
+                                <label for="Number">Phone Number</label>
+                                <input type="text" id="Number" name="Number" placeholder="Phone Number" required="">
+
+                            </form>
+                            <button type="button" class="btn-3 button  mt-5"> <i class="fa-solid fa-angles-right"></i>
+                                Choose Products see all
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae et sit
+                                    inventore
+                                    fugit. Debitis, iste repellat ad voluptate magni labore.</p>
+                            </button>
+                        </div>
+
+                        <div class="bannar-footer-img">
+                            <img class="img-fluid mb-5" src="{{ section.settings.img3 | img_url:'' }}" alt="">
+
+                            <img class="img-fluid mb-5" src="{{ section.settings.img4 | img_url:'' }}" alt="">
+                            <img class="img-fluid" src="{{ section.settings.img5 | img_url:'' }}" alt="">
+                        </div>
+
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -132,6 +161,21 @@
             "label": "Text",
             "default": "You can order multiple stores at the same time, check the ones you want so you can have a  selection of stores to pick from"
           
+           },
+           {
+            "type": "image_picker",
+            "id": "img3",
+            "label": "Header Image"
+           },
+           {
+            "type": "image_picker",
+            "id": "img4",
+            "label": "Header Image"
+           },
+           {
+            "type": "image_picker",
+            "id": "img5",
+            "label": "Header Image"
            }
         ],
         "blocks": [
