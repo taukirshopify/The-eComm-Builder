@@ -87,12 +87,46 @@
       ],
       "settings": {
       }
+    },
+    "7da7e64d-43a3-4129-bf2e-e232193ac206": {
+      "type": "ldtwodropshipingwork",
+      "blocks": {
+        "b4e0fff6-e46f-404f-8bc5-4019725f77f1": {
+          "type": "feature",
+          "settings": {
+            "rever": false,
+            "img": "shopify:\/\/shop_images\/4_3103e04a-9d43-40ef-beed-71a224d0cbe8.png",
+            "title": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS",
+            "dec": "First of all, order your eCommerce Website from us and we'll",
+            "btn": "Get eCommerce Brand Done For You"
+          }
+        },
+        "625f13b8-8038-4836-bf68-388382e988d1": {
+          "type": "feature",
+          "settings": {
+            "rever": false,
+            "img": "shopify:\/\/shop_images\/2.gif",
+            "title": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS",
+            "dec": "First of all, order your eCommerce Website from us and we'll",
+            "btn": "Get eCommerce Brand Done For You"
+          }
+        }
+      },
+      "block_order": [
+        "b4e0fff6-e46f-404f-8bc5-4019725f77f1",
+        "625f13b8-8038-4836-bf68-388382e988d1"
+      ],
+      "settings": {
+        "title": "How Dropshipping Works !",
+        "btn": "Get eCommerce Brand Done For You"
+      }
     }
   },
   "order": [
     "pf-41ef005a",
     "d39cb692-babc-427a-a6c4-70fda21b78ef",
-    "b83acf83-599c-4347-bf04-cc20887f6cb4"
+    "b83acf83-599c-4347-bf04-cc20887f6cb4",
+    "7da7e64d-43a3-4129-bf2e-e232193ac206"
   ],
   "layout": "theme.pagefly"
 }
