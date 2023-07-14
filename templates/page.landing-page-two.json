@@ -172,6 +172,48 @@
         "dec": "There has never been a better time to get into E-commerce!",
         "btn": "Get eCommerce Brand Done For You"
       }
+    },
+    "02b79b5e-60e1-40ce-995c-f5ebcbf381ba": {
+      "type": "ldtwofaq",
+      "blocks": {
+        "a41ec4f4-1b4e-4100-b95a-22605fdb3f55": {
+          "type": "Faq",
+          "settings": {
+            "title": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS",
+            "dec": "First of all, order your eCommerce Website from us and well"
+          }
+        },
+        "6b244bdc-df6e-4dd2-8c2a-9f28f8914d51": {
+          "type": "Faq",
+          "settings": {
+            "title": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS",
+            "dec": "First of all, order your eCommerce Website from us and well"
+          }
+        },
+        "01f16752-b60e-47dd-954a-1cdbaff89643": {
+          "type": "Faq",
+          "settings": {
+            "title": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS",
+            "dec": "First of all, order your eCommerce Website from us and well"
+          }
+        },
+        "d6fb3701-c953-470b-b862-5e2eb11898f2": {
+          "type": "Faq",
+          "settings": {
+            "title": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS",
+            "dec": "First of all, order your eCommerce Website from us and well"
+          }
+        }
+      },
+      "block_order": [
+        "a41ec4f4-1b4e-4100-b95a-22605fdb3f55",
+        "6b244bdc-df6e-4dd2-8c2a-9f28f8914d51",
+        "01f16752-b60e-47dd-954a-1cdbaff89643",
+        "d6fb3701-c953-470b-b862-5e2eb11898f2"
+      ],
+      "settings": {
+        "btn": "Get eCommerce Brand Done For You"
+      }
     }
   },
   "order": [
@@ -179,7 +221,8 @@
     "d39cb692-babc-427a-a6c4-70fda21b78ef",
     "b83acf83-599c-4347-bf04-cc20887f6cb4",
     "7da7e64d-43a3-4129-bf2e-e232193ac206",
-    "ce0d62ad-e6ee-46e5-9451-beabbc3d5542"
+    "ce0d62ad-e6ee-46e5-9451-beabbc3d5542",
+    "02b79b5e-60e1-40ce-995c-f5ebcbf381ba"
   ],
   "layout": "theme.pagefly"
 }
