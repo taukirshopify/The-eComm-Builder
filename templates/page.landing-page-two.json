@@ -56,11 +56,17 @@
         "img4": "shopify:\/\/shop_images\/3_5f7b455f-4e12-4472-a6e1-d21951b04608.png",
         "img5": "shopify:\/\/shop_images\/2_0e8f0b19-673a-4f50-96a9-c3a1e82d1556.png"
       }
+    },
+    "b83acf83-599c-4347-bf04-cc20887f6cb4": {
+      "type": "ldtwocard",
+      "settings": {
+      }
     }
   },
   "order": [
     "pf-41ef005a",
-    "d39cb692-babc-427a-a6c4-70fda21b78ef"
+    "d39cb692-babc-427a-a6c4-70fda21b78ef",
+    "b83acf83-599c-4347-bf04-cc20887f6cb4"
   ],
   "layout": "theme.pagefly"
 }
