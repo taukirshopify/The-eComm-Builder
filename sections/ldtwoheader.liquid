@@ -8,6 +8,18 @@
 {{ 'landingpagetwocss' | asset_url | stylesheet_tag }}
 
 
+<style>
+    .header-padding {
+        background-image: url('{{ section.settings.imgbg | img_url }}');
+        background-repeat: no-repeat;
+        /* background-position: center; */
+        background-size: contain;
+    
+    
+    }
+
+</style>
+
 <section class=" header-padding section-padding">
     <div class="container">
         <!-- header section start-->
@@ -57,7 +69,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 bannar-right">
                     <div class="bannar-right-img">
-                        <img class="img-fluid" src="{{ section.settings.img2 }}" alt="">
+                        <img class="img-fluid" src="{{ section.settings.img2 | img_url }}" alt="">
                     </div>
                     <p>{{ section.settings.buymore }}</p>
                     
@@ -78,6 +90,11 @@
            {
             "type": "image_picker",
             "id": "img",
+            "label": "Header Image"
+           },
+           {
+            "type": "image_picker",
+            "id": "imgbg",
             "label": "Header Image"
            },
            {

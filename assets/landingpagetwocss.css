@@ -52,14 +52,7 @@
     margin-bottom: 50px;
 }
 
-.header-padding {
-    background-image: url('./asserts/img/bg/3.png');
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    background-size: contain;
 
-
-}
 
 .section-padding {
     padding: 0px 220px;
