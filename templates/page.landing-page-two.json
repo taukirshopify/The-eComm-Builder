@@ -248,6 +248,14 @@
         "dec": "There has never been a better time to get into E-commerce!",
         "btn": "Get eCommerce Brand Done For You"
       }
+    },
+    "67a671e8-d02e-458c-9131-2e8d0ea1283d": {
+      "type": "ldtwofooter",
+      "settings": {
+        "p": "Copyright Ecom Websites LLC © 2022 All Rights Reserved",
+        "main-menu2": "",
+        "textr": "<p> or that you will earn any money and that we<\/p>"
+      }
     }
   },
   "order": [
@@ -257,7 +265,8 @@
     "7da7e64d-43a3-4129-bf2e-e232193ac206",
     "b38b677a-414d-4624-b767-32e1fdf587ee",
     "02b79b5e-60e1-40ce-995c-f5ebcbf381ba",
-    "ce0d62ad-e6ee-46e5-9451-beabbc3d5542"
+    "ce0d62ad-e6ee-46e5-9451-beabbc3d5542",
+    "67a671e8-d02e-458c-9131-2e8d0ea1283d"
   ],
   "layout": "theme.pagefly"
 }
