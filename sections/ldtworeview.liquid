@@ -1,0 +1,87 @@
+    <!-- just img reviews section -->
+    <section class="section-padding ">
+        <div class="container">
+            <div class="row  mb-5 ">
+                {% for item in section.blocks %}
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <img class="img-fluid" src="{{ item.settings.img | img_url:'' }}" alt="">
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </section>
+
+
+    <!-- just img reviews section -->
+    <div class="review-end-title section-padding">
+        <h2>{{ section.settings.title }}</h2>
+        <h3>{{ section.settings.dec }}
+        </h3>
+        <button type="button" class="button rounded-pill"> <i class="fa-solid fa-angles-right"></i> 
+        {{ section.settings.btn }}</button>
+    </div>
+
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+    {% schema %}
+    {
+        "name": "LD two Faq",
+        "class": "ldtwof",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "title",
+                "default": "There has never been a better time to get into E-commerce!"
+            },
+            {
+                "type": "text",
+                "id": "dec",
+                "label": "dec",
+                "default": "There has never been a better time to get into E-commerce!"
+            },
+            {
+                "type": "text",
+                "id": "btn",
+                "label": "Title ",
+                "default": "Get eCommerce Brand Done For You"
+            }
+        ],
+
+        "blocks": [
+         
+            {
+                "type": "Faq",
+                "name": "faq",
+                "settings": [
+             
+        
+       
+                {
+                    "type": "image_picker",
+                    "id": "img",
+                    "label": "Select your image"
+                }
+                ]
+            }
+        ],
+        
+        "presets": [
+            {
+            "name": "LD Two faq"
+            }
+            ]
+    }
+ {% endschema %}
