@@ -120,12 +120,23 @@
             "dec": "First of all, order your eCommerce Website from us and we'll",
             "btn": "Get eCommerce Brand Done For You"
           }
+        },
+        "377d200a-5f78-4320-8f51-10a2df869a71": {
+          "type": "feature",
+          "settings": {
+            "rever": false,
+            "img": "shopify:\/\/shop_images\/2.gif",
+            "title": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS",
+            "dec": "First of all, order your eCommerce Website from us and we'll",
+            "btn": "Get eCommerce Brand Done For You"
+          }
         }
       },
       "block_order": [
         "b4e0fff6-e46f-404f-8bc5-4019725f77f1",
         "625f13b8-8038-4836-bf68-388382e988d1",
-        "1f33f634-4b64-4d14-b41c-beeb3223b224"
+        "1f33f634-4b64-4d14-b41c-beeb3223b224",
+        "377d200a-5f78-4320-8f51-10a2df869a71"
       ],
       "settings": {
         "title": "How Dropshipping Works !",
