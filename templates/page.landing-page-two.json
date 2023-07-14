@@ -142,13 +142,44 @@
         "title": "How Dropshipping Works !",
         "btn": "Get eCommerce Brand Done For You"
       }
+    },
+    "ce0d62ad-e6ee-46e5-9451-beabbc3d5542": {
+      "type": "ldtworeview",
+      "blocks": {
+        "0800b3ef-dd16-4a4c-868a-45392466b325": {
+          "type": "Faq",
+          "settings": {
+          }
+        },
+        "8eb602e5-623a-4df5-b9cf-0e67fd60dd24": {
+          "type": "Faq",
+          "settings": {
+          }
+        },
+        "4172fa93-cc18-44a2-8289-e7936aa71e52": {
+          "type": "Faq",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "0800b3ef-dd16-4a4c-868a-45392466b325",
+        "8eb602e5-623a-4df5-b9cf-0e67fd60dd24",
+        "4172fa93-cc18-44a2-8289-e7936aa71e52"
+      ],
+      "settings": {
+        "title": "There has never been a better time to get into E-commerce!",
+        "dec": "There has never been a better time to get into E-commerce!",
+        "btn": "Get eCommerce Brand Done For You"
+      }
     }
   },
   "order": [
     "pf-41ef005a",
     "d39cb692-babc-427a-a6c4-70fda21b78ef",
     "b83acf83-599c-4347-bf04-cc20887f6cb4",
-    "7da7e64d-43a3-4129-bf2e-e232193ac206"
+    "7da7e64d-43a3-4129-bf2e-e232193ac206",
+    "ce0d62ad-e6ee-46e5-9451-beabbc3d5542"
   ],
   "layout": "theme.pagefly"
 }
