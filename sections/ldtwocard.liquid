@@ -1,40 +1,88 @@
     <!-- card section start -->
     <section class="card-section mt-5 section-padding">
         <div class="container">
-            <div class="row ">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-5  ">
-                    <img class="img-fluid" src="asserts/img/card/1.png" alt="">
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-5">
-                    <h2>Save thousands of dollars on web design and the headaches that come with finding products &
-                        Suppliers</h2>
-                    Never worry about hiring an Ecommerce Web designer ever again! Our Experts will completely setup
-                    your eCommerce website ready for you and make sure everything is setup the right way! Your website
-                    will be ready to make sales right off the bat so you don't have to worry about setting anything up
-                    yourself.
-                    <button type="button" class=" btn-2 rounded-pill mt-5"> <i class="fa-solid fa-angles-right"></i> Get
-                        eCommerce Brand Done For You</button>
-                </div>
-                <!-- second row -->
-                <div class="row card-2-part">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 card-2">
-                        <h2>Why Choose Us?</h2>
-                        A fully Optimized eCommerce Dropshipping Website will cost you anywhere from $4000 - $5000 to
-                        get up and running and at least 40 hours of hard labor (YUCK!)
-
-                        On top of that, the website you pay $5000 for, won't even be proven to make sales!
-
-                        With Ecom Websites, You'll get real ecommerce experts to completely setup your eCommerce Website
-                        for you, and ensure it's setup in the best way possible to make sales!
-
-                        And we'll only charge you $20, which is less than 2% of what all other agencies charge!
-                        <button type="button" class=" btn-2 rounded-pill mt-5"> <i class="fa-solid fa-angles-right"></i>
-                            Get eCommerce Brand Done For You</button>
+    
+            {% for item in section.blocks %}
+                <div class="row ">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-5  ">
+                        <img class="img-fluid" src="{{ item.settings.img | img_url:'' }}" alt="">
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-end card-2  mt-5 ">
-                        <img   class="img-fluid card-img" src="asserts/img/card/2.png" alt="">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-5">
+                        <h2>{{ item.settings.title }}</h2>
+                        
+                       {{ item.settings.dec }}
+                        <button type="button" class=" btn-2 rounded-pill mt-5"> <i class="fa-solid fa-angles-right"></i> {{item.settings.btn }}</button>
                     </div>
+                    <!-- second row -->
+                    
                 </div>
-            </div>
+            {% endfor %}
+
+
+            {% comment %} <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 card-2">
+                    <h2>Why Choose Us?</h2>
+                    A fully Optimized eCommerce Dropshipping Website will cost you anywhere from $4000 - $5000 to
+                    get up and running and at least 40 hours of hard labor (YUCK!)
+
+                    On top of that, the website you pay $5000 for, won't even be proven to make sales!
+
+                    With Ecom Websites, You'll get real ecommerce experts to completely setup your eCommerce Website
+                    for you, and ensure it's setup in the best way possible to make sales!
+
+                    And we'll only charge you $20, which is less than 2% of what all other agencies charge!
+                    <button type="button" class=" btn-2 rounded-pill mt-5"> <i class="fa-solid fa-angles-right"></i>
+                        Get eCommerce Brand Done For You</button>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-end card-2  mt-5 ">
+                    <img   class="img-fluid card-img" src="asserts/img/card/2.png" alt="">
+                </div>
+            </div> {% endcomment %}
     </section>
     <!-- card section end -->
+
+    {% schema %}
+    {
+        "name": "LD two Card",
+        "class": "ldtwoc",
+     
+        "blocks": [
+            {
+                "type": "feature",
+                "name": "feature",
+                "settings": [
+        
+                    {
+                        "type": "image_picker",
+                        "id": "img",
+                        "label": "Your Image"
+                    },
+                     {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Title",
+                        "default": "Save thousands of dollars on web design and the headaches that come with finding"
+                     },
+                     {
+                        "type": "text",
+                        "id": "dec",
+                        "label": "Decription",
+                        "default": "Never worry about hiring an Ecommerce Web designer ever again! Our Experts will completely setup"
+                     },
+                     {
+                        "type": "text",
+                        "id": "btn",
+                        "label": "Button title",
+                        "default": "Get eCommerce Brand Done For You"
+                     }
+                ]
+            }
+        ],
+        
+        "presets": [
+            {
+            "name": "LD Two card"
+            }
+            ]
+    }
+ {% endschema %}
