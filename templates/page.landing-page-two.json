@@ -1,0 +1,37 @@
+{
+  "sections": {
+    "pf-41ef005a": {
+      "type": "pf-41ef005a",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "d39cb692-babc-427a-a6c4-70fda21b78ef": {
+      "type": "ldtwoheader",
+      "blocks": {
+        "60d211d0-e72d-4078-b2fa-e16b8f8cf6c4": {
+          "type": "feature",
+          "settings": {
+            "title": "Stunning Branded Website Design",
+            "dec": "So Your Shopify Store Becomes A Magnet That Attracts"
+          }
+        }
+      },
+      "block_order": [
+        "60d211d0-e72d-4078-b2fa-e16b8f8cf6c4"
+      ],
+      "settings": {
+        "img": "shopify:\/\/shop_images\/transparent-02.webp",
+        "title": "ECommerce Experts Launch You A Fully Optimized eCommerce Website within the next",
+        "p": "Our Ecommerce Experts with 7+ Years of experience have designed over 15,000 eCommerce stores and are here to design your beautiful eCommerce Store next for only $20",
+        "h2": "Order Now And You'll Receive:",
+        "buymore": "You can order multiple stores at the same time, check the ones you want so you can have a  selection of stores to pick from"
+      }
+    }
+  },
+  "order": [
+    "pf-41ef005a",
+    "d39cb692-babc-427a-a6c4-70fda21b78ef"
+  ],
+  "layout": "theme.pagefly"
+}
