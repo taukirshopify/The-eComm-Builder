@@ -2,12 +2,31 @@
   "sections": {
     "pf-41ef005a": {
       "type": "pf-41ef005a",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "828586c9-c644-464f-84c2-f2262e729677": {
+      "type": "clandingpageheader",
+      "settings": {
+        "main-menu2": "",
+        "btn": "Buy Now"
+      }
+    },
+    "d39cb692-babc-427a-a6c4-70fda21b78ef": {
+      "type": "ldtwoheader",
+      "settings": {
+        "title": "ECommerce Experts Launch You A Fully Optimized eCommerce Website within the next",
+        "p": "Our Ecommerce Experts with 7+ Years of experience have designed over 15,000 eCommerce stores and are here to design your beautiful eCommerce Store next for only $20",
+        "h2": "Order Now And You'll Receive:",
+        "buymore": "You can order multiple stores at the same time, check the ones you want so you can have a  selection of stores to pick from"
       }
     }
   },
   "order": [
-    "pf-41ef005a"
+    "pf-41ef005a",
+    "828586c9-c644-464f-84c2-f2262e729677",
+    "d39cb692-babc-427a-a6c4-70fda21b78ef"
   ],
   "layout": "theme.pagefly"
 }
