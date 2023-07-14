@@ -60,19 +60,21 @@
     "b83acf83-599c-4347-bf04-cc20887f6cb4": {
       "type": "ldtwocard",
       "blocks": {
-        "ed23b9de-2b6d-4f11-9b2b-8bce9b123260": {
+        "e997b013-6323-4537-b9b5-b825eabb1f5b": {
           "type": "feature",
           "settings": {
-            "rever": false,
+            "rever": true,
+            "img": "shopify:\/\/shop_images\/1_645033c7-3916-4ade-ade8-fe733f92cf85.png",
             "title": "Save thousands of dollars on web design and the headaches that come with finding",
             "dec": "Never worry about hiring an Ecommerce Web designer ever again! Our Experts will completely setup",
             "btn": "Get eCommerce Brand Done For You"
           }
         },
-        "e997b013-6323-4537-b9b5-b825eabb1f5b": {
+        "ed23b9de-2b6d-4f11-9b2b-8bce9b123260": {
           "type": "feature",
           "settings": {
             "rever": true,
+            "img": "shopify:\/\/shop_images\/2_a3e6557d-8aa6-4604-907a-52b090005911.png",
             "title": "Save thousands of dollars on web design and the headaches that come with finding",
             "dec": "Never worry about hiring an Ecommerce Web designer ever again! Our Experts will completely setup",
             "btn": "Get eCommerce Brand Done For You"
@@ -80,8 +82,8 @@
         }
       },
       "block_order": [
-        "ed23b9de-2b6d-4f11-9b2b-8bce9b123260",
-        "e997b013-6323-4537-b9b5-b825eabb1f5b"
+        "e997b013-6323-4537-b9b5-b825eabb1f5b",
+        "ed23b9de-2b6d-4f11-9b2b-8bce9b123260"
       ],
       "settings": {
       }
