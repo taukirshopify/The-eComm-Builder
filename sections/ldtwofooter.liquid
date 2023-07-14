@@ -6,10 +6,15 @@
                     <img class="img-fluid" src="{{ section.settings.img }}" alt="">
                     <p>{{ section.settings.p }}</p>
                     <ul>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Purchase Agreement</a></li>
-                        <li><a href="#">Contact Us</a></li>
+
+       
+                        {% assign footer_menu_4 = section.settings.main-menu2 %}
+                        {% for link in linklists[footer_menu_4].links %}
+                        <li><a href="{{ link.url }}" >{{link.title}}</a></li>
+             
+                        {% endfor  %}
+                  
+
                     </ul>
                     {% comment %} <p class="my-5">*You recognize and agree that we "Ecom Websites LLC" & ecom-websites.com have made
                         no implications, warranties, promises, suggestions, projections, representations or guarantees
@@ -83,6 +88,11 @@
             "label": "Decription",
             "default": "Copyright Ecom Websites LLC © 2022 All Rights Reserved"
            },
+           {
+            "type": "link_list",
+            "id": "main-menu2",
+            "label": "Select your footer menu"
+        },
            {
             "type": "richtext",
             "id": "textr",
