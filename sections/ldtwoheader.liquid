@@ -47,8 +47,8 @@
                         <h3 class="my-5">{{ section.settings.h2 }}</h3>
 
                         {% for item in section.blocks %}
-                            <h4 class="mb-5"> <i class="fa-solid fa-check"></i> <span class="oredr-spacial"> {{ item.settings.title }} </span>{{ item.settings.dec }}
-                       </h4>
+                            <h3 class="mb-5"> <i class="fa-solid fa-check"></i> <span class="oredr-spacial"> {{ item.settings.title }} </span>{{ item.settings.dec }}
+                       </h3>
                         {% endfor %}
                     
          
@@ -69,7 +69,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 bannar-right">
                     <div class="bannar-right-img">
-                        <img class="img-fluid" src="{{ section.settings.img2 | img_url }}" alt="">
+                        <img class="img-fluid" src="{{ section.settings.img2 | img_url:'' }}" alt="">
                     </div>
                     <p>{{ section.settings.buymore }}</p>
                     <div class="two-part">

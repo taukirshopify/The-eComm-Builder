@@ -49,6 +49,9 @@
 h2.bannar-title {
     line-height: 1.5;
 }
+span.oredr-spacial {
+    color: #56048a;
+}
 
 .header {
     display: flex;
