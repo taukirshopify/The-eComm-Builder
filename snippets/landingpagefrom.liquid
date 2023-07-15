@@ -173,18 +173,19 @@
               console.log("No data is found");
            }
           }); {% endcomment %}
+          let formData = {
+            'items': [{
+             'id': 6687435980886,
+             'quantity': 1
+             }]
+           };
 
           fetch('/cart/add.js', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'
             },
-            body: JSON.stringify({
-                'items':  [
-                    {'id': 6687435980886,'quantity': 1 },
-                    {'id': 6712617402454,'quantity': 1 }
-                ]}
-            )
+            body: JSON.stringify(formData)
           })
           .then(response => {
             return response.json();
