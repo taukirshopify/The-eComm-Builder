@@ -526,18 +526,24 @@ a.btn {
 }
 </style>
 
-<section class=" header-padding section-padding" id="CollectionSection">
+<section class=" header-padding section-padding" >
     <div class="container">
         <!-- header section start-->
         <div class="header">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-6">
-            <div class="logo">
-                <img class="img-fluid" src="{{ section.settings.img | img_url:'' }}" alt="">
+            <div class="row">
+           
+                <div class="col-lg-12 col-md-12 col-sm-12 col-6">
+                    <div class="logo">
+                        <img class="img-fluid" src="{{ section.settings.img | img_url:'' }}" alt="">
+                    </div>
+                </div>
             </div>
-          </div>
-
         </div>
-        <!-- header section end-->
+    </div>
+</div>
+<section class=" header-padding section-padding" >
+    <div class="container">
+
         <!-- banner section start-->
         <div class="bannar">
             <div class="row">
@@ -581,7 +587,7 @@ a.btn {
                     </div>
 
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 bannar-right">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 bannar-right" id="CollectionSection">
                     <div class="bannar-right-img">
                         <img class="img-fluid" src="{{ section.settings.img2 | img_url:'' }}" alt="">
                     </div>
@@ -632,7 +638,7 @@ a.btn {
          
           // Run a scroll animation to the position of the element which has the same id like the href value.
           $( 'html, body' ).animate({
-            scrollTop: $("#CollectionSection").offset().top
+            scrollTop: $("#CollectionSection").offset().top - 100
           }, '300' );
         
         
