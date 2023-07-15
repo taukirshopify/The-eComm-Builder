@@ -129,7 +129,7 @@
             var productDetails = $('<li>').html('<span>'  + productTitle + '</span> <span>'   + productPrice + '</span>');
           
              htmlArray.push(productDetails);
-       allidcollection.push(`{id: ${productid},'quantity': 1 }`);
+       allidcollection.push(`{'id': ${productid},'quantity': 1 }`);
 
             counter++;
 
@@ -179,7 +179,12 @@
             headers: {
               'Content-Type': 'application/json'
             },
-            body: JSON.stringify(dataitems)
+            body: JSON.stringify({
+                'items':  [
+                    {'id': 6687435980886,'quantity': 1 },
+                    {'id': 6712617402454,'quantity': 1 }
+                ]}
+            )
           })
           .then(response => {
             return response.json();
