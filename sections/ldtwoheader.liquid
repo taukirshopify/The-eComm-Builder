@@ -553,8 +553,15 @@ a.btn {
                         <h3 class="my-5">{{ section.settings.h2 }}</h3>
 
                         {% for item in section.blocks %}
+                           
+
+                                {%- case item.type -%}
+                                    
+                                  {%- when 'feature' -%}
                             <h3 class="mb-5 ldtwotexdt01"> <i class="fa-solid fa-check"></i> <span class="oredr-spacial"> {{ item.settings.title }} </span>{{ item.settings.dec }}
                        </h3>
+                    {%- endcase -%}
+                 
                         {% endfor %}
                     
          
