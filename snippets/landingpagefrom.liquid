@@ -161,19 +161,22 @@
             e.preventDefault();
             console.log(dataitems);
   
-          {% comment %} $.ajax({
+         $.ajax({
             type: 'POST',
             url: '/cart/add.js',
             dataType: 'json',
-            data:JSON.stringify(dataitems),
+            data:{
+                quantity: 1,
+                id: 39816391065686
+              },
             success: function(data) {
                 console.log("added the data");
             },
             error: function(data) {
               console.log("No data is found");
            }
-          }); {% endcomment %}
-          let formData = {
+          }); 
+          {% comment %} let formData = {
             'items': [{
              'id': 6687435980886,
              'quantity': 1
@@ -193,7 +196,7 @@
           })
           .catch((error) => {
             console.error('Error:', error);
-          });
+          }); {% endcomment %}
 
         });
       });
