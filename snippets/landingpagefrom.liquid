@@ -11,7 +11,10 @@
                                 {% comment %} | money_without_currency  {% endcomment %}
                             <input type="checkbox"
                                 price="{{ block.settings.product.price | money }}"
-                                
+                                {% if block.settings.checkbok %}
+                                  checked
+                                {% endif %}
+                             
                                 title="{{ block.settings.product.title }}" Tprice={{ block.settings.product.price | money_without_currency }} Value="{{ block.settings.product.variants.first.id  }}" />
                             <div class="checkbox__checkmark"></div>
                           
@@ -41,15 +44,7 @@
                 </ul>
 
                 <ul class="m-0" id="detailsBox">
-                <li class="d-flex justify-content-between">
-                    <span>Babies Niche eCommerce Brand (30 Products)</span>
-                    <span>$20.00</span>
-                    </li>
-                    
-                <li class="d-flex justify-content-between">
-                    <span>Babies Niche eCommerce Brand (30 Products)</span>
-                    <span>$20.00</span>
-                    </li>
+
                     
                     </ul>
                 <hr>
@@ -70,49 +65,12 @@
     <p>By submitting your order you agree to get your store built for you by us with the apps of our choice installed, you agree to our terms of service, Earnings disclaimer, and prebuilt store purchase agreement.</p>
 </div>
 
-
-
-<!-- Total Price -->
-<div id="totalPrice"></div>
-
 <script>
-
-    {% comment %} function handleCheckboxClick(checkbox) {
-        console.log(checkbox);
-        var productTitle = $(checkbox).attr('title');
-        var productid   = $(checkbox).val();
-        var productPrice  = $(checkbox).attr('price');
-      console.log(productTitle,productPrice,productid);
-        if ($(checkbox).prop('checked')) {
-          var productDetails = $('<li>').html('<span>'  + productTitle + '</span> <span>'   + productPrice + '</span>');
-      
-          $('#detailsBox').append(productDetails);
-        } else {
-          $('#detailsBox li').each(function() {
-            var details = $(this).text().split(' - ');
-            if (details[0] === productTitle && details[1] === productPrice) {
-              $(this).remove();
-            }
-          });
-        }
-      
-        updateTotalPrice();
-      } {% endcomment %}
-      
 
      let dataitems = []
       function getCheckedItems(checkbox) {
         // Get the parent div
     const parentDiv = document.getElementById('parent-div');
-
-
-
-
-
-
-
-
-
         // Get all the input fields within the parent div
         const inputFields = parentDiv.querySelectorAll('input[type="checkbox"]:checked');
         let counter = 0;
@@ -157,6 +115,7 @@
 
 
       $(document).ready(function() {
+        getCheckedItems();
         $('#parent-div').on('change', function() {
             getCheckedItems(this);
         });
@@ -164,13 +123,7 @@
         $('.add_to_cart_form').click(function(e ){
             e.preventDefault();
             console.log(dataitems);
-            {% comment %} 39474233475158  {
-                quantity: 1,
-                id: 39816391065686
-              },{
-                quantity: 1,
-                id: 44487547683129
-              }  ["{'id': ,'quantity': 1 }"]{% endcomment %}
+          
          $.ajax({
             type: 'POST',
             url: '/cart/add.js',
@@ -187,27 +140,7 @@
               console.log("No data is found");
            }
           }); 
-          {% comment %} let formData = {
-            'items': [{
-             'id': 6687435980886,
-             'quantity': 1
-             }]
-           };
 
-          fetch('/cart/add.js', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(formData)
-          })
-          .then(response => {
-            return response.json();
-            console.log(response.json());
-          })
-          .catch((error) => {
-            console.error('Error:', error);
-          }); {% endcomment %}
 
         });
       });
