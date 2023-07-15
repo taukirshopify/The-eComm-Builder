@@ -11,7 +11,7 @@
       "settings": {
         "img": "shopify:\/\/shop_images\/transparent-02.webp",
         "main-menu2": "footer",
-        "url": ""
+        "btn": "Buy Now"
       }
     },
     "ca7c3248-97b6-4b6a-b34c-5a8b76a2f9c7": {
@@ -141,6 +141,16 @@
         "img2": "shopify:\/\/shop_images\/shopify1knew_1.webp"
       }
     },
+    "63a9042e-38a3-4cc2-9992-d2d4fb036298": {
+      "type": "featured-product",
+      "settings": {
+        "featured_product": "10x-black-friday-workshop-replay-package",
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "show_description": true,
+        "divider": false
+      }
+    },
     "bf1b2dfa-5793-4d51-be86-d3945e521bab": {
       "type": "WithAnekaYouBecome",
       "blocks": {
@@ -244,16 +254,6 @@
         "main-menu2": "menu01",
         "p": "Copyright © 2021 All rights reserved."
       }
-    },
-    "63a9042e-38a3-4cc2-9992-d2d4fb036298": {
-      "type": "featured-product",
-      "settings": {
-        "featured_product": "10x-black-friday-workshop-replay-package",
-        "thumbnail_position": "beside",
-        "thumbnail_arrows": false,
-        "show_description": true,
-        "divider": false
-      }
     }
   },
   "order": [
@@ -263,11 +263,11 @@
     "7706aac7-8440-43e8-b418-1b0e2665bb05",
     "4afc9049-d5cf-46e5-8fc3-d3d9b08363f7",
     "82313d27-cce6-4fb0-9226-38daf6232c71",
+    "63a9042e-38a3-4cc2-9992-d2d4fb036298",
     "bf1b2dfa-5793-4d51-be86-d3945e521bab",
     "e06a07d6-760a-47af-834a-0086b0241d44",
     "bbe855b8-e2ce-412e-b1c4-f5a1871f21a7",
-    "69101528-2dcd-417f-b312-c8e63bf4a13a",
-    "63a9042e-38a3-4cc2-9992-d2d4fb036298"
+    "69101528-2dcd-417f-b312-c8e63bf4a13a"
   ],
   "layout": "theme.pagefly"
 }
