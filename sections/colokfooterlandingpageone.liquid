@@ -15,6 +15,52 @@
 </section>
 <!-- clock section -->
 
+<script>
+      
+    setInterval(function time(){
+        var d = new Date();
+        var hours = 24 - 13;
+        var min = 60 - d.getMinutes();
+        if((min + '').length == 1){
+          min = '0' + min;
+        }
+        var sec = 60 - d.getSeconds();
+        if((sec + '').length == 1){
+              sec = '0' + sec;
+        }
+        jQuery('#clock_3').html('<h2>'+hours+'<br> <span> hours </span></h2>  :  <h2 class="min">'+min+'<br><span> minutes </span> <br></h2>  : <h2 class="seg">'+sec+' <br> <span> seconds </span></h2>')
+      }, 1000);
+
+
+</script>
+
+
+<style>
+
+    .slider-datails h3 {
+        line-height: 1.2;
+    }
+     #clock_3{
+        display: flex;
+        justify-content: space-evenly;
+
+}
+
+    #clock_3 h2 {
+        font-weight: bold;
+        font-size:1.5vw;
+        @media only screen and (max-width: 600px) and (min-width: 200px)  {
+        
+            font-size:6vw;
+        }
+    }
+    #clock_3 span{
+     font-weight:normal;
+     
+    }
+</style>
+
+
 
 {% schema %}
 {

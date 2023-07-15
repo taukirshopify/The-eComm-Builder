@@ -42,11 +42,20 @@
     <section class="bussiness">
         <div class="bussiness-title">
             <h2>{{section.settings.p5}}</h2>
-            <h4>{{ section.settings.p6 }} </h4>
-            <h4>{{ section.settings.p7 }}</b></h4>
         </div>
         <!-- bussiness row -->
         <div class="container">
+            <div class="row">
+             <div class="col-12">
+                <div class="bussiness-title">
+                  
+                    <h4>{{ section.settings.p6 }} </h4>
+                    <h4>{{ section.settings.p7 }}</b></h4>
+                </div>
+            
+            </div>
+            
+            </div>
             <div class="row g-3">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     {{ section.settings.text1 }}
@@ -79,13 +88,34 @@
     </section>
     <!-- bussiness section -->
 
+<style>
+    div#the-24h-countdown {
 
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            font-size: 1vw;
+        
+    }
+    div#the-24h-countdown h2 {
+        font-weight: bold;
+        font-size:2vw;
+        @media only screen and (max-width: 600px) and (min-width: 200px)  {
+        
+            font-size:6vw;
+        }
+    }
+    div#the-24h-countdown span{
+     font-weight:normal;
+     
+    }
+</style>
 
     <script>
       
             setInterval(function time(){
                 var d = new Date();
-                var hours = 24 - 12;
+                var hours = 24 - 13;
                 var min = 60 - d.getMinutes();
                 if((min + '').length == 1){
                   min = '0' + min;
@@ -94,7 +124,7 @@
                 if((sec + '').length == 1){
                       sec = '0' + sec;
                 }
-                jQuery('#the-24h-countdown ').html('<span>'+hours+'<br> hours </span><span class="min">'+min+'<br> hours <br></span><span class="seg">'+sec+' <br> hours</span>')
+                jQuery('#the-24h-countdown ').html('<h2>'+hours+'<br> <span> hours </span></h2>  :  <h2 class="min">'+min+'<br><span> minutes </span> <br></h2>  : <h2 class="seg">'+sec+' <br> <span> seconds </span></h2>')
               }, 1000);
      
     
