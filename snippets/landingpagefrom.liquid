@@ -1,15 +1,18 @@
 <div class="ldtwolandpagewrapper ">
     <div id="parent-div">
              {%- for block in data -%}
+
                             {%- case block.type -%}
+                                
                               {%- when 'product' -%}
+                                {% assign variant = block.settings.product.variants.first %}
                         <div class="singel-item-wrapper checkbox style-b d-flex justify-content-between">
                             <label>
                                 {% comment %} | money_without_currency  {% endcomment %}
                             <input type="checkbox"
                                 price="{{ block.settings.product.price | money }}"
                                 
-                                title="{{ block.settings.product.title }}" Tprice={{ block.settings.product.price | money_without_currency }} Value="{{ block.settings.product.id | handle }}" />
+                                title="{{ block.settings.product.title }}" Tprice={{ block.settings.product.price | money_without_currency }} Value="{{ block.settings.product.variants.first.id  }}" />
                             <div class="checkbox__checkmark"></div>
                           
                             <div class="product-title">
@@ -129,7 +132,8 @@
             var productDetails = $('<li>').html('<span>'  + productTitle + '</span> <span>'   + productPrice + '</span>');
           
              htmlArray.push(productDetails);
-       allidcollection.push(`{'id': ${productid},'quantity': 1 }`);
+       {% comment %} allidcollection.push(`{'id': ${productid},'quantity': 1 }`); {% endcomment %}
+       allidcollection.push({'id': productid,'quantity': 1 });
 
             counter++;
 
@@ -160,17 +164,24 @@
         $('.add_to_cart_form').click(function(e ){
             e.preventDefault();
             console.log(dataitems);
-  
+            {% comment %} 39474233475158  {
+                quantity: 1,
+                id: 39816391065686
+              },{
+                quantity: 1,
+                id: 44487547683129
+              }  ["{'id': ,'quantity': 1 }"]{% endcomment %}
          $.ajax({
             type: 'POST',
             url: '/cart/add.js',
             dataType: 'json',
-            data:{
-                quantity: 1,
-                id: 39816391065686
-              },
+            data:{items:[
+              ...dataitems
+            
+            ]},
             success: function(data) {
                 console.log("added the data");
+                document.location.href = "/checkouts";
             },
             error: function(data) {
               console.log("No data is found");
