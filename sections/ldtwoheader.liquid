@@ -526,7 +526,7 @@ a.btn {
 }
 </style>
 
-<section class=" header-padding section-padding">
+<section class=" header-padding section-padding" id="CollectionSection">
     <div class="container">
         <!-- header section start-->
         <div class="header">
@@ -569,7 +569,7 @@ a.btn {
 
 
                     </div>
-                    <a href="#" class="btn text-center">
+                    <a href="#" class="btn text-center tobottom">
                         <i class="fa-solid fa-angles-right"></i>
                         Total Value: $12,973
                     </a>
@@ -622,6 +622,25 @@ a.btn {
     </div>
 
 </section>
+<script>
+
+
+    $(document).ready(function() {
+
+        $( '.tobottom' ).on( 'click', function(e){
+          e.preventDefault();
+         
+          // Run a scroll animation to the position of the element which has the same id like the href value.
+          $( 'html, body' ).animate({
+            scrollTop: $("#CollectionSection").offset().top
+          }, '300' );
+        
+        
+        });
+      
+      });
+      
+</script>
 
 
  {% schema %}
