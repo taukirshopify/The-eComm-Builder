@@ -7,8 +7,8 @@
                             <label><input type="checkbox" Value="" />
                             <div class="checkbox__checkmark"></div>
                             
-                           {{ block.title }} </label>
-                            <span> {{ block.price | money_with_currency }}</span>
+                           {{ block.product.title }} </label>
+                            <span> {{ block.product.price | money_with_currency }}</span>
                         </div>
                     {%- endcase -%}
                     {% endfor %}          
