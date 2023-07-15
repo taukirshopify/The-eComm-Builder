@@ -56,10 +56,10 @@
                     </li>
             </ul>
         
-    
+     
     </div>
 
-    <a href="" class="btn">
+    <a class="btn add_to_cart_form">
         <i class="fa-solid fa-angles-right"></i> 
         Complete Order
     
@@ -97,7 +97,7 @@
       } {% endcomment %}
       
 
-
+     let dataitems = []
       function getCheckedItems(checkbox) {
         // Get the parent div
     const parentDiv = document.getElementById('parent-div');
@@ -115,6 +115,7 @@
         let counter = 0;
         var totalPrice = 0;
         // Log the values of the checked input fields
+        let allidcollection = [];
         let htmlArray = [];
         inputFields.forEach((input) => {
             console.log(input);
@@ -128,15 +129,19 @@
             var productDetails = $('<li>').html('<span>'  + productTitle + '</span> <span>'   + productPrice + '</span>');
           
              htmlArray.push(productDetails);
+       allidcollection.push(`{id: ${productid},'quantity': 1 }`);
+
             counter++;
 
             // Check if the counter has reached the length of the array
             if (counter === inputFields.length) {
               // Call the function when the loop is finished
          $('#detailsBox li').remove();
-          
+         dataitems = [];
               $('#detailsBox').append(htmlArray);
               $('#totalPrice').text('$' + totalPrice);
+              dataitems = [...allidcollection];
+              console.log(dataitems)
             }  
             
         });
@@ -151,6 +156,26 @@
         $('#parent-div').on('change', function() {
             getCheckedItems(this);
         });
+        
+        $('.add_to_cart_form').click(function(e ){
+            e.preventDefault();
+            console.log(dataitems);
+  
+          $.ajax({
+            type: 'POST',
+            url: '/cart/add.js',
+            dataType: 'json',
+            data:JSON.stringify(dataitems),
+            success: function(data) {
+                console.log("added the data");
+            },
+            error: function(data) {
+              console.log("No data is found");
+           }
+          });
+        });
       });
+
+    
 
 </script>
