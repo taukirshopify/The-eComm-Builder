@@ -161,7 +161,7 @@
             e.preventDefault();
             console.log(dataitems);
   
-          $.ajax({
+          {% comment %} $.ajax({
             type: 'POST',
             url: '/cart/add.js',
             dataType: 'json',
@@ -172,7 +172,7 @@
             error: function(data) {
               console.log("No data is found");
            }
-          });
+          }); {% endcomment %}
 
           fetch('/cart/add.js', {
             method: 'POST',
