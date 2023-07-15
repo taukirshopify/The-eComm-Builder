@@ -10,7 +10,7 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <h2>{{section.settings.title}}</h2>
-                <div id="clock_2">8:10:45 </div>
+                <div id="the-24h-countdown"> </div>
                 <div class=" btn-4 ">
                     <button><a href="#">GET THE COURSE NOW</a></button>
                 </div>
@@ -22,7 +22,22 @@
     </div>
 </section>
 <!-- clock-slider -->
+<script>
+    setInterval(function time(){
+        var d = new Date();
+        var hours = 24 - 12;
+        var min = 60 - d.getMinutes();
+        if((min + '').length == 1){
+          min = '0' + min;
+        }
+        var sec = 60 - d.getSeconds();
+        if((sec + '').length == 1){
+              sec = '0' + sec;
+        }
+        jQuery('#the-24h-countdown p').html('<span>'+hours+'<br> hours </span><span class="min">'+min+'<br> hours <br></span><span class="seg">'+sec+' <br> hours</span>')
+      }, 1000);
 
+</script>
 
 {% schema %}
     {

@@ -530,20 +530,14 @@ a.btn {
     <div class="container">
         <!-- header section start-->
         <div class="header">
-            <div class="row">
-           
-                <div class="col-lg-12 col-md-12 col-sm-12 col-6">
-                    <div class="logo">
-                        <img class="img-fluid" src="{{ section.settings.img | img_url:'' }}" alt="">
-                    </div>
-                </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-6">
+            <div class="logo">
+                <img class="img-fluid" src="{{ section.settings.img | img_url:'' }}" alt="">
             </div>
-        </div>
-    </div>
-</div>
-<section class=" header-padding section-padding" >
-    <div class="container">
+          </div>
 
+        </div>
+        <!-- header section end-->
         <!-- banner section start-->
         <div class="bannar">
             <div class="row">
@@ -587,14 +581,14 @@ a.btn {
                     </div>
 
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 bannar-right" id="CollectionSection">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 bannar-right">
                     <div class="bannar-right-img">
                         <img class="img-fluid" src="{{ section.settings.img2 | img_url:'' }}" alt="">
                     </div>
                     <p>{{ section.settings.buymore }}</p>
-                    <div class="two-part">
+                    <div class="two-part" id="CollectionSection">
                         <div class="first-part ">
-                           <h4 class="text-center">Get the deal</h4>
+                           {% comment %} <h4 class="text-center">Get the deal</h4> {% endcomment %}
 
                               {% render 'landingpagefrom',
                                data: section.blocks,
