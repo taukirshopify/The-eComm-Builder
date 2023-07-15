@@ -1,43 +1,62 @@
 <div class="ldtwolandpagewrapper ">
-        
-                        {%- for block in data -%}
+    <div id="parent-div">
+             {%- for block in data -%}
                             {%- case block.type -%}
-                              {%- when 'proudct' -%}
+                              {%- when 'product' -%}
                         <div class="singel-item-wrapper checkbox style-b d-flex justify-content-between">
-                            <label><input type="checkbox" Value="" />
+                            <label>
+                                {% comment %} | money_without_currency  {% endcomment %}
+                            <input type="checkbox"
+                                price="{{ block.settings.product.price | money }}"
+                                
+                                title="{{ block.settings.product.title }}" Tprice={{ block.settings.product.price | money_without_currency }} Value="{{ block.settings.product.id | handle }}" />
                             <div class="checkbox__checkmark"></div>
-                            
-                           {{ block.product.title }} </label>
-                            <span> {{ block.product.price | money_with_currency }}</span>
+                          
+                            <div class="product-title">
+                                {{ block.settings.product.title }}
+                            </div> 
+                         
+                        
+                        
+                        </label>
+                            <span class="product-price"> {{ block.settings.product.price | money }}</span>
                         </div>
                     {%- endcase -%}
                     {% endfor %}          
 
-
+                </div>
 
     <div class="from-footer">
-     <ul class="m-0">
-        <li class="d-flex justify-content-between">
-        <span>Item</span>
-        <span>amount</span>
-         </li>
-         <hr>
-         <li class="d-flex justify-content-between">
-            <span>Babies Niche eCommerce Brand (30 Products)</span>
-            <span>$20.00</span>
-             </li>
-             
-         <li class="d-flex justify-content-between">
-            <span>Babies Niche eCommerce Brand (30 Products)</span>
-            <span>$20.00</span>
-             </li>
-             
-         <hr>
-         <li class="d-flex justify-content-between">
-            <span>Order Total:</span>
-            <span>$100.00</span>
-             </li>
-     </ul>
+      
+        
+            <ul class="m-0">
+                    <li class="d-flex justify-content-between">
+                    <span>Item</span>
+                    <span>amount</span>
+                    </li>
+                    <hr>
+                </ul>
+
+                <ul class="m-0" id="detailsBox">
+                <li class="d-flex justify-content-between">
+                    <span>Babies Niche eCommerce Brand (30 Products)</span>
+                    <span>$20.00</span>
+                    </li>
+                    
+                <li class="d-flex justify-content-between">
+                    <span>Babies Niche eCommerce Brand (30 Products)</span>
+                    <span>$20.00</span>
+                    </li>
+                    
+                    </ul>
+                <hr>
+                <li class="d-flex justify-content-between">
+                    <span>Order Total:</span>
+                    <span id="totalPrice">$100.00</span>
+                    </li>
+            </ul>
+        
+    
     </div>
 
     <a href="" class="btn">
@@ -47,3 +66,91 @@
     </a>
     <p>By submitting your order you agree to get your store built for you by us with the apps of our choice installed, you agree to our terms of service, Earnings disclaimer, and prebuilt store purchase agreement.</p>
 </div>
+
+
+
+<!-- Total Price -->
+<div id="totalPrice"></div>
+
+<script>
+
+    {% comment %} function handleCheckboxClick(checkbox) {
+        console.log(checkbox);
+        var productTitle = $(checkbox).attr('title');
+        var productid   = $(checkbox).val();
+        var productPrice  = $(checkbox).attr('price');
+      console.log(productTitle,productPrice,productid);
+        if ($(checkbox).prop('checked')) {
+          var productDetails = $('<li>').html('<span>'  + productTitle + '</span> <span>'   + productPrice + '</span>');
+      
+          $('#detailsBox').append(productDetails);
+        } else {
+          $('#detailsBox li').each(function() {
+            var details = $(this).text().split(' - ');
+            if (details[0] === productTitle && details[1] === productPrice) {
+              $(this).remove();
+            }
+          });
+        }
+      
+        updateTotalPrice();
+      } {% endcomment %}
+      
+
+
+      function getCheckedItems(checkbox) {
+        // Get the parent div
+    const parentDiv = document.getElementById('parent-div');
+
+
+
+
+
+
+
+
+
+        // Get all the input fields within the parent div
+        const inputFields = parentDiv.querySelectorAll('input[type="checkbox"]:checked');
+        let counter = 0;
+        var totalPrice = 0;
+        // Log the values of the checked input fields
+        let htmlArray = [];
+        inputFields.forEach((input) => {
+            console.log(input);
+            let productTitle = input.getAttribute('title');
+         
+            let productid   = input.getAttribute('Value');
+            let productPrice  = input.getAttribute('price');
+            let allPrice  = parseFloat(input.getAttribute('tprice'));
+
+            totalPrice += allPrice;
+            var productDetails = $('<li>').html('<span>'  + productTitle + '</span> <span>'   + productPrice + '</span>');
+          
+             htmlArray.push(productDetails);
+            counter++;
+
+            // Check if the counter has reached the length of the array
+            if (counter === inputFields.length) {
+              // Call the function when the loop is finished
+         $('#detailsBox li').remove();
+          
+              $('#detailsBox').append(htmlArray);
+              $('#totalPrice').text('$' + totalPrice);
+            }  
+            
+        });
+    }
+
+
+
+
+
+
+      $(document).ready(function() {
+        $('#parent-div').on('change', function() {
+            getCheckedItems(this);
+        });
+      });
+
+</script>
