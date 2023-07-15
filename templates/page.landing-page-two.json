@@ -47,24 +47,28 @@
         "20c858ca-3dde-4c82-b351-6fdf1953fd16": {
           "type": "product",
           "settings": {
+            "checkbok": true,
             "product": "1842766"
           }
         },
         "5ab80278-525a-4cee-97f8-f497938000e1": {
           "type": "product",
           "settings": {
+            "checkbok": false,
             "product": "30-day-mentorship"
           }
         },
         "301952e7-6469-4ba3-ae6b-079ab6444b30": {
           "type": "product",
           "settings": {
+            "checkbok": false,
             "product": "30-day-shopify-check-list"
           }
         },
         "330be38f-a102-40d1-91b5-0d0c61dd6803": {
           "type": "product",
           "settings": {
+            "checkbok": false,
             "product": "content-writing-upto-1000-words"
           }
         }
@@ -99,7 +103,7 @@
         "e997b013-6323-4537-b9b5-b825eabb1f5b": {
           "type": "feature",
           "settings": {
-            "rever": true,
+            "rever": false,
             "img": "shopify:\/\/shop_images\/1_645033c7-3916-4ade-ade8-fe733f92cf85.png",
             "title": "Save thousands of dollars on web design and the headaches that come with finding",
             "dec": "Never worry about hiring an Ecommerce Web designer ever again! Our Experts will completely setup",
