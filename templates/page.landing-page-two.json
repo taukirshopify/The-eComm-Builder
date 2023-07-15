@@ -55,6 +55,12 @@
           "settings": {
             "product": "12-month-copywriting-service"
           }
+        },
+        "02cd62e6-93f5-4c67-b5d9-d06b0fe43a2c": {
+          "type": "proudct",
+          "settings": {
+            "product": "adult-toy-store"
+          }
         }
       },
       "block_order": [
@@ -64,7 +70,8 @@
         "dea5ba9d-ebb6-4c7f-9196-25aa823dd10f",
         "91587f21-893b-4fde-8c57-cf93b3fbabfa",
         "6cc6091c-2919-4275-9714-ce59de0129ac",
-        "d2a50d7d-c7d6-4588-be58-47e6c3a4cf3c"
+        "d2a50d7d-c7d6-4588-be58-47e6c3a4cf3c",
+        "02cd62e6-93f5-4c67-b5d9-d06b0fe43a2c"
       ],
       "settings": {
         "img": "shopify:\/\/shop_images\/transparent-02.webp",
