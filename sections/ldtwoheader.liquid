@@ -571,10 +571,25 @@ a.btn {
                         <div class="first-part ">
                            <h4 class="text-center">Get the deal</h4>
 
-                              {% render 'landingpagefrom',
+                              {% comment %} {% render 'landingpagefrom',
                                data: section.blocks,
 
-                              %}
+                              %} {% endcomment %}
+                                      
+                        {%- for block in section.blocks -%}
+                            {%- case block.type -%}
+                              {%- when 'product' -%}
+                        <div class="singel-item-wrapper checkbox style-b d-flex justify-content-between">
+                            <label><input type="checkbox" Value="" />
+                            <div class="checkbox__checkmark"></div>
+                            
+                           {{ block.title }} </label>
+                            <span> {{ block.product.price | money_with_currency }}</span>
+                        </div>
+                    {%- endcase -%}
+                    {% endfor %}          
+
+
                             
                             
                              
@@ -688,8 +703,8 @@ a.btn {
                 ]
             },
             {
-                "type": "proudct",
-                "name": "proudct",
+                "type": "product",
+                "name": "product",
                 "settings": [
                      {
                         "type": "product",
