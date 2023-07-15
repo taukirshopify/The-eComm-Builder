@@ -36,18 +36,47 @@
             "title": "Stunning Branded Website Design",
             "dec": "So Your Shopify Store Becomes A Magnet That Attracts"
           }
+        },
+        "91587f21-893b-4fde-8c57-cf93b3fbabfa": {
+          "type": "proudct",
+          "settings": {
+            "product": "black-friday"
+          }
+        },
+        "6cc6091c-2919-4275-9714-ce59de0129ac": {
+          "type": "feature",
+          "settings": {
+            "title": "Stunning Branded Website Design",
+            "dec": "So Your Shopify Store Becomes A Magnet That Attracts"
+          }
+        },
+        "d2a50d7d-c7d6-4588-be58-47e6c3a4cf3c": {
+          "type": "proudct",
+          "settings": {
+            "product": "12-month-copywriting-service"
+          }
+        },
+        "02cd62e6-93f5-4c67-b5d9-d06b0fe43a2c": {
+          "type": "proudct",
+          "settings": {
+            "product": "adult-toy-store"
+          }
         }
       },
       "block_order": [
         "60d211d0-e72d-4078-b2fa-e16b8f8cf6c4",
         "aaba7201-870c-464e-b117-0c460313d8ed",
         "1b33148c-f321-41b1-995d-e79bbb785d7f",
-        "dea5ba9d-ebb6-4c7f-9196-25aa823dd10f"
+        "dea5ba9d-ebb6-4c7f-9196-25aa823dd10f",
+        "91587f21-893b-4fde-8c57-cf93b3fbabfa",
+        "6cc6091c-2919-4275-9714-ce59de0129ac",
+        "d2a50d7d-c7d6-4588-be58-47e6c3a4cf3c",
+        "02cd62e6-93f5-4c67-b5d9-d06b0fe43a2c"
       ],
       "settings": {
         "img": "shopify:\/\/shop_images\/transparent-02.webp",
         "imgbg": "shopify:\/\/shop_images\/1_8c248f09-812b-4ae4-971d-0d146c599ccd.png",
-        "title": "ECommerce Experts Launch<br>  You A Fully Optimized eCommerce Website within the next",
+        "title": "ECommerce Experts Launch  You A Fully Optimized eCommerce Website within the next",
         "p": "Our Ecommerce Experts with 7+ Years of experience have designed over 15,000 eCommerce stores and are here to design your beautiful eCommerce Store next for only $20",
         "h2": "Order Now And You'll Receive:",
         "img2": "shopify:\/\/shop_images\/1_65588ae1-2f12-48db-837c-2bd6b140a7d8.png",
