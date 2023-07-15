@@ -1,0 +1,49 @@
+<div class="ldtwolandpagewrapper ">
+        
+                        {%- for block in data -%}
+                            {%- case block.type -%}
+                              {%- when 'proudct' -%}
+                        <div class="singel-item-wrapper checkbox style-b d-flex justify-content-between">
+                            <label><input type="checkbox" Value="" />
+                            <div class="checkbox__checkmark"></div>
+                            
+                           {{ block.title }} </label>
+                            <span> {{ block.price | money_with_currency }}</span>
+                        </div>
+                    {%- endcase -%}
+                    {% endfor %}          
+
+
+
+    <div class="from-footer">
+     <ul class="m-0">
+        <li class="d-flex justify-content-between">
+        <span>Item</span>
+        <span>amount</span>
+         </li>
+         <hr>
+         <li class="d-flex justify-content-between">
+            <span>Babies Niche eCommerce Brand (30 Products)</span>
+            <span>$20.00</span>
+             </li>
+             
+         <li class="d-flex justify-content-between">
+            <span>Babies Niche eCommerce Brand (30 Products)</span>
+            <span>$20.00</span>
+             </li>
+             
+         <hr>
+         <li class="d-flex justify-content-between">
+            <span>Order Total:</span>
+            <span>$100.00</span>
+             </li>
+     </ul>
+    </div>
+
+    <a href="" class="btn">
+        <i class="fa-solid fa-angles-right"></i> 
+        Complete Order
+    
+    </a>
+    <p>By submitting your order you agree to get your store built for you by us with the apps of our choice installed, you agree to our terms of service, Earnings disclaimer, and prebuilt store purchase agreement.</p>
+</div>
