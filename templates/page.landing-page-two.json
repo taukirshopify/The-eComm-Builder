@@ -55,6 +55,18 @@
           "settings": {
             "product": "30-day-mentorship"
           }
+        },
+        "301952e7-6469-4ba3-ae6b-079ab6444b30": {
+          "type": "product",
+          "settings": {
+            "product": "30-day-shopify-check-list"
+          }
+        },
+        "330be38f-a102-40d1-91b5-0d0c61dd6803": {
+          "type": "product",
+          "settings": {
+            "product": "content-writing-upto-1000-words"
+          }
         }
       },
       "block_order": [
@@ -64,7 +76,9 @@
         "dea5ba9d-ebb6-4c7f-9196-25aa823dd10f",
         "6cc6091c-2919-4275-9714-ce59de0129ac",
         "20c858ca-3dde-4c82-b351-6fdf1953fd16",
-        "5ab80278-525a-4cee-97f8-f497938000e1"
+        "5ab80278-525a-4cee-97f8-f497938000e1",
+        "301952e7-6469-4ba3-ae6b-079ab6444b30",
+        "330be38f-a102-40d1-91b5-0d0c61dd6803"
       ],
       "settings": {
         "img": "shopify:\/\/shop_images\/transparent-02.webp",
