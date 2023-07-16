@@ -74,13 +74,21 @@
             "title": "Chapter",
             "p": "Essentials Settings"
           }
+        },
+        "28760de9-82f3-49e6-9f71-6f9dde3b0346": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter",
+            "p": "Bonus Features "
+          }
         }
       },
       "block_order": [
         "d0de1d4b-80a5-4003-b14c-957bb0d63d2e",
         "093fbe9c-754f-41d7-b7ac-817b93622a38",
         "001c7bd2-f6bd-4986-a109-ed2edb1b947e",
-        "eae7e597-fe23-4f76-818c-606821c0edda"
+        "eae7e597-fe23-4f76-818c-606821c0edda",
+        "28760de9-82f3-49e6-9f71-6f9dde3b0346"
       ],
       "settings": {
         "title": "Course Outline",
