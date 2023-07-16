@@ -11,9 +11,9 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <div class="couser-outline">
-                    <h2>{{ section.settings.title }}</h2>
+                    <h3>{{ section.settings.title }}</h3>
                   {% for item in section.blocks %}
-                    <p>{{ item.settings.title }}</p>
+                    <p>{{ item.settings.title }} {{forloop.index }} </p>
                     <p>{{ item.settings.p }}</p>
       
                   {% endfor %}
@@ -49,14 +49,14 @@
         "blocks": [
             {
                 "type": "content",
-                "name": "cont",
+                "name": "content",
                 "settings": [
                      {
                         "type": "text",
                         "id": "title",
                         "label": "Text-title",
-                        "default": "Chapter 1",
-                        "placeholder": "Chapter 1"
+                        "default": "Chapter ",
+                        "placeholder": "Chapter "
                      },
                      {
                         "type": "text",
