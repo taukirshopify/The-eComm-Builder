@@ -88,6 +88,13 @@
             "title": "Chapter",
             "p": "Before You Go"
           }
+        },
+        "be8961a7-f0fb-4a8a-8098-2d487795b82f": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter",
+            "p": "Frequently Ask Questions"
+          }
         }
       },
       "block_order": [
@@ -96,7 +103,8 @@
         "001c7bd2-f6bd-4986-a109-ed2edb1b947e",
         "eae7e597-fe23-4f76-818c-606821c0edda",
         "28760de9-82f3-49e6-9f71-6f9dde3b0346",
-        "e39f89c3-56f5-4912-b441-0c1089d13200"
+        "e39f89c3-56f5-4912-b441-0c1089d13200",
+        "be8961a7-f0fb-4a8a-8098-2d487795b82f"
       ],
       "settings": {
         "title": "Course Outline",
