@@ -253,7 +253,7 @@
         "featured_product": "e-commerce-mistakes",
         "thumbnail_position": "beside",
         "thumbnail_arrows": false,
-        "show_description": true,
+        "show_description": false,
         "divider": false
       }
     }
