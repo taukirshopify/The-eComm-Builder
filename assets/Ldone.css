@@ -413,6 +413,9 @@ color: black;
     font-weight: 400;
 
 }
+.add-to-cart {
+    display: none;
+}
 
 /* section-padding css start */
 
