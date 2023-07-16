@@ -1,0 +1,78 @@
+    <!-- card section start -->
+    <section class="card-section mt-5 section-padding">
+        <div class="container">
+             
+        <div class="row">
+        
+            <div class="col-12 mb-5 ">
+                <h2>{{ section.settings.h2 }}</h2>
+            </div>
+        </div>
+            {% for item in section.blocks %}
+                <div class="row  d-flex  align-items-center">
+          
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-5 p-0">
+                        <div class="singel-card-wrapper">
+                            <img class="img-fluid" src="{{ item.settings.img | img_url:'' }}" alt="">
+                            <h2> <a href="{{ item.settings.url }}" class="btn tobottom">{{ item.settings.title }} </a></h2>
+                        
+                       </div>
+               
+                       
+                        
+                    </div>
+                    <!-- second row -->
+                    
+                </div>
+            {% endfor %}
+
+
+      
+    </section>
+    <!-- card section end -->
+
+    {% schema %}
+    {
+        "name": "LD two Card",
+        "class": "ldthree",
+        "settings": [
+            {
+              "type": "text",
+              "id": "title",
+              "label": "Title",
+              "default": "How I can help  "
+            }
+        ],
+        "blocks": [
+            {
+                "type": "card",
+                "name": "card",
+                "settings": [
+       
+                    {
+                        "type": "image_picker",
+                        "id": "img",
+                        "label": "Your Image"
+                    },
+                     {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Title",
+                        "default": "Save thousands of dollars on web design and the headaches that come with finding"
+                     },
+                     {
+                        "type": "url",
+                        "id": "url",
+                        "label": "Link to the page"
+                     }
+                ]
+            }
+        ],
+        
+        "presets": [
+            {
+            "name": "LD there card"
+            }
+            ]
+    }
+ {% endschema %}

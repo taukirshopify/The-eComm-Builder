@@ -1,0 +1,88 @@
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   
+<style>
+
+
+
+</style>
+
+
+   <!-- card section start -->
+    <section class="card-section mt-5 section-padding">
+        <div class="container">
+            <div class="row">
+        
+                <div class="col-12 mb-5 ">
+                    <h2>{{ section.settings.h2 }}</h2>
+                </div>
+            </div>
+            {% for item in section.blocks %}
+                <div class="row  d-flex  align-items-center {% if item.settings.rever %} flex-row-reverse  {% endif %} ">
+          
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-5">
+                        <h2><span class="counter">{{ item.settings.dec }}+</span> {{ item.settings.title }}</h2>
+                    </div>
+                    <!-- second row -->
+                    
+                </div>
+            {% endfor %}
+
+
+       
+    </section>
+    <!-- card section end -->
+
+
+    <script>
+    
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+          });
+          $('.counter').addClass('animated fadeInDownBig');
+    </script>
+
+    {% schema %}
+    {
+        "name": "LD three count up",
+        "class": "ldtwoc",
+        "settings": [
+            {
+              "type": "text",
+              "id": "title",
+              "label": "Title",
+              "default": "How I can help  "
+            }
+        ],
+        "blocks": [
+            {
+                "type": "feature",
+                "name": "feature",
+                "settings": [
+    
+            
+                     {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Title",
+                        "default": "Monthly Website visits"
+                     },
+                     {
+                        "type": "text",
+                        "id": "dec",
+                        "label": "Decription",
+                        "default": "120"
+                     }
+                 
+                ]
+            }
+        ],
+        
+        "presets": [
+            {
+            "name": "LD three countup"
+            }
+            ]
+    }
+ {% endschema %}
