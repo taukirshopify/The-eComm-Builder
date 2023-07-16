@@ -323,35 +323,20 @@
         "title": "How I can help"
       }
     },
-    "fd98f297-a8bf-4e68-8de2-9371a37b7005": {
+    "d2c688cd-d01a-43f5-ae41-9273a0265cb1": {
       "type": "ldthreeprothfolio",
       "blocks": {
-        "7a36a1f8-d7de-467f-903b-162f75228533": {
+        "8a28913b-7d6e-4379-9957-34b63e27ce2d": {
           "type": "card",
           "settings": {
-            "title": "Save thousands of dollars on web design and the headaches that come with finding",
-            "url": ""
-          }
-        },
-        "a35ddb3c-7991-4dfa-8667-d203fb511a51": {
-          "type": "card",
-          "settings": {
-            "title": "Save thousands of dollars on web design and the headaches that come with finding",
-            "url": ""
-          }
-        },
-        "1873246c-4f32-460e-902a-04a84022fb8b": {
-          "type": "card",
-          "settings": {
-            "title": "Save thousands of dollars on web design and the headaches that come with finding",
+            "img": "shopify:\/\/shop_images\/6_1.png",
+            "title": "Website Design",
             "url": ""
           }
         }
       },
       "block_order": [
-        "7a36a1f8-d7de-467f-903b-162f75228533",
-        "a35ddb3c-7991-4dfa-8667-d203fb511a51",
-        "1873246c-4f32-460e-902a-04a84022fb8b"
+        "8a28913b-7d6e-4379-9957-34b63e27ce2d"
       ],
       "settings": {
         "title": "How I can help"
@@ -371,7 +356,7 @@
     "bbe855b8-e2ce-412e-b1c4-f5a1871f21a7",
     "69101528-2dcd-417f-b312-c8e63bf4a13a",
     "f102abce-96bf-4433-8ab6-854bed5083b8",
-    "fd98f297-a8bf-4e68-8de2-9371a37b7005"
+    "d2c688cd-d01a-43f5-ae41-9273a0265cb1"
   ],
   "layout": "theme.pagefly"
 }
