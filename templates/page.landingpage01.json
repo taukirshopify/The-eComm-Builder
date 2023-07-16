@@ -288,6 +288,12 @@
         "main-menu2": "menu01",
         "p": "Copyright © 2021 All rights reserved."
       }
+    },
+    "f102abce-96bf-4433-8ab6-854bed5083b8": {
+      "type": "ldthreecountup",
+      "settings": {
+        "title": "How I can help"
+      }
     }
   },
   "order": [
@@ -301,7 +307,8 @@
     "bf1b2dfa-5793-4d51-be86-d3945e521bab",
     "e06a07d6-760a-47af-834a-0086b0241d44",
     "bbe855b8-e2ce-412e-b1c4-f5a1871f21a7",
-    "69101528-2dcd-417f-b312-c8e63bf4a13a"
+    "69101528-2dcd-417f-b312-c8e63bf4a13a",
+    "f102abce-96bf-4433-8ab6-854bed5083b8"
   ],
   "layout": "theme.pagefly"
 }
