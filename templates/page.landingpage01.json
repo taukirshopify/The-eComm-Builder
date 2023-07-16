@@ -57,15 +57,15 @@
         "093fbe9c-754f-41d7-b7ac-817b93622a38": {
           "type": "content",
           "settings": {
-            "title": "Chapter 1",
+            "title": "Chapter",
             "p": "Setting Up Your Shopify Store"
           }
         },
         "001c7bd2-f6bd-4986-a109-ed2edb1b947e": {
           "type": "content",
           "settings": {
-            "title": "Chapter 1",
-            "p": "Getting Started With Shopify Store"
+            "title": "Chapter",
+            "p": "Selecting Your Plan And Setting Up Domain"
           }
         }
       },
