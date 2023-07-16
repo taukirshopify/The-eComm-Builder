@@ -29,9 +29,9 @@
                     </div>
                 </div>
                 <div class="col-lg-6  col-md-12 col-sm-12 ">
-                    <video width="544" height="303" controls>
-                        <source src="https://youtu.be/FznwdryEbMk" type="video/mp4">
-                    </video>
+                    <video muted autoplay loop playsinline controls>
+                        <source src="{{ section.settings.u.sources[1].url }}" type="video/mp4">
+                        </video>
                 </div>
             </div>
             
@@ -134,6 +134,12 @@
             "name": "LD 1 top section",
             "class": "ldtop",
             "settings": [
+                {
+            
+                    "id": "u",
+                    "label": "Video Upload",
+                    "type": "video"
+                   },
                {
                 "type": "text",
                 "id": "p1",

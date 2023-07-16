@@ -5,9 +5,9 @@
         <!-- second row -->
         <div class="row mt-5 g-3">
             <div class="col-lg-6 col-md-12 col-sm-12">
-                <video width="100%" height="341" controls>
-                    <source src="{{ section.settings.video }}" type="video/mp4">
-                </video>
+                <video muted autoplay loop playsinline controls>
+                    <source src="{{ section.settings.video.sources[1].url }}" type="video/mp4">
+                    </video>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <div class="couser-outline">
