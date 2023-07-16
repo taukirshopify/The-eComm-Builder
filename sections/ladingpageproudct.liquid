@@ -50,12 +50,12 @@
             {% endunless %}
           </div>
 
-          {%- if settings.enable_product_reviews -%}
+
             {%- assign review_link = product.url | within: collection | append: '#Reviews-' | append: product.id -%}
             <a href="{{ review_link }}" class="product-single__review-link">
               <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
             </a>
-          {%- endif -%}
+     
 
           {%- if settings.sku_enable -%}
             <p id="Sku-{{ section.id }}" class="product-single__sku">
@@ -190,6 +190,11 @@
 <style>
   .add-to-cart {
     display: none;
+}
+.tab {
+  overflow: hidden;
+  text-transform: uppercase;
+  display: none;
 }
 
 </style>
