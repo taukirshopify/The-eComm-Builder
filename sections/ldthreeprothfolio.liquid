@@ -1,9 +1,40 @@
 <style>
-.prothfolio-section{
+{% comment %} .prothfolio-section{
+
+} {% endcomment %}
+
+.singel-prothfoli-wrapper {
+    background: #5A008A;
+}
+.singel-prothfoli-wrapper {
+    background: #5A008A;
+    text-align: center;
+    padding: 30px 0;
+    margin: 5px;
+}
+h4 {
+    font-size: 6vh;
+    color: #ffff;
+}
+h4 a{
+
+    color: #ffff;
+}
+h4 a:hover{
+    
+    color: #ffff;
+}
+.singel-prothfoli-wrapper:hover {
+    background: #DDBB5A;
 
 }
-
-</style>    
+.bluecolor.singel-prothfoli-wrapper{
+    background: #DDBB5A;
+}
+.bluecolor.singel-prothfoli-wrapper:hover{
+    background: #5A008A;
+}
+</style>     
     
     <!-- card section start -->
     <section class="prothfolio-section mt-5 ">
@@ -18,9 +49,13 @@
         <div class="row  d-flex  align-items-center">
             {% for item in section.blocks %}
 
-          
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-5 p-0">
-                        <div class="singel-prothfoli-wrapper">
+          {% if item.settings.color %}
+               bluecolor
+          {% endif %}
+                    <div class="col-lg-4 col-md-6  col-12  p-0">
+                        <div class="singel-prothfoli-wrapper    {% if item.settings.color %}
+                            bluecolor
+                       {% endif %} ">
                             <img class="img-fluid" src="{{ item.settings.img | img_url:'' }}" alt="">
                             <h4> <a href="{{ item.settings.url }}" >{{ item.settings.title }} </a></h4>
                         
@@ -56,7 +91,12 @@
                 "type": "card",
                 "name": "card",
                 "settings": [
-       
+                    {
+                        "type": "checkbox",
+                        "id": "color",
+                        "label": "Select your color",
+                        "default": false
+                    },
                     {
                         "type": "image_picker",
                         "id": "img",
