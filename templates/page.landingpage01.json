@@ -23,15 +23,25 @@
         "p3": "(Without Needing Any Experience!)",
         "p4": "START BUILDING MY BUSSINESS",
         "p5": "Why Build a Shopify Store for your Business?",
-        "p6": "Shopify is one of the most popular eCommerce platforms offering everything you need for your eCommerce store while having the easiest requirements to use. The platform empowers over 1,000,000 businesses selling products online worldwide. It provides you with a set of useful features that function your eCommerce website up to the par and effectively raise it to a higher level.",
-        "p7": "Why Build a Shopify Store for your Business?",
+        "p6": "<b>Shopify is one of the most popular eCommerce platforms  <\/b> offering everything you need for your eCommerce store while having the easiest requirements to use. The platform <b> empowers over 1,000,000 businesses selling products online worldwide. <\/b> It provides you with a set of useful features that function your eCommerce website up to the par and effectively raise it to a higher level.",
+        "p7": " There are a myriad of reasons why Shopify is the best eCommerce platform for your business. <b> Keep reading to figure out! <\/b>",
         "text1": "<p> 1. Thousands of available <strong>themes<\/strong> (new ones coming out all the time<\/p><p> 2. <strong>Stripe<\/strong> and 3rd party shopping integrations<\/p><p> 3. Integrations with <strong>PayPal<\/strong><\/p><p> 4. They support blogs and we all know content is king!<\/p><p> 5. Tracking and maintaining customer data<\/p><p> 6. Works like a regular website CMS<\/p><p> 7. <strong>Optimized for SEO<\/strong> and easily customizable in regards to keywords<\/p>",
         "text2": "<p> 8. <strong>You can use your MailChimp or other Email provider<\/strong><\/p><p> 9. You <strong>can add coupons and discount codes<\/strong><\/p><p> 10. Full HTML and CSS Editing abilities<\/p><p> 11. A “Buy Now” call to action button to be placed on external sites<\/p><p> 12. <strong>POS Integration<\/strong><\/p><p> 13. You can make a customizable profile for your employees<\/p><p> 14. Integrations with <strong>live chats<\/strong><\/p>",
         "text3": "<p> 15. Create <strong>your own store Gift Cards<\/strong><\/p><p> 16. Advanced Reporting<\/p><p> 17. An <strong>Abandoned Cart feature built in!<\/strong><\/p><p> 18. Integration with help desks like ZenDesk<\/p><p> 19. Analytics reporting<\/p><p> 20. <strong>Shipping carrier integration<\/strong><\/p>",
-        "p8": "Our Ultimate Shopify course is great for new business owners who want to master Shopify and learn how to create their own Shopify store. Build your website at your pace. The course is designed to get your store up and running in 30 days!!! You will learn how to add products, track your inventory, set up discount codes, set up shipping rates, collections, tags, apps to add, track profit and loss, sales channel, set up email marketing, pricing products, set up Abandoned cart, Notifications, all legal policy’s, free theme selection… and much more.",
+        "p8": "Our Ultimate Shopify course is great for new business owners <b> who want to master Shopify and learn how to create their own Shopify store. <\/b> Build your website at your pace. The course is designed to <b> get your store up and running in 30 days!!! <\/b> You will learn how to add products, track your inventory, set up discount codes, set up shipping rates, collections, tags, apps to add, track profit and loss, sales channel, set up email marketing, pricing products, set up Abandoned cart, Notifications, all legal policy’s, free theme selection… and much more.",
         "p9": "A Proven System for Building Online Businesses",
         "p10": "SHOW ME HOW",
         "p122": "START BUILDING MY BUSSINESS"
+      }
+    },
+    "a62b52c2-4c36-4760-9fd2-2405de35b1d6": {
+      "type": "ladingpageproudct",
+      "settings": {
+        "featured_product": "e-commerce-mistakes",
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "show_description": false,
+        "divider": false
       }
     },
     "7706aac7-8440-43e8-b418-1b0e2665bb05": {
@@ -48,7 +58,7 @@
           "type": "content",
           "settings": {
             "title": "Chapter 1",
-            "p": "Getting Started With Shopify Store"
+            "p": "Setting Up Your Shopify Store"
           }
         },
         "001c7bd2-f6bd-4986-a109-ed2edb1b947e": {
@@ -246,30 +256,20 @@
         "main-menu2": "menu01",
         "p": "Copyright © 2021 All rights reserved."
       }
-    },
-    "a62b52c2-4c36-4760-9fd2-2405de35b1d6": {
-      "type": "ladingpageproudct",
-      "settings": {
-        "featured_product": "e-commerce-mistakes",
-        "thumbnail_position": "beside",
-        "thumbnail_arrows": false,
-        "show_description": false,
-        "divider": false
-      }
     }
   },
   "order": [
     "pf-41ef005a",
     "d2116d5b-0b24-47be-bd4f-9a258f6bc48d",
     "ca7c3248-97b6-4b6a-b34c-5a8b76a2f9c7",
+    "a62b52c2-4c36-4760-9fd2-2405de35b1d6",
     "7706aac7-8440-43e8-b418-1b0e2665bb05",
     "4afc9049-d5cf-46e5-8fc3-d3d9b08363f7",
     "82313d27-cce6-4fb0-9226-38daf6232c71",
     "bf1b2dfa-5793-4d51-be86-d3945e521bab",
     "e06a07d6-760a-47af-834a-0086b0241d44",
     "bbe855b8-e2ce-412e-b1c4-f5a1871f21a7",
-    "69101528-2dcd-417f-b312-c8e63bf4a13a",
-    "a62b52c2-4c36-4760-9fd2-2405de35b1d6"
+    "69101528-2dcd-417f-b312-c8e63bf4a13a"
   ],
   "layout": "theme.pagefly"
 }
