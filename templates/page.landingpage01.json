@@ -349,12 +349,21 @@
             "title": "Website Design",
             "url": ""
           }
+        },
+        "9f3d5408-1775-46e3-b9b0-c1b13390a7c9": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/5_1.png",
+            "title": "Website Design",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "8a28913b-7d6e-4379-9957-34b63e27ce2d",
         "6f6e3e17-6eab-4e02-a5bc-b74561b3b850",
-        "95b70eb3-c662-42d8-8f0f-562299d1ca98"
+        "95b70eb3-c662-42d8-8f0f-562299d1ca98",
+        "9f3d5408-1775-46e3-b9b0-c1b13390a7c9"
       ],
       "settings": {
         "title": "How I can help"
