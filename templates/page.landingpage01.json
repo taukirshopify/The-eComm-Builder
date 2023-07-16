@@ -291,6 +291,34 @@
     },
     "f102abce-96bf-4433-8ab6-854bed5083b8": {
       "type": "ldthreecountup",
+      "blocks": {
+        "0cab4063-ac49-4f59-b3e8-39af5fb81f88": {
+          "type": "feature",
+          "settings": {
+            "title": "Monthly Website visits",
+            "dec": "120"
+          }
+        },
+        "196eb749-1eee-48b5-9251-6354dfe3f7fd": {
+          "type": "feature",
+          "settings": {
+            "title": "Monthly Website visits",
+            "dec": "120"
+          }
+        },
+        "a02883f7-eb71-4902-a4ad-e8972b3e6aef": {
+          "type": "feature",
+          "settings": {
+            "title": "Monthly Website visits",
+            "dec": "120"
+          }
+        }
+      },
+      "block_order": [
+        "0cab4063-ac49-4f59-b3e8-39af5fb81f88",
+        "196eb749-1eee-48b5-9251-6354dfe3f7fd",
+        "a02883f7-eb71-4902-a4ad-e8972b3e6aef"
+      ],
       "settings": {
         "title": "How I can help"
       }
