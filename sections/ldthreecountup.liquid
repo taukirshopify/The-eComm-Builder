@@ -3,26 +3,35 @@
    
 <style>
 
-.count-up{}
+.count-up{
 
+ padding: 40px 0;
+ background:#81298d;
+ color:#fff;
+}
+
+.count-up p{
+ font-size: 16px;
+ font-weight:bold;
+}
 </style>
 
 
    <!-- card section start -->
-    <section class="count-up mt-5 section-padding">
+    <section class="count-up  ">
         <div class="container">
             <div class="row">
         
                 <div class="col-12 mb-5 ">
-                    <h2>{{ section.settings.h2 }}</h2>
+                    <h3 class="text-center">{{ section.settings.title }}</h3>
                 </div>
             </div>
             <div class="row  d-flex  align-items-center ">
             {% for item in section.blocks %}
                
           
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-5">
-                        <h2><span class="counter">{{ item.settings.dec }}+</span> {{ item.settings.title }}</h2>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 ">
+                        <p class="text-center"><span class="counter">{{ item.settings.dec }} + </span> {{ item.settings.title }}</p>
                     </div>
                     <!-- second row -->
                     
@@ -35,6 +44,12 @@
     </section>
     <!-- card section end -->
 
+    <style>
+    
+    .count-up {
+       
+    }
+    </style>
 
     <script>
     
@@ -54,7 +69,7 @@
               "type": "text",
               "id": "title",
               "label": "Title",
-              "default": "How I can help  "
+              "default": "GLOBAL SOCIAL MEDIA REACH & AUDIENCE IMPACT"
             }
         ],
         "blocks": [
