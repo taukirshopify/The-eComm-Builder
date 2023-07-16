@@ -34,6 +34,16 @@
         "p122": "START BUILDING MY BUSSINESS"
       }
     },
+    "a62b52c2-4c36-4760-9fd2-2405de35b1d6": {
+      "type": "ladingpageproudct",
+      "settings": {
+        "featured_product": "e-commerce-mistakes",
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "show_description": false,
+        "divider": false
+      }
+    },
     "7706aac7-8440-43e8-b418-1b0e2665bb05": {
       "type": "clandingpageoutline",
       "blocks": {
@@ -67,16 +77,6 @@
       "settings": {
         "title": "Course Outline",
         "video": "shopify:\/\/files\/videos\/The Ultimate Shopify Course For Beginners.mp4"
-      }
-    },
-    "a62b52c2-4c36-4760-9fd2-2405de35b1d6": {
-      "type": "ladingpageproudct",
-      "settings": {
-        "featured_product": "e-commerce-mistakes",
-        "thumbnail_position": "beside",
-        "thumbnail_arrows": false,
-        "show_description": false,
-        "divider": false
       }
     },
     "4afc9049-d5cf-46e5-8fc3-d3d9b08363f7": {
@@ -262,8 +262,8 @@
     "pf-41ef005a",
     "d2116d5b-0b24-47be-bd4f-9a258f6bc48d",
     "ca7c3248-97b6-4b6a-b34c-5a8b76a2f9c7",
-    "7706aac7-8440-43e8-b418-1b0e2665bb05",
     "a62b52c2-4c36-4760-9fd2-2405de35b1d6",
+    "7706aac7-8440-43e8-b418-1b0e2665bb05",
     "4afc9049-d5cf-46e5-8fc3-d3d9b08363f7",
     "82313d27-cce6-4fb0-9226-38daf6232c71",
     "bf1b2dfa-5793-4d51-be86-d3945e521bab",
