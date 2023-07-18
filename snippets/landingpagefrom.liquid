@@ -38,14 +38,14 @@ box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
 
 <div class="ldtwolandpagewrapper ">
 
-    <ul class="m-0 p-0 choice-list container">
+    <ul class="m-0 p-0 choice-list container d-none">
       <div class="row">
             <div class="col-6 p-0">
                 <li class="clickme border-right p-relat"><a href="javascript:void();" data-tag="one" class="activelink"> <div class="tri"></div> 1 CONTACT INFO
                 </a></li> 
             </div>
             <div class="col-6 p-0">
-                <li class="clickme"><a href="javascript:void();" data-tag="two"><div class="tri"></div> 2 CHOOSE PRODUCTS TO SELL</a></li>
+                <li class="clickme"><a href="javascript:void();" data-tag="two"><div class="tri"></div> 2 L</a></li>
             </div>
       
      </div>
@@ -54,15 +54,18 @@ box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
 
     <div id="containere">
         <div class="list" id="one">
+             <h3 class="text-center">CONTACT INFO</h3>
             <div class="klaviyo-form-RCUkKa"></div>
-           <a href="#" class="giftPopup btn"> Get the Deal</a>
+          <div class="clickme">
+        
+        <a  class="giftPopup btn" href="javascript:void();" data-tag="two"> Get the Deal</a></div> 
         
         </div>
         <div class="list hide" id="two">
         
          {% comment %} inner div  {% endcomment %}
 
-
+    <h3 class="text-center">CHOOSE PRODUCTS TO SEL</h3>
          <div id="parent-div">
             {%- for block in data -%}
 
