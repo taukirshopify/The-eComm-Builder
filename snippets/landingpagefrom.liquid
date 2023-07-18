@@ -159,12 +159,13 @@
 
 <script>
     window.addEventListener('load', function() {
-        {% comment %} $("").click(function() {
-  
-        }); {% endcomment %}
-        $( "button.needsclick" ).on( "submit", function( event ) {
+        $("button.needsclick").click(function() {
             console.log("this is working");
             $(".giftPopup").addClass("special");
+        });
+                $( "needsclick" ).on( "submit", function( event ) {
+                    console.log("this is working sunmit");
+            event.preventDefault();
           });
     });
   
