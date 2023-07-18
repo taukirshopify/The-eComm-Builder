@@ -1,74 +1,146 @@
+<style>
+    .active{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+    
+
+ 
+    .activelink{
+        color: white;   
+        -webkit-box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);     
+    }
+    .clickme a{
+        padding:10px 20px;
+        background:#985fb3;
+        display: block;
+        font-weight:bold;
+    }
+    .clickme a:hover{
+     color:#fff;
+    }
+    .border-right{
+     border-right:1px solid white;
+        }
+        .tri {
+            width: 0px;
+            height: 0px;
+            border-top: 30px solid transparent;
+            border-right: 30px solid red;
+          }
+</style>
+
 
 
 <div class="ldtwolandpagewrapper ">
 
-   <div class="klaviyo-form-RCUkKa"></div>
-   <div class="giftPopup">heelo this test</div>
-   <a href="#" class="btn needsclicka"> Hello</a>
-    <div id="parent-div">
-             {%- for block in data -%}
-
-                            {%- case block.type -%}
-                                
-                              {%- when 'product' -%}
-                                {% assign variant = block.settings.product.variants.first %}
-                        <div class="singel-item-wrapper checkbox style-b d-flex justify-content-between">
-                            <label>
-                                {% comment %} | money_without_currency  {% endcomment %}
-                            <input type="checkbox"
-                                price="{{ block.settings.product.price | money }}"
-                                {% if block.settings.checkbok %}
-                                  checked
-                                {% endif %}
-                             
-                                title="{{ block.settings.product.title }}" Tprice={{ block.settings.product.price | money_without_currency }} Value="{{ block.settings.product.variants.first.id  }}" />
-                            <div class="checkbox__checkmark"></div>
-                          
-                            <div class="product-title">
-                                {{ block.settings.product.title }}
-                            </div> 
-                         
-                        
-                        
-                        </label>
-                            <span class="product-price"> {{ block.settings.product.price | money }}</span>
-                        </div>
-                    {%- endcase -%}
-                    {% endfor %}          
-
-                </div>
-
-    <div class="from-footer">
+    <ul class="m-0 p-0 choice-list container">
+      <div class="row">
+            <div class="col-6 p-0">
+                <li class="clickme border-right p-relat"><a href="javascript:void();" data-tag="one" class="activelink"> <div class="tri"></div> 1 CONTACT INFO
+                </a></li> 
+            </div>
+            <div class="col-6 p-0">
+                <li class="clickme"><a href="javascript:void();" data-tag="two"><div class="tri"></div> 2 CHOOSE PRODUCTS TO SELL</a></li>
+            </div>
       
-        
-            <ul class="m-0">
-                    <li class="d-flex justify-content-between">
-                    <span>Item</span>
-                    <span>amount</span>
-                    </li>
-                    <hr>
-                </ul>
+     </div>
 
-                <ul class="m-0" id="detailsBox">
+    </ul>    
 
-                    
-                    </ul>
-                <hr>
-                <li class="d-flex justify-content-between">
-                    <span>Order Total:</span>
-                    <span id="totalPrice">$100.00</span>
-                    </li>
-            </ul>
+    <div id="containere">
+        <div class="list" id="one">
+            <div class="klaviyo-form-RCUkKa"></div>
+           <a href="#" class="giftPopup btn"> Get the Deal</a>
         
+        </div>
+        <div class="list hide" id="two">
+        
+         {% comment %} inner div  {% endcomment %}
+
+
+         <div id="parent-div">
+            {%- for block in data -%}
+
+                           {%- case block.type -%}
+                               
+                             {%- when 'product' -%}
+                               {% assign variant = block.settings.product.variants.first %}
+                       <div class="singel-item-wrapper checkbox style-b d-flex justify-content-between">
+                           <label>
+                               {% comment %} | money_without_currency  {% endcomment %}
+                           <input type="checkbox"
+                               price="{{ block.settings.product.price | money }}"
+                               {% if block.settings.checkbok %}
+                                 checked
+                               {% endif %}
+                            
+                               title="{{ block.settings.product.title }}" Tprice={{ block.settings.product.price | money_without_currency }} Value="{{ block.settings.product.variants.first.id  }}" />
+                           <div class="checkbox__checkmark"></div>
+                         
+                           <div class="product-title">
+                               {{ block.settings.product.title }}
+                           </div> 
+                        
+                       
+                       
+                       </label>
+                           <span class="product-price"> {{ block.settings.product.price | money }}</span>
+                       </div>
+                   {%- endcase -%}
+                   {% endfor %}          
+
+               </div>
+
+   <div class="from-footer">
      
-    </div>
+       
+           <ul class="m-0">
+                   <li class="d-flex justify-content-between">
+                   <span>Item</span>
+                   <span>amount</span>
+                   </li>
+                   <hr>
+               </ul>
 
-    <a class="btn add_to_cart_form">
-        <i class="fa-solid fa-angles-right"></i> 
-        Complete Order
+               <ul class="m-0" id="detailsBox">
+
+                   
+                   </ul>
+               <hr>
+               <li class="d-flex justify-content-between">
+                   <span>Order Total:</span>
+                   <span id="totalPrice">$100.00</span>
+                   </li>
+           </ul>
+       
     
-    </a>
-    <p>By submitting your order you agree to get your store built for you by us with the apps of our choice installed, you agree to our terms of service, Earnings disclaimer, and prebuilt store purchase agreement.</p>
+     </div>
+
+        <a class="btn add_to_cart_form">
+            <i class="fa-solid fa-angles-right"></i> 
+            Complete Order
+        
+        </a>
+        <p>By submitting your order you agree to get your store built for you by us with the apps of our choice installed, you agree to our terms of service, Earnings disclaimer, and prebuilt store purchase agreement.</p>
+        </div>
+         {% comment %} inner div end {% endcomment %}
+        
+        
+        
+        </div>
+
+    </div>   
+
+
+
+
+
+
 </div>
 
 <script>
@@ -163,10 +235,20 @@
             console.log("this is working");
             $(".giftPopup").addClass("special");
         });
-                $( ".needsclick" ).on( "submit", function( event ) {
+                {% comment %} $( ".needsclick" ).on( "submit", function( event ) {
                     console.log("this is working sunmit");
             event.preventDefault();
-          });
+          }); {% endcomment %}
+          $(document).ready(function(){
+            $('.clickme a').click(function(){
+                $('.clickme a').removeClass('activelink');
+                $(this).addClass('activelink');
+                var tagid = $(this).data('tag');
+                $('.list').removeClass('active').addClass('hide');
+                $('#'+tagid).addClass('active').removeClass('hide');
+            });
+        });
+
     });
   
 </script>
