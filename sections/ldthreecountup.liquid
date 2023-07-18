@@ -1,5 +1,6 @@
-<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="{{ 'waypoints.min.js' | asset_url }}"></script>
+<script src="{{ 'jquery.counterup.min.js' | asset_url }}"></script>
    
 <style>
 
@@ -52,13 +53,13 @@
     </style>
 
     <script>
-    
-        $('.counter').counterUp({
-            delay: 10,
-            time: 1000
-          });
-          $('.counter').addClass('animated fadeInDownBig');
-    </script>
+        $( document ).ready(function() {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+      </script>
 
     {% schema %}
     {
