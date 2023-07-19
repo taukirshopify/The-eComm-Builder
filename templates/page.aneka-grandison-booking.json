@@ -308,6 +308,7 @@
     "40b88a5c-244f-41f5-9f6b-1e00c8802d2f": {
       "type": "image-with-text-brand-one",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Image_1.png",
         "image_width": 500,
         "subtitle": "",
         "title": "Shopify + eCom Services",
