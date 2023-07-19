@@ -120,6 +120,15 @@
             "title": "BRAND DESIGN",
             "url": ""
           }
+        },
+        "a7ece763-8810-45d0-a899-46d7c67165de": {
+          "type": "card",
+          "settings": {
+            "color": false,
+            "img": "shopify:\/\/shop_images\/2_1.png",
+            "title": "SOCIAL MEDIA",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -127,7 +136,8 @@
         "6f6e3e17-6eab-4e02-a5bc-b74561b3b850",
         "95b70eb3-c662-42d8-8f0f-562299d1ca98",
         "9f3d5408-1775-46e3-b9b0-c1b13390a7c9",
-        "80129d4f-4137-4a74-8538-fb30326f10b4"
+        "80129d4f-4137-4a74-8538-fb30326f10b4",
+        "a7ece763-8810-45d0-a899-46d7c67165de"
       ],
       "settings": {
         "title": "How I can help"
