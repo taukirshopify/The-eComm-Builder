@@ -1,6 +1,5 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="{{ 'waypoints.min.js' | asset_url }}"></script>
-<script src="{{ 'jquery.counterup.min.js' | asset_url }}"></script>
+
    
 <style>
 
@@ -18,7 +17,9 @@
 </style>
 
 
-   <!-- card section start -->
+{{ 'bootstrap.css' | asset_url | stylesheet_tag }} 
+
+<!-- card section start -->
     <section class="count-up  ">
         <div class="container">
             <div class="row">
@@ -40,7 +41,7 @@
             {% endfor %}
            </div>
 
-
+         
        
     </section>
     <!-- card section end -->
@@ -51,15 +52,6 @@
        
     }
     </style>
-
-    <script>
-        $( document ).ready(function() {
-            $('.counter').counterUp({
-                delay: 10,
-                time: 1000
-            });
-        });
-      </script>
 
     {% schema %}
     {
