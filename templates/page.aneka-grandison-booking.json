@@ -55,6 +55,21 @@
         "title": "GLOBAL SOCIAL MEDIA REACH & AUDIENCE IMPACT"
       }
     },
+    "96cc6d51-88ea-419d-8e0f-23120c1e4a07": {
+      "type": "image-with-text-book-call",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_1_18671e22-eec8-42f6-8c9f-f29623481757.png",
+        "image_width": 500,
+        "embded_calnder": "",
+        "subtitle": "",
+        "title": "Shopify + eCom Services",
+        "text": "<p>Are you looking for an eCommerce expert to partner with to get things done or maybe a team to support you? Our eCom Collective Crew is made up of our staff and a vetted team of trusted expert partners who are masters in their area of expertise. We work together as a collective team, bringing our best to help you.<\/p>",
+        "button_label": "Optional button",
+        "button_link": "https:\/\/form.jotform.com\/231756528180156",
+        "layout": "right",
+        "divider": false
+      }
+    },
     "d2c688cd-d01a-43f5-ae41-9273a0265cb1": {
       "type": "ldthreeprothfolio",
       "blocks": {
@@ -105,18 +120,18 @@
         "title": "How I can help"
       }
     },
-    "96cc6d51-88ea-419d-8e0f-23120c1e4a07": {
+    "66068033-72f8-42e1-ad10-8ab4dd71e20a": {
       "type": "image-with-text-book-call",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image_1_18671e22-eec8-42f6-8c9f-f29623481757.png",
+        "image": "shopify:\/\/shop_images\/template.png",
         "image_width": 500,
         "embded_calnder": "",
         "subtitle": "",
-        "title": "Shopify + eCom Services",
-        "text": "<p>Are you looking for an eCommerce expert to partner with to get things done or maybe a team to support you? Our eCom Collective Crew is made up of our staff and a vetted team of trusted expert partners who are masters in their area of expertise. We work together as a collective team, bringing our best to help you.<\/p>",
-        "button_label": "Optional button",
-        "button_link": "https:\/\/form.jotform.com\/231756528180156",
-        "layout": "right",
+        "title": "ANEKA GRANDISON",
+        "text": "<p>“We are committed to providing the highest quality services, productions, solutions, and resources to our clients to scale their ecommerce businesses online. As the founder of The Ecomm Builder, I understand the challenges and complexities involved in growing a successful online business, having worked hard to build a multi-six figure business on Shopify myself. \"We value your trust and the opportunity to serve you in reaching your business goals.”<br\/><br\/>--Aneka Grandison<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
         "divider": false
       }
     }
@@ -125,8 +140,9 @@
     "6c9396b3-5a30-45ae-88e2-96b9c765ddd2",
     "pf-41ef005a",
     "f102abce-96bf-4433-8ab6-854bed5083b8",
+    "96cc6d51-88ea-419d-8e0f-23120c1e4a07",
     "d2c688cd-d01a-43f5-ae41-9273a0265cb1",
-    "96cc6d51-88ea-419d-8e0f-23120c1e4a07"
+    "66068033-72f8-42e1-ad10-8ab4dd71e20a"
   ],
   "layout": "theme.pagefly"
 }
