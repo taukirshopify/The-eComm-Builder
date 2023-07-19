@@ -1,0 +1,393 @@
+{
+  "sections": {
+    "pf-41ef005a": {
+      "type": "pf-41ef005a",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "d2116d5b-0b24-47be-bd4f-9a258f6bc48d": {
+      "type": "clandingpageheader",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/transparent-02.webp",
+        "main-menu2": "footer",
+        "btn": "Buy Now"
+      }
+    },
+    "ca7c3248-97b6-4b6a-b34c-5a8b76a2f9c7": {
+      "type": "clandingpagetop",
+      "settings": {
+        "u": "shopify:\/\/files\/videos\/LEARN TO BUILD SHOPIFY COURSE IN 2022.mp4",
+        "p1": "SPECIAL OFFER EXPIRES IN:",
+        "p2": "LEARN HOW YOU CAN START  A PROFITABLE SHOPIFY STORE  IN 30 DAYS  OR LESS...",
+        "p3": "(Without Needing Any Experience!)",
+        "p4": "START BUILDING MY BUSSINESS",
+        "p5": "Why Build a Shopify Store for your Business?",
+        "p6": "<b>Shopify is one of the most popular eCommerce platforms  <\/b> offering everything you need for your eCommerce store while having the easiest requirements to use. The platform <b> empowers over 1,000,000 businesses selling products online worldwide. <\/b> It provides you with a set of useful features that function your eCommerce website up to the par and effectively raise it to a higher level.",
+        "p7": " There are a myriad of reasons why Shopify is the best eCommerce platform for your business. <b> Keep reading to figure out! <\/b>",
+        "text1": "<p> 1. Thousands of available <strong>themes<\/strong> (new ones coming out all the time<\/p><p> 2. <strong>Stripe<\/strong> and 3rd party shopping integrations<\/p><p> 3. Integrations with <strong>PayPal<\/strong><\/p><p> 4. They support blogs and we all know content is king!<\/p><p> 5. Tracking and maintaining customer data<\/p><p> 6. Works like a regular website CMS<\/p><p> 7. <strong>Optimized for SEO<\/strong> and easily customizable in regards to keywords<\/p>",
+        "text2": "<p> 8. <strong>You can use your MailChimp or other Email provider<\/strong><\/p><p> 9. You <strong>can add coupons and discount codes<\/strong><\/p><p> 10. Full HTML and CSS Editing abilities<\/p><p> 11. A “Buy Now” call to action button to be placed on external sites<\/p><p> 12. <strong>POS Integration<\/strong><\/p><p> 13. You can make a customizable profile for your employees<\/p><p> 14. Integrations with <strong>live chats<\/strong><\/p>",
+        "text3": "<p> 15. Create <strong>your own store Gift Cards<\/strong><\/p><p> 16. Advanced Reporting<\/p><p> 17. An <strong>Abandoned Cart feature built in!<\/strong><\/p><p> 18. Integration with help desks like ZenDesk<\/p><p> 19. Analytics reporting<\/p><p> 20. <strong>Shipping carrier integration<\/strong><\/p>",
+        "p8": "Our Ultimate Shopify course is great for new business owners <b> who want to master Shopify and learn how to create their own Shopify store. <\/b> Build your website at your pace. The course is designed to <b> get your store up and running in 30 days!!! <\/b> You will learn how to add products, track your inventory, set up discount codes, set up shipping rates, collections, tags, apps to add, track profit and loss, sales channel, set up email marketing, pricing products, set up Abandoned cart, Notifications, all legal policy’s, free theme selection… and much more.",
+        "p9": "A Proven System for Building Online Businesses",
+        "p10": "SHOW ME HOW",
+        "p122": "START BUILDING MY BUSSINESS"
+      }
+    },
+    "a62b52c2-4c36-4760-9fd2-2405de35b1d6": {
+      "type": "ladingpageproudct",
+      "settings": {
+        "featured_product": "e-commerce-mistakes",
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "show_description": false,
+        "divider": false
+      }
+    },
+    "7706aac7-8440-43e8-b418-1b0e2665bb05": {
+      "type": "clandingpageoutline",
+      "blocks": {
+        "d0de1d4b-80a5-4003-b14c-957bb0d63d2e": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter 1",
+            "p": "Getting Started With Shopify Store"
+          }
+        },
+        "093fbe9c-754f-41d7-b7ac-817b93622a38": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter",
+            "p": "Setting Up Your Shopify Store"
+          }
+        },
+        "001c7bd2-f6bd-4986-a109-ed2edb1b947e": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter",
+            "p": "Selecting Your Plan And Setting Up Domain"
+          }
+        },
+        "eae7e597-fe23-4f76-818c-606821c0edda": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter",
+            "p": "Essentials Settings"
+          }
+        },
+        "28760de9-82f3-49e6-9f71-6f9dde3b0346": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter",
+            "p": "Bonus Features "
+          }
+        },
+        "e39f89c3-56f5-4912-b441-0c1089d13200": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter",
+            "p": "Before You Go"
+          }
+        },
+        "be8961a7-f0fb-4a8a-8098-2d487795b82f": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter",
+            "p": "Frequently Ask Questions"
+          }
+        }
+      },
+      "block_order": [
+        "d0de1d4b-80a5-4003-b14c-957bb0d63d2e",
+        "093fbe9c-754f-41d7-b7ac-817b93622a38",
+        "001c7bd2-f6bd-4986-a109-ed2edb1b947e",
+        "eae7e597-fe23-4f76-818c-606821c0edda",
+        "28760de9-82f3-49e6-9f71-6f9dde3b0346",
+        "e39f89c3-56f5-4912-b441-0c1089d13200",
+        "be8961a7-f0fb-4a8a-8098-2d487795b82f"
+      ],
+      "settings": {
+        "title": "Course Outline",
+        "video": "shopify:\/\/files\/videos\/The Ultimate Shopify Course For Beginners.mp4"
+      }
+    },
+    "4afc9049-d5cf-46e5-8fc3-d3d9b08363f7": {
+      "type": "bundelfeatured",
+      "blocks": {
+        "4501ea93-227a-416f-9beb-67f9dade305e": {
+          "type": "content",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/1.webp",
+            "title": "Free Business Template",
+            "p": "Our business template will help you to create an effective mission statement, strategy for growth, determine your future financial needs, and be ready for funding."
+          }
+        },
+        "fa8d1231-5043-4b43-971a-6aba0b2568dc": {
+          "type": "content",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/2.webp",
+            "title": "Step-By-Step eBook",
+            "p": "The eBook is a step-by-step guide to help you follow along with our amazing course."
+          }
+        },
+        "7c55189a-a0f1-418a-a2a7-b2ba779495bf": {
+          "type": "content",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/3.webp",
+            "title": "SEO Set-Up",
+            "p": "SEO is an important factor in organic business growth. SEO Increases Organic Discovery & High-Quality Website Traffic. SEO helps you take advantage of the 70,000 Google users who search every second for FREE. "
+          }
+        },
+        "9c93b9a7-e5ec-4c38-bceb-dcdadb4544db": {
+          "type": "content",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/4.webp",
+            "title": "Google Analytics Set-Up",
+            "p": "Google Analytics is a key competent to your business. Google Analytics helps you get a deeper understanding of your customers. Google Analytics gives you the free tools you need to analyze data for your business in one place."
+          }
+        },
+        "496f3101-98b6-48fd-bfbe-bf46686c039f": {
+          "type": "content",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/5.webp",
+            "title": "Domain Set Up",
+            "p": "Connecting your domain can be a headache, no worries our Ultimate Shopify course will help you set up your domain correctly."
+          }
+        },
+        "20ba917f-f1ce-4e15-b869-e5f1da5f78d5": {
+          "type": "content",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/6.webp",
+            "title": "Must-Have Shopify APPS",
+            "p": "Shopify offers so many apps. Picking the right app can make a huge difference in your Shopify website being successful. Our Ultimate Shopify Course comes with a list of recommending apps to use. "
+          }
+        }
+      },
+      "block_order": [
+        "4501ea93-227a-416f-9beb-67f9dade305e",
+        "fa8d1231-5043-4b43-971a-6aba0b2568dc",
+        "7c55189a-a0f1-418a-a2a7-b2ba779495bf",
+        "9c93b9a7-e5ec-4c38-bceb-dcdadb4544db",
+        "496f3101-98b6-48fd-bfbe-bf46686c039f",
+        "20ba917f-f1ce-4e15-b869-e5f1da5f78d5"
+      ],
+      "settings": {
+        "title": "BONUS FEARURES"
+      }
+    },
+    "82313d27-cce6-4fb0-9226-38daf6232c71": {
+      "type": "cwhyme",
+      "settings": {
+        "title": "Course Outline",
+        "img": "shopify:\/\/shop_images\/potrait-of-aneka_1.webp",
+        "rtext": "<p><strong>Aneka has been in the sea moss industry for over three years.<\/strong> In that short period of time she has been able to scale her business from <strong>making $58,000 in 2020 to already earning over $100,000 in 8 months time during 2021.<\/strong> This income was generated from her Shopify site alone. She consistently receives over <strong>200+ orders in a month<\/strong> and she is ready to teach others how to do the same.<\/p>",
+        "title2": "KNOW MORE",
+        "img2": "shopify:\/\/shop_images\/shopify1knew_1.webp"
+      }
+    },
+    "bf1b2dfa-5793-4d51-be86-d3945e521bab": {
+      "type": "WithAnekaYouBecome",
+      "blocks": {
+        "ab15680a-e51e-42a2-af78-74539ce68bf9": {
+          "type": "content",
+          "settings": {
+            "bimage": "shopify:\/\/shop_images\/1_c35935df-1007-4309-9ac1-be1c5443448a.webp",
+            "title": "Someone With An Easy To Follow  Mission",
+            "p": "We makes it accessible for you to enter the world of online entrepreneurship. Each lesson is packed with practical advice you can understand and use straight away."
+          }
+        },
+        "65a1529f-ed44-4334-9a2e-bfc9f8e28622": {
+          "type": "content",
+          "settings": {
+            "bimage": "shopify:\/\/shop_images\/2_6eec22e3-e76d-4746-bcf4-44b985b4a398.webp",
+            "title": "Someone Following A Step by Step System",
+            "p": "When you join us, you’re investing in a system that’s helping others start their own online business. Easy to follow step-by-step training videos."
+          }
+        },
+        "95c80042-e1a1-4905-9169-502295c1059b": {
+          "type": "content",
+          "settings": {
+            "bimage": "shopify:\/\/shop_images\/3_69bffabe-04bf-41b2-a487-88ad178bff03.webp",
+            "title": "Someone Not Tied Down With Work",
+            "p": "Nobody wants to spend 12-14 hours chained to a desk. With us, you won’t have as much of what you learn as a one-time activity or can eventually be automated."
+          }
+        },
+        "cc792e86-47ae-4f97-8f71-2dc8958c0a54": {
+          "type": "content",
+          "settings": {
+            "bimage": "shopify:\/\/shop_images\/4_78e87511-b39d-45ce-aacd-d9274f72cff4.webp",
+            "title": "Someone Transforming Into An eCommerce Veteran",
+            "p": "Avoid common mistakes and join the ranks of winning entrepreneurs inside our private group with help from a professional who’s built multiple eCommerce businesses."
+          }
+        }
+      },
+      "block_order": [
+        "ab15680a-e51e-42a2-af78-74539ce68bf9",
+        "65a1529f-ed44-4334-9a2e-bfc9f8e28622",
+        "95c80042-e1a1-4905-9169-502295c1059b",
+        "cc792e86-47ae-4f97-8f71-2dc8958c0a54"
+      ],
+      "settings": {
+        "title": "With Aneka , You Become...",
+        "img": "shopify:\/\/shop_images\/course-banner-1.webp",
+        "title2": "GET THE COURSE NOW",
+        "t2": "ENJOY OUR SPECIAL OFFER",
+        "p2": "YES I WONT TO ENROLL !!"
+      }
+    },
+    "e06a07d6-760a-47af-834a-0086b0241d44": {
+      "type": "SeeWhatMyStudentsSay",
+      "blocks": {
+        "74974a48-365b-49f8-a481-2d7893372e1b": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter 1",
+            "p": "<i>I truly enjoyed the workshop and learn a wealth of information. Aneka was able to answer all of my questions on how to set up my shop. She also provided quick and easy fixes for my shop issues. Her tips were very spot on and I'm very confident will put me in the right direction for earnings. She's amazing.<\/i>",
+            "rtext": "<p>Lisha  - on Sep 26, 2021<\/p>"
+          }
+        },
+        "2f50669e-f68d-4ac1-9ce6-676333d86f74": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter 1",
+            "p": "<i>I truly enjoyed the workshop and learn a wealth of information. Aneka was able to answer all of my questions on how to set up my shop. She also provided quick and easy fixes for my shop issues. Her tips were very spot on and I'm very confident will put me in the right direction for earnings. She's amazing.<\/i>",
+            "rtext": "<p>Lisha  - on Sep 26, 2021<\/p>"
+          }
+        },
+        "b1db4d8b-2af8-4e6d-92d7-d904f6cf2f0b": {
+          "type": "content",
+          "settings": {
+            "title": "Chapter 1",
+            "p": "<i>I truly enjoyed the workshop and learn a wealth of information. Aneka was able to answer all of my questions on how to set up my shop. She also provided quick and easy fixes for my shop issues. Her tips were very spot on and I'm very confident will put me in the right direction for earnings. She's amazing.<\/i>",
+            "rtext": "<p>Lisha  - on Sep 26, 2021<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "74974a48-365b-49f8-a481-2d7893372e1b",
+        "2f50669e-f68d-4ac1-9ce6-676333d86f74",
+        "b1db4d8b-2af8-4e6d-92d7-d904f6cf2f0b"
+      ],
+      "settings": {
+        "title": "See What My Students Say",
+        "title2": "100% Setting up your Shopify Store",
+        "p": "<b> Order right now with confidence! We offer 100% Setting up your Shopify Store for  your successful journey.<\/b>"
+      }
+    },
+    "bbe855b8-e2ce-412e-b1c4-f5a1871f21a7": {
+      "type": "colokfooterlandingpageone",
+      "settings": {
+        "title": "Course Outline"
+      }
+    },
+    "69101528-2dcd-417f-b312-c8e63bf4a13a": {
+      "type": "clandingpagefooter",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/transparent-02.webp",
+        "title": "With Aneka, You Become...",
+        "main-menu2": "menu01",
+        "p": "Copyright © 2021 All rights reserved."
+      }
+    },
+    "f102abce-96bf-4433-8ab6-854bed5083b8": {
+      "type": "ldthreecountup",
+      "blocks": {
+        "0cab4063-ac49-4f59-b3e8-39af5fb81f88": {
+          "type": "feature",
+          "settings": {
+            "title": "Monthly Website visits",
+            "dec": "120"
+          }
+        },
+        "196eb749-1eee-48b5-9251-6354dfe3f7fd": {
+          "type": "feature",
+          "settings": {
+            "title": "Monthly Website visits",
+            "dec": "120"
+          }
+        },
+        "a02883f7-eb71-4902-a4ad-e8972b3e6aef": {
+          "type": "feature",
+          "settings": {
+            "title": "Monthly Website visits",
+            "dec": "120"
+          }
+        }
+      },
+      "block_order": [
+        "0cab4063-ac49-4f59-b3e8-39af5fb81f88",
+        "196eb749-1eee-48b5-9251-6354dfe3f7fd",
+        "a02883f7-eb71-4902-a4ad-e8972b3e6aef"
+      ],
+      "settings": {
+        "title": "How I can help"
+      }
+    },
+    "d2c688cd-d01a-43f5-ae41-9273a0265cb1": {
+      "type": "ldthreeprothfolio",
+      "blocks": {
+        "8a28913b-7d6e-4379-9957-34b63e27ce2d": {
+          "type": "card",
+          "settings": {
+            "color": false,
+            "img": "shopify:\/\/shop_images\/6_1.png",
+            "title": "Website Design",
+            "url": ""
+          }
+        },
+        "6f6e3e17-6eab-4e02-a5bc-b74561b3b850": {
+          "type": "card",
+          "settings": {
+            "color": true,
+            "img": "shopify:\/\/shop_images\/5_1.png",
+            "title": "Website Design",
+            "url": ""
+          }
+        },
+        "95b70eb3-c662-42d8-8f0f-562299d1ca98": {
+          "type": "card",
+          "settings": {
+            "color": false,
+            "img": "shopify:\/\/shop_images\/1_1.png",
+            "title": "Website Design",
+            "url": ""
+          }
+        },
+        "9f3d5408-1775-46e3-b9b0-c1b13390a7c9": {
+          "type": "card",
+          "settings": {
+            "color": false,
+            "img": "shopify:\/\/shop_images\/5_1.png",
+            "title": "Website Design",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "8a28913b-7d6e-4379-9957-34b63e27ce2d",
+        "6f6e3e17-6eab-4e02-a5bc-b74561b3b850",
+        "95b70eb3-c662-42d8-8f0f-562299d1ca98",
+        "9f3d5408-1775-46e3-b9b0-c1b13390a7c9"
+      ],
+      "settings": {
+        "title": "How I can help"
+      }
+    }
+  },
+  "order": [
+    "pf-41ef005a",
+    "d2116d5b-0b24-47be-bd4f-9a258f6bc48d",
+    "ca7c3248-97b6-4b6a-b34c-5a8b76a2f9c7",
+    "a62b52c2-4c36-4760-9fd2-2405de35b1d6",
+    "7706aac7-8440-43e8-b418-1b0e2665bb05",
+    "4afc9049-d5cf-46e5-8fc3-d3d9b08363f7",
+    "82313d27-cce6-4fb0-9226-38daf6232c71",
+    "bf1b2dfa-5793-4d51-be86-d3945e521bab",
+    "e06a07d6-760a-47af-834a-0086b0241d44",
+    "bbe855b8-e2ce-412e-b1c4-f5a1871f21a7",
+    "69101528-2dcd-417f-b312-c8e63bf4a13a",
+    "f102abce-96bf-4433-8ab6-854bed5083b8",
+    "d2c688cd-d01a-43f5-ae41-9273a0265cb1"
+  ],
+  "layout": "theme.pagefly"
+}
