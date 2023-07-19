@@ -1,0 +1,171 @@
+{
+  "sections": {
+    "6c9396b3-5a30-45ae-88e2-96b9c765ddd2": {
+      "type": "image-with-text-book-call",
+      "custom_css": [
+        ".index-section {background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #ebd89b 100%);}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/template_1.png",
+        "image_width": 450,
+        "embded_calnder": "",
+        "subtitle": "",
+        "title": "Shopify Struggles?",
+        "text": "<p>Get Shopify Expert coaching guidance and consulting for high-flying success!<\/p>",
+        "button_label": "BOOK COACHING CALL",
+        "button_link": "https:\/\/form.jotform.com\/231756528180156",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "pf-41ef005a": {
+      "type": "pf-41ef005a",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "f102abce-96bf-4433-8ab6-854bed5083b8": {
+      "type": "ldthreecountup",
+      "blocks": {
+        "0cab4063-ac49-4f59-b3e8-39af5fb81f88": {
+          "type": "feature",
+          "settings": {
+            "title": "Monthly Website Visits",
+            "dec": "7,000+"
+          }
+        },
+        "196eb749-1eee-48b5-9251-6354dfe3f7fd": {
+          "type": "feature",
+          "settings": {
+            "title": "Followers Across Social",
+            "dec": "30,000+"
+          }
+        },
+        "a02883f7-eb71-4902-a4ad-e8972b3e6aef": {
+          "type": "feature",
+          "settings": {
+            "title": "Members On Clubhouse",
+            "dec": "750,000+"
+          }
+        }
+      },
+      "block_order": [
+        "0cab4063-ac49-4f59-b3e8-39af5fb81f88",
+        "196eb749-1eee-48b5-9251-6354dfe3f7fd",
+        "a02883f7-eb71-4902-a4ad-e8972b3e6aef"
+      ],
+      "settings": {
+        "title": "GLOBAL SOCIAL MEDIA REACH & AUDIENCE IMPACT"
+      }
+    },
+    "96cc6d51-88ea-419d-8e0f-23120c1e4a07": {
+      "type": "image-with-text-book-call",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_1_18671e22-eec8-42f6-8c9f-f29623481757.png",
+        "image_width": 500,
+        "embded_calnder": "",
+        "subtitle": "",
+        "title": "Shopify + eCom Services",
+        "text": "<p>Are you looking for an eCommerce expert to partner with to get things done or maybe a team to support you? Our eCom Collective Crew is made up of our staff and a vetted team of trusted expert partners who are masters in their area of expertise. We work together as a collective team, bringing our best to help you.<\/p>",
+        "button_label": "Work with me",
+        "button_link": "https:\/\/form.jotform.com\/231756528180156",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "d2c688cd-d01a-43f5-ae41-9273a0265cb1": {
+      "type": "ldthreeprothfolio",
+      "blocks": {
+        "8a28913b-7d6e-4379-9957-34b63e27ce2d": {
+          "type": "card",
+          "settings": {
+            "color": false,
+            "img": "shopify:\/\/shop_images\/6_1.png",
+            "title": "CONTENT WRITING",
+            "url": ""
+          }
+        },
+        "6f6e3e17-6eab-4e02-a5bc-b74561b3b850": {
+          "type": "card",
+          "settings": {
+            "color": true,
+            "img": "shopify:\/\/shop_images\/5_1.png",
+            "title": "DIGITAL MARKETING",
+            "url": ""
+          }
+        },
+        "95b70eb3-c662-42d8-8f0f-562299d1ca98": {
+          "type": "card",
+          "settings": {
+            "color": false,
+            "img": "shopify:\/\/shop_images\/1_1.png",
+            "title": "Website Design",
+            "url": ""
+          }
+        },
+        "9f3d5408-1775-46e3-b9b0-c1b13390a7c9": {
+          "type": "card",
+          "settings": {
+            "color": true,
+            "img": "shopify:\/\/shop_images\/4_1.png",
+            "title": "SEO",
+            "url": ""
+          }
+        },
+        "80129d4f-4137-4a74-8538-fb30326f10b4": {
+          "type": "card",
+          "settings": {
+            "color": false,
+            "img": "shopify:\/\/shop_images\/3_1.png",
+            "title": "BRAND DESIGN",
+            "url": ""
+          }
+        },
+        "a7ece763-8810-45d0-a899-46d7c67165de": {
+          "type": "card",
+          "settings": {
+            "color": false,
+            "img": "shopify:\/\/shop_images\/2_1.png",
+            "title": "SOCIAL MEDIA",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "8a28913b-7d6e-4379-9957-34b63e27ce2d",
+        "6f6e3e17-6eab-4e02-a5bc-b74561b3b850",
+        "95b70eb3-c662-42d8-8f0f-562299d1ca98",
+        "9f3d5408-1775-46e3-b9b0-c1b13390a7c9",
+        "80129d4f-4137-4a74-8538-fb30326f10b4",
+        "a7ece763-8810-45d0-a899-46d7c67165de"
+      ],
+      "settings": {
+        "title": "How I can help"
+      }
+    },
+    "66068033-72f8-42e1-ad10-8ab4dd71e20a": {
+      "type": "image-with-text-book-call",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/template.png",
+        "image_width": 500,
+        "embded_calnder": "",
+        "subtitle": "",
+        "title": "ANEKA GRANDISON",
+        "text": "<p>“We are committed to providing the highest quality services, productions, solutions, and resources to our clients to scale their ecommerce businesses online. As the founder of The Ecomm Builder, I understand the challenges and complexities involved in growing a successful online business, having worked hard to build a multi-six figure business on Shopify myself. \"We value your trust and the opportunity to serve you in reaching your business goals.”<br\/><br\/>--Aneka Grandison<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "6c9396b3-5a30-45ae-88e2-96b9c765ddd2",
+    "pf-41ef005a",
+    "f102abce-96bf-4433-8ab6-854bed5083b8",
+    "96cc6d51-88ea-419d-8e0f-23120c1e4a07",
+    "d2c688cd-d01a-43f5-ae41-9273a0265cb1",
+    "66068033-72f8-42e1-ad10-8ab4dd71e20a"
+  ],
+  "layout": "theme.pagefly"
+}
