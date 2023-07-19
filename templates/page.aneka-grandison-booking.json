@@ -116,7 +116,8 @@
           "type": "card",
           "settings": {
             "color": false,
-            "title": "Website Design",
+            "img": "shopify:\/\/shop_images\/3_1.png",
+            "title": "BRAND DESIGN",
             "url": ""
           }
         }
