@@ -2,6 +2,9 @@
   "sections": {
     "6c9396b3-5a30-45ae-88e2-96b9c765ddd2": {
       "type": "image-with-text-book-call",
+      "custom_css": [
+        ".index-section {background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, #EBD89B 100%);}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Image_8fedacc9-f16f-48cf-8810-c61874919225.png",
         "image_width": 500,
