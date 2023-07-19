@@ -3,13 +3,18 @@
     <section class="faq section-padding">
         <div class="container">
 
+        <div class="row">
+          <div class="col-lg-8 offset-lg-3">
             {% for item in section.blocks %}
-            <div class="single-faq mb-5">
-                <h4> <i class="fa-solid fa-circle-question"></i> {{ item.settings.title }}</h4>
-                <p>{{ item.settings.dec }}</p>
-            </div>
-        {% endfor %}
-
+                <div class="single-faq mb-5">
+                    <h4> <i class="fa-solid fa-circle-question"></i> {{ item.settings.title }}</h4>
+                    <p>{{ item.settings.dec }}</p>
+                </div>
+            {% endfor %}
+    
+           </div>
+    
+        </div>
             <a href="#" class="btn tobottom">
                 <i class="fa-solid fa-angles-right"></i> 
                 {{ section.settings.btn }}

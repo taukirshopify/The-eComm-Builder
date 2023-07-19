@@ -10,10 +10,9 @@
     .header-padding {
         background-image: url('{{ section.settings.imgbg | img_url:'' }}');
         background-repeat: no-repeat;
-        /* background-position: center; */
+         {% comment %} background-position: center;  {% endcomment %}
         background-size: cover;
-    
-        @media only screen and (max-width: 1900px) and (min-width: 100px)  {
+        @media only screen and (max-width: 1920px) and (min-width: 100px)  {
             background-size: contain;
         
         }
@@ -581,12 +580,12 @@ font-size: 36px;
                     </div>
                     <a href="#" class="btn text-center tobottom">
                         <i class="fa-solid fa-angles-right"></i>
-                        Total Value: $12,973
+                        {{ section.settings.totalpirce }}
                     </a>
              
 
                     <div class="price">
-                        <h3><del>Usually $2,997</del> Only $20</h3>
+                        <h3><del> {{ section.settings.totalpircereg }} </del>  {{ section.settings.totalpircecom }}</h3>
                         <h4>One time payment</h4>
                     </div>
 
@@ -664,6 +663,30 @@ font-size: 36px;
             "id": "u",
             "label": "Video Upload",
             "type": "video"
+           },
+           {
+            "type": "text",
+            "id": "totalpirce",
+            "label": "tilte",
+            "default": "Total Value: $12,973",
+         
+            "placeholder": "Total Value: $12,973"
+           },
+           {
+            "type": "text",
+            "id": "totalpircecom",
+            "label": "tilte",
+            "default": "Only $20",
+         
+            "placeholder": "Only $20"
+           },
+           {
+            "type": "text",
+            "id": "totalpircereg",
+            "label": "tilte",
+            "default": "Usually $2,997",
+         
+            "placeholder": "Usually $2,997"
            },
            {
             "type": "text",
