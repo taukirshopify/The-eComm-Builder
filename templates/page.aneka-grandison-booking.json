@@ -8,6 +8,7 @@
     },
     "d39cb692-babc-427a-a6c4-70fda21b78ef": {
       "type": "ldtwoheader",
+      "disabled": true,
       "blocks": {
         "60d211d0-e72d-4078-b2fa-e16b8f8cf6c4": {
           "type": "feature",
@@ -99,6 +100,7 @@
     },
     "b83acf83-599c-4347-bf04-cc20887f6cb4": {
       "type": "ldtwocard",
+      "disabled": true,
       "blocks": {
         "e997b013-6323-4537-b9b5-b825eabb1f5b": {
           "type": "feature",
@@ -130,6 +132,7 @@
     },
     "7da7e64d-43a3-4129-bf2e-e232193ac206": {
       "type": "ldtwodropshipingwork",
+      "disabled": true,
       "blocks": {
         "b4e0fff6-e46f-404f-8bc5-4019725f77f1": {
           "type": "feature",
@@ -185,6 +188,7 @@
     },
     "b38b677a-414d-4624-b767-32e1fdf587ee": {
       "type": "ldtwoexample",
+      "disabled": true,
       "blocks": {
         "c2725b72-95dd-4494-a92c-a86243adae07": {
           "type": "feature",
@@ -209,6 +213,7 @@
     },
     "02b79b5e-60e1-40ce-995c-f5ebcbf381ba": {
       "type": "ldtwofaq",
+      "disabled": true,
       "blocks": {
         "a41ec4f4-1b4e-4100-b95a-22605fdb3f55": {
           "type": "Faq",
@@ -251,6 +256,7 @@
     },
     "ce0d62ad-e6ee-46e5-9451-beabbc3d5542": {
       "type": "ldtworeview",
+      "disabled": true,
       "blocks": {
         "0800b3ef-dd16-4a4c-868a-45392466b325": {
           "type": "Faq",
@@ -291,6 +297,7 @@
     },
     "67a671e8-d02e-458c-9131-2e8d0ea1283d": {
       "type": "ldtwofooter",
+      "disabled": true,
       "settings": {
         "img": "shopify:\/\/shop_images\/transparent-02.webp",
         "p": "Copyright Ecom Websites LLC © 2022 All Rights Reserved",
