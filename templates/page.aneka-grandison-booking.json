@@ -104,13 +104,28 @@
       "settings": {
         "title": "How I can help"
       }
+    },
+    "96cc6d51-88ea-419d-8e0f-23120c1e4a07": {
+      "type": "image-with-text-book-call",
+      "settings": {
+        "image_width": 500,
+        "embded_calnder": "",
+        "subtitle": "",
+        "title": "Shopify + eCom Services",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "Optional button",
+        "button_link": "",
+        "layout": "right",
+        "divider": false
+      }
     }
   },
   "order": [
     "6c9396b3-5a30-45ae-88e2-96b9c765ddd2",
     "pf-41ef005a",
     "f102abce-96bf-4433-8ab6-854bed5083b8",
-    "d2c688cd-d01a-43f5-ae41-9273a0265cb1"
+    "d2c688cd-d01a-43f5-ae41-9273a0265cb1",
+    "96cc6d51-88ea-419d-8e0f-23120c1e4a07"
   ],
   "layout": "theme.pagefly"
 }
