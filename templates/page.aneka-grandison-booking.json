@@ -106,8 +106,16 @@
         "9f3d5408-1775-46e3-b9b0-c1b13390a7c9": {
           "type": "card",
           "settings": {
+            "color": true,
+            "img": "shopify:\/\/shop_images\/4_1.png",
+            "title": "SEO",
+            "url": ""
+          }
+        },
+        "80129d4f-4137-4a74-8538-fb30326f10b4": {
+          "type": "card",
+          "settings": {
             "color": false,
-            "img": "shopify:\/\/shop_images\/5_1.png",
             "title": "Website Design",
             "url": ""
           }
@@ -117,7 +125,8 @@
         "8a28913b-7d6e-4379-9957-34b63e27ce2d",
         "6f6e3e17-6eab-4e02-a5bc-b74561b3b850",
         "95b70eb3-c662-42d8-8f0f-562299d1ca98",
-        "9f3d5408-1775-46e3-b9b0-c1b13390a7c9"
+        "9f3d5408-1775-46e3-b9b0-c1b13390a7c9",
+        "80129d4f-4137-4a74-8538-fb30326f10b4"
       ],
       "settings": {
         "title": "How I can help"
