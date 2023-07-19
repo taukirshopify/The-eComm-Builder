@@ -108,13 +108,14 @@
     "96cc6d51-88ea-419d-8e0f-23120c1e4a07": {
       "type": "image-with-text-book-call",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Image_1_18671e22-eec8-42f6-8c9f-f29623481757.png",
         "image_width": 500,
         "embded_calnder": "",
         "subtitle": "",
         "title": "Shopify + eCom Services",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "text": "<p>Are you looking for an eCommerce expert to partner with to get things done or maybe a team to support you? Our eCom Collective Crew is made up of our staff and a vetted team of trusted expert partners who are masters in their area of expertise. We work together as a collective team, bringing our best to help you.<\/p>",
         "button_label": "Optional button",
-        "button_link": "",
+        "button_link": "https:\/\/form.jotform.com\/231756528180156",
         "layout": "right",
         "divider": false
       }
