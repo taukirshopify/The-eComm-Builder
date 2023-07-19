@@ -8,6 +8,7 @@
     },
     "d2116d5b-0b24-47be-bd4f-9a258f6bc48d": {
       "type": "clandingpageheader",
+      "disabled": true,
       "settings": {
         "img": "shopify:\/\/shop_images\/transparent-02.webp",
         "main-menu2": "footer",
@@ -16,6 +17,7 @@
     },
     "ca7c3248-97b6-4b6a-b34c-5a8b76a2f9c7": {
       "type": "clandingpagetop",
+      "disabled": true,
       "settings": {
         "u": "shopify:\/\/files\/videos\/LEARN TO BUILD SHOPIFY COURSE IN 2022.mp4",
         "p1": "SPECIAL OFFER EXPIRES IN:",
@@ -36,6 +38,7 @@
     },
     "a62b52c2-4c36-4760-9fd2-2405de35b1d6": {
       "type": "ladingpageproudct",
+      "disabled": true,
       "settings": {
         "featured_product": "e-commerce-mistakes",
         "thumbnail_position": "beside",
@@ -46,6 +49,7 @@
     },
     "7706aac7-8440-43e8-b418-1b0e2665bb05": {
       "type": "clandingpageoutline",
+      "disabled": true,
       "blocks": {
         "d0de1d4b-80a5-4003-b14c-957bb0d63d2e": {
           "type": "content",
@@ -113,6 +117,7 @@
     },
     "4afc9049-d5cf-46e5-8fc3-d3d9b08363f7": {
       "type": "bundelfeatured",
+      "disabled": true,
       "blocks": {
         "4501ea93-227a-416f-9beb-67f9dade305e": {
           "type": "content",
@@ -177,6 +182,7 @@
     },
     "82313d27-cce6-4fb0-9226-38daf6232c71": {
       "type": "cwhyme",
+      "disabled": true,
       "settings": {
         "title": "Course Outline",
         "img": "shopify:\/\/shop_images\/potrait-of-aneka_1.webp",
@@ -187,6 +193,7 @@
     },
     "bf1b2dfa-5793-4d51-be86-d3945e521bab": {
       "type": "WithAnekaYouBecome",
+      "disabled": true,
       "blocks": {
         "ab15680a-e51e-42a2-af78-74539ce68bf9": {
           "type": "content",
@@ -237,6 +244,7 @@
     },
     "e06a07d6-760a-47af-834a-0086b0241d44": {
       "type": "SeeWhatMyStudentsSay",
+      "disabled": true,
       "blocks": {
         "74974a48-365b-49f8-a481-2d7893372e1b": {
           "type": "content",
@@ -276,12 +284,14 @@
     },
     "bbe855b8-e2ce-412e-b1c4-f5a1871f21a7": {
       "type": "colokfooterlandingpageone",
+      "disabled": true,
       "settings": {
         "title": "Course Outline"
       }
     },
     "69101528-2dcd-417f-b312-c8e63bf4a13a": {
       "type": "clandingpagefooter",
+      "disabled": true,
       "settings": {
         "img": "shopify:\/\/shop_images\/transparent-02.webp",
         "title": "With Aneka, You Become...",
