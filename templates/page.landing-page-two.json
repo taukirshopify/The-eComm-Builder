@@ -236,6 +236,18 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/image_37a33ead-0844-495a-a208-3b9208c5f5b3.jpg"
           }
+        },
+        "c9c6c55c-7c49-4f10-bc2d-f42e6cd25b15": {
+          "type": "feature",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/image_eff6a41d-6577-406e-9e23-b07e990116d5.jpg"
+          }
+        },
+        "fbc4233b-d430-4e72-ba58-9ba748761b25": {
+          "type": "feature",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/image_eff6a41d-6577-406e-9e23-b07e990116d5.jpg"
+          }
         }
       },
       "block_order": [
@@ -246,7 +258,9 @@
         "7134222f-432c-4c37-b1bc-5df5c8977eca",
         "b79bf24f-0f14-4665-9079-8e49f105ceb4",
         "1fb6c8e5-eb29-4b17-83c9-4157761a2bcb",
-        "77c55933-4e9f-4c20-867b-d19d608d3547"
+        "77c55933-4e9f-4c20-867b-d19d608d3547",
+        "c9c6c55c-7c49-4f10-bc2d-f42e6cd25b15",
+        "fbc4233b-d430-4e72-ba58-9ba748761b25"
       ],
       "settings": {
         "title": "How Dropshipping Works !"
