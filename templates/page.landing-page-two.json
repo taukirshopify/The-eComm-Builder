@@ -87,14 +87,17 @@
       "settings": {
         "img": "shopify:\/\/shop_images\/transparent-02.webp",
         "imgbg": "shopify:\/\/shop_images\/2_8bc9bbc7-634f-4570-9500-d9fbc75d80d6.png",
+        "totalpirce": "Total Value: $12,973",
+        "totalpircecom": "Only $20",
+        "totalpircereg": "Usually $2,997",
         "title": "ECommerce Experts Launch  You A Fully Optimized eCommerce Website within the next",
         "p": "Our Ecommerce Experts with 7+ Years of experience have designed over 15,000 eCommerce stores and are here to design your beautiful eCommerce Store next for only $20",
         "h2": "Order Now And You'll Receive:",
-        "img2": "shopify:\/\/shop_images\/1_65588ae1-2f12-48db-837c-2bd6b140a7d8.png",
+        "img2": "shopify:\/\/shop_images\/top.png",
         "buymore": "You can order multiple stores at the same time, check the ones you want so you can have a  selection of stores to pick from",
         "img3": "shopify:\/\/shop_images\/credit-only_5.png",
-        "img4": "shopify:\/\/shop_images\/3_5f7b455f-4e12-4472-a6e1-d21951b04608.png",
-        "img5": "shopify:\/\/shop_images\/2_0e8f0b19-673a-4f50-96a9-c3a1e82d1556.png"
+        "img4": "shopify:\/\/shop_images\/4_8b4b8b42-80a8-4e9d-b462-6ef40d5b64a6.png",
+        "img5": "shopify:\/\/shop_images\/3_3cda0be3-0ae6-41e5-a3d9-3786fed8523d.png"
       }
     },
     "b83acf83-599c-4347-bf04-cc20887f6cb4": {
@@ -189,19 +192,75 @@
         "c2725b72-95dd-4494-a92c-a86243adae07": {
           "type": "feature",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Copy_of_Computer_Screen_digital_mock_up_27.png"
+            "img": "shopify:\/\/shop_images\/Untitleddesign_7.png"
           }
         },
         "10dd4a87-59c3-4ad7-bda6-ff5223796d6c": {
           "type": "feature",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Computer_Screen_digital_mock_up_37.png"
+            "img": "shopify:\/\/shop_images\/Untitleddesign_5.png"
+          }
+        },
+        "2cc2acc9-346f-40c8-9233-f3bbe555f0af": {
+          "type": "feature",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Untitleddesign_6.png"
+          }
+        },
+        "f925ddde-0da2-48d4-abbb-66434a05fd89": {
+          "type": "feature",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Untitleddesign_4.png"
+          }
+        },
+        "7134222f-432c-4c37-b1bc-5df5c8977eca": {
+          "type": "feature",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/image_a31badb1-0a9e-44c4-bdab-8fe6d3f4d89b.jpg"
+          }
+        },
+        "b79bf24f-0f14-4665-9079-8e49f105ceb4": {
+          "type": "feature",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/PREMADESTORE.png"
+          }
+        },
+        "1fb6c8e5-eb29-4b17-83c9-4157761a2bcb": {
+          "type": "feature",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/image_e2da7c82-41e7-461a-b6f7-7eaac441eea5.jpg"
+          }
+        },
+        "77c55933-4e9f-4c20-867b-d19d608d3547": {
+          "type": "feature",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/image_37a33ead-0844-495a-a208-3b9208c5f5b3.jpg"
+          }
+        },
+        "c9c6c55c-7c49-4f10-bc2d-f42e6cd25b15": {
+          "type": "feature",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/image_eff6a41d-6577-406e-9e23-b07e990116d5.jpg"
+          }
+        },
+        "fbc4233b-d430-4e72-ba58-9ba748761b25": {
+          "type": "feature",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/image_054cf370-1190-4926-930f-d53e08f3d248.jpg"
           }
         }
       },
       "block_order": [
         "c2725b72-95dd-4494-a92c-a86243adae07",
-        "10dd4a87-59c3-4ad7-bda6-ff5223796d6c"
+        "10dd4a87-59c3-4ad7-bda6-ff5223796d6c",
+        "2cc2acc9-346f-40c8-9233-f3bbe555f0af",
+        "f925ddde-0da2-48d4-abbb-66434a05fd89",
+        "7134222f-432c-4c37-b1bc-5df5c8977eca",
+        "b79bf24f-0f14-4665-9079-8e49f105ceb4",
+        "1fb6c8e5-eb29-4b17-83c9-4157761a2bcb",
+        "77c55933-4e9f-4c20-867b-d19d608d3547",
+        "c9c6c55c-7c49-4f10-bc2d-f42e6cd25b15",
+        "fbc4233b-d430-4e72-ba58-9ba748761b25"
       ],
       "settings": {
         "title": "How Dropshipping Works !"
@@ -255,23 +314,25 @@
         "0800b3ef-dd16-4a4c-868a-45392466b325": {
           "type": "Faq",
           "settings": {
-            "img": "shopify:\/\/shop_images\/DESKTOP-Amer-TYP-1.png"
+            "img": "shopify:\/\/shop_images\/1_f699c270-b671-4ba0-847f-0766101142b4.png"
           }
         },
         "8eb602e5-623a-4df5-b9cf-0e67fd60dd24": {
           "type": "Faq",
           "settings": {
-            "img": "shopify:\/\/shop_images\/DESKTOP-Amer-TYP-4.png"
+            "img": "shopify:\/\/shop_images\/2_1b5a02c4-19fa-4029-8b8d-54b5f55fb883.png"
           }
         },
         "4172fa93-cc18-44a2-8289-e7936aa71e52": {
           "type": "Faq",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/DESKTOP-Amer-TYP-2.png"
           }
         },
         "7e1ce90e-fe56-47fb-94f8-c450ad3a7a37": {
           "type": "Faq",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/DESKTOP-Amer-TYP-2.png"
           }
