@@ -200,11 +200,17 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/Untitleddesign_5.png"
           }
+        },
+        "2cc2acc9-346f-40c8-9233-f3bbe555f0af": {
+          "type": "feature",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "c2725b72-95dd-4494-a92c-a86243adae07",
-        "10dd4a87-59c3-4ad7-bda6-ff5223796d6c"
+        "10dd4a87-59c3-4ad7-bda6-ff5223796d6c",
+        "2cc2acc9-346f-40c8-9233-f3bbe555f0af"
       ],
       "settings": {
         "title": "How Dropshipping Works !"
