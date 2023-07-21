@@ -218,6 +218,12 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/image_a31badb1-0a9e-44c4-bdab-8fe6d3f4d89b.jpg"
           }
+        },
+        "b79bf24f-0f14-4665-9079-8e49f105ceb4": {
+          "type": "feature",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/PREMADESTORE.png"
+          }
         }
       },
       "block_order": [
@@ -225,7 +231,8 @@
         "10dd4a87-59c3-4ad7-bda6-ff5223796d6c",
         "2cc2acc9-346f-40c8-9233-f3bbe555f0af",
         "f925ddde-0da2-48d4-abbb-66434a05fd89",
-        "7134222f-432c-4c37-b1bc-5df5c8977eca"
+        "7134222f-432c-4c37-b1bc-5df5c8977eca",
+        "b79bf24f-0f14-4665-9079-8e49f105ceb4"
       ],
       "settings": {
         "title": "How Dropshipping Works !"
