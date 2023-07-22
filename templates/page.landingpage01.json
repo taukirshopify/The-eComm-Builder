@@ -288,90 +288,6 @@
         "main-menu2": "menu01",
         "p": "Copyright © 2021 All rights reserved."
       }
-    },
-    "f102abce-96bf-4433-8ab6-854bed5083b8": {
-      "type": "ldthreecountup",
-      "blocks": {
-        "0cab4063-ac49-4f59-b3e8-39af5fb81f88": {
-          "type": "feature",
-          "settings": {
-            "title": "Monthly Website visits",
-            "dec": "120"
-          }
-        },
-        "196eb749-1eee-48b5-9251-6354dfe3f7fd": {
-          "type": "feature",
-          "settings": {
-            "title": "Monthly Website visits",
-            "dec": "120"
-          }
-        },
-        "a02883f7-eb71-4902-a4ad-e8972b3e6aef": {
-          "type": "feature",
-          "settings": {
-            "title": "Monthly Website visits",
-            "dec": "120"
-          }
-        }
-      },
-      "block_order": [
-        "0cab4063-ac49-4f59-b3e8-39af5fb81f88",
-        "196eb749-1eee-48b5-9251-6354dfe3f7fd",
-        "a02883f7-eb71-4902-a4ad-e8972b3e6aef"
-      ],
-      "settings": {
-        "title": "How I can help"
-      }
-    },
-    "d2c688cd-d01a-43f5-ae41-9273a0265cb1": {
-      "type": "ldthreeprothfolio",
-      "blocks": {
-        "8a28913b-7d6e-4379-9957-34b63e27ce2d": {
-          "type": "card",
-          "settings": {
-            "color": false,
-            "img": "shopify:\/\/shop_images\/6_1.png",
-            "title": "Website Design",
-            "url": ""
-          }
-        },
-        "6f6e3e17-6eab-4e02-a5bc-b74561b3b850": {
-          "type": "card",
-          "settings": {
-            "color": true,
-            "img": "shopify:\/\/shop_images\/5_1.png",
-            "title": "Website Design",
-            "url": ""
-          }
-        },
-        "95b70eb3-c662-42d8-8f0f-562299d1ca98": {
-          "type": "card",
-          "settings": {
-            "color": false,
-            "img": "shopify:\/\/shop_images\/1_1.png",
-            "title": "Website Design",
-            "url": ""
-          }
-        },
-        "9f3d5408-1775-46e3-b9b0-c1b13390a7c9": {
-          "type": "card",
-          "settings": {
-            "color": false,
-            "img": "shopify:\/\/shop_images\/5_1.png",
-            "title": "Website Design",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "8a28913b-7d6e-4379-9957-34b63e27ce2d",
-        "6f6e3e17-6eab-4e02-a5bc-b74561b3b850",
-        "95b70eb3-c662-42d8-8f0f-562299d1ca98",
-        "9f3d5408-1775-46e3-b9b0-c1b13390a7c9"
-      ],
-      "settings": {
-        "title": "How I can help"
-      }
     }
   },
   "order": [
@@ -385,9 +301,7 @@
     "bf1b2dfa-5793-4d51-be86-d3945e521bab",
     "e06a07d6-760a-47af-834a-0086b0241d44",
     "bbe855b8-e2ce-412e-b1c4-f5a1871f21a7",
-    "69101528-2dcd-417f-b312-c8e63bf4a13a",
-    "f102abce-96bf-4433-8ab6-854bed5083b8",
-    "d2c688cd-d01a-43f5-ae41-9273a0265cb1"
+    "69101528-2dcd-417f-b312-c8e63bf4a13a"
   ],
   "layout": "theme.pagefly"
 }
