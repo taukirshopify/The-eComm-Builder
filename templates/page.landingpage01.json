@@ -301,6 +301,14 @@
             "p": "This workshop was so helpful! I wasn’t charging taxes on my website....uuuggghhh all the money I lost but Aneka helped me set that up. She explains everything step by step. If you need help with your Shopify store definitely take this workshop!Thank you so much, Aneka you are the best ever!",
             "rtext": "<p>Lisha  - on Sep 26, 2021<\/p>"
           }
+        },
+        "34e694d9-4f90-4cc9-af93-66bfbca8c871": {
+          "type": "content",
+          "settings": {
+            "title": "Aneka is the GOAT!!!",
+            "p": "This workshop was a game-changer. Thank you so much, Aneka for sharing your GEMS with us. I learned so much today.",
+            "rtext": "<p>Xemena -on Apr 25, 2021<\/p>"
+          }
         }
       },
       "block_order": [
@@ -311,7 +319,8 @@
         "59b53b24-74e4-42f4-ad15-f6c53be3743b",
         "6158cd01-0028-41ae-9c4a-082f53882fc6",
         "dcebe2c0-c827-421a-9c27-b1eee966b9df",
-        "730b9fda-f41a-4eac-bc7b-f95eea447eb5"
+        "730b9fda-f41a-4eac-bc7b-f95eea447eb5",
+        "34e694d9-4f90-4cc9-af93-66bfbca8c871"
       ],
       "settings": {
         "title": "See What My Students Say",
