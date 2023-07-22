@@ -115,6 +115,7 @@
         },
         "ed23b9de-2b6d-4f11-9b2b-8bce9b123260": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "rever": true,
             "img": "shopify:\/\/shop_images\/1_58b12920-1ebd-410a-8bc4-18ed5c968e3c.png",
@@ -134,6 +135,16 @@
     "7da7e64d-43a3-4129-bf2e-e232193ac206": {
       "type": "ldtwodropshipingwork",
       "blocks": {
+        "e59805db-9600-442b-a376-ebda39dede33": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "rever": false,
+            "title": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS",
+            "dec": "First of all, order your eCommerce Website from us and we'll",
+            "btn": "Get eCommerce Brand Done For You"
+          }
+        },
         "b4e0fff6-e46f-404f-8bc5-4019725f77f1": {
           "type": "feature",
           "settings": {
@@ -176,6 +187,7 @@
         }
       },
       "block_order": [
+        "e59805db-9600-442b-a376-ebda39dede33",
         "b4e0fff6-e46f-404f-8bc5-4019725f77f1",
         "625f13b8-8038-4836-bf68-388382e988d1",
         "1f33f634-4b64-4d14-b41c-beeb3223b224",
