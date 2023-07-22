@@ -261,12 +261,21 @@
             "p": "This class is a must if you’re interested in opening a store on Shopify. We are great full for all of the information that was provided. All of our questions were answered.",
             "rtext": "<p>Tiderro and Bari Williams -on Aug 29, 2021<\/p>"
           }
+        },
+        "d4de7a2e-10d0-43fc-9fce-bcf8902214e1": {
+          "type": "content",
+          "settings": {
+            "title": "Shopify Bootcamp",
+            "p": "You will learn everything you need to set up your Shopify store in this workshop. Super helpful and worth the investment!",
+            "rtext": "<p>Tiandra Robinson -on Aug 29, 2021<\/p>"
+          }
         }
       },
       "block_order": [
         "74974a48-365b-49f8-a481-2d7893372e1b",
         "2f50669e-f68d-4ac1-9ce6-676333d86f74",
-        "b1db4d8b-2af8-4e6d-92d7-d904f6cf2f0b"
+        "b1db4d8b-2af8-4e6d-92d7-d904f6cf2f0b",
+        "d4de7a2e-10d0-43fc-9fce-bcf8902214e1"
       ],
       "settings": {
         "title": "See What My Students Say",
