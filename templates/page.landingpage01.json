@@ -277,6 +277,22 @@
             "p": "This training exceeded my expectations. The training was interactive, FUN, and I am grateful. Much success to the other Ladies!!!",
             "rtext": "<p>Shirley -on Aug 15, 2021<\/p>"
           }
+        },
+        "6158cd01-0028-41ae-9c4a-082f53882fc6": {
+          "type": "content",
+          "settings": {
+            "title": "Ready for the money",
+            "p": "This course will get you ready to take on this business life. All the nooks and crannies you need you to get here. I am super grateful for the course and the price. Definitely left with lots of info.",
+            "rtext": "<p>Danassia -on Aug 15, 2021<\/p>"
+          }
+        },
+        "dcebe2c0-c827-421a-9c27-b1eee966b9df": {
+          "type": "content",
+          "settings": {
+            "title": "Shopify 101",
+            "p": "Thank you so much, Aneka for your help in Shopify 101 class. It was extremely informative for beginners, such as myself. Very patient and a jewel dropper.",
+            "rtext": "<p>Rhondi -on Apr 25, 2021<\/p>"
+          }
         }
       },
       "block_order": [
@@ -284,7 +300,9 @@
         "2f50669e-f68d-4ac1-9ce6-676333d86f74",
         "b1db4d8b-2af8-4e6d-92d7-d904f6cf2f0b",
         "d4de7a2e-10d0-43fc-9fce-bcf8902214e1",
-        "59b53b24-74e4-42f4-ad15-f6c53be3743b"
+        "59b53b24-74e4-42f4-ad15-f6c53be3743b",
+        "6158cd01-0028-41ae-9c4a-082f53882fc6",
+        "dcebe2c0-c827-421a-9c27-b1eee966b9df"
       ],
       "settings": {
         "title": "See What My Students Say",
