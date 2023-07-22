@@ -107,7 +107,7 @@
           "type": "feature",
           "settings": {
             "rever": false,
-            "img": "shopify:\/\/shop_images\/4.png",
+            "img": "shopify:\/\/shop_images\/1_58b12920-1ebd-410a-8bc4-18ed5c968e3c.png",
             "title": "Save thousands of dollars and time on building a dropshipping website",
             "dec": "All the work has been done for you by us! Our ready-made DROPSHIPPING businesses are ideal for people who wish to accelerate THEIR SUCCESSFUL. We have added NICHE winning products to your DROPSHIPPING store.",
             "btn": "start your dropshipping business"
@@ -115,6 +115,7 @@
         },
         "ed23b9de-2b6d-4f11-9b2b-8bce9b123260": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "rever": true,
             "img": "shopify:\/\/shop_images\/1_58b12920-1ebd-410a-8bc4-18ed5c968e3c.png",
