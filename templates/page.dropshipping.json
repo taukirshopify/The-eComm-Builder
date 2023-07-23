@@ -181,6 +181,16 @@
             "btn": "Get YOUR DONE FOR YOU DROPSHIPPING WEBSITE"
           }
         },
+        "625f13b8-8038-4836-bf68-388382e988d1": {
+          "type": "feature",
+          "settings": {
+            "rever": false,
+            "img": "shopify:\/\/shop_images\/3.gif",
+            "title": "YOU KEEP THE PROFIT",
+            "dec": "Once you veifty the order will signal the supplier to ship out the customer order. You will keep the profits.",
+            "btn": "Get eCommerce Brand Done For You"
+          }
+        },
         "377d200a-5f78-4320-8f51-10a2df869a71": {
           "type": "feature",
           "settings": {
@@ -188,16 +198,6 @@
             "img": "shopify:\/\/shop_images\/2.gif",
             "title": "THE SUPPLIER WILL FILL THE ORDER",
             "dec": "The supplier willl package and ship out the order to the customer on your behave.",
-            "btn": "Get eCommerce Brand Done For You"
-          }
-        },
-        "625f13b8-8038-4836-bf68-388382e988d1": {
-          "type": "feature",
-          "settings": {
-            "rever": false,
-            "img": "shopify:\/\/shop_images\/3.gif",
-            "title": "YOU KEEP THE PROFIT",
-            "dec": "First of all, order your eCommerce Website from us and we'll",
             "btn": "Get eCommerce Brand Done For You"
           }
         },
@@ -215,8 +215,8 @@
       "block_order": [
         "e59805db-9600-442b-a376-ebda39dede33",
         "b4e0fff6-e46f-404f-8bc5-4019725f77f1",
-        "377d200a-5f78-4320-8f51-10a2df869a71",
         "625f13b8-8038-4836-bf68-388382e988d1",
+        "377d200a-5f78-4320-8f51-10a2df869a71",
         "1f33f634-4b64-4d14-b41c-beeb3223b224"
       ],
       "settings": {
