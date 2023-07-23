@@ -109,7 +109,7 @@
         "title": "Are you looking to make extra MONEY ONLINE? let's talk about dropshipping!",
         "p": "Starting an online Dropshipping business can be a hassle and time-consuming. Normally, building an online store could take weeks or months. Our PREMADE DROPSHIPPING WEBSITE is ready in FIVE DAYS!",
         "h2": "Order Now And You'll Receive:",
-        "img2": "shopify:\/\/shop_images\/top-1.png",
+        "img2": "shopify:\/\/shop_images\/top.png",
         "buymore": "You can order multiple stores at the same time, check the ones you want so you can have a  selection of stores to pick from",
         "img3": "shopify:\/\/shop_images\/credit-only_5.png",
         "img4": "shopify:\/\/shop_images\/4_8b4b8b42-80a8-4e9d-b462-6ef40d5b64a6.png",
@@ -276,6 +276,15 @@
         "btn": "Get eCommerce Brand Done For You"
       }
     },
+    "a91d578d-42d7-44de-8925-1752f378a5fc": {
+      "type": "ldtwotitleandtext",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "title": "How Dropshipping Works !",
+        "p": "<p>dec<\/p>"
+      }
+    },
     "b38b677a-414d-4624-b767-32e1fdf587ee": {
       "type": "ldtwoexample",
       "blocks": {
@@ -363,7 +372,7 @@
         "fbc4233b-d430-4e72-ba58-9ba748761b25"
       ],
       "settings": {
-        "title": "DROPSHIPPING STORES WE HAVE BUILD!"
+        "title": ""
       }
     },
     "ce0d62ad-e6ee-46e5-9451-beabbc3d5542": {
@@ -426,6 +435,7 @@
     "7da7e64d-43a3-4129-bf2e-e232193ac206",
     "9634f2a9-ac6f-4ea2-af25-fd5a475a5ec8",
     "02b79b5e-60e1-40ce-995c-f5ebcbf381ba",
+    "a91d578d-42d7-44de-8925-1752f378a5fc",
     "b38b677a-414d-4624-b767-32e1fdf587ee",
     "ce0d62ad-e6ee-46e5-9451-beabbc3d5542",
     "67a671e8-d02e-458c-9131-2e8d0ea1283d"
