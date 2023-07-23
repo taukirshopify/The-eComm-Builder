@@ -113,7 +113,8 @@
         "buymore": "You can order multiple stores at the same time, check the ones you want so you can have a  selection of stores to pick from",
         "img3": "shopify:\/\/shop_images\/credit-only_5.png",
         "img4": "shopify:\/\/shop_images\/4_8b4b8b42-80a8-4e9d-b462-6ef40d5b64a6.png",
-        "img5": "shopify:\/\/shop_images\/3_3cda0be3-0ae6-41e5-a3d9-3786fed8523d.png"
+        "img5": "shopify:\/\/shop_images\/3_3cda0be3-0ae6-41e5-a3d9-3786fed8523d.png",
+        "right": "By submitting your order you agree to get your store built for you by us with the apps of our choice installed, you agree to our terms of service, Earnings disclaimer, and prebuilt store purchase agreement."
       }
     },
     "b83acf83-599c-4347-bf04-cc20887f6cb4": {
@@ -206,8 +207,8 @@
           "settings": {
             "rever": false,
             "img": "shopify:\/\/shop_images\/1_f054612e-37e1-4a6f-8fb0-af60e2fc276c.png",
-            "title": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS",
-            "dec": "First of all, order your eCommerce Website from us and we'll",
+            "title": "PROVIDE GREAT CUSTOMER SERVICE",
+            "dec": "AT THIS STAGE YOU WILL MAKE SURE THE CUSTOMER RECIEVE THE ORDER.",
             "btn": "Get eCommerce Brand Done For You"
           }
         }
