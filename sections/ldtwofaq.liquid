@@ -7,7 +7,7 @@
           <div class="col-lg-8 offset-lg-3">
             {% for item in section.blocks %}
                 <div class="single-faq mb-5">
-                    <h4> <i class="fa-solid fa-circle-question"></i> {{ item.settings.title }}</h4>
+                    <h4> <b> {{ forloop.index }}. </b> {{ item.settings.title }}</h4>
                     <p>{{ item.settings.dec }}</p>
                 </div>
             {% endfor %}
