@@ -148,6 +148,15 @@
       "settings": {
       }
     },
+    "5fe02f52-1334-491d-9c86-a39c83b04c86": {
+      "type": "ldtwotitleandtext",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "title": "How Dropshipping Works !",
+        "p": "DROPSHIPPING IS  VERY SIMPLE BUSINESS MODEL!"
+      }
+    },
     "7da7e64d-43a3-4129-bf2e-e232193ac206": {
       "type": "ldtwodropshipingwork",
       "blocks": {
@@ -167,8 +176,8 @@
           "settings": {
             "rever": false,
             "img": "shopify:\/\/shop_images\/4_3103e04a-9d43-40ef-beed-71a224d0cbe8.png",
-            "title": "WE SETUP YOUR WEBSITE AND ADD 20 PRODUCTS",
-            "dec": "We search and add niche products that are selling to your store.",
+            "title": "CUSTOMER ORDER ON YOUR WEBSITE",
+            "dec": "",
             "btn": "Get YOUR DONE FOR YOU DROPSHIPPING WEBSITE"
           }
         },
@@ -215,6 +224,15 @@
         "btn": "Get YOUR DONE FOR YOU DROPSHIPPING WEBSITE"
       }
     },
+    "9634f2a9-ac6f-4ea2-af25-fd5a475a5ec8": {
+      "type": "ldtwotitleandtext",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "title": "How Our process works!",
+        "p": ""
+      }
+    },
     "02b79b5e-60e1-40ce-995c-f5ebcbf381ba": {
       "type": "ldtwofaq",
       "blocks": {
@@ -235,8 +253,8 @@
         "01f16752-b60e-47dd-954a-1cdbaff89643": {
           "type": "Faq",
           "settings": {
-            "title": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS",
-            "dec": "First of all, order your eCommerce Website from us and well"
+            "title": "YOUR WEBSITE IS READY",
+            "dec": "Once your website is ready we will transfer your website over to you!"
           }
         },
         "d6fb3701-c953-470b-b862-5e2eb11898f2": {
@@ -393,7 +411,9 @@
     "pf-41ef005a",
     "d39cb692-babc-427a-a6c4-70fda21b78ef",
     "b83acf83-599c-4347-bf04-cc20887f6cb4",
+    "5fe02f52-1334-491d-9c86-a39c83b04c86",
     "7da7e64d-43a3-4129-bf2e-e232193ac206",
+    "9634f2a9-ac6f-4ea2-af25-fd5a475a5ec8",
     "02b79b5e-60e1-40ce-995c-f5ebcbf381ba",
     "b38b677a-414d-4624-b767-32e1fdf587ee",
     "ce0d62ad-e6ee-46e5-9451-beabbc3d5542",
