@@ -75,7 +75,7 @@
         "75c56cab-36af-4aed-867d-cfb87f7bb022": {
           "type": "product",
           "settings": {
-            "checkbok": true,
+            "checkbok": false,
             "product": "12-month-copywriting-service"
           }
         }
