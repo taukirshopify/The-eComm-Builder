@@ -78,6 +78,14 @@
             "checkbok": false,
             "product": "12-month-copywriting-service"
           }
+        },
+        "b53fcc2b-eff0-47f3-866b-92d71659ec78": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "checkbok": false,
+            "product": ""
+          }
         }
       },
       "block_order": [
@@ -90,7 +98,8 @@
         "5ab80278-525a-4cee-97f8-f497938000e1",
         "301952e7-6469-4ba3-ae6b-079ab6444b30",
         "330be38f-a102-40d1-91b5-0d0c61dd6803",
-        "75c56cab-36af-4aed-867d-cfb87f7bb022"
+        "75c56cab-36af-4aed-867d-cfb87f7bb022",
+        "b53fcc2b-eff0-47f3-866b-92d71659ec78"
       ],
       "settings": {
         "u": "shopify:\/\/files\/videos\/Blue Liquid Art Design Gallery Intro Video.mp4",
