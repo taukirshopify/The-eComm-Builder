@@ -71,6 +71,21 @@
             "checkbok": false,
             "product": "content-writing-upto-1000-words"
           }
+        },
+        "75c56cab-36af-4aed-867d-cfb87f7bb022": {
+          "type": "product",
+          "settings": {
+            "checkbok": false,
+            "product": "12-month-copywriting-service"
+          }
+        },
+        "b53fcc2b-eff0-47f3-866b-92d71659ec78": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "checkbok": false,
+            "product": ""
+          }
         }
       },
       "block_order": [
@@ -82,10 +97,11 @@
         "20c858ca-3dde-4c82-b351-6fdf1953fd16",
         "5ab80278-525a-4cee-97f8-f497938000e1",
         "301952e7-6469-4ba3-ae6b-079ab6444b30",
-        "330be38f-a102-40d1-91b5-0d0c61dd6803"
+        "330be38f-a102-40d1-91b5-0d0c61dd6803",
+        "75c56cab-36af-4aed-867d-cfb87f7bb022",
+        "b53fcc2b-eff0-47f3-866b-92d71659ec78"
       ],
       "settings": {
-        "img": "shopify:\/\/shop_images\/Logo_jpg-04_5038758b-c8e5-45a4-974e-15e0b687c029.jpg",
         "u": "shopify:\/\/files\/videos\/Blue Liquid Art Design Gallery Intro Video.mp4",
         "totalpirce": "Total Value: $1999",
         "totalpircecom": "Only $299",
@@ -140,8 +156,9 @@
           "disabled": true,
           "settings": {
             "rever": false,
-            "title": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS",
-            "dec": "First of all, order your eCommerce Website from us and we'll",
+            "img": "shopify:\/\/shop_images\/4_3103e04a-9d43-40ef-beed-71a224d0cbe8.png",
+            "title": "PICK YOUR NICHE DROPSHIPPING WEBSITE",
+            "dec": "We build your website in five day!",
             "btn": "Get eCommerce Brand Done For You"
           }
         },
@@ -150,9 +167,9 @@
           "settings": {
             "rever": false,
             "img": "shopify:\/\/shop_images\/4_3103e04a-9d43-40ef-beed-71a224d0cbe8.png",
-            "title": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS",
-            "dec": "First of all, order your eCommerce Website from us and we'll",
-            "btn": "Get eCommerce Brand Done For You"
+            "title": "WE SETUP YOUR WEBSITE AND ADD 20 PRODUCTS",
+            "dec": "We search and add niche products that are selling to your store.",
+            "btn": "Get YOUR DONE FOR YOU DROPSHIPPING WEBSITE"
           }
         },
         "625f13b8-8038-4836-bf68-388382e988d1": {
@@ -195,7 +212,7 @@
       ],
       "settings": {
         "title": "How Dropshipping Works !",
-        "btn": "Get eCommerce Brand Done For You"
+        "btn": "Get YOUR DONE FOR YOU DROPSHIPPING WEBSITE"
       }
     },
     "02b79b5e-60e1-40ce-995c-f5ebcbf381ba": {
@@ -204,8 +221,8 @@
         "a41ec4f4-1b4e-4100-b95a-22605fdb3f55": {
           "type": "Faq",
           "settings": {
-            "title": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS",
-            "dec": "First of all, order your eCommerce Website from us and well"
+            "title": "You order your dropshipping website",
+            "dec": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS"
           }
         },
         "6b244bdc-df6e-4dd2-8c2a-9f28f8914d51": {
