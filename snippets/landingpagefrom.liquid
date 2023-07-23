@@ -60,7 +60,7 @@ box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
 
     <div id="containere">
         <div class="list" id="one">
-             <h3 class="text-center">CONTACT INFO</h3>
+ 
             <div class="klaviyo-form-RCUkKa"></div>
              <div class="clickme"><a  class="giftPopup btn" href="javascript:void();" data-tag="two"> Get the Deal</a></div> </div>
 
@@ -68,7 +68,7 @@ box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
             
             {% comment %} inner div  {% endcomment %}
 
-            <h3 class="text-center">CHOOSE PRODUCTS TO SEL</h3>
+            <h3 class="text-center">choose a dropshipping store</h3>
                     <div id="parent-div">
                         {%- for block in data -%}
 
@@ -124,7 +124,7 @@ box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
                     </div>
 
                     <a class="btn add_to_cart_form"><i class="fa-solid fa-angles-right"></i>Complete Order</a>
-                    <p>By submitting your order you agree to get your store built for you by us with the apps of our choice installed, you agree to our terms of service, Earnings disclaimer, and prebuilt store purchase agreement.</p>
+                    <p>{{ section.settings.righttext }}</p>
             </div>
         </div>
 
