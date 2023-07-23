@@ -71,6 +71,13 @@
             "checkbok": false,
             "product": "content-writing-upto-1000-words"
           }
+        },
+        "75c56cab-36af-4aed-867d-cfb87f7bb022": {
+          "type": "product",
+          "settings": {
+            "checkbok": true,
+            "product": "12-month-copywriting-service"
+          }
         }
       },
       "block_order": [
@@ -82,7 +89,8 @@
         "20c858ca-3dde-4c82-b351-6fdf1953fd16",
         "5ab80278-525a-4cee-97f8-f497938000e1",
         "301952e7-6469-4ba3-ae6b-079ab6444b30",
-        "330be38f-a102-40d1-91b5-0d0c61dd6803"
+        "330be38f-a102-40d1-91b5-0d0c61dd6803",
+        "75c56cab-36af-4aed-867d-cfb87f7bb022"
       ],
       "settings": {
         "img": "shopify:\/\/shop_images\/Logo_jpg-04_5038758b-c8e5-45a4-974e-15e0b687c029.jpg",
