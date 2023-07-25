@@ -116,6 +116,7 @@
         },
         "61ecebc7-e867-4125-b659-a62b21af40e7": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "checkbok": false,
             "product": "upgrade-redesign-your-store"
