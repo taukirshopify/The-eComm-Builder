@@ -431,6 +431,17 @@
         "title": ""
       }
     },
+    "104ee26f-0174-47c5-8585-d222e1820b28": {
+      "type": "featured-content",
+      "settings": {
+        "title": "what  our cutomers are saying!",
+        "text": "<p>Real testimony from Real customers<\/p>",
+        "align_text": "center",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
+      }
+    },
     "ce0d62ad-e6ee-46e5-9451-beabbc3d5542": {
       "type": "ldtworeview",
       "blocks": {
@@ -493,6 +504,7 @@
     "02b79b5e-60e1-40ce-995c-f5ebcbf381ba",
     "a91d578d-42d7-44de-8925-1752f378a5fc",
     "b38b677a-414d-4624-b767-32e1fdf587ee",
+    "104ee26f-0174-47c5-8585-d222e1820b28",
     "ce0d62ad-e6ee-46e5-9451-beabbc3d5542",
     "67a671e8-d02e-458c-9131-2e8d0ea1283d"
   ],
