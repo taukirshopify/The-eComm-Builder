@@ -48,7 +48,7 @@
           "type": "product",
           "settings": {
             "checkbok": true,
-            "product": "1842766"
+            "product": "toy-store-sale"
           }
         },
         "5ab80278-525a-4cee-97f8-f497938000e1": {
@@ -86,6 +86,13 @@
             "checkbok": false,
             "product": ""
           }
+        },
+        "113039cd-6f94-4dee-b672-217101b51c5b": {
+          "type": "product",
+          "settings": {
+            "checkbok": false,
+            "product": ""
+          }
         }
       },
       "block_order": [
@@ -99,7 +106,8 @@
         "301952e7-6469-4ba3-ae6b-079ab6444b30",
         "330be38f-a102-40d1-91b5-0d0c61dd6803",
         "75c56cab-36af-4aed-867d-cfb87f7bb022",
-        "b53fcc2b-eff0-47f3-866b-92d71659ec78"
+        "b53fcc2b-eff0-47f3-866b-92d71659ec78",
+        "113039cd-6f94-4dee-b672-217101b51c5b"
       ],
       "settings": {
         "u": "shopify:\/\/files\/videos\/Blue Liquid Art Design Gallery Intro Video.mp4",
