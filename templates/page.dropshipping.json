@@ -127,6 +127,13 @@
             "checkbok": false,
             "product": "monthly-shopify-support"
           }
+        },
+        "ec36a9fc-b608-4546-9f1c-2d84a36a054b": {
+          "type": "product",
+          "settings": {
+            "checkbok": false,
+            "product": "optimized-website-seo"
+          }
         }
       },
       "block_order": [
@@ -146,7 +153,8 @@
         "63800b64-753f-4863-bcc0-61d2a419fd9c",
         "967cb0c3-f9e1-4fff-9f5d-decfe64d0a0c",
         "61ecebc7-e867-4125-b659-a62b21af40e7",
-        "e866ddf9-41c7-4caf-bd73-5e375b280fa6"
+        "e866ddf9-41c7-4caf-bd73-5e375b280fa6",
+        "ec36a9fc-b608-4546-9f1c-2d84a36a054b"
       ],
       "settings": {
         "u": "shopify:\/\/files\/videos\/Blue Liquid Art Design Gallery Intro Video.mp4",
