@@ -48,43 +48,92 @@
           "type": "product",
           "settings": {
             "checkbok": true,
-            "product": "1842766"
+            "product": "toy-store-sale"
           }
         },
         "5ab80278-525a-4cee-97f8-f497938000e1": {
           "type": "product",
           "settings": {
             "checkbok": false,
-            "product": "30-day-mentorship"
+            "product": "jewelry-store-sale"
           }
         },
         "301952e7-6469-4ba3-ae6b-079ab6444b30": {
           "type": "product",
           "settings": {
             "checkbok": false,
-            "product": "30-day-shopify-check-list"
+            "product": "pet-store-sale"
           }
         },
         "330be38f-a102-40d1-91b5-0d0c61dd6803": {
           "type": "product",
           "settings": {
             "checkbok": false,
-            "product": "content-writing-upto-1000-words"
+            "product": "home-goods-store-sale"
           }
         },
         "75c56cab-36af-4aed-867d-cfb87f7bb022": {
           "type": "product",
           "settings": {
             "checkbok": false,
-            "product": "12-month-copywriting-service"
+            "product": "adult-toy-store-sale"
           }
         },
         "b53fcc2b-eff0-47f3-866b-92d71659ec78": {
           "type": "product",
+          "settings": {
+            "checkbok": false,
+            "product": "custom-candle-store-sale"
+          }
+        },
+        "113039cd-6f94-4dee-b672-217101b51c5b": {
+          "type": "product",
+          "settings": {
+            "checkbok": false,
+            "product": "baby-store-sale"
+          }
+        },
+        "7db2aa5f-d188-431e-b80a-62732eed7db0": {
+          "type": "product",
+          "settings": {
+            "checkbok": false,
+            "product": "beauty-store-sale"
+          }
+        },
+        "63800b64-753f-4863-bcc0-61d2a419fd9c": {
+          "type": "product",
+          "settings": {
+            "checkbok": false,
+            "product": "hybrid-store-sale"
+          }
+        },
+        "967cb0c3-f9e1-4fff-9f5d-decfe64d0a0c": {
+          "type": "product",
+          "settings": {
+            "checkbok": false,
+            "product": "custom-basic-logo"
+          }
+        },
+        "61ecebc7-e867-4125-b659-a62b21af40e7": {
+          "type": "product",
           "disabled": true,
           "settings": {
             "checkbok": false,
-            "product": ""
+            "product": "upgrade-redesign-your-store"
+          }
+        },
+        "e866ddf9-41c7-4caf-bd73-5e375b280fa6": {
+          "type": "product",
+          "settings": {
+            "checkbok": false,
+            "product": "monthly-shopify-support"
+          }
+        },
+        "ec36a9fc-b608-4546-9f1c-2d84a36a054b": {
+          "type": "product",
+          "settings": {
+            "checkbok": false,
+            "product": "optimized-website-seo"
           }
         }
       },
@@ -99,18 +148,26 @@
         "301952e7-6469-4ba3-ae6b-079ab6444b30",
         "330be38f-a102-40d1-91b5-0d0c61dd6803",
         "75c56cab-36af-4aed-867d-cfb87f7bb022",
-        "b53fcc2b-eff0-47f3-866b-92d71659ec78"
+        "b53fcc2b-eff0-47f3-866b-92d71659ec78",
+        "113039cd-6f94-4dee-b672-217101b51c5b",
+        "7db2aa5f-d188-431e-b80a-62732eed7db0",
+        "63800b64-753f-4863-bcc0-61d2a419fd9c",
+        "967cb0c3-f9e1-4fff-9f5d-decfe64d0a0c",
+        "61ecebc7-e867-4125-b659-a62b21af40e7",
+        "e866ddf9-41c7-4caf-bd73-5e375b280fa6",
+        "ec36a9fc-b608-4546-9f1c-2d84a36a054b"
       ],
       "settings": {
+        "img": "shopify:\/\/shop_images\/Banner-top.png",
         "u": "shopify:\/\/files\/videos\/Blue Liquid Art Design Gallery Intro Video.mp4",
         "totalpirce": "Total Value: $1999",
         "totalpircecom": "Only $299",
         "totalpircereg": "Usually $1,999",
         "title": "Are you looking to make extra MONEY ONLINE? let's talk about dropshipping!",
-        "p": "Starting an online Dropshipping business can be a hassle and time-consuming. Normally, building an online store could take weeks or months. Our PREMADE DROPSHIPPING WEBSITE is ready in FIVE DAYS!",
+        "p": "Starting an online Dropshipping business can be a hassle and time-consuming. Normally, building an online store could take weeks or months. Our PREMADE DROPSHIPPING WEBSITE is ready in SEVEN BUSINESS DAYS!",
         "h2": "Order Now And You'll Receive:",
         "img2": "shopify:\/\/shop_images\/top-1_81e79f01-3487-4e69-b6c9-3ee7f75b02bc.png",
-        "buymore": "You can order multiple stores at the same time, check the ones you want so you can have a  selection of stores to pick from",
+        "buymore": "",
         "img3": "shopify:\/\/shop_images\/credit-only_5.png",
         "img4": "shopify:\/\/shop_images\/4_8b4b8b42-80a8-4e9d-b462-6ef40d5b64a6.png",
         "img5": "shopify:\/\/shop_images\/top-1_8c77f5d3-6a03-4a05-b728-f271533b4424.png",
@@ -178,7 +235,7 @@
             "rever": false,
             "img": "shopify:\/\/shop_images\/Branding_1.png",
             "title": "CUSTOMER ORDER ON YOUR WEBSITE",
-            "dec": "You will veirfy the customer order is corectt and collect payments",
+            "dec": "You will verify that the customer's order is correct and collect payments.",
             "btn": "Get YOUR DONE FOR YOU DROPSHIPPING WEBSITE"
           }
         },
@@ -186,9 +243,9 @@
           "type": "feature",
           "settings": {
             "rever": false,
-            "img": "shopify:\/\/shop_images\/3.gif",
-            "title": "YOU KEEP THE PROFIT",
-            "dec": "Once you veifty the order will signal the supplier to ship out the customer order. You will keep the profits.",
+            "img": "shopify:\/\/shop_images\/Branding_2.png",
+            "title": "YOU KEEP THE sale PROFIT",
+            "dec": "Once you receive the order, you will signal the supplier to ship out the customer's order. You will keep the profits.",
             "btn": "Get eCommerce Brand Done For You"
           }
         },
@@ -196,9 +253,9 @@
           "type": "feature",
           "settings": {
             "rever": false,
-            "img": "shopify:\/\/shop_images\/2.gif",
-            "title": "THE SUPPLIER WILL FILL THE ORDER",
-            "dec": "The supplier willl package and ship out the order to the customer on your behave.",
+            "img": "shopify:\/\/shop_images\/Branding_4.png",
+            "title": "SUPPLIER is FILLing THE ORDER",
+            "dec": "The supplier will package and ship out the order to the customer on your behalf.",
             "btn": "Get eCommerce Brand Done For You"
           }
         },
@@ -208,7 +265,7 @@
             "rever": false,
             "img": "shopify:\/\/shop_images\/EXCELLENT_CUSTOMER_SERVICE_v2_3x_10fd97e9-32cc-4aa9-93d9-54937db8b53c.png",
             "title": "PROVIDE GREAT CUSTOMER SERVICE",
-            "dec": "AT THIS STAGE YOU WILL MAKE SURE THE CUSTOMER RECIEVE THE ORDER.",
+            "dec": "Now, you will see to it that the consumer gets their order. Your ability to retain customers will determine your success.",
             "btn": "Get eCommerce Brand Done For You"
           }
         }
@@ -240,29 +297,29 @@
         "a41ec4f4-1b4e-4100-b95a-22605fdb3f55": {
           "type": "Faq",
           "settings": {
-            "title": "You order your dropshipping website",
-            "dec": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS"
+            "title": "Pick a your dropshipping store",
+            "dec": "Pick a dropshipping store that has the niche that you desire. We build stores in the following niches Beauty, Pets, Toys, Tech, Kitchen Gadgets, Baby Items, Adult Toys, Custom Candles, Hybrid Store You can choose a niche that aligns with your interests and goals."
           }
         },
         "6b244bdc-df6e-4dd2-8c2a-9f28f8914d51": {
           "type": "Faq",
           "settings": {
-            "title": "WE SETUP YOUR WEBSITE AND ADD 20 products",
-            "dec": "our team will do all the search and find the best dropshipping prodcts and add them to your store."
+            "title": "WEBSITE store setup process",
+            "dec": "Our team will do all the searching, find the best dropshipping products from a USA-based vendor, and add them to your store. We will add 20 products and four Shopify must-have apps."
           }
         },
         "01f16752-b60e-47dd-954a-1cdbaff89643": {
           "type": "Faq",
           "settings": {
             "title": "YOUR WEBSITE IS READY",
-            "dec": "Once your website is ready we will transfer your website over to you!"
+            "dec": "Once your website is ready, we will transfer it over to you! Once you receive your website, you are able to customize it. You can add your brand colors, add more products, etc."
           }
         },
         "d6fb3701-c953-470b-b862-5e2eb11898f2": {
           "type": "Faq",
           "settings": {
-            "title": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS",
-            "dec": "First of all, order your eCommerce Website from us and well"
+            "title": "WE FOLLOW UP WITH YOU",
+            "dec": "Because we want you to be successgul our team will follwo up with you. Well follow up with you to make sure your website is ready to be male sales."
           }
         }
       },
@@ -299,63 +356,63 @@
           "type": "feature",
           "settings": {
             "img": "shopify:\/\/shop_images\/Untitleddesign_5.png",
-            "p": "Pet store"
+            "p": "TECH store"
           }
         },
         "2cc2acc9-346f-40c8-9233-f3bbe555f0af": {
           "type": "feature",
           "settings": {
             "img": "shopify:\/\/shop_images\/Untitleddesign_6.png",
-            "p": "Pet store"
+            "p": "CUSTOM JEWERLY store"
           }
         },
         "f925ddde-0da2-48d4-abbb-66434a05fd89": {
           "type": "feature",
           "settings": {
             "img": "shopify:\/\/shop_images\/Untitleddesign_4.png",
-            "p": "Pet store"
+            "p": "TOY store"
           }
         },
         "7134222f-432c-4c37-b1bc-5df5c8977eca": {
           "type": "feature",
           "settings": {
             "img": "shopify:\/\/shop_images\/image_a31badb1-0a9e-44c4-bdab-8fe6d3f4d89b.jpg",
-            "p": "Pet store"
+            "p": "HOME store"
           }
         },
         "b79bf24f-0f14-4665-9079-8e49f105ceb4": {
           "type": "feature",
           "settings": {
             "img": "shopify:\/\/shop_images\/PREMADESTORE.png",
-            "p": "Pet store"
+            "p": "ADULT TOY store"
           }
         },
         "1fb6c8e5-eb29-4b17-83c9-4157761a2bcb": {
           "type": "feature",
           "settings": {
             "img": "shopify:\/\/shop_images\/image_e2da7c82-41e7-461a-b6f7-7eaac441eea5.jpg",
-            "p": "Pet store"
+            "p": "CANDLE store"
           }
         },
         "77c55933-4e9f-4c20-867b-d19d608d3547": {
           "type": "feature",
           "settings": {
-            "img": "shopify:\/\/shop_images\/image_37a33ead-0844-495a-a208-3b9208c5f5b3.jpg",
-            "p": "Pet store"
+            "img": "shopify:\/\/shop_images\/image_3caf3041-358e-49ab-ae2a-4915d28ee9c3.jpg",
+            "p": "BEAUTY store"
           }
         },
         "c9c6c55c-7c49-4f10-bc2d-f42e6cd25b15": {
           "type": "feature",
           "settings": {
             "img": "shopify:\/\/shop_images\/image_eff6a41d-6577-406e-9e23-b07e990116d5.jpg",
-            "p": "Pet store"
+            "p": "BABY store"
           }
         },
         "fbc4233b-d430-4e72-ba58-9ba748761b25": {
           "type": "feature",
           "settings": {
             "img": "shopify:\/\/shop_images\/image_054cf370-1190-4926-930f-d53e08f3d248.jpg",
-            "p": "Pet store"
+            "p": "HYBRID tore"
           }
         }
       },
@@ -373,6 +430,17 @@
       ],
       "settings": {
         "title": ""
+      }
+    },
+    "104ee26f-0174-47c5-8585-d222e1820b28": {
+      "type": "featured-content",
+      "settings": {
+        "title": "what  our cutomers are saying!",
+        "text": "<p>Real testimony from Real customers!<\/p>",
+        "align_text": "center",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
       }
     },
     "ce0d62ad-e6ee-46e5-9451-beabbc3d5542": {
@@ -417,6 +485,21 @@
         "btn": "Get YOUR PREMADE STORE"
       }
     },
+    "132ffca5-4247-4f4c-8888-66e2ac72104a": {
+      "type": "image-with-text-book-call",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Banner-2.jpg",
+        "image_width": 500,
+        "embded_calnder": "",
+        "subtitle": "Improved",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "Optional button",
+        "button_link": "",
+        "layout": "left",
+        "divider": false
+      }
+    },
     "67a671e8-d02e-458c-9131-2e8d0ea1283d": {
       "type": "ldtwofooter",
       "settings": {
@@ -424,6 +507,13 @@
         "p": "Copyright Ecom Websites LLC © 2022 All Rights Reserved",
         "main-menu2": "menu01",
         "textr": ""
+      }
+    },
+    "adb72757-1dff-4bdc-af48-833249bc1e1b": {
+      "type": "ldtwofaq",
+      "disabled": true,
+      "settings": {
+        "btn": "Get eCommerce Brand Done For You"
       }
     }
   },
@@ -437,8 +527,11 @@
     "02b79b5e-60e1-40ce-995c-f5ebcbf381ba",
     "a91d578d-42d7-44de-8925-1752f378a5fc",
     "b38b677a-414d-4624-b767-32e1fdf587ee",
+    "104ee26f-0174-47c5-8585-d222e1820b28",
     "ce0d62ad-e6ee-46e5-9451-beabbc3d5542",
-    "67a671e8-d02e-458c-9131-2e8d0ea1283d"
+    "132ffca5-4247-4f4c-8888-66e2ac72104a",
+    "67a671e8-d02e-458c-9131-2e8d0ea1283d",
+    "adb72757-1dff-4bdc-af48-833249bc1e1b"
   ],
   "layout": "theme.pagefly"
 }
