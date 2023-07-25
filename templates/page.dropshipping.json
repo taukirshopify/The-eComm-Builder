@@ -485,6 +485,21 @@
         "btn": "Get YOUR PREMADE STORE"
       }
     },
+    "132ffca5-4247-4f4c-8888-66e2ac72104a": {
+      "type": "image-with-text-book-call",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Banner-2.jpg",
+        "image_width": 500,
+        "embded_calnder": "",
+        "subtitle": "Improved",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "Optional button",
+        "button_link": "",
+        "layout": "left",
+        "divider": false
+      }
+    },
     "67a671e8-d02e-458c-9131-2e8d0ea1283d": {
       "type": "ldtwofooter",
       "settings": {
@@ -514,6 +529,7 @@
     "b38b677a-414d-4624-b767-32e1fdf587ee",
     "104ee26f-0174-47c5-8585-d222e1820b28",
     "ce0d62ad-e6ee-46e5-9451-beabbc3d5542",
+    "132ffca5-4247-4f4c-8888-66e2ac72104a",
     "67a671e8-d02e-458c-9131-2e8d0ea1283d",
     "adb72757-1dff-4bdc-af48-833249bc1e1b"
   ],
