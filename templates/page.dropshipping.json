@@ -92,6 +92,13 @@
             "checkbok": false,
             "product": "baby-store-sale"
           }
+        },
+        "7db2aa5f-d188-431e-b80a-62732eed7db0": {
+          "type": "product",
+          "settings": {
+            "checkbok": false,
+            "product": "beauty-store-sale"
+          }
         }
       },
       "block_order": [
@@ -106,7 +113,8 @@
         "330be38f-a102-40d1-91b5-0d0c61dd6803",
         "75c56cab-36af-4aed-867d-cfb87f7bb022",
         "b53fcc2b-eff0-47f3-866b-92d71659ec78",
-        "113039cd-6f94-4dee-b672-217101b51c5b"
+        "113039cd-6f94-4dee-b672-217101b51c5b",
+        "7db2aa5f-d188-431e-b80a-62732eed7db0"
       ],
       "settings": {
         "u": "shopify:\/\/files\/videos\/Blue Liquid Art Design Gallery Intro Video.mp4",
