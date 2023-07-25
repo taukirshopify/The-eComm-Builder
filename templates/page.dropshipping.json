@@ -435,7 +435,7 @@
       "type": "featured-content",
       "settings": {
         "title": "what  our cutomers are saying!",
-        "text": "<p>Real testimony from Real customers<\/p>",
+        "text": "<p>Real testimony from Real customers!<\/p>",
         "align_text": "center",
         "narrow_column": false,
         "enlarge_text": true,
