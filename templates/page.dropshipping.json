@@ -109,6 +109,7 @@
         },
         "967cb0c3-f9e1-4fff-9f5d-decfe64d0a0c": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "checkbok": false,
             "product": "shapewear-store-sale"
