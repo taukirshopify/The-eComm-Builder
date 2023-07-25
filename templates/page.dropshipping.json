@@ -492,6 +492,13 @@
         "main-menu2": "menu01",
         "textr": ""
       }
+    },
+    "adb72757-1dff-4bdc-af48-833249bc1e1b": {
+      "type": "ldtwofaq",
+      "disabled": true,
+      "settings": {
+        "btn": "Get eCommerce Brand Done For You"
+      }
     }
   },
   "order": [
@@ -506,7 +513,8 @@
     "b38b677a-414d-4624-b767-32e1fdf587ee",
     "104ee26f-0174-47c5-8585-d222e1820b28",
     "ce0d62ad-e6ee-46e5-9451-beabbc3d5542",
-    "67a671e8-d02e-458c-9131-2e8d0ea1283d"
+    "67a671e8-d02e-458c-9131-2e8d0ea1283d",
+    "adb72757-1dff-4bdc-af48-833249bc1e1b"
   ],
   "layout": "theme.pagefly"
 }
