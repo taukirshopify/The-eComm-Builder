@@ -10,6 +10,10 @@
         padding-bottom: {{ section.settings.padding_bottom }}px;
       }
     }
+
+    .p-{{ section.id }}{
+      color:{{ seciton.settings.color }}
+    }
   </style>
 
 
@@ -20,7 +24,7 @@
         <div class="container text-center">
             <h2 class="title-padding">{{ section.settings.title }}</h2>
             {% if section.settings.p %}
-                <p>{{ section.settings.p}}</p>
+                <p class="p-{{ section.id }}">{{ section.settings.p}}</p>
             {% endif %}
           
   
@@ -68,7 +72,12 @@
                 "label": "Title ",
                 "default": "How Dropshipping Works !"
             },
-
+               {
+                "type": "color",
+                "id": "color",
+                "label": "Select your Color",
+                "default": "#56048A"
+               },
             {
                 "type": "richtext",
                 "id": "p",
