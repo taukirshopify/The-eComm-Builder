@@ -24,7 +24,7 @@
         <div class="container text-center">
             <h2 class="title-padding">{{ section.settings.title }}</h2>
             {% if section.settings.p %}
-                <p class="p-{{ section.id }}">{{ section.settings.p}}</p>
+                <p class="color-perpal">{{ section.settings.p}}</p>
             {% endif %}
           
   
@@ -73,10 +73,10 @@
                 "default": "How Dropshipping Works !"
             },
                {
-                "type": "color",
+                "type": "checkbox",
                 "id": "color",
-                "label": "Select your Color",
-                "default": "#56048A"
+                "label": "Make the description blue",
+                "default":true
                },
             {
                 "type": "richtext",
