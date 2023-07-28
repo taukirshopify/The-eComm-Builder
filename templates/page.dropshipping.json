@@ -291,31 +291,31 @@
         "p": ""
       }
     },
-    "02b79b5e-60e1-40ce-995c-f5ebcbf381ba": {
+    "54ba34ec-bd18-4d17-94eb-2019f92445ff": {
       "type": "ldtwofaq",
       "blocks": {
-        "a41ec4f4-1b4e-4100-b95a-22605fdb3f55": {
+        "71f1e55d-aff6-4f1c-9b67-de75861bc649": {
           "type": "Faq",
           "settings": {
             "title": "Pick a your dropshipping store",
             "dec": "Pick a dropshipping store that has the niche that you desire. We build stores in the following niches Beauty, Pets, Toys, Tech, Kitchen Gadgets, Baby Items, Adult Toys, Custom Candles, Hybrid Store You can choose a niche that aligns with your interests and goals."
           }
         },
-        "6b244bdc-df6e-4dd2-8c2a-9f28f8914d51": {
+        "7c24739c-1aa9-4282-b3c5-340c15adee1d": {
           "type": "Faq",
           "settings": {
             "title": "WEBSITE store setup process",
             "dec": "Our team will do all the searching, find the best dropshipping products from a USA-based vendor, and add them to your store. We will add 20 products and four Shopify must-have apps."
           }
         },
-        "01f16752-b60e-47dd-954a-1cdbaff89643": {
+        "9132d5c4-365e-472a-9f4c-e5cc369280fb": {
           "type": "Faq",
           "settings": {
             "title": "YOUR WEBSITE IS READY",
             "dec": "Once your website is ready, we will transfer it over to you! Once you receive your website, you are able to customize it. You can add your brand colors, add more products, etc."
           }
         },
-        "d6fb3701-c953-470b-b862-5e2eb11898f2": {
+        "41fbb875-1051-4c9f-9f12-0fb5f928aba4": {
           "type": "Faq",
           "settings": {
             "title": "WE FOLLOW UP WITH YOU",
@@ -324,10 +324,10 @@
         }
       },
       "block_order": [
-        "a41ec4f4-1b4e-4100-b95a-22605fdb3f55",
-        "6b244bdc-df6e-4dd2-8c2a-9f28f8914d51",
-        "01f16752-b60e-47dd-954a-1cdbaff89643",
-        "d6fb3701-c953-470b-b862-5e2eb11898f2"
+        "71f1e55d-aff6-4f1c-9b67-de75861bc649",
+        "7c24739c-1aa9-4282-b3c5-340c15adee1d",
+        "9132d5c4-365e-472a-9f4c-e5cc369280fb",
+        "41fbb875-1051-4c9f-9f12-0fb5f928aba4"
       ],
       "settings": {
         "btn": "Get eCommerce Brand Done For You"
@@ -452,12 +452,6 @@
             "img": "shopify:\/\/shop_images\/1.png"
           }
         },
-        "8eb602e5-623a-4df5-b9cf-0e67fd60dd24": {
-          "type": "Faq",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/2.png"
-          }
-        },
         "4172fa93-cc18-44a2-8289-e7936aa71e52": {
           "type": "Faq",
           "disabled": true,
@@ -471,25 +465,24 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/DESKTOP-Amer-TYP-2.png"
           }
+        },
+        "8eb602e5-623a-4df5-b9cf-0e67fd60dd24": {
+          "type": "Faq",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/2.png"
+          }
         }
       },
       "block_order": [
         "0800b3ef-dd16-4a4c-868a-45392466b325",
-        "8eb602e5-623a-4df5-b9cf-0e67fd60dd24",
         "4172fa93-cc18-44a2-8289-e7936aa71e52",
-        "7e1ce90e-fe56-47fb-94f8-c450ad3a7a37"
+        "7e1ce90e-fe56-47fb-94f8-c450ad3a7a37",
+        "8eb602e5-623a-4df5-b9cf-0e67fd60dd24"
       ],
       "settings": {
         "title": "There has never been a better time to start your Dropshipping Buiness!",
         "dec": "GET YOUR PREMADE DROPSHIPPING STORE TODAY!",
         "btn": "Get YOUR PREMADE STORE"
-      }
-    },
-    "adb72757-1dff-4bdc-af48-833249bc1e1b": {
-      "type": "ldtwofaq",
-      "disabled": true,
-      "settings": {
-        "btn": "Get eCommerce Brand Done For You"
       }
     },
     "f895bcc5-1c5a-43c8-9ff4-42cfe272c8ac": {
@@ -501,17 +494,67 @@
         "p": ""
       }
     },
+    "02b79b5e-60e1-40ce-995c-f5ebcbf381ba": {
+      "type": "ldtwofaq",
+      "blocks": {
+        "a41ec4f4-1b4e-4100-b95a-22605fdb3f55": {
+          "type": "Faq",
+          "settings": {
+            "title": "Pick a your dropshipping store",
+            "dec": "Pick a dropshipping store that has the niche that you desire. We build stores in the following niches Beauty, Pets, Toys, Tech, Kitchen Gadgets, Baby Items, Adult Toys, Custom Candles, Hybrid Store You can choose a niche that aligns with your interests and goals."
+          }
+        },
+        "01f16752-b60e-47dd-954a-1cdbaff89643": {
+          "type": "Faq",
+          "settings": {
+            "title": "YOUR WEBSITE IS READY",
+            "dec": "Once your website is ready, we will transfer it over to you! Once you receive your website, you are able to customize it. You can add your brand colors, add more products, etc."
+          }
+        },
+        "6b244bdc-df6e-4dd2-8c2a-9f28f8914d51": {
+          "type": "Faq",
+          "settings": {
+            "title": "WEBSITE store setup process",
+            "dec": "Our team will do all the searching, find the best dropshipping products from a USA-based vendor, and add them to your store. We will add 20 products and four Shopify must-have apps."
+          }
+        },
+        "d6fb3701-c953-470b-b862-5e2eb11898f2": {
+          "type": "Faq",
+          "settings": {
+            "title": "WE FOLLOW UP WITH YOU",
+            "dec": "Because we want you to be successgul our team will follwo up with you. Well follow up with you to make sure your website is ready to be male sales."
+          }
+        }
+      },
+      "block_order": [
+        "a41ec4f4-1b4e-4100-b95a-22605fdb3f55",
+        "01f16752-b60e-47dd-954a-1cdbaff89643",
+        "6b244bdc-df6e-4dd2-8c2a-9f28f8914d51",
+        "d6fb3701-c953-470b-b862-5e2eb11898f2"
+      ],
+      "settings": {
+        "btn": "Get eCommerce Brand Done For You"
+      }
+    },
+    "adb72757-1dff-4bdc-af48-833249bc1e1b": {
+      "type": "ldtwofaq",
+      "disabled": true,
+      "settings": {
+        "btn": "Get eCommerce Brand Done For You"
+      }
+    },
     "9b1d2e2c-3d78-4350-94ea-088e09a7ebf3": {
       "type": "ldtwofaqtwo",
+      "disabled": true,
       "blocks": {
-        "591eec24-c03d-475f-ac9c-92adca095f5e": {
+        "11c97466-3c47-4198-a113-c752c474a802": {
           "type": "Faq",
           "settings": {
             "title": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS",
             "dec": "First of all, order your eCommerce Website from us and well"
           }
         },
-        "11c97466-3c47-4198-a113-c752c474a802": {
+        "591eec24-c03d-475f-ac9c-92adca095f5e": {
           "type": "Faq",
           "settings": {
             "title": "WE SETUP YOUR WEBSITE AND ADD 30 PRODUCTS",
@@ -527,8 +570,8 @@
         }
       },
       "block_order": [
-        "591eec24-c03d-475f-ac9c-92adca095f5e",
         "11c97466-3c47-4198-a113-c752c474a802",
+        "591eec24-c03d-475f-ac9c-92adca095f5e",
         "89822ae9-ccf7-4d0d-a104-6fa5e28f2f2b"
       ],
       "settings": {
@@ -552,13 +595,14 @@
     "5fe02f52-1334-491d-9c86-a39c83b04c86",
     "7da7e64d-43a3-4129-bf2e-e232193ac206",
     "9634f2a9-ac6f-4ea2-af25-fd5a475a5ec8",
-    "02b79b5e-60e1-40ce-995c-f5ebcbf381ba",
+    "54ba34ec-bd18-4d17-94eb-2019f92445ff",
     "a91d578d-42d7-44de-8925-1752f378a5fc",
     "b38b677a-414d-4624-b767-32e1fdf587ee",
     "104ee26f-0174-47c5-8585-d222e1820b28",
     "ce0d62ad-e6ee-46e5-9451-beabbc3d5542",
-    "adb72757-1dff-4bdc-af48-833249bc1e1b",
     "f895bcc5-1c5a-43c8-9ff4-42cfe272c8ac",
+    "02b79b5e-60e1-40ce-995c-f5ebcbf381ba",
+    "adb72757-1dff-4bdc-af48-833249bc1e1b",
     "9b1d2e2c-3d78-4350-94ea-088e09a7ebf3",
     "67a671e8-d02e-458c-9131-2e8d0ea1283d"
   ],
