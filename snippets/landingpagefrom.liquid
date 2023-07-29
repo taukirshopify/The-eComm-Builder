@@ -38,6 +38,43 @@ box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
           a.giftPopup.btn.special {
             display: block;
         }
+
+        .namedetails{
+            color: #fff;
+        }
+        .count-top{
+            color: #ddd;
+        }
+
+
+.singel-count-item .namedetails{
+   color:#ddd;
+
+}
+
+
+        .singel-count-item.active {
+    background: #56048A;
+   
+}
+.namedetails p{
+ line-height:1;
+}
+.top-wrapper li
+ {
+    padding: 10px 0;
+}
+
+.count-top {
+    {% comment %} color: #fff; {% endcomment %}
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 1;
+    margin-right: 9px;
+}
+.singel-count-item {
+    margin: 0 0 14px 0;
+}
 </style>
 
 
@@ -59,14 +96,59 @@ box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
     </ul>    
 
     <div id="containere">
-        <div class="list" id="one">
- 
-            <div class="klaviyo-form-RCUkKa"></div>
-             <div class="clickme"><a  class="giftPopup btn" href="javascript:void();" data-tag="two"> Get the Deal</a></div> </div>
+            <div class="list" id="one">
+                    {% comment %} justify-content-evenly {% endcomment %}
+                     <ul class="top-wrapper d-flex m-0">
+                         <li class="d-flex color-perpal singel-count-item flex-fill align-items-center justify-content-center active"> 
+                              <div class="count-top ">
+                                1.
+                              </div>
+                               <div class="namedetails">
+                                <span> CONTACT INFO </span>
+                                <p class="p-0 m-0">Name & Email</p>
+                               </div>
+                        </li>
+                         <li class="d-flex flex-fill  singel-count-item align-items-center justify-content-center"> 
+                              <div class="count-top">
+                                2
+                              </div>
+                               <div class="namedetails">
+                                <span> CHOOSE PRODUCTS TO SELL </span>
+                                <p class="p-0 m-0">Choose Niche</p>
+                               </div>
+                        </li>
+                     </ul>
+
+                    <div class="klaviyo-form-RCUkKa"></div>
+                    <div class="clickme"><a  class="giftPopup btn" href="javascript:void();" data-tag="two"> Get the Deal</a></div> 
+            </div>
 
             <div class="list hide" id="two">
             
             {% comment %} inner div  {% endcomment %}
+
+
+
+            <ul class="top-wrapper d-flex m-0">
+                <li class="           d-flex flex-fill  singel-count-item align-items-center justify-content-center"> 
+                     <div class="count-top ">
+                       1.
+                     </div>
+                      <div class="namedetails">
+                       <span> CONTACT INFO </span>
+                       <p class="p-0 m-0">Name & Email</p>
+                      </div>
+               </li>
+                <li class="    d-flex color-perpal singel-count-item flex-fill align-items-center justify-content-center active   "> 
+                     <div class="count-top">
+                       2
+                     </div>
+                      <div class="namedetails">
+                       <span>CHOOSE PRODUCTS TO SELL </span>
+                       <p class="p-0 m-0">Choose Niche</p>
+                      </div>
+               </li>
+            </ul>
 
             <h3 class="text-center">choose a dropshipping store</h3>
                     <div id="parent-div">
