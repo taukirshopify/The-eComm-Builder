@@ -163,6 +163,7 @@
         "totalpirce": "Total Value: $1999",
         "totalpircecom": "Only $299",
         "totalpircereg": "Usually $1,999",
+        "paymenttext": "<p><strong>Start today with just 4 interest-free payments of $75.00 calculated at checkout.<\/strong><\/p>",
         "title": "Are you looking to make extra MONEY ONLINE? let's talk about dropshipping!",
         "p": "Starting an online Dropshipping business can be a hassle and time-consuming. Normally, building an online store could take weeks or months. Our PREMADE DROPSHIPPING WEBSITE is ready in SEVEN BUSINESS DAYS!",
         "h2": "Order Now And You'll Receive:",
@@ -189,9 +190,10 @@
         },
         "ed23b9de-2b6d-4f11-9b2b-8bce9b123260": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "rever": true,
-            "img": "shopify:\/\/shop_images\/1_58b12920-1ebd-410a-8bc4-18ed5c968e3c.png",
+            "img": "shopify:\/\/shop_images\/Colorful_E-Commerce_Dropshipping_Store_and_Icons_Facebook_Post_2.png",
             "title": "Save thousands of dollars on web design and the headaches that come with finding",
             "dec": "Never worry about hiring an Ecommerce Web designer ever again! Our Experts will completely setup",
             "btn": "Get eCommerce Brand Done For You"
