@@ -163,7 +163,7 @@
         "totalpirce": "Total Value: $1999",
         "totalpircecom": "Only $299",
         "totalpircereg": "Usually $1,999",
-        "paymenttext": "<p><strong>Start today with just 4 interest-free payments of $75.00 calculated at checkout.<\/strong><\/p>",
+        "paymenttext": "<p>start today with just <strong>4<\/strong> interest-free <\/p><p>payments of <strong>$75.00 <\/strong>calculated at checkout.<\/p>",
         "title": "Are you looking to make extra MONEY ONLINE? let's talk about dropshipping!",
         "p": "Starting an online Dropshipping business can be a hassle and time-consuming. Normally, building an online store could take weeks or months. Our PREMADE DROPSHIPPING WEBSITE is ready in SEVEN BUSINESS DAYS!",
         "h2": "Order Now And You'll Receive:",
@@ -193,7 +193,7 @@
           "disabled": true,
           "settings": {
             "rever": true,
-            "img": "shopify:\/\/shop_images\/Colorful_E-Commerce_Dropshipping_Store_and_Icons_Facebook_Post_2.png",
+            "img": "shopify:\/\/shop_images\/1_58b12920-1ebd-410a-8bc4-18ed5c968e3c.png",
             "title": "Save thousands of dollars on web design and the headaches that come with finding",
             "dec": "Never worry about hiring an Ecommerce Web designer ever again! Our Experts will completely setup",
             "btn": "Get eCommerce Brand Done For You"
@@ -439,7 +439,7 @@
     "104ee26f-0174-47c5-8585-d222e1820b28": {
       "type": "featured-content",
       "custom_css": [
-        ".enlarge-text p {color: #56048a;}"
+        ".enlarge-text p {color: #56048a; color: #56048A; font-weight: 700; text-shadow: 1px 1px 2px #56048a;}"
       ],
       "settings": {
         "title": "what  our cutomers are saying!",
