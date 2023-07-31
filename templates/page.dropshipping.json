@@ -214,7 +214,7 @@
         "padding_bottom": 0,
         "title": "How Dropshipping Works !",
         "color": true,
-        "p": "<p>DROPSHIPPING IS  VERY SIMPLE BUSINESS MODEL!<\/p>"
+        "p": "<p>DROPSHIPPING IS  A VERY SIMPLE BUSINESS MODEL!<\/p>"
       }
     },
     "7da7e64d-43a3-4129-bf2e-e232193ac206": {
@@ -439,7 +439,7 @@
     "104ee26f-0174-47c5-8585-d222e1820b28": {
       "type": "featured-content",
       "custom_css": [
-        ".enlarge-text p {color: #56048a; color: #56048A; font-weight: 700; text-shadow: 1px 1px 2px #56048a;}"
+        ".enlarge-text p {color: #56048a; color: #56048a; font-weight: 700; text-shadow: 1px 1px 2px #56048a;}"
       ],
       "settings": {
         "title": "what  our cutomers are saying!",
