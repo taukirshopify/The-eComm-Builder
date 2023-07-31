@@ -596,7 +596,9 @@ font-size: 36px;
 
                     <div class="price">
                         <h3><del> {{ section.settings.totalpircereg }} </del>  {{ section.settings.totalpircecom }}</h3>
-                        <h4>One time payment</h4>
+                        <div class="payment-box">
+                            {{ section.settings.paymenttext }}
+                         </div>
                     </div>
 
                 </div>
@@ -619,7 +621,9 @@ font-size: 36px;
                         <div class="bannar-footer-img">
                             <img class="img-fluid mb-5" src="{{ section.settings.img3 | img_url:'' }}" alt="">
 
-                            <img class="img-fluid mb-5" src="{{ section.settings.img4 | img_url:'' }}" alt="">
+                             <div class="payment-box">
+                                {{ section.settings.paymenttext }}
+                             </div>
                             <img class="img-fluid" src="{{ section.settings.img5 | img_url:'' }}" alt="">
                         </div>
 
@@ -694,6 +698,15 @@ font-size: 36px;
          
             "placeholder": "Usually $2,997"
            },
+
+
+           {
+            "type": "richtext",
+            "id": "paymenttext",
+            "label": "payment text",
+            "default": "<p></p>"
+           },
+
            {
             "type": "text",
             "id": "title",
