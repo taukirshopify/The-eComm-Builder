@@ -212,9 +212,9 @@
       "settings": {
         "padding_top": 0,
         "padding_bottom": 0,
-        "title": "How Dropshipping Works !",
+        "title": "How SEO Works!",
         "color": true,
-        "p": "<p>DROPSHIPPING IS  A VERY SIMPLE BUSINESS MODEL!<\/p>"
+        "p": "<p>GET TOP 3 POSITIONS TO GET MORE ORGANIC LEADS<\/p>"
       }
     },
     "7da7e64d-43a3-4129-bf2e-e232193ac206": {
@@ -236,9 +236,9 @@
           "settings": {
             "rever": false,
             "img": "shopify:\/\/shop_images\/Branding_1.png",
-            "title": "CUSTOMER ORDER ON YOUR WEBSITE",
-            "dec": "You will verify that the customer's order is correct and collect payments.",
-            "btn": "Get YOUR DONE FOR YOU DROPSHIPPING WEBSITE"
+            "title": "ON-PAGE OPTIMIZATION",
+            "dec": "Optimizing the content, titles, meta tags, headings, & URL structure of web pages.",
+            "btn": "GET DOWNLOAD TODAY FOR YOUR STORE"
           }
         },
         "625f13b8-8038-4836-bf68-388382e988d1": {
@@ -246,8 +246,8 @@
           "settings": {
             "rever": false,
             "img": "shopify:\/\/shop_images\/Branding_2.png",
-            "title": "YOU KEEP THE sale PROFIT",
-            "dec": "Once you receive the order, you will signal the supplier to ship out the customer's order. You will keep the profits.",
+            "title": "OFF-PAGE\/CONTENT MARKETING",
+            "dec": "Building high-quality backlinks from reputable websites to increase the authority and credibility.",
             "btn": "Get eCommerce Brand Done For You"
           }
         },
@@ -256,8 +256,8 @@
           "settings": {
             "rever": false,
             "img": "shopify:\/\/shop_images\/Branding_4.png",
-            "title": "SUPPLIER is FILLing THE ORDER",
-            "dec": "The supplier will package and ship out the order to the customer on your behalf.",
+            "title": "Technical SEO",
+            "dec": "Ensuring that your website's technical aspects, are optimized for search engines.",
             "btn": "Get eCommerce Brand Done For You"
           }
         },
