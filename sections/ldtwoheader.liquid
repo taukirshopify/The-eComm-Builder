@@ -565,11 +565,12 @@ font-size: 36px;
 
     
         
-                    $('.clickme a').removeClass('activelink');
+                    $('#one').removeClass('active');
+                    $('#one').addClass('hide')
+                    $('#two').removeClass('hide');
+                    $('#two').addClass('active')
+          
                    
-                    let tagid =   $('.clickme a').data('tag');
-                    $('.list').removeClass('active').addClass('hide');
-                    $('#'+tagid).addClass('active').removeClass('hide');
                 });
      
 
