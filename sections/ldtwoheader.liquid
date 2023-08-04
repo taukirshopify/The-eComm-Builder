@@ -560,8 +560,14 @@ font-size: 36px;
 <script>
     window.addEventListener('load', function() {
         $("button.needsclick").click(function() {
-            console.log("this is working");
+
             $(".giftPopup").addClass("special");
+
+            $('.clickme a').removeClass('activelink');
+            $(this).addClass('activelink');
+            var tagid = $(this).data('tag');
+            $('.list').removeClass('active').addClass('hide');
+            $('#'+tagid).addClass('active').removeClass('hide');
         });
                 {% comment %} $( ".needsclick" ).on( "submit", function( event ) {
                     console.log("this is working sunmit");
