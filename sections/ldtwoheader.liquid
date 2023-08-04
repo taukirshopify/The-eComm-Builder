@@ -561,11 +561,11 @@ font-size: 36px;
     window.addEventListener('load', function() {
         $("button.needsclick").click(function() {
 
-            $(".giftPopup").addClass("special");
+            {% comment %} $(".giftPopup").addClass("special"); {% endcomment %}
 
             $('.clickme a').removeClass('activelink');
             $(this).addClass('activelink');
-            var tagid = $(this).data('tag');
+            let tagid = $(this).data('tag');
             $('.list').removeClass('active').addClass('hide');
             $('#'+tagid).addClass('active').removeClass('hide');
         });
@@ -577,7 +577,7 @@ font-size: 36px;
             $('.clickme a').click(function(){
                 $('.clickme a').removeClass('activelink');
                 $(this).addClass('activelink');
-                var tagid = $(this).data('tag');
+                let tagid = $(this).data('tag');
                 $('.list').removeClass('active').addClass('hide');
                 $('#'+tagid).addClass('active').removeClass('hide');
             });
