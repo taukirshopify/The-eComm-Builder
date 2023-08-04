@@ -561,13 +561,17 @@ font-size: 36px;
     window.addEventListener('load', function() {
         $("button.needsclick").click(function() {
 
-            {% comment %} $(".giftPopup").addClass("special"); {% endcomment %}
+            $(".giftPopup").addClass("special");
 
-            $('.clickme a').removeClass('activelink');
-            $(this).addClass('activelink');
-            let tagid = $(this).data('tag');
-            $('.list').removeClass('active').addClass('hide');
-            $('#'+tagid).addClass('active').removeClass('hide');
+            $(document).ready(function(){
+        
+                    $('.clickme a').removeClass('activelink');
+                    $(this).addClass('activelink');
+                    let tagid = $(this).data('tag');
+                    $('.list').removeClass('active').addClass('hide');
+                    $('#'+tagid).addClass('active').removeClass('hide');
+                });
+     
         });
                 {% comment %} $( ".needsclick" ).on( "submit", function( event ) {
                     console.log("this is working sunmit");
