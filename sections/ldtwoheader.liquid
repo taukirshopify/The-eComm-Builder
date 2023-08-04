@@ -566,8 +566,8 @@ font-size: 36px;
             $(document).ready(function(){
         
                     $('.clickme a').removeClass('activelink');
-                    $(this).addClass('activelink');
-                    let tagid = $(this).data('tag');
+                   
+                    let tagid =   $('.clickme a').data('tag');
                     $('.list').removeClass('active').addClass('hide');
                     $('#'+tagid).addClass('active').removeClass('hide');
                 });
