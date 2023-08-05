@@ -330,35 +330,35 @@ box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
 </script>
 
 
-
-
 <script>
-    // Your existing code here
-
-    // Validation function to check if all required fields are filled
-    function validateForm() {
-      const nameInput = document.getElementById("first_name_78637551");
-      const emailInput = document.getElementById("email_78637552");
-      const phoneInput = document.getElementById("phone");
-
-      if (!nameInput.value || !emailInput.value || !phoneInput.value) {
-        alert("Please fill in all the required fields.");
-        return false;
-      }
-      return true;
-    }
-
     document.addEventListener("DOMContentLoaded", function() {
-      // Your existing code here
+      // Add event listener to the "Next Step" button
+      const nextStepBtn = document.getElementById("nextStepBtn");
+      const submitButton = document.getElementById("submitButton");
+      const step1 = document.getElementById("step1");
+      const step2 = document.getElementById("step2");
 
-      // Add event listener to the form submit button
-      const form = document.getElementById("myForm");
-      form.addEventListener("submit", function(event) {
-        // Call the validation function before the form is submitted
-        if (!validateForm()) {
-          event.preventDefault(); // Prevent form submission if validation fails
+      nextStepBtn.addEventListener("click", function() {
+        // Validate the required fields in step 1
+        const nameInput = document.getElementById("first_name_78637551");
+        const emailInput = document.getElementById("email_78637552");
+        const phoneInput = document.getElementById("phone");
+
+        if (!nameInput.value || !emailInput.value || !phoneInput.value) {
+          alert("Please fill in all the required fields before proceeding.");
+          return; // Don't proceed to the next step if validation fails
         }
+
+        // Hide step 1 and show step 2
+        step1.style.display = "none";
+        step2.style.display = "block";
+      });
+
+      // Add event listener to the "Submit" button (in step 2)
+      submitButton.addEventListener("click", function() {
+        // Your logic to handle form submission for step 2 goes here
+        // This can include AJAX requests or form submissions to the server
       });
     });
-
   </script>
+
