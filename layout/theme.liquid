@@ -249,17 +249,32 @@ for (var i = 0; i < atcButtons.length; i++) {
 
 <script>
     $(document).ready(function() {
-      $('#submitBtn').click(function(e) {
-        // Get the values of the required fields
-        const nameValue = $('#first_name_78637551').val();
-        const emailValue = $('#email_78637552').val();
-        const phoneValue = $('.needsclick.go73125581.kl-private-reset-css-Xuajs1 input').val();
+      // Add event listener to the "Next Step" button
+      const nextStepBtn = document.getElementById("nextStepBtn");
+      const submitButton = document.getElementById("submitButton");
+      const step1 = document.getElementById("step1");
+      const step2 = document.getElementById("step2");
 
-        // Check if any of the required fields are empty
-        if (nameValue.trim() === '' || emailValue.trim() === '' || phoneValue.trim() === '') {
-          e.preventDefault(); // Prevent form submission
-          alert("Please fill in all the required fields.");
+      nextStepBtn.addEventListener("click", function(event) {
+        // Validate the required fields in step 1
+        const nameInput = document.getElementById("first_name_78637551");
+        const emailInput = document.getElementById("email_78637552");
+        const phoneInput = document.getElementById("phone");
+
+        if (!nameInput.checkValidity() || !emailInput.checkValidity() || !phoneInput.checkValidity()) {
+          event.preventDefault(); // Prevent form submission and form navigation if validation fails
+          alert("Please fill in all the required fields before proceeding.");
+        } else {
+          // Hide step 1 and show step 2
+          step1.style.display = "none";
+          step2.style.display = "block";
         }
+      });
+
+      // Add event listener to the "Submit" button (in step 2)
+      submitButton.addEventListener("click", function() {
+        // Your logic to handle form submission for step 2 goes here
+        // This can include AJAX requests or form submissions to the server
       });
     });
   </script>
