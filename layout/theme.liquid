@@ -248,52 +248,27 @@ for (var i = 0; i < atcButtons.length; i++) {
        </style>
 
  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const nameInput = document.getElementById("first_name_78637551");
-      const emailInput = document.getElementById("email_78637552");
-      const phoneInput = document.querySelector(".needsclick.go73125581.kl-private-reset-css-Xuajs1 input");
-      const submitButton = document.querySelector(".needsclick.go2064825737.kl-private-reset-css-Xuajs1");
+    $(document).ready(function() {
+      const submitButton = $("#submitBtn");
 
       function checkValidityAndToggleSubmit() {
-        const isValid = nameInput.checkValidity() && emailInput.checkValidity() && phoneInput.checkValidity();
-        submitButton.disabled = !isValid;
-        saveFormData();
+        const nameInput = $("#first_name_78637551");
+        const emailInput = $("#email_78637552");
+        const phoneInput = $(".needsclick.go73125581.kl-private-reset-css-Xuajs1 input");
+
+        const isValid = nameInput[0].checkValidity() && emailInput[0].checkValidity() && phoneInput[0].checkValidity();
+        submitButton.prop("disabled", !isValid);
       }
 
-      nameInput.addEventListener("input", checkValidityAndToggleSubmit);
-      emailInput.addEventListener("input", checkValidityAndToggleSubmit);
-      phoneInput.addEventListener("input", checkValidityAndToggleSubmit);
+      $("#first_name_78637551, #email_78637552, .needsclick.go73125581.kl-private-reset-css-Xuajs1 input").on("input", checkValidityAndToggleSubmit);
 
       // Check the validity initially
       checkValidityAndToggleSubmit();
 
-      function saveFormData() {
-        const formData = {
-          name: nameInput.value,
-          email: emailInput.value,
-          phone: phoneInput.value
-        };
-        localStorage.setItem('form_data', JSON.stringify(formData));
-      }
-
-      function loadFormData() {
-        const formData = JSON.parse(localStorage.getItem('form_data'));
-        if (formData) {
-          nameInput.value = formData.name;
-          emailInput.value = formData.email;
-          phoneInput.value = formData.phone;
-        }
-      }
-
-      loadFormData();
-
       // Add event listener to the "Submit" button
-      submitButton.addEventListener("click", function(event) {
+      submitButton.on("click", function(event) {
         // Your logic to handle form submission goes here
         // This can include AJAX requests or form submissions to the server
-
-        // After successful form submission, clear the stored form data
-        localStorage.removeItem('form_data');
       });
     });
   </script>
