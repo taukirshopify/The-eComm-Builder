@@ -215,7 +215,7 @@ function addedToCart() {
   }
 }(window, window.fetch));
 var klAjax = true;
-var atcButtons = document.querySelectorAll("form[action*='/cart/add'] button[type='submit']");
+
 for (var i = 0; i < atcButtons.length; i++) {
     atcButtons[i].addEventListener("click", function() {
       if (klAjax) {
