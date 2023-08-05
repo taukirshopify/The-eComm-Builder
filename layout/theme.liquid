@@ -275,6 +275,10 @@ for (var i = 0; i < atcButtons.length; i++) {
       submitButton.addEventListener("click", function(event) {
         // Your logic to handle form submission goes here
         // This can include AJAX requests or form submissions to the server
+        if (submitButton.disabled) {
+          event.preventDefault();
+          alert("Please fill in all the required fields before submitting.");
+        }
       });
     });
   </script>
