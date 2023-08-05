@@ -98,7 +98,7 @@ box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
     <div id="containere">
             <div class="list" id="one">
                     {% comment %} justify-content-evenly {% endcomment %}
-                     <ul class="top-wrapper d-md-flex  m-0">
+                     <ul class="top-wrapper d-flex  m-0">
                          <li class="d-flex color-perpal singel-count-item flex-fill align-items-center justify-content-center active"> 
                               <div class="count-top ">
                                 1.
@@ -129,7 +129,7 @@ box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
 
 
 
-            <ul class="top-wrapper d-md-flex m-0">
+            <ul class="top-wrapper d-flex m-0">
                 <li class="           d-flex flex-fill  singel-count-item align-items-center justify-content-center"> 
                      <div class="count-top ">
                        1.
@@ -305,3 +305,26 @@ box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
 
 </script>
 
+<script>
+    window.addEventListener('load', function() {
+        $("button.needsclick").click(function() {
+            console.log("this is working");
+            $(".giftPopup").addClass("special");
+        });
+                {% comment %} $( ".needsclick" ).on( "submit", function( event ) {
+                    console.log("this is working sunmit");
+            event.preventDefault();
+          }); {% endcomment %}
+          $(document).ready(function(){
+            $('.clickme a').click(function(){
+                $('.clickme a').removeClass('activelink');
+                $(this).addClass('activelink');
+                var tagid = $(this).data('tag');
+                $('.list').removeClass('active').addClass('hide');
+                $('#'+tagid).addClass('active').removeClass('hide');
+            });
+        });
+
+    });
+  
+</script>
