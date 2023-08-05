@@ -250,23 +250,23 @@ for (var i = 0; i < atcButtons.length; i++) {
 <script>
     document.addEventListener("DOMContentLoaded", function() {
       const submitButton = document.getElementById("submitBtn");
-      const fields = document.querySelectorAll(".field");
+      const fields = document.getElementsByClassName("field");
 
       function checkValidityAndToggleSubmit() {
         let allFilled = true;
-        fields.forEach(function(field) {
-          if (field.value.trim() === '') {
+        for (let i = 0; i < fields.length; i++) {
+          if (fields[i].value.trim() === '') {
             allFilled = false;
-            return; // Exit the loop early if any field is not filled
+            break; // Exit the loop early if any field is not filled
           }
-        });
+        }
 
         submitButton.disabled = !allFilled;
       }
 
-      fields.forEach(function(field) {
-        field.addEventListener("input", checkValidityAndToggleSubmit);
-      });
+      for (let i = 0; i < fields.length; i++) {
+        fields[i].addEventListener("input", checkValidityAndToggleSubmit);
+      }
 
       // Check the validity initially
       checkValidityAndToggleSubmit();
