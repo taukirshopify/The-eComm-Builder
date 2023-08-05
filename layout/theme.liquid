@@ -247,36 +247,33 @@ for (var i = 0; i < atcButtons.length; i++) {
       
        </style>
 
-<script>
-    $(document).ready(function() {
-      // Add event listener to the "Next Step" button
-      const nextStepBtn = document.getElementById("nextStepBtn");
-      const submitButton = document.getElementById("submitButton");
-      const step1 = document.getElementById("step1");
-      const step2 = document.getElementById("step2");
+ <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const nameInput = document.getElementById("first_name_78637551");
+      const emailInput = document.getElementById("email_78637552");
+      const phoneInput = document.querySelector(".needsclick.go73125581.kl-private-reset-css-Xuajs1 input");
+      const submitButton = document.querySelector(".needsclick.go2064825737.kl-private-reset-css-Xuajs1");
 
-      nextStepBtn.addEventListener("click", function(event) {
-        // Validate the required fields in step 1
-        const nameInput = document.getElementById("first_name_78637551");
-        const emailInput = document.getElementById("email_78637552");
-        const phoneInput = document.getElementById("phone");
+      function checkValidityAndToggleSubmit() {
+        const isValid = nameInput.checkValidity() && emailInput.checkValidity() && phoneInput.checkValidity();
+        submitButton.disabled = !isValid;
+      }
 
-        if (!nameInput.checkValidity() || !emailInput.checkValidity() || !phoneInput.checkValidity()) {
-          event.preventDefault(); // Prevent form submission and form navigation if validation fails
-          alert("Please fill in all the required fields before proceeding.");
-        } else {
-          // Hide step 1 and show step 2
-          step1.style.display = "none";
-          step2.style.display = "block";
-        }
-      });
+      nameInput.addEventListener("input", checkValidityAndToggleSubmit);
+      emailInput.addEventListener("input", checkValidityAndToggleSubmit);
+      phoneInput.addEventListener("input", checkValidityAndToggleSubmit);
 
-      // Add event listener to the "Submit" button (in step 2)
-      submitButton.addEventListener("click", function() {
-        // Your logic to handle form submission for step 2 goes here
+      // Check the validity initially
+      checkValidityAndToggleSubmit();
+
+      // Add event listener to the "Submit" button
+      submitButton.addEventListener("click", function(event) {
+        // Your logic to handle form submission goes here
         // This can include AJAX requests or form submissions to the server
       });
     });
   </script>
+
+
 </body>
 </html>
