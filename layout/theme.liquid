@@ -247,41 +247,35 @@ for (var i = 0; i < atcButtons.length; i++) {
       
        </style>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const submitButton = document.getElementById("submitBtn");
-      const fields = document.getElementsByClassName("field");
+ <script>
+    $(document).ready(function() {
+      const submitButton = $(".needsclick.go2064825737.kl-private-reset-css-Xuajs1");
+      const nameInput = $("#first_name_78637551");
+      const emailInput = $("#email_78637552");
+      const phoneInput = $(".needsclick.go73125581.kl-private-reset-css-Xuajs1 input");
 
       function checkValidityAndToggleSubmit() {
-        let allFilled = true;
-        for (let i = 0; i < fields.length; i++) {
-          if (fields[i].value.trim() === '') {
-            allFilled = false;
-            break; // Exit the loop early if any field is not filled
-          }
-        }
-
-        submitButton.disabled = !allFilled;
+        const isValid = nameInput[0].checkValidity() && emailInput[0].checkValidity() && phoneInput[0].checkValidity();
+        submitButton.prop("disabled", !isValid);
       }
 
-      for (let i = 0; i < fields.length; i++) {
-        fields[i].addEventListener("input", checkValidityAndToggleSubmit);
-      }
+      nameInput.on("input", checkValidityAndToggleSubmit);
+      emailInput.on("input", checkValidityAndToggleSubmit);
+      phoneInput.on("input", checkValidityAndToggleSubmit);
 
       // Check the validity initially
       checkValidityAndToggleSubmit();
 
       // Add event listener to the "Submit" button
-      submitButton.addEventListener("click", function(event) {
+      submitButton.on("click", function(event) {
         // Your logic to handle form submission goes here
         // This can include AJAX requests or form submissions to the server
-        if (submitButton.disabled) {
+        if (submitButton.prop("disabled")) {
           event.preventDefault();
           alert("Please fill in all the required fields before submitting.");
         }
       });
     });
   </script>
-
 </body>
 </html>
