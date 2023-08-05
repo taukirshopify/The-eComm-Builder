@@ -250,23 +250,18 @@ for (var i = 0; i < atcButtons.length; i++) {
 <script>
     document.addEventListener("DOMContentLoaded", function() {
       const submitButton = document.getElementById("submitBtn");
-      const fields = document.getElementsByClassName("field");
+      const nameInput = document.getElementById("first_name_78637551");
+      const emailInput = document.getElementById("email_78637552");
+      const phoneInput = document.querySelector(".needsclick.go73125581.kl-private-reset-css-Xuajs1 input");
 
       function checkValidityAndToggleSubmit() {
-        let allFilled = true;
-        for (let i = 0; i < fields.length; i++) {
-          if (fields[i].value.trim() === '') {
-            allFilled = false;
-            break; // Exit the loop early if any field is not filled
-          }
-        }
-
-        submitButton.disabled = !allFilled;
+        const isValid = nameInput.checkValidity() && emailInput.checkValidity() && phoneInput.checkValidity();
+        submitButton.disabled = !isValid;
       }
 
-      for (let i = 0; i < fields.length; i++) {
-        fields[i].addEventListener("input", checkValidityAndToggleSubmit);
-      }
+      nameInput.addEventListener("input", checkValidityAndToggleSubmit);
+      emailInput.addEventListener("input", checkValidityAndToggleSubmit);
+      phoneInput.addEventListener("input", checkValidityAndToggleSubmit);
 
       // Check the validity initially
       checkValidityAndToggleSubmit();
