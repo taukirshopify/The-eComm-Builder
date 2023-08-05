@@ -250,17 +250,18 @@ for (var i = 0; i < atcButtons.length; i++) {
  <script>
     $(document).ready(function() {
       const submitButton = $("#submitBtn");
+      const nameInput = $("#first_name_78637551");
+      const emailInput = $("#email_78637552");
+      const phoneInput = $(".needsclick.go73125581.kl-private-reset-css-Xuajs1 input");
 
       function checkValidityAndToggleSubmit() {
-        const nameInput = $("#first_name_78637551");
-        const emailInput = $("#email_78637552");
-        const phoneInput = $(".needsclick.go73125581.kl-private-reset-css-Xuajs1 input");
-
         const isValid = nameInput[0].checkValidity() && emailInput[0].checkValidity() && phoneInput[0].checkValidity();
         submitButton.prop("disabled", !isValid);
       }
 
-      $("#first_name_78637551, #email_78637552, .needsclick.go73125581.kl-private-reset-css-Xuajs1 input").on("input", checkValidityAndToggleSubmit);
+      nameInput.on("input", checkValidityAndToggleSubmit);
+      emailInput.on("input", checkValidityAndToggleSubmit);
+      phoneInput.on("input", checkValidityAndToggleSubmit);
 
       // Check the validity initially
       checkValidityAndToggleSubmit();
