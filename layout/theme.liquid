@@ -248,29 +248,31 @@ for (var i = 0; i < atcButtons.length; i++) {
        </style>
 
 <script>
-    $(document).ready(function() {
-      const submitButton = $("#submitBtn");
-      const fields = $(".field");
+    document.addEventListener("DOMContentLoaded", function() {
+      const submitButton = document.getElementById("submitBtn");
+      const fields = document.querySelectorAll(".field");
 
       function checkValidityAndToggleSubmit() {
         let allFilled = true;
-        fields.each(function() {
-          if ($(this).val().trim() === '') {
+        fields.forEach(function(field) {
+          if (field.value.trim() === '') {
             allFilled = false;
-            return false; // Exit the loop early if any field is not filled
+            return; // Exit the loop early if any field is not filled
           }
         });
 
-        submitButton.prop("disabled", !allFilled);
+        submitButton.disabled = !allFilled;
       }
 
-      fields.on("input", checkValidityAndToggleSubmit);
+      fields.forEach(function(field) {
+        field.addEventListener("input", checkValidityAndToggleSubmit);
+      });
 
       // Check the validity initially
       checkValidityAndToggleSubmit();
 
       // Add event listener to the "Submit" button
-      submitButton.on("click", function(event) {
+      submitButton.addEventListener("click", function(event) {
         // Your logic to handle form submission goes here
         // This can include AJAX requests or form submissions to the server
       });
