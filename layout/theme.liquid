@@ -247,21 +247,24 @@ for (var i = 0; i < atcButtons.length; i++) {
       
        </style>
 
- <script>
+<script>
     $(document).ready(function() {
       const submitButton = $("#submitBtn");
-      const nameInput = $("#first_name_78637551");
-      const emailInput = $("#email_78637552");
-      const phoneInput = $(".needsclick.go73125581.kl-private-reset-css-Xuajs1 input");
+      const fields = $(".field");
 
       function checkValidityAndToggleSubmit() {
-        const isValid = nameInput[0].checkValidity() && emailInput[0].checkValidity() && phoneInput[0].checkValidity();
-        submitButton.prop("disabled", !isValid);
+        let allFilled = true;
+        fields.each(function() {
+          if ($(this).val().trim() === '') {
+            allFilled = false;
+            return false; // Exit the loop early if any field is not filled
+          }
+        });
+
+        submitButton.prop("disabled", !allFilled);
       }
 
-      nameInput.on("input", checkValidityAndToggleSubmit);
-      emailInput.on("input", checkValidityAndToggleSubmit);
-      phoneInput.on("input", checkValidityAndToggleSubmit);
+      fields.on("input", checkValidityAndToggleSubmit);
 
       // Check the validity initially
       checkValidityAndToggleSubmit();
