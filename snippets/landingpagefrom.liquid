@@ -328,3 +328,37 @@ box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
     });
   
 </script>
+
+
+
+
+<script>
+    // Your existing code here
+
+    // Validation function to check if all required fields are filled
+    function validateForm() {
+      const nameInput = document.getElementById("first_name_78637551");
+      const emailInput = document.getElementById("email_78637552");
+      const phoneInput = document.getElementById("phone");
+
+      if (!nameInput.value || !emailInput.value || !phoneInput.value) {
+        alert("Please fill in all the required fields.");
+        return false;
+      }
+      return true;
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+      // Your existing code here
+
+      // Add event listener to the form submit button
+      const form = document.getElementById("myForm");
+      form.addEventListener("submit", function(event) {
+        // Call the validation function before the form is submitted
+        if (!validateForm()) {
+          event.preventDefault(); // Prevent form submission if validation fails
+        }
+      });
+    });
+
+  </script>
