@@ -244,40 +244,6 @@ for (var i = 0; i < atcButtons.length; i++) {
 }
       
        </style>
-
-        <div id="success-alert" class="alert alert-success" style="display: none;">
-  Form submitted successfully!
-</div>
-
-<script>
-  // Function to display the success alert
-  function showSuccessAlert() {
-    var successAlert = document.getElementById('success-alert');
-    successAlert.style.display = 'block';
-
-    // Hide the alert after a few seconds (adjust the delay as needed)
-    setTimeout(function() {
-      successAlert.style.display = 'none';
-    }, 5000); // Hide after 5 seconds
-  }
-
-  // Attach an event listener to the Klaviyo form submission
-  document.addEventListener('DOMContentLoaded', function() {
-    var klaviyoForm = document.getElementsByClassName('klaviyo-form'); // Replace with your form's ID
-    if (klaviyoForm) {
-      klaviyoForm.addEventListener('submit', function(event) {
-        // Prevent the default form submission behavior
-        event.preventDefault();
-        
-        // Simulate form submission (you can replace this with your actual Klaviyo submission code)
-        // For example, if you're using AJAX to submit the form:
-        // makeKlaviyoSubmission();
-
-        // Show the success alert
-        showSuccessAlert();
-      });
-    }
-  });
-</script>        
+       
 </body>
 </html>
