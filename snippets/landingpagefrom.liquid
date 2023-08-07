@@ -96,8 +96,86 @@ box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
     </ul>    
 
     <div id="containere">
+       {% comment %} new code  {% endcomment %}
+
+       <h3 class="text-center">choose a dropshipping store</h3>
+       <div id="parent-div">
+           {%- for block in data -%}
+
+                       {%- case block.type -%}
+                           
+                           {%- when 'product' -%}
+                           {% assign variant = block.settings.product.variants.first %}
+                   <div class="singel-item-wrapper checkbox style-b d-flex justify-content-between">
+                       <label>
+                           {% comment %} | money_without_currency  {% endcomment %}
+                       <input type="checkbox"
+                           price="{{ block.settings.product.price | money }}"
+                           {% if block.settings.checkbok %}
+                               checked
+                           {% endif %}
+                           
+                           title="{{ block.settings.product.title }}" Tprice={{ block.settings.product.price | money_without_currency }} Value="{{ block.settings.product.variants.first.id  }}" />
+                       <div class="checkbox__checkmark"></div>
+                       
+                       <div class="product-title">
+                           {{ block.settings.product.title }}
+                       </div> 
+                       
+                   
+                   
+                   </label>
+                       <span class="product-price"> {{ block.settings.product.price | money }}</span>
+                   </div>
+               {%- endcase -%}
+           {% endfor %}          
+       </div>
+
+       <div class="from-footer">
+               <ul class="m-0">
+                       <li class="d-flex justify-content-between">
+                       <span>Item</span>
+                       <span>amount</span>
+                       </li>
+                       <hr>
+                   </ul>
+
+                   <ul class="m-0" id="detailsBox">
+
+                       
+                       </ul>
+                   <hr>
+                   <li class="d-flex justify-content-between">
+                       <span>Order Total:</span>
+                       <span id="totalPrice">$100.00</span>
+                       </li>
+               </ul>
+           
+       </div>
+
+       <a class="btn add_to_cart_form"><i class="fa-solid fa-angles-right"></i>Complete Order</a>
+       <p>{{ section.settings.righttext }}</p>
+       {% comment %} new code End {% endcomment %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% comment %} 
             <div class="list" id="one">
-                    {% comment %} justify-content-evenly {% endcomment %}
+            
                      <ul class="top-wrapper d-md-flex  m-0">
                          <li class="d-flex color-perpal singel-count-item flex-fill align-items-center justify-content-center active"> 
                               <div class="count-top ">
@@ -126,9 +204,6 @@ box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
 
             <div class="list hide" id="two">
             
-            {% comment %} inner div  {% endcomment %}
-
-
 
             <ul class="top-wrapper d-md-flex m-0">
                 <li class="           d-flex flex-fill  singel-count-item align-items-center justify-content-center"> 
@@ -209,7 +284,7 @@ box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
                     <a class="btn add_to_cart_form"><i class="fa-solid fa-angles-right"></i>Complete Order</a>
                     <p>{{ section.settings.righttext }}</p>
             </div>
-        </div>
+            </div> {% endcomment %}
 
     </div>   
 
