@@ -263,7 +263,7 @@ for (var i = 0; i < atcButtons.length; i++) {
 
   // Attach an event listener to the Klaviyo form submission
   document.addEventListener('DOMContentLoaded', function() {
-    var klaviyoForm = document.getElementById('klaviyo-form'); // Replace with your form's ID
+    var klaviyoForm = document.getElementsByClassName('klaviyo-form'); // Replace with your form's ID
     if (klaviyoForm) {
       klaviyoForm.addEventListener('submit', function(event) {
         // Prevent the default form submission behavior
