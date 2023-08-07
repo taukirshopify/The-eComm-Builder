@@ -121,19 +121,11 @@ box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
 
                     <div class="klaviyo-form-RCUkKa"></div>
 
-              <script>
-  const klaviyoForms = document.querySelectorAll('.klaviyo-form');
-
-  klaviyoForms.forEach(function(form) {
-    form.addEventListener('submit', function(event) {
-      event.preventDefault(); // Prevent the form from submitting normally
-
-      // Your custom JavaScript code here
-      alert('Klaviyo form submitted!');
-      
-      // You can also perform other actions, such as sending data to a server, etc.
-    });
-  });
+<script type="text/javascript">
+	document.querySelector('.klaviyo-form-RCUkKa').addEventListener('click', function (){
+		window._klOnsite = window._klOnsite || []; 
+		window._klOnsite.push(['openForm', 'manan']);
+	});
 </script>
 
                     <div class="clickme"><a  class="giftPopup btn" href="javascript:void();" data-tag="two"> Get the Deal</a></div> 
