@@ -142,6 +142,7 @@
     },
     "d39cb692-babc-427a-a6c4-70fda21b78ef": {
       "type": "ldtwoheader",
+      "disabled": true,
       "blocks": {
         "dea5ba9d-ebb6-4c7f-9196-25aa823dd10f": {
           "type": "feature",
