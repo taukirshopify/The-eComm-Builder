@@ -371,10 +371,10 @@
           "type": "feature",
           "settings": {
             "rever": false,
-            "img": "shopify:\/\/shop_images\/Branding_1.png",
-            "title": "CUSTOMER ORDER ON YOUR WEBSITE",
-            "dec": "You will verify that the customer's order is correct and collect payments.",
-            "btn": "Get YOUR DONE FOR YOU DROPSHIPPING WEBSITE"
+            "img": "shopify:\/\/shop_images\/ON_Page.webp",
+            "title": "ON-PAGE OPTIMIZATION",
+            "dec": "Optimizing the content, titles, meta tags, headings, & URL structure of web pages.",
+            "btn": "DOWNLOAD IT TODAY FOR YOUR STORE"
           }
         },
         "625f13b8-8038-4836-bf68-388382e988d1": {
@@ -382,8 +382,8 @@
           "settings": {
             "rever": false,
             "img": "shopify:\/\/shop_images\/Branding_2.png",
-            "title": "YOU KEEP THE sale PROFIT",
-            "dec": "Once you receive the order, you will signal the supplier to ship out the customer's order. You will keep the profits.",
+            "title": "OFF-PAGE\/CONTENT MARKETING",
+            "dec": "Building high-quality backlinks from reputable websites to increase the authority and credibility.",
             "btn": "Get eCommerce Brand Done For You"
           }
         },
