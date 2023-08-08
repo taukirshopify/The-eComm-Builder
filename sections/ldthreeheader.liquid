@@ -615,16 +615,7 @@ font-size: 36px;
                          </video>
                     </div>
                     <p>{{ section.settings.p }}</p>
-           
-
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 bannar-right">
-                    <div class="bannar-right-img">
-                        <img class="img-fluid" src="{{ section.settings.img2 | img_url:'' }}" alt="">
-                    </div>
-                    <p>{{ section.settings.buymore }}</p>
-                    <div class="two-part" id="CollectionSection">
-                                <div class="order-section">
+                    <div class="order-section">
                         <h3 class="my-5">{{ section.settings.h2 }}</h3>
 
                         {% for item in section.blocks %}
@@ -656,6 +647,22 @@ font-size: 36px;
                             {{ section.settings.paymenttext }}
                          </div>
                     </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 bannar-right">
+                    <div class="bannar-right-img">
+                        <img class="img-fluid" src="{{ section.settings.img2 | img_url:'' }}" alt="">
+                    </div>
+                    <p>{{ section.settings.buymore }}</p>
+                    <div class="two-part" id="CollectionSection">
+                        <div class="first-part ">
+                           {% comment %} <h4 class="text-center">Get the deal</h4> {% endcomment %}
+
+                              {% render 'landingpagefrom',
+                               data: section.blocks,
+
+                              %}
+                           </div>
                         </div>
 
                         <div class="bannar-footer-img">
