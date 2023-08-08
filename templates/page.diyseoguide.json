@@ -336,6 +336,7 @@
     },
     "a91d578d-42d7-44de-8925-1752f378a5fc": {
       "type": "ldtwotitleandtext",
+      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 0,
@@ -447,6 +448,7 @@
     },
     "104ee26f-0174-47c5-8585-d222e1820b28": {
       "type": "featured-content",
+      "disabled": true,
       "custom_css": [
         ".enlarge-text p {color: #56048a; color: #56048a; font-weight: 700; text-shadow: 1px 1px 2px #56048a;}"
       ],
