@@ -53,6 +53,7 @@
         },
         "89dfb9eb-6410-457f-9c6d-4ed6bade8b71": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "checkbok": false,
             "product": "jewelry-store-sale"
@@ -60,6 +61,7 @@
         },
         "348be871-9f39-4712-b18e-c87d85200fe1": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "checkbok": false,
             "product": "pet-store-sale"
@@ -67,6 +69,7 @@
         },
         "34922f3f-afdc-4c7b-8869-bfb3d0634be2": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "checkbok": false,
             "product": "home-goods-store-sale"
@@ -74,9 +77,34 @@
         },
         "809ecc55-a82a-48b1-82bb-6b4079076c06": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "checkbok": false,
             "product": "adult-toy-store-sale"
+          }
+        },
+        "91fe173c-7f3e-4816-b5fb-22349508e5aa": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "checkbok": false,
+            "product": "custom-candle-store-sale"
+          }
+        },
+        "728ab40e-62dd-4a08-bed9-bb67f53a4151": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "checkbok": false,
+            "product": "baby-store-sale"
+          }
+        },
+        "4b92f128-5988-4944-9170-02289b3970f9": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "checkbok": false,
+            "product": ""
           }
         }
       },
@@ -90,7 +118,10 @@
         "89dfb9eb-6410-457f-9c6d-4ed6bade8b71",
         "348be871-9f39-4712-b18e-c87d85200fe1",
         "34922f3f-afdc-4c7b-8869-bfb3d0634be2",
-        "809ecc55-a82a-48b1-82bb-6b4079076c06"
+        "809ecc55-a82a-48b1-82bb-6b4079076c06",
+        "91fe173c-7f3e-4816-b5fb-22349508e5aa",
+        "728ab40e-62dd-4a08-bed9-bb67f53a4151",
+        "4b92f128-5988-4944-9170-02289b3970f9"
       ],
       "settings": {
         "img": "shopify:\/\/shop_images\/Shopify-SEO-DIY-Guide-Book.webp",
