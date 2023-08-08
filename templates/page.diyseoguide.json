@@ -450,15 +450,15 @@
         "9132d5c4-365e-472a-9f4c-e5cc369280fb": {
           "type": "Faq",
           "settings": {
-            "title": "YOUR WEBSITE IS READY",
-            "dec": "Once your website is ready, we will transfer it over to you! Once you receive your website, you are able to customize it. You can add your brand colors, add more products, etc."
+            "title": "How do search engines work?",
+            "dec": "Search engines like Google use algorithms to crawl, index, and rank web pages. Crawling involves scanning websites for content, indexation involves storing the content in a database, and ranking involves evaluating the relevance and authority of pages to display in search results."
           }
         },
         "41fbb875-1051-4c9f-9f12-0fb5f928aba4": {
           "type": "Faq",
           "settings": {
-            "title": "WE FOLLOW UP WITH YOU",
-            "dec": "Because we want you to be successgul our team will follwo up with you. Well follow up with you to make sure your website is ready to be male sales."
+            "title": "Is SEO a one-time process?",
+            "dec": "No, SEO is an ongoing process. Search engine algorithms and user behavior change over time, so you need to continuously monitor and adapt your SEO strategies to stay competitive. Regularly updating content, checking for technical issues, and refining your approach are essential for long-term success."
           }
         }
       },
@@ -474,6 +474,7 @@
     },
     "a91d578d-42d7-44de-8925-1752f378a5fc": {
       "type": "ldtwotitleandtext",
+      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 0,
@@ -484,6 +485,7 @@
     },
     "b38b677a-414d-4624-b767-32e1fdf587ee": {
       "type": "ldtwoexample",
+      "disabled": true,
       "blocks": {
         "c2725b72-95dd-4494-a92c-a86243adae07": {
           "type": "feature",
@@ -574,6 +576,7 @@
     },
     "104ee26f-0174-47c5-8585-d222e1820b28": {
       "type": "featured-content",
+      "disabled": true,
       "custom_css": [
         ".enlarge-text p {color: #56048a; color: #56048a; font-weight: 700; text-shadow: 1px 1px 2px #56048a;}"
       ],
@@ -588,6 +591,7 @@
     },
     "ce0d62ad-e6ee-46e5-9451-beabbc3d5542": {
       "type": "ldtworeview",
+      "disabled": true,
       "blocks": {
         "0800b3ef-dd16-4a4c-868a-45392466b325": {
           "type": "Faq",
@@ -630,6 +634,7 @@
     },
     "f895bcc5-1c5a-43c8-9ff4-42cfe272c8ac": {
       "type": "ldtwotitleandtext",
+      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 0,
@@ -640,6 +645,7 @@
     },
     "02b79b5e-60e1-40ce-995c-f5ebcbf381ba": {
       "type": "ldtwofaq",
+      "disabled": true,
       "blocks": {
         "a41ec4f4-1b4e-4100-b95a-22605fdb3f55": {
           "type": "Faq",
