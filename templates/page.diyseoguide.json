@@ -346,9 +346,11 @@
     },
     "b38b677a-414d-4624-b767-32e1fdf587ee": {
       "type": "ldtwoexample",
+      "disabled": true,
       "blocks": {
         "c2725b72-95dd-4494-a92c-a86243adae07": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/Untitleddesign_7.png",
             "p": "PET STORE"
@@ -356,6 +358,7 @@
         },
         "10dd4a87-59c3-4ad7-bda6-ff5223796d6c": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/Untitleddesign_5.png",
             "p": "TECH store"
@@ -363,6 +366,7 @@
         },
         "2cc2acc9-346f-40c8-9233-f3bbe555f0af": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/Untitleddesign_6.png",
             "p": "CUSTOM JEWERLY store"
@@ -370,6 +374,7 @@
         },
         "f925ddde-0da2-48d4-abbb-66434a05fd89": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/Untitleddesign_4.png",
             "p": "TOY store"
@@ -377,6 +382,7 @@
         },
         "7134222f-432c-4c37-b1bc-5df5c8977eca": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/image_a31badb1-0a9e-44c4-bdab-8fe6d3f4d89b.jpg",
             "p": "HOME store"
@@ -384,6 +390,7 @@
         },
         "b79bf24f-0f14-4665-9079-8e49f105ceb4": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/PREMADESTORE.png",
             "p": "ADULT TOY store"
@@ -391,6 +398,7 @@
         },
         "1fb6c8e5-eb29-4b17-83c9-4157761a2bcb": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/image_e2da7c82-41e7-461a-b6f7-7eaac441eea5.jpg",
             "p": "CANDLE store"
@@ -398,6 +406,7 @@
         },
         "77c55933-4e9f-4c20-867b-d19d608d3547": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/image_3caf3041-358e-49ab-ae2a-4915d28ee9c3.jpg",
             "p": "BEAUTY store"
@@ -405,6 +414,7 @@
         },
         "c9c6c55c-7c49-4f10-bc2d-f42e6cd25b15": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/image_eff6a41d-6577-406e-9e23-b07e990116d5.jpg",
             "p": "BABY store"
@@ -412,6 +422,7 @@
         },
         "fbc4233b-d430-4e72-ba58-9ba748761b25": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/image_054cf370-1190-4926-930f-d53e08f3d248.jpg",
             "p": "HYBRID Store"
@@ -450,6 +461,7 @@
     },
     "ce0d62ad-e6ee-46e5-9451-beabbc3d5542": {
       "type": "ldtworeview",
+      "disabled": true,
       "blocks": {
         "0800b3ef-dd16-4a4c-868a-45392466b325": {
           "type": "Faq",
