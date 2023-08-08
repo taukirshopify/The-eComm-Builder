@@ -43,6 +43,41 @@
             "title": "Free Website support",
             "dec": "So You can have a successful dropshipping business"
           }
+        },
+        "b2175548-f2db-4f83-b15e-2a50ea2d8cb5": {
+          "type": "product",
+          "settings": {
+            "checkbok": true,
+            "product": "toy-store-sale"
+          }
+        },
+        "89dfb9eb-6410-457f-9c6d-4ed6bade8b71": {
+          "type": "product",
+          "settings": {
+            "checkbok": false,
+            "product": "jewelry-store-sale"
+          }
+        },
+        "348be871-9f39-4712-b18e-c87d85200fe1": {
+          "type": "product",
+          "settings": {
+            "checkbok": false,
+            "product": "pet-store-sale"
+          }
+        },
+        "34922f3f-afdc-4c7b-8869-bfb3d0634be2": {
+          "type": "product",
+          "settings": {
+            "checkbok": false,
+            "product": "home-goods-store-sale"
+          }
+        },
+        "809ecc55-a82a-48b1-82bb-6b4079076c06": {
+          "type": "product",
+          "settings": {
+            "checkbok": false,
+            "product": "adult-toy-store-sale"
+          }
         }
       },
       "block_order": [
@@ -50,7 +85,12 @@
         "4edf5165-a87d-4c86-8f1a-dea473795f7e",
         "6ca23d23-0a69-4fff-b45d-2a90ad823926",
         "f002ee63-c0c0-4ca1-b50f-24ef5e526a87",
-        "7d991395-11d2-49aa-8bdb-41cb9b6d6618"
+        "7d991395-11d2-49aa-8bdb-41cb9b6d6618",
+        "b2175548-f2db-4f83-b15e-2a50ea2d8cb5",
+        "89dfb9eb-6410-457f-9c6d-4ed6bade8b71",
+        "348be871-9f39-4712-b18e-c87d85200fe1",
+        "34922f3f-afdc-4c7b-8869-bfb3d0634be2",
+        "809ecc55-a82a-48b1-82bb-6b4079076c06"
       ],
       "settings": {
         "img": "shopify:\/\/shop_images\/Shopify-SEO-DIY-Guide-Book.webp",
