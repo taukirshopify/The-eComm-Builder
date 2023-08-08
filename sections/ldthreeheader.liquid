@@ -1,12 +1,854 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+{{ 'bootstrap.css' | asset_url | stylesheet_tag }}
+{{ 'landingpagetwo' | asset_url | stylesheet_tag }}
+
+
+<style>
+    .header-padding {
+       
+        background-repeat: no-repeat;
+
+        background-size: cover;
+        @media only screen and (max-width: 1920px) and (min-width: 600px)  {
+            background-size: contain;
+            background-image: url('{{ section.settings.imgbg | img_url:'' }}');
+        }
+    }
+    
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* header css end */
+
+/* bannar css start */
+.order-section {
+    border-bottom: 1px solid #317C8E;
+}
+
+.order-section h4 {
+    font-weight: 400;
+}
+
+.oredr-spacial {
+    color: #317C8E;
+    font-weight: 600;
+}
+
+.price {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.price del {
+    color: red;
+}
+
+.price h3 {
+    color: rgb(12, 236, 98);
+}
+
+/* from css */
+
+.first-part {
+    padding: 20px;
+    border: 1px solid #317C8E;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+/* from css */
+.bannar-footer-img {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* bannar css end */
+
+/* card css start */
+.card-section h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #383a3b;
+
+}
+
+/* card css end */
+
+
+/* Stores section css */
+.Stores {
+    margin-bottom: 50px;
+}
+
+.title-padding {
+    text-align: center;
+    font-size:
+        50px;
+    color: black;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px #ddbb59;
+    margin-bottom:
+        50px;
+
+}
+
+.Dropshipping {
+    background-image: url('/asserts/img/bg/2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Stores section css */
+
+
+
+.props-title {
+    font-size: 25px;
+    color: #56048A;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #56048a;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size:
+        50px;
+    color: black;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px pink;
+    margin-bottom:
+        50px;
+}
+
+
+/* faq css start */
+.faq {
+    margin-bottom: 50px;
+}
+
+/* faq css end */
+
+
+
+/* reviews css start */
+
+.reviews-section {
+    background-image: url('/asserts/img/bg/3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.reviews-title {
+    background-color: aliceblue;
+    display: inline;
+    border-radius: 5px;
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    padding: 2px 8px;
+    background-color: rgb(204, 204, 204);
+    width: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 6%;
+
+
+}
+
+.fa-sharp {
+    color: red;
+}
+
+.fa-regular {
+    color: green;
+}
+
+
+.reviews-title::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: aliceblue;
+    left: 111px;
+    top: 167px;
+    transform: rotate(45deg);
+}
+
+.reviews-title p {
+    color: black;
+    font-size: 18px;
+}
+
+
+.reviews {
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+
+}
+
+.review-img img {
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.fa-star {
+    font-size: 12px;
+    padding: 2px;
+    color: #fff;
+    background-color: green;
+}
+
+.spacial {
+    color: red;
+}
+
+.fa-brands {
+    margin-left: 80px;
+    color: #fff;
+    background-color: green;
+    padding: 10px;
+}
+
+.review-end-title {
+    text-align: center;
+}
+
+.review-end-title h3 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+/* reviews css end */
+
+/* footer section start */
+
+.footer {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer ul li {
+    list-style-type: none;
+    display: inline-block;
+
+
+}
+
+.footer ul li:hover {
+    border-bottom: 1px solid grey;
+    border-width: 90%;
+
+
+}
+
+.footer ul li::after {
+    content: '-';
+    margin-left: 5px;
+
+}
+
+.footer ul li:last-child:after {
+    display: none;
+
+}
+
+.footer ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.single-faq h4 {
+    font-size: 24px;
+}
+.single-faq h4{
+   
+}
+/* footer section start */
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+    body {
+        text-align: center;
+    }
+
+    .btn-2 {
+        display: block;
+        width: 100%;
+        border: none;
+        background-color: #317C8E;
+        color: #fff;
+        padding: 14px 15px;
+        font-weight: 500;
+        font-size: 10px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .btn-3 p {
+        font-size: 10px;
+    }
+
+    .btn-3 {
+        font-size: 10px;
+        transition: .3s;
+    }
+
+    .btn-3:hover {
+        background-color: #2aa6c5fa;
+        box-shadow: none;
+    }
+
+    .button {
+        display: block;
+        width: 100%;
+        border: none;
+        background-color: #317C8E;
+        color: #fff;
+        padding: 14px 15px;
+        font-weight: 500;
+        font-size: 10px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .button:hover {
+        box-shadow: 0 4px 2px -2px #317C8E;
+    }
+
+
+    label {
+        text-align: left;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .section-padding {
+        padding: 10px 0px;
+
+    }
+
+    .card-2-part {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .card-2 {
+        margin-right: 0px;
+
+    }
+
+    .reviews {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .review-img {
+        margin-bottom: 40px;
+
+    }
+
+
+}
+
+
+    .bannar-title {
+        line-height: 1.5;
+    }
+    .oredr-spacial {
+        color: #56048a;
+        
+    }
+ .ldtwotexdt01 {
+        font-size: 23px;
+        line-height: 1.25;
+    }
+    video{
+  height: 100%;
+        width: 100%;
+}
+
+a.btn {
+    width: 100%;
+
+    margin: 20px 0;
+}
+.review-end-title a.btn {
+    width: auto;
+}
+.logo {
+    margin-top: 7vh;
+}
+.ldtwolandpagewrapper input {
+    margin:0 12px 0 0;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
   }
-{% endschema %}
+  .ldtwolandpagewrapper label {
+    font-size: 15px;
+    font-weight: bold;
+}
 
-{% stylesheet %}
-{% endstylesheet %}
 
-{% javascript %}
-{% endjavascript %}
+/* STYLE B */
+
+.checkbox.style-b {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .checkbox.style-b input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkbox.style-b input:checked ~ .checkbox__checkmark {
+    background-color: #fff;
+  }
+  .checkbox.style-b input:checked ~ .checkbox__checkmark:after {
+    opacity: 1;
+  }
+  .checkbox.style-b:hover input ~ .checkbox__checkmark {
+    background-color: #eee;
+  }
+  .checkbox.style-b:hover input:checked ~ .checkbox__checkmark {
+    background-color: #fff;
+  }
+  .checkbox.style-b .checkbox__checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #fff;
+    border: 2px solid #333;
+    transition: background-color 0.25s ease;
+    border-radius: 4px;
+  }
+  .checkbox.style-b .checkbox__checkmark:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid #333;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: opacity 0.25s ease;
+  }
+  .checkbox.style-b .checkbox__body {
+    color: #333;
+    line-height: 1.4;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .checkboxes {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .checkboxes__row {
+    display: flex;
+  }
+  .checkboxes__row:not(:last-child) {
+    border-bottom: 1px solid #eee;
+  }
+  .checkboxes__item {
+    padding: 15px;
+    width: 50%;
+  }
+  .ldtwolandpagewrapper span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ldtwolandpagewrapper li {
+    list-style: none !important;
+}
+#detailsBox li {
+    display: flex;
+    justify-content: space-between;
+   font-weight: 700;
+    color: #000;
+    font-size: 36px;
+}
+#the-24h-countdown span {
+
+font-weight: 700;
+color: #000;
+font-size: 36px;
+}
+
+.btn{
+ font-size :16px;
+}
+.singel-count-item.active .namedetails {
+    color: #fff;
+}
+.singel-count-item.active  .count-top {
+    color: #fff;
+}
+.payment-box p {
+    margin: 0;
+    font-size: 23px;
+    color: #56048a;
+}
+.payment-box p strong {
+
+    color: #000;
+}
+.payment-box {
+    margin-bottom: 20px;
+}
+</style>
+
+<script>
+    window.addEventListener('load', function() {
+        $("button.needsclick").click(function() {
+
+            $(".giftPopup").addClass("special");
+
+    
+        
+                    $('#one').removeClass('active');
+                    $('#one').addClass('hide')
+                    $('#two').removeClass('hide');
+                    $('#two').addClass('active')
+          
+                   
+                });
+     
+
+                {% comment %} $( ".needsclick" ).on( "submit", function( event ) {
+                    console.log("this is working sunmit");
+            event.preventDefault();
+          }); {% endcomment %}
+          $(document).ready(function(){
+            $('.clickme a').click(function(){
+                $('.clickme a').removeClass('activelink');
+                $(this).addClass('activelink');
+                let tagid = $(this).data('tag');
+                $('.list').removeClass('active').addClass('hide');
+                $('#'+tagid).addClass('active').removeClass('hide');
+            });
+        });
+
+    });
+  
+</script>
+
+<section class=" header-padding section-padding" >
+    <div class="container">
+        <!-- header section start-->
+        <div class="header">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="logo text-center">
+                <img class="img-fluid" src="{{ section.settings.img | img_url:'' }}" alt="">
+            </div>
+          </div>
+
+        </div>
+        <!-- header section end-->
+        <!-- banner section start-->
+        <div class="bannar">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <h2 class="bannar-title">{{ section.settings.title }} </h2>
+                    <div class="video mt-5">
+                        <video muted autoplay loop playsinline controls>
+                            <source src="{{ section.settings.u.sources[1].url }}" type="video/mp4">
+                         </video>
+                    </div>
+                    <p>{{ section.settings.p }}</p>
+                    <div class="order-section">
+                        <h3 class="my-5">{{ section.settings.h2 }}</h3>
+
+                        {% for item in section.blocks %}
+                           
+
+                                {%- case item.type -%}
+                                    
+                                  {%- when 'feature' -%}
+                            <h3 class="mb-5 ldtwotexdt01"> <i class="fa-solid fa-check"></i> <span class="oredr-spacial"> {{ item.settings.title }} </span>{{ item.settings.dec }}
+                       </h3>
+                    {%- endcase -%}
+                 
+                        {% endfor %}
+                    
+         
+
+
+
+                    </div>
+                    <a href="#" class="btn text-center tobottom">
+                        <i class="fa-solid fa-angles-right"></i>
+                        {{ section.settings.totalpirce }}
+                    </a>
+             
+
+                    <div class="price">
+                        <h3><del> {{ section.settings.totalpircereg }} </del>  {{ section.settings.totalpircecom }}</h3>
+                        <div class="payment-box">
+                            {{ section.settings.paymenttext }}
+                         </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 bannar-right">
+                    <div class="bannar-right-img">
+                        <img class="img-fluid" src="{{ section.settings.img2 | img_url:'' }}" alt="">
+                    </div>
+                    <p>{{ section.settings.buymore }}</p>
+                    <div class="two-part" id="CollectionSection">
+                        <div class="first-part ">
+                           {% comment %} <h4 class="text-center">Get the deal</h4> {% endcomment %}
+
+                              {% render 'landingpagefrom',
+                               data: section.blocks,
+
+                              %}
+                           </div>
+                        </div>
+
+                        <div class="bannar-footer-img">
+                            <img class="img-fluid mb-5" src="{{ section.settings.img3 | img_url:'' }}" alt="">
+
+                             <div class="payment-box">
+                                {{ section.settings.paymenttext }}
+                             </div>
+                            <img class="img-fluid" src="{{ section.settings.img5 | img_url:'' }}" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- banner section end-->
+    </div>
+    </div>
+
+</section>
+<script>
+
+
+    $(document).ready(function() {
+
+        $( '.tobottom' ).on( 'click', function(e){
+          e.preventDefault();
+         
+          // Run a scroll animation to the position of the element which has the same id like the href value.
+          $( 'html, body' ).animate({
+            scrollTop: $("#CollectionSection").offset().top - 100
+          }, '300' );
+        
+        
+        });
+      
+      });
+      
+</script>
+
+
+ {% schema %}
+    {
+        "name": "LD two Header",
+        "class": "ldtwo",
+        "settings": [
+           {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Header Image"
+           },
+           {
+            
+            "id": "u",
+            "label": "Video Upload",
+            "type": "video"
+           },
+           {
+            "type": "text",
+            "id": "totalpirce",
+            "label": "tilte",
+            "default": "Total Value: $12,973",
+         
+            "placeholder": "Total Value: $12,973"
+           },
+           {
+            "type": "text",
+            "id": "totalpircecom",
+            "label": "tilte",
+            "default": "Only $20",
+         
+            "placeholder": "Only $20"
+           },
+           {
+            "type": "text",
+            "id": "totalpircereg",
+            "label": "tilte",
+            "default": "Usually $2,997",
+         
+            "placeholder": "Usually $2,997"
+           },
+
+
+           {
+            "type": "richtext",
+            "id": "paymenttext",
+            "label": "payment text",
+            "default": "<p>Pamen text</p>"
+           },
+
+           {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "ECommerce Experts Launch You A Fully Optimized eCommerce Website within the next"
+           },
+           {
+            "type": "text",
+            "id": "p",
+            "label": "Decription",
+            "default": "Our Ecommerce Experts with 7+ Years of experience have designed over 15,000 eCommerce stores and are here to design your beautiful eCommerce Store next for only $20"
+           },
+           {
+            "type": "text",
+            "id": "h2",
+            "label": "Featurs title",
+            "default": "Order Now And You'll Receive:"
+           },
+           {
+            "type": "image_picker",
+            "id": "img2",
+            "label": "Header Image"
+           },
+           {
+            "type": "text",
+            "id": "buymore",
+            "label": "Text",
+            "default": "You can order multiple stores at the same time, check the ones you want so you can have a  selection of stores to pick from"
+          
+           },
+           {
+            "type": "image_picker",
+            "id": "img3",
+            "label": "Header Image"
+           },
+           {
+            "type": "image_picker",
+            "id": "img4",
+            "label": "Header Image"
+           },
+           {
+            "type": "image_picker",
+            "id": "img5",
+            "label": "Header Image"
+           },
+            {
+                "type": "text",
+                "id": "right",
+                "label": "By submitting your order you agree to",
+                "default": "By submitting your order you agree to get your store built for you by us with the apps of our choice installed, you agree to our terms of service, Earnings disclaimer, and prebuilt store purchase agreement."
+            }
+        ],
+        "blocks": [
+            {
+                "type": "feature",
+                "name": "feature",
+                "settings": [
+                     {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Title",
+                        "default": "Stunning Branded Website Design"
+                     },
+                     {
+                        "type": "text",
+                        "id": "dec",
+                        "label": "Decription",
+                        "default": "So Your Shopify Store Becomes A Magnet That Attracts"
+                     }
+                ]
+            },
+            {
+                "type": "product",
+                "name": "product",
+                "settings": [
+                    {
+                        "type": "checkbox",
+                        "id": "checkbok",
+                        "label": "Select the default element",
+                        "default": false
+                    },
+                     {
+                        "type": "product",
+                        "id": "product",
+                        "label": "Select your Product"
+                     }
+                ]
+            }
+        ],
+        
+        "presets": [
+            {
+            "name": "LD Two Header"
+            }
+            ]
+    }
+ {% endschema %}
+ 
