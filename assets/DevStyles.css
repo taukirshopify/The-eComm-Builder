@@ -12,3 +12,6 @@
 .grid.grid--uniform.grid--collection .plan-two.grid__item:first-child .custom-plan-details li, body.seo.template-collection .grid.grid--uniform.grid--collection .plan-two.grid__item:nth-child(5) .custom-plan-details li {
     color: white;
 }
+div#CollectionSection {
+    display: none;
+}
