@@ -8,6 +8,50 @@
     },
     "7789dfa1-50eb-4381-8b97-1bd4a146be19": {
       "type": "ldthreeheader",
+      "blocks": {
+        "29841edd-b974-4e8b-a990-883d9e5ba449": {
+          "type": "feature",
+          "settings": {
+            "title": "Website Design with apps",
+            "dec": "that can increase your revenue"
+          }
+        },
+        "4edf5165-a87d-4c86-8f1a-dea473795f7e": {
+          "type": "feature",
+          "settings": {
+            "title": "Stunning Website Design",
+            "dec": "That you can customize to fit Your brand"
+          }
+        },
+        "6ca23d23-0a69-4fff-b45d-2a90ad823926": {
+          "type": "feature",
+          "settings": {
+            "title": "20 Niche Products on Website",
+            "dec": "So you can start selling and making money"
+          }
+        },
+        "f002ee63-c0c0-4ca1-b50f-24ef5e526a87": {
+          "type": "feature",
+          "settings": {
+            "title": "USA VENDOR PRODUCTS",
+            "dec": "So Your Shopify Store will have faster shipping"
+          }
+        },
+        "7d991395-11d2-49aa-8bdb-41cb9b6d6618": {
+          "type": "feature",
+          "settings": {
+            "title": "Free Website support",
+            "dec": "So You can have a successful dropshipping business"
+          }
+        }
+      },
+      "block_order": [
+        "29841edd-b974-4e8b-a990-883d9e5ba449",
+        "4edf5165-a87d-4c86-8f1a-dea473795f7e",
+        "6ca23d23-0a69-4fff-b45d-2a90ad823926",
+        "f002ee63-c0c0-4ca1-b50f-24ef5e526a87",
+        "7d991395-11d2-49aa-8bdb-41cb9b6d6618"
+      ],
       "settings": {
         "img": "shopify:\/\/shop_images\/Shopify-SEO-DIY-Guide-Book.webp",
         "u": "shopify:\/\/files\/videos\/Blue Liquid Art Design Gallery Intro Video.mp4",
