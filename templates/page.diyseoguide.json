@@ -381,7 +381,7 @@
           "type": "feature",
           "settings": {
             "rever": false,
-            "img": "shopify:\/\/shop_images\/Branding_2.png",
+            "img": "shopify:\/\/shop_images\/Off_Page.webp",
             "title": "OFF-PAGE\/CONTENT MARKETING",
             "dec": "Building high-quality backlinks from reputable websites to increase the authority and credibility.",
             "btn": "Get eCommerce Brand Done For You"
@@ -391,9 +391,9 @@
           "type": "feature",
           "settings": {
             "rever": false,
-            "img": "shopify:\/\/shop_images\/Branding_4.png",
-            "title": "SUPPLIER is FILLing THE ORDER",
-            "dec": "The supplier will package and ship out the order to the customer on your behalf.",
+            "img": "shopify:\/\/shop_images\/technical_SEO.webp",
+            "title": "Technical SEO aspects",
+            "dec": "Ensuring that your website's technical aspects, are optimized for search engines.",
             "btn": "Get eCommerce Brand Done For You"
           }
         },
@@ -401,9 +401,9 @@
           "type": "feature",
           "settings": {
             "rever": false,
-            "img": "shopify:\/\/shop_images\/EXCELLENT_CUSTOMER_SERVICE_v2_3x_10fd97e9-32cc-4aa9-93d9-54937db8b53c.png",
-            "title": "PROVIDE GREAT CUSTOMER SERVICE",
-            "dec": "Now, you will see to it that the consumer gets their order. Your ability to retain customers will determine your success.",
+            "img": "shopify:\/\/shop_images\/user_experience.webp",
+            "title": "store's User Experience",
+            "dec": "Providing a seamless and user-friendly experience on your website.",
             "btn": "Get eCommerce Brand Done For You"
           }
         }
