@@ -6,42 +6,177 @@
       "settings": {
       }
     },
+    "7789dfa1-50eb-4381-8b97-1bd4a146be19": {
+      "type": "ldthreeheader",
+      "blocks": {
+        "29841edd-b974-4e8b-a990-883d9e5ba449": {
+          "type": "feature",
+          "settings": {
+            "title": "Website Design with apps",
+            "dec": "that can increase your revenue"
+          }
+        },
+        "4edf5165-a87d-4c86-8f1a-dea473795f7e": {
+          "type": "feature",
+          "settings": {
+            "title": "Stunning Website Design",
+            "dec": "That you can customize to fit Your brand"
+          }
+        },
+        "6ca23d23-0a69-4fff-b45d-2a90ad823926": {
+          "type": "feature",
+          "settings": {
+            "title": "20 Niche Products on Website",
+            "dec": "So you can start selling and making money"
+          }
+        },
+        "f002ee63-c0c0-4ca1-b50f-24ef5e526a87": {
+          "type": "feature",
+          "settings": {
+            "title": "USA VENDOR PRODUCTS",
+            "dec": "So Your Shopify Store will have faster shipping"
+          }
+        },
+        "7d991395-11d2-49aa-8bdb-41cb9b6d6618": {
+          "type": "feature",
+          "settings": {
+            "title": "Free Website support",
+            "dec": "So You can have a successful dropshipping business"
+          }
+        },
+        "b2175548-f2db-4f83-b15e-2a50ea2d8cb5": {
+          "type": "product",
+          "settings": {
+            "checkbok": true,
+            "product": "toy-store-sale"
+          }
+        },
+        "89dfb9eb-6410-457f-9c6d-4ed6bade8b71": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "checkbok": false,
+            "product": "jewelry-store-sale"
+          }
+        },
+        "348be871-9f39-4712-b18e-c87d85200fe1": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "checkbok": false,
+            "product": "pet-store-sale"
+          }
+        },
+        "34922f3f-afdc-4c7b-8869-bfb3d0634be2": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "checkbok": false,
+            "product": "home-goods-store-sale"
+          }
+        },
+        "809ecc55-a82a-48b1-82bb-6b4079076c06": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "checkbok": false,
+            "product": "adult-toy-store-sale"
+          }
+        },
+        "91fe173c-7f3e-4816-b5fb-22349508e5aa": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "checkbok": false,
+            "product": "custom-candle-store-sale"
+          }
+        },
+        "728ab40e-62dd-4a08-bed9-bb67f53a4151": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "checkbok": false,
+            "product": "baby-store-sale"
+          }
+        },
+        "4b92f128-5988-4944-9170-02289b3970f9": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "checkbok": false,
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "29841edd-b974-4e8b-a990-883d9e5ba449",
+        "4edf5165-a87d-4c86-8f1a-dea473795f7e",
+        "6ca23d23-0a69-4fff-b45d-2a90ad823926",
+        "f002ee63-c0c0-4ca1-b50f-24ef5e526a87",
+        "7d991395-11d2-49aa-8bdb-41cb9b6d6618",
+        "b2175548-f2db-4f83-b15e-2a50ea2d8cb5",
+        "89dfb9eb-6410-457f-9c6d-4ed6bade8b71",
+        "348be871-9f39-4712-b18e-c87d85200fe1",
+        "34922f3f-afdc-4c7b-8869-bfb3d0634be2",
+        "809ecc55-a82a-48b1-82bb-6b4079076c06",
+        "91fe173c-7f3e-4816-b5fb-22349508e5aa",
+        "728ab40e-62dd-4a08-bed9-bb67f53a4151",
+        "4b92f128-5988-4944-9170-02289b3970f9"
+      ],
+      "settings": {
+        "img": "shopify:\/\/shop_images\/Shopify-SEO-DIY-Guide-Book.webp",
+        "u": "shopify:\/\/files\/videos\/Blue Liquid Art Design Gallery Intro Video.mp4",
+        "totalpirce": "Total Value: $1999",
+        "totalpircecom": "Only $299",
+        "totalpircereg": "Usually $2,997",
+        "paymenttext": "<p><strong>Start today with just <\/strong>4<strong> INTEREST-FREE <\/strong><\/p><p><strong>PAYMENTS OF <\/strong>$75.00<strong> calculated at checkout.<\/strong><\/p>",
+        "title": "Are you looking to make extra MONEY ONLINE? let's talk about dropshipping!",
+        "p": "Starting an online Dropshipping business can be a hassle and time-consuming. Normally, building an online store could take weeks or months. In SEVEN BUSINESS DAYS, our PREMADE DROPSHIPPING WEBSITE will be ready!",
+        "h2": "Order Now And You'll Receive:",
+        "img2": "shopify:\/\/shop_images\/top-1_81e79f01-3487-4e69-b6c9-3ee7f75b02bc.png",
+        "buymore": "You can order multiple stores at the same time, check the ones you want so you can have a  selection of stores to pick from",
+        "img3": "shopify:\/\/shop_images\/credit-only_5_46169e5b-6921-4ed5-8a67-bc21e7dc069d.png",
+        "img4": "shopify:\/\/shop_images\/4_8b4b8b42-80a8-4e9d-b462-6ef40d5b64a6.png",
+        "img5": "shopify:\/\/shop_images\/3_3cda0be3-0ae6-41e5-a3d9-3786fed8523d.png",
+        "right": "By submitting your order you agree to get your store built for you by us with the apps of our choice installed, you agree to our terms of service, Earnings disclaimer, and prebuilt store purchase agreement."
+      }
+    },
     "d39cb692-babc-427a-a6c4-70fda21b78ef": {
       "type": "ldtwoheader",
       "blocks": {
         "dea5ba9d-ebb6-4c7f-9196-25aa823dd10f": {
           "type": "feature",
           "settings": {
-            "title": "free seo audit",
-            "dec": "To know website SEO health"
+            "title": "Website Design with apps",
+            "dec": "that can increase your revenue"
           }
         },
         "60d211d0-e72d-4078-b2fa-e16b8f8cf6c4": {
           "type": "feature",
           "settings": {
-            "title": "10 Target Keywords for Campaign",
-            "dec": "We will share 10 target keywords for your campaign"
+            "title": "Stunning Website Design",
+            "dec": "That you can customize to fit Your brand"
           }
         },
         "aaba7201-870c-464e-b117-0c460313d8ed": {
           "type": "feature",
           "settings": {
-            "title": "Live Implementations",
-            "dec": "live SEO process in videos form"
+            "title": "20 Niche Products on Website",
+            "dec": "So you can start selling and making money"
           }
         },
         "1b33148c-f321-41b1-995d-e79bbb785d7f": {
           "type": "feature",
           "settings": {
-            "title": "Free SEO Recommendations",
-            "dec": "To move your store in the right direction to get more organic leads"
+            "title": "USA VENDOR PRODUCTS",
+            "dec": "So Your Shopify Store will have faster shipping"
           }
         },
         "6cc6091c-2919-4275-9714-ce59de0129ac": {
           "type": "feature",
           "settings": {
-            "title": "Free 24\/7 support",
-            "dec": "Available 24\/7 customer service support"
+            "title": "Free Website support",
+            "dec": "So You can have a successful dropshipping business"
           }
         },
         "20c858ca-3dde-4c82-b351-6fdf1953fd16": {
@@ -158,18 +293,20 @@
         "ec36a9fc-b608-4546-9f1c-2d84a36a054b"
       ],
       "settings": {
-        "img": "shopify:\/\/shop_images\/Shopify-SEO-DIY-Guide-Book.png",
-        "u": "shopify:\/\/files\/videos\/Shopify DIY SEO Guide.mp4",
-        "totalpirce": "Total Value: $1000",
+        "img": "shopify:\/\/shop_images\/Banner-2.jpg",
+        "u": "shopify:\/\/files\/videos\/Blue Liquid Art Design Gallery Intro Video.mp4",
+        "totalpirce": "Total Value: $1999",
         "totalpircecom": "Only $299",
-        "totalpircereg": "Usually $1,000",
+        "totalpircereg": "Usually $1,999",
         "paymenttext": "<p><strong>Start today with just <\/strong>4<strong> INTEREST-FREE <\/strong><\/p><p><strong>PAYMENTS OF <\/strong>$75.00<strong> calculated at checkout.<\/strong><\/p>",
-        "title": "Shopify SEO Unleashed: Your Step-by-Step DIY Guide to Dominate Search Rankings and Skyrocket Sales!",
-        "p": "It's time to unlock the full potential of your Shopify store and watch your organic traffic soar to new heights. Get ready to take charge of your SEO destiny and watch your sales skyrocket!",
+        "title": "Are you looking to make extra MONEY ONLINE? let's talk about dropshipping!",
+        "p": "Starting an online Dropshipping business can be a hassle and time-consuming. Normally, building an online store could take weeks or months. In SEVEN BUSINESS DAYS, our PREMADE DROPSHIPPING WEBSITE will be ready!",
         "h2": "Order Now And You'll Receive:",
-        "img2": "shopify:\/\/shop_images\/top_positions.png",
+        "img2": "shopify:\/\/shop_images\/top-1_81e79f01-3487-4e69-b6c9-3ee7f75b02bc.png",
         "buymore": "",
         "img3": "shopify:\/\/shop_images\/credit-only_5.png",
+        "img4": "shopify:\/\/shop_images\/4_8b4b8b42-80a8-4e9d-b462-6ef40d5b64a6.png",
+        "img5": "shopify:\/\/shop_images\/top-1_8c77f5d3-6a03-4a05-b728-f271533b4424.png",
         "right": "By submitting your order you agree to get your store built for you by us with the apps of our choice installed, you agree to our terms of service, Earnings disclaimer, and prebuilt store purchase agreement."
       }
     },
@@ -180,10 +317,10 @@
           "type": "feature",
           "settings": {
             "rever": false,
-            "img": "shopify:\/\/shop_images\/SEO_Checklist.png",
-            "title": "Putting It All Together: Your Comprehensive Shopify SEO Checklist",
-            "dec": "We bring together all the valuable insights, strategies, and techniques discussed throughout the guide, giving you a clear roadmap to follow. This concise and action-oriented checklist will be your go-to resource for optimizing your Shopify store from top to bottom.",
-            "btn": "start optimizing your store"
+            "img": "shopify:\/\/shop_images\/1_58b12920-1ebd-410a-8bc4-18ed5c968e3c.png",
+            "title": "Save thousands of dollars and time on building a dropshipping website!",
+            "dec": "All the work has been done for you by us! Our ready-made drop-shipping businesses are ideal for people who wish to accelerate THEIR success. We have added NICHE-winning products to your DROPSHIPPING store.",
+            "btn": "start your dropshipping business"
           }
         },
         "ed23b9de-2b6d-4f11-9b2b-8bce9b123260": {
@@ -210,9 +347,9 @@
       "settings": {
         "padding_top": 0,
         "padding_bottom": 0,
-        "title": "How SEO Works!",
+        "title": "How Dropshipping Works !",
         "color": true,
-        "p": "<p>GET TOP 3 POSITIONS TO GET MORE ORGANIC LEADS<\/p>"
+        "p": "<p>DROPSHIPPING IS  A VERY SIMPLE BUSINESS MODEL!<\/p>"
       }
     },
     "7da7e64d-43a3-4129-bf2e-e232193ac206": {
@@ -233,19 +370,19 @@
           "type": "feature",
           "settings": {
             "rever": false,
-            "img": "shopify:\/\/shop_images\/ON_Page.png",
-            "title": "ON-PAGE OPTIMIZATION",
-            "dec": "Optimizing the content, titles, meta tags, headings, & URL structure of web pages.",
-            "btn": "DOWNLOAD IT TODAY FOR YOUR STORE"
+            "img": "shopify:\/\/shop_images\/Branding_1.png",
+            "title": "CUSTOMER ORDER ON YOUR WEBSITE",
+            "dec": "You will verify that the customer's order is correct and collect payments.",
+            "btn": "Get YOUR DONE FOR YOU DROPSHIPPING WEBSITE"
           }
         },
         "625f13b8-8038-4836-bf68-388382e988d1": {
           "type": "feature",
           "settings": {
             "rever": false,
-            "img": "shopify:\/\/shop_images\/Off_Page.png",
-            "title": "OFF-PAGE\/CONTENT MARKETING",
-            "dec": "Building high-quality backlinks from reputable websites to increase the authority and credibility.",
+            "img": "shopify:\/\/shop_images\/Branding_2.png",
+            "title": "YOU KEEP THE sale PROFIT",
+            "dec": "Once you receive the order, you will signal the supplier to ship out the customer's order. You will keep the profits.",
             "btn": "Get eCommerce Brand Done For You"
           }
         },
@@ -253,9 +390,9 @@
           "type": "feature",
           "settings": {
             "rever": false,
-            "img": "shopify:\/\/shop_images\/technical_SEO.png",
-            "title": "Technical SEO aspects",
-            "dec": "Ensuring that your website's technical aspects, are optimized for search engines.",
+            "img": "shopify:\/\/shop_images\/Branding_4.png",
+            "title": "SUPPLIER is FILLing THE ORDER",
+            "dec": "The supplier will package and ship out the order to the customer on your behalf.",
             "btn": "Get eCommerce Brand Done For You"
           }
         },
@@ -263,9 +400,9 @@
           "type": "feature",
           "settings": {
             "rever": false,
-            "img": "shopify:\/\/shop_images\/user_experience.png",
-            "title": "store's User Experience",
-            "dec": "Providing a seamless and user-friendly experience on your website.",
+            "img": "shopify:\/\/shop_images\/EXCELLENT_CUSTOMER_SERVICE_v2_3x_10fd97e9-32cc-4aa9-93d9-54937db8b53c.png",
+            "title": "PROVIDE GREAT CUSTOMER SERVICE",
+            "dec": "Now, you will see to it that the consumer gets their order. Your ability to retain customers will determine your success.",
             "btn": "Get eCommerce Brand Done For You"
           }
         }
@@ -279,12 +416,11 @@
       ],
       "settings": {
         "title": "How Dropshipping Works !",
-        "btn": "DOWNLOAD IT TODAY FOR YOUR STORE"
+        "btn": "Get YOUR DONE FOR YOU DROPSHIPPING WEBSITE"
       }
     },
     "9634f2a9-ac6f-4ea2-af25-fd5a475a5ec8": {
       "type": "ldtwotitleandtext",
-      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 0,
@@ -295,7 +431,6 @@
     },
     "54ba34ec-bd18-4d17-94eb-2019f92445ff": {
       "type": "ldtwofaq",
-      "disabled": true,
       "blocks": {
         "71f1e55d-aff6-4f1c-9b67-de75861bc649": {
           "type": "Faq",
@@ -333,12 +468,11 @@
         "41fbb875-1051-4c9f-9f12-0fb5f928aba4"
       ],
       "settings": {
-        "btn": "DOWNLOAD IT TODAY FOR YOUR STORE"
+        "btn": "Get eCommerce Brand Done For You"
       }
     },
     "a91d578d-42d7-44de-8925-1752f378a5fc": {
       "type": "ldtwotitleandtext",
-      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 0,
@@ -349,11 +483,9 @@
     },
     "b38b677a-414d-4624-b767-32e1fdf587ee": {
       "type": "ldtwoexample",
-      "disabled": true,
       "blocks": {
         "c2725b72-95dd-4494-a92c-a86243adae07": {
           "type": "feature",
-          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/Untitleddesign_7.png",
             "p": "PET STORE"
@@ -361,7 +493,6 @@
         },
         "10dd4a87-59c3-4ad7-bda6-ff5223796d6c": {
           "type": "feature",
-          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/Untitleddesign_5.png",
             "p": "TECH store"
@@ -369,7 +500,6 @@
         },
         "2cc2acc9-346f-40c8-9233-f3bbe555f0af": {
           "type": "feature",
-          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/Untitleddesign_6.png",
             "p": "CUSTOM JEWERLY store"
@@ -377,7 +507,6 @@
         },
         "f925ddde-0da2-48d4-abbb-66434a05fd89": {
           "type": "feature",
-          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/Untitleddesign_4.png",
             "p": "TOY store"
@@ -385,7 +514,6 @@
         },
         "7134222f-432c-4c37-b1bc-5df5c8977eca": {
           "type": "feature",
-          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/image_a31badb1-0a9e-44c4-bdab-8fe6d3f4d89b.jpg",
             "p": "HOME store"
@@ -393,7 +521,6 @@
         },
         "b79bf24f-0f14-4665-9079-8e49f105ceb4": {
           "type": "feature",
-          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/PREMADESTORE.png",
             "p": "ADULT TOY store"
@@ -401,7 +528,6 @@
         },
         "1fb6c8e5-eb29-4b17-83c9-4157761a2bcb": {
           "type": "feature",
-          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/image_e2da7c82-41e7-461a-b6f7-7eaac441eea5.jpg",
             "p": "CANDLE store"
@@ -409,7 +535,6 @@
         },
         "77c55933-4e9f-4c20-867b-d19d608d3547": {
           "type": "feature",
-          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/image_3caf3041-358e-49ab-ae2a-4915d28ee9c3.jpg",
             "p": "BEAUTY store"
@@ -417,7 +542,6 @@
         },
         "c9c6c55c-7c49-4f10-bc2d-f42e6cd25b15": {
           "type": "feature",
-          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/image_eff6a41d-6577-406e-9e23-b07e990116d5.jpg",
             "p": "BABY store"
@@ -425,7 +549,6 @@
         },
         "fbc4233b-d430-4e72-ba58-9ba748761b25": {
           "type": "feature",
-          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/image_054cf370-1190-4926-930f-d53e08f3d248.jpg",
             "p": "HYBRID Store"
@@ -450,7 +573,6 @@
     },
     "104ee26f-0174-47c5-8585-d222e1820b28": {
       "type": "featured-content",
-      "disabled": true,
       "custom_css": [
         ".enlarge-text p {color: #56048a; color: #56048a; font-weight: 700; text-shadow: 1px 1px 2px #56048a;}"
       ],
@@ -465,7 +587,6 @@
     },
     "ce0d62ad-e6ee-46e5-9451-beabbc3d5542": {
       "type": "ldtworeview",
-      "disabled": true,
       "blocks": {
         "0800b3ef-dd16-4a4c-868a-45392466b325": {
           "type": "Faq",
@@ -522,29 +643,29 @@
         "a41ec4f4-1b4e-4100-b95a-22605fdb3f55": {
           "type": "Faq",
           "settings": {
-            "title": "What is SEO?",
-            "dec": "SEO stands for Search Engine Optimization. It's the practice of optimizing your website's content, structure, and technical aspects to improve its visibility on search engines like Google. The goal is to rank higher in search engine results pages (SERPs) and attract organic (non-paid) traffic to your website."
+            "title": "Pick a your dropshipping store",
+            "dec": "Pick a dropshipping store that has the niche that you desire. We build stores in the following niches Beauty, Pets, Toys, Tech, Kitchen Gadgets, Baby Items, Adult Toys, Custom Candles, Hybrid Store You can choose a niche that aligns with your interests and goals."
           }
         },
         "01f16752-b60e-47dd-954a-1cdbaff89643": {
           "type": "Faq",
           "settings": {
-            "title": "Why is SEO important?",
-            "dec": "SEO is important because the majority of online experiences begin with a search engine. Higher visibility in search results can lead to increased organic traffic, more qualified leads, and improved brand exposure. Good SEO practices can also enhance user experience and credibility."
+            "title": "YOUR WEBSITE IS READY",
+            "dec": "Once your website is ready, we will transfer it over to you! Once you receive your website, you are able to customize it. You can add your brand colors, add more products, etc."
           }
         },
         "6b244bdc-df6e-4dd2-8c2a-9f28f8914d51": {
           "type": "Faq",
           "settings": {
-            "title": "How do search engines work?",
-            "dec": "Search engines like Google use algorithms to crawl, index, and rank web pages. Crawling involves scanning websites for content, indexation involves storing the content in a database, and ranking involves evaluating the relevance and authority of pages to display in search results."
+            "title": "WEBSITE store setup process",
+            "dec": "Our team will do all the searching, find the best dropshipping products from a USA-based vendor, and add them to your store. We will add 20 products and four Shopify must-have apps."
           }
         },
         "d6fb3701-c953-470b-b862-5e2eb11898f2": {
           "type": "Faq",
           "settings": {
-            "title": "Is SEO a one-time process?",
-            "dec": "No, SEO is an ongoing process. Search engine algorithms and user behavior change over time, so you need to continuously monitor and adapt your SEO strategies to stay competitive. Regularly updating content, checking for technical issues, and refining your approach are essential for long-term success."
+            "title": "WE FOLLOW UP WITH YOU",
+            "dec": "Because we want you to be successgul our team will follwo up with you. Well follow up with you to make sure your website is ready to be male sales."
           }
         }
       },
@@ -555,7 +676,7 @@
         "d6fb3701-c953-470b-b862-5e2eb11898f2"
       ],
       "settings": {
-        "btn": "DOWNLOAD IT TODAY FOR YOUR STORE"
+        "btn": "Get eCommerce Brand Done For You"
       }
     },
     "adb72757-1dff-4bdc-af48-833249bc1e1b": {
@@ -612,6 +733,7 @@
   },
   "order": [
     "pf-41ef005a",
+    "7789dfa1-50eb-4381-8b97-1bd4a146be19",
     "d39cb692-babc-427a-a6c4-70fda21b78ef",
     "b83acf83-599c-4347-bf04-cc20887f6cb4",
     "5fe02f52-1334-491d-9c86-a39c83b04c86",
