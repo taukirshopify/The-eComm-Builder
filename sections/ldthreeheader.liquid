@@ -615,38 +615,7 @@ font-size: 36px;
                          </video>
                     </div>
                     <p>{{ section.settings.p }}</p>
-                    <div class="order-section">
-                        <h3 class="my-5">{{ section.settings.h2 }}</h3>
-
-                        {% for item in section.blocks %}
-                           
-
-                                {%- case item.type -%}
-                                    
-                                  {%- when 'feature' -%}
-                            <h3 class="mb-5 ldtwotexdt01"> <i class="fa-solid fa-check"></i> <span class="oredr-spacial"> {{ item.settings.title }} </span>{{ item.settings.dec }}
-                       </h3>
-                    {%- endcase -%}
-                 
-                        {% endfor %}
-                    
-         
-
-
-
-                    </div>
-                    <a href="#" class="btn text-center tobottom">
-                        <i class="fa-solid fa-angles-right"></i>
-                        {{ section.settings.totalpirce }}
-                    </a>
-             
-
-                    <div class="price">
-                        <h3><del> {{ section.settings.totalpircereg }} </del>  {{ section.settings.totalpircecom }}</h3>
-                        <div class="payment-box">
-                            {{ section.settings.paymenttext }}
-                         </div>
-                    </div>
+           
 
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 bannar-right">
