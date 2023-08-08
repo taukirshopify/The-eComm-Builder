@@ -8,6 +8,7 @@
     },
     "7789dfa1-50eb-4381-8b97-1bd4a146be19": {
       "type": "ldthreeheader",
+      "disabled": true,
       "blocks": {
         "29841edd-b974-4e8b-a990-883d9e5ba449": {
           "type": "feature",
