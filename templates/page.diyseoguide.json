@@ -46,6 +46,7 @@
         },
         "b2175548-f2db-4f83-b15e-2a50ea2d8cb5": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "checkbok": true,
             "product": "toy-store-sale"
