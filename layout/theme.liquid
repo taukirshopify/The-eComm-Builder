@@ -114,7 +114,7 @@
 
 {% include "omega_multi_pixel" %} </head>{% include 'izyrent' %}
 
-<body id="test" class="{{ collection.handle }} test template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if settings.enable_currencies %} currencies-enabled{% endif %}" data-transitions="false">
+<body class="{{ collection.handle }}  template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if settings.enable_currencies %} currencies-enabled{% endif %}" data-transitions="false">
 
   {% comment %}
     Enable below script if page transitions enabled
