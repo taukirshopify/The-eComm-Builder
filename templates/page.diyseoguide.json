@@ -284,6 +284,7 @@
     },
     "9634f2a9-ac6f-4ea2-af25-fd5a475a5ec8": {
       "type": "ldtwotitleandtext",
+      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 0,
@@ -294,6 +295,7 @@
     },
     "54ba34ec-bd18-4d17-94eb-2019f92445ff": {
       "type": "ldtwofaq",
+      "disabled": true,
       "blocks": {
         "71f1e55d-aff6-4f1c-9b67-de75861bc649": {
           "type": "Faq",
