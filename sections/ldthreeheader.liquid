@@ -629,9 +629,38 @@ font-size: 36px;
                         <div class="bannar-footer-img">
                             <img class="img-fluid mb-5" src="{{ section.settings.img3 | img_url:'' }}" alt="">
 
-                             <div class="payment-box">
-                                {{ section.settings.paymenttext }}
-                             </div>
+                          <div class="order-section">
+                        <h3 class="my-5">{{ section.settings.h2 }}</h3>
+
+                        {% for item in section.blocks %}
+                           
+
+                                {%- case item.type -%}
+                                    
+                                  {%- when 'feature' -%}
+                            <h3 class="mb-5 ldtwotexdt01"> <i class="fa-solid fa-check"></i> <span class="oredr-spacial"> {{ item.settings.title }} </span>{{ item.settings.dec }}
+                       </h3>
+                    {%- endcase -%}
+                 
+                        {% endfor %}
+                    
+         
+
+
+
+                    </div>
+                    <a href="https://theecommbuilder.com/products/diy-seo-e-book" class="btn text-center tobottom">
+                        <i class="fa-solid fa-angles-right"></i>
+                        {{ section.settings.totalpirce }}
+                    </a>
+             
+
+                    <div class="price">
+                        <h3><del> {{ section.settings.totalpircereg }} </del>  {{ section.settings.totalpircecom }}</h3>
+                        <div class="payment-box">
+                            {{ section.settings.paymenttext }}
+                         </div>
+                    </div>
                             <img class="img-fluid" src="{{ section.settings.img5 | img_url:'' }}" alt="">
                         </div>
 
