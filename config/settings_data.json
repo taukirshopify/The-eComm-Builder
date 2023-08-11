@@ -507,7 +507,6 @@
       },
       "1524769873765": {
         "type": "slideshow",
-        "disabled": true,
         "blocks": {
           "bf05cb0d-6466-48be-bf49-a723533da276": {
             "type": "image",
@@ -604,6 +603,7 @@
           "92b53db0-2d78-4ebc-8e72-aaebaadf91b8",
           "65f72254-ce21-4421-9533-1aeb0c653d87"
         ],
+        "disabled": true,
         "settings": {
           "section_height": "450px",
           "mobile_height": "250px",
@@ -1019,7 +1019,6 @@
       },
       "1616684715ec05dc3f": {
         "type": "text-columns",
-        "disabled": true,
         "blocks": {
           "161668471597597619-0": {
             "type": "text_block",
@@ -1063,6 +1062,7 @@
           "161668471597597619-1",
           "161668471597597619-2"
         ],
+        "disabled": true,
         "settings": {
           "title": "What our Client Says",
           "align_text": "center",
@@ -1104,7 +1104,6 @@
       },
       "16524292229ded6ca1": {
         "type": "slideshow",
-        "disabled": true,
         "blocks": {
           "16524292229ded6ca1-0": {
             "type": "image",
@@ -1127,6 +1126,7 @@
         "block_order": [
           "16524292229ded6ca1-0"
         ],
+        "disabled": true,
         "settings": {
           "section_height": "natural",
           "mobile_height": "auto",
@@ -1661,7 +1661,6 @@
       },
       "2fe4debe-5f7e-4cf4-8b97-93185f9e674b": {
         "type": "slideshow",
-        "disabled": true,
         "blocks": {
           "a447fc65-d90c-48a4-a181-5d22844478b0": {
             "type": "image",
@@ -1702,6 +1701,7 @@
           "a447fc65-d90c-48a4-a181-5d22844478b0",
           "4c33d884-3239-442b-8f82-04258afe8253"
         ],
+        "disabled": true,
         "settings": {
           "section_height": "natural",
           "mobile_height": "300px",
@@ -1713,7 +1713,6 @@
       },
       "03bb4a0f-c4a3-423f-a6f0-f71f7a056695": {
         "type": "slideshow",
-        "disabled": true,
         "blocks": {
           "0929d715-bcf4-4b68-bffd-1b01af0ee0d1": {
             "type": "image",
@@ -1754,6 +1753,7 @@
           "0929d715-bcf4-4b68-bffd-1b01af0ee0d1",
           "1c915ac8-8746-4130-ba7c-3ba2807c4584"
         ],
+        "disabled": true,
         "settings": {
           "section_height": "natural",
           "mobile_height": "300px",

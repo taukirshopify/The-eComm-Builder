@@ -19,7 +19,7 @@
         "4edf5165-a87d-4c86-8f1a-dea473795f7e": {
           "type": "feature",
           "settings": {
-            "title": "10 Target Keywords for Campaign",
+            "title": "20 Target Keywords for Campaign",
             "dec": "We will share 10 target keywords for your campaign"
           }
         },
@@ -128,7 +128,7 @@
         "img": "shopify:\/\/shop_images\/Shopify-SEO-DIY-Guide-Book.webp",
         "u": "shopify:\/\/files\/videos\/Blue Liquid Art Design Gallery Intro Video.mp4",
         "totalpirce": "Total Value: $1000",
-        "totalpircecom": "Usually $1,000",
+        "totalpircecom": "Usually $299.99",
         "totalpircereg": "Usually $1,000",
         "paymenttext": "",
         "title": "Shopify SEO Unleashed: Your Step-by-Step DIY Guide to Dominate Search Rankings and Skyrocket Sales!",
@@ -142,7 +142,6 @@
     },
     "d39cb692-babc-427a-a6c4-70fda21b78ef": {
       "type": "ldtwoheader",
-      "disabled": true,
       "blocks": {
         "dea5ba9d-ebb6-4c7f-9196-25aa823dd10f": {
           "type": "feature",
@@ -292,6 +291,7 @@
         "e866ddf9-41c7-4caf-bd73-5e375b280fa6",
         "ec36a9fc-b608-4546-9f1c-2d84a36a054b"
       ],
+      "disabled": true,
       "settings": {
         "img": "shopify:\/\/shop_images\/Banner-2.jpg",
         "u": "shopify:\/\/files\/videos\/Blue Liquid Art Design Gallery Intro Video.mp4",
@@ -484,7 +484,6 @@
     },
     "b38b677a-414d-4624-b767-32e1fdf587ee": {
       "type": "ldtwoexample",
-      "disabled": true,
       "blocks": {
         "c2725b72-95dd-4494-a92c-a86243adae07": {
           "type": "feature",
@@ -569,6 +568,7 @@
         "c9c6c55c-7c49-4f10-bc2d-f42e6cd25b15",
         "fbc4233b-d430-4e72-ba58-9ba748761b25"
       ],
+      "disabled": true,
       "settings": {
         "title": ""
       }
@@ -590,7 +590,6 @@
     },
     "ce0d62ad-e6ee-46e5-9451-beabbc3d5542": {
       "type": "ldtworeview",
-      "disabled": true,
       "blocks": {
         "0800b3ef-dd16-4a4c-868a-45392466b325": {
           "type": "Faq",
@@ -625,6 +624,7 @@
         "7e1ce90e-fe56-47fb-94f8-c450ad3a7a37",
         "8eb602e5-623a-4df5-b9cf-0e67fd60dd24"
       ],
+      "disabled": true,
       "settings": {
         "title": "There has never been a better time to start your Dropshipping Buiness!",
         "dec": "GET YOUR PREMADE DROPSHIPPING STORE TODAY!",
@@ -644,7 +644,6 @@
     },
     "02b79b5e-60e1-40ce-995c-f5ebcbf381ba": {
       "type": "ldtwofaq",
-      "disabled": true,
       "blocks": {
         "a41ec4f4-1b4e-4100-b95a-22605fdb3f55": {
           "type": "Faq",
@@ -681,6 +680,7 @@
         "6b244bdc-df6e-4dd2-8c2a-9f28f8914d51",
         "d6fb3701-c953-470b-b862-5e2eb11898f2"
       ],
+      "disabled": true,
       "settings": {
         "btn": "Get eCommerce Brand Done For You"
       }
@@ -694,7 +694,6 @@
     },
     "9b1d2e2c-3d78-4350-94ea-088e09a7ebf3": {
       "type": "ldtwofaqtwo",
-      "disabled": true,
       "blocks": {
         "11c97466-3c47-4198-a113-c752c474a802": {
           "type": "Faq",
@@ -723,6 +722,7 @@
         "591eec24-c03d-475f-ac9c-92adca095f5e",
         "89822ae9-ccf7-4d0d-a104-6fa5e28f2f2b"
       ],
+      "disabled": true,
       "settings": {
         "btn": "BUY NOW PREMADE STORE NOW!"
       }
