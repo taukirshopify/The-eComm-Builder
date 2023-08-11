@@ -470,7 +470,8 @@
         "41fbb875-1051-4c9f-9f12-0fb5f928aba4"
       ],
       "settings": {
-        "btn": "download seo book for your store"
+        "btn": "download seo book for your store",
+        "link-1": "https:\/\/theecommbuilder.com\/products\/diy-seo-e-book"
       }
     },
     "a91d578d-42d7-44de-8925-1752f378a5fc": {
@@ -684,14 +685,16 @@
       ],
       "disabled": true,
       "settings": {
-        "btn": "Get eCommerce Brand Done For You"
+        "btn": "Get eCommerce Brand Done For You",
+        "link-1": ""
       }
     },
     "adb72757-1dff-4bdc-af48-833249bc1e1b": {
       "type": "ldtwofaq",
       "disabled": true,
       "settings": {
-        "btn": "Get eCommerce Brand Done For You"
+        "btn": "Get eCommerce Brand Done For You",
+        "link-1": ""
       }
     },
     "9b1d2e2c-3d78-4350-94ea-088e09a7ebf3": {
