@@ -734,7 +734,7 @@
           "02e8bbeb-73a4-43ca-8bb1-abf7532ec563": {
             "type": "banner",
             "settings": {
-              "promo_collection": "discovery-call",
+              "promo_collection": "https-tidycal-com-1yy7vy1-15-minute-meeting",
               "heading": "Don’t see a package that fits your need",
               "text": "Schedule An Appointment",
               "link": "https:\/\/calendly.com\/theecommbuilder\/15min",
@@ -1543,7 +1543,7 @@
           "title": "We are a SHOPIFY agency",
           "text": "<p>We specialize in building ecommerce brands that elevate your authority, establish your identity, and enhance your sales. From creating custom Shopify website experiences to optimizing search engine rankings for increased traffic to developing customizable digital marketing solutions, we have the expertise, strategies, partnerships, and tools you need to grow online. <\/p>",
           "button_label": "Schedule Your Ecommerce Consultation",
-          "button_link": "shopify:\/\/collections\/discovery-call",
+          "button_link": "shopify:\/\/collections\/https-tidycal-com-1yy7vy1-15-minute-meeting",
           "layout": "right",
           "divider": false
         }
@@ -1653,7 +1653,7 @@
           "title": "Book A Free Consultation",
           "text": "<p>Struggling to launch, acquire customers, increase sales, or scale your business? Our Shopify experts and marketing specialists are here to assist you in discovering the best solution for you to move forward. <strong>Ready to take that first step? Schedule a complimentary consultation. <\/strong><\/p>",
           "button_label": "Get Your Complimentary Consultation",
-          "button_link": "shopify:\/\/collections\/discovery-call",
+          "button_link": "shopify:\/\/collections\/https-tidycal-com-1yy7vy1-15-minute-meeting",
           "layout": "left",
           "divider": false
         }
@@ -2350,12 +2350,6 @@
       },
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "16156609502398088594": {
-        "type": "shopify:\/\/apps\/omega-multi-facebook-pixels\/blocks\/app-embed-block\/ecdcc423-3dbd-480c-85e8-fdb9789cf058",
         "disabled": false,
         "settings": {
         }
