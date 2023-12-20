@@ -751,7 +751,7 @@
               "promo_collection": "shopify-agency",
               "heading": "Don’t see a package that fits your need",
               "text": "Schedule An Appointment",
-              "link": "https:\/\/calendly.com\/theecommbuilder\/15min",
+              "link": "https:\/\/tidycal.com\/theecommbuilderbooking\/ecommbuilder15discoverymeeting",
               "label": "Book a meeting",
               "image": "shopify:\/\/shop_images\/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
               "color_tint": "#ffffff",
@@ -2365,6 +2365,18 @@
         "disabled": false,
         "settings": {
           "track": true
+        }
+      },
+      "15683396631634586217": {
+        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#d8b74c",
+          "button_icon": "chat_bubble",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "button_text": "no_text",
+          "greeting_message": "👋 Hello! Let me know if you have a specific question, or give me an idea of what you're looking for and I am happy to make a recommendation."
         }
       }
     }
