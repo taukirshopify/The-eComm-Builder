@@ -154,6 +154,14 @@
               "mobile_logo_width": 120
             }
           },
+          "announcement_jLriWQ": {
+            "type": "announcement",
+            "settings": {
+              "text": "use code FREE2026 FOR FREE SHIPPING  ON PLANNER",
+              "link_text": "",
+              "link": "shopify://products/the-all-in-one-life-planner"
+            }
+          },
           "0bc1722d-203d-4c8f-b310-01a927993990": {
             "type": "announcement",
             "settings": {
@@ -165,6 +173,7 @@
         },
         "block_order": [
           "1524770014057",
+          "announcement_jLriWQ",
           "0bc1722d-203d-4c8f-b310-01a927993990"
         ],
         "settings": {
