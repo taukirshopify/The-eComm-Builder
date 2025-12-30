@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_body_bg": "#ffffff",
@@ -97,20 +106,20 @@
     "enable_currencies": true,
     "currency_format": "money_format",
     "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
-    "social_facebook_link": "https:\/\/www.facebook.com\/profile.php?id=100083066325797&mibextid=LQQJ4d",
-    "social_twitter_link": "https:\/\/twitter.com\/anekagrandison\/status\/1649172741394710529?s=46&t=2ysuGaXn4HbnbUQ0W64h0Q",
+    "social_facebook_link": "https://www.facebook.com/profile.php?id=100083066325797&mibextid=LQQJ4d",
+    "social_twitter_link": "https://twitter.com/anekagrandison/status/1649172741394710529?s=46&t=2ysuGaXn4HbnbUQ0W64h0Q",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/invites\/contact\/?i=ahfex69bjss7&utm_content=9o8zdt1",
+    "social_instagram_link": "https://www.instagram.com/invites/contact/?i=ahfex69bjss7&utm_content=9o8zdt1",
     "social_snapchat_link": "",
     "social_tumblr_link": "",
-    "social_linkedin_link": "https:\/\/www.linkedin.com\/in\/aneka-grandison-732612222",
-    "social_youtube_link": "https:\/\/www.youtube.com\/@shopifymadeeasy",
+    "social_linkedin_link": "https://www.linkedin.com/in/aneka-grandison-732612222",
+    "social_youtube_link": "https://www.youtube.com/@shopifymadeeasy",
     "social_vimeo_link": "",
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
-    "homepage_social_image": "shopify:\/\/shop_images\/Transparent-02.png",
-    "favicon": "shopify:\/\/shop_images\/Transparent-04.png",
+    "homepage_social_image": "shopify://shop_images/Transparent-02.png",
+    "favicon": "shopify://shop_images/Transparent-04.png",
     "search_enable": true,
     "search_type": "product,article,page",
     "predictive_search_enabled": true,
@@ -119,7 +128,7 @@
     "predictive_image_size": "square",
     "show_breadcrumbs": false,
     "checkout_header_image": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Transparent-02.png",
+    "checkout_logo_image": "shopify://shop_images/Transparent-02.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
     "checkout_body_background_image": "",
@@ -140,7 +149,7 @@
           "1524770014057": {
             "type": "logo",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/Transparent-02.png",
+              "logo": "shopify://shop_images/Transparent-02.png",
               "desktop_logo_width": 200,
               "mobile_logo_width": 120
             }
@@ -148,9 +157,9 @@
           "0bc1722d-203d-4c8f-b310-01a927993990": {
             "type": "announcement",
             "settings": {
-              "text": "“Welcome To The Ecomm Builder, Formerly Known As Shopify Queen”",
+              "text": "ORDER YOUR 2026 ALL IN ONE PLANNER TODAY! FREE SHIPPING: FREE2026",
               "link_text": "",
-              "link": ""
+              "link": "shopify://products/the-all-in-one-life-planner"
             }
           }
         },
@@ -177,7 +186,7 @@
           "1588331805404": {
             "type": "logo_social",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/Transparent-03.png",
+              "logo": "shopify://shop_images/Transparent-03.png",
               "desktop_logo_height": 120,
               "container_width": 24
             }
@@ -212,7 +221,7 @@
             "settings": {
               "show_footer_title": true,
               "title": "ABOUT US",
-              "text": "<p>The Ecomm Builder, LLC mission is to help individuals start or scale their existing businesses by providing quality products, services, and educational resources.<\/p><p>If you have any queries about our products or would like to check availability of an item, please use the <a href=\"\/pages\/contact-us\" target=\"_blank\" title=\"Contact Us\">CONTACT US<\/a> to get in touch.<\/p>",
+              "text": "<p>The Ecomm Builder, LLC mission is to help individuals start or scale their existing businesses by providing quality products, services, and educational resources.</p><p>If you have any queries about our products or would like to check availability of an item, please use the <a href=\"/pages/contact-us\" target=\"_blank\" title=\"Contact Us\">CONTACT US</a> to get in touch.</p>",
               "container_width": 33
             }
           }
@@ -248,9 +257,9 @@
           "first_tab": "DESCRIPTION",
           "second_tab": "Tab Name",
           "fix_tab1": "FAQ",
-          "fix_tab1_content": "<p>Faq will be add later<\/p>",
+          "fix_tab1_content": "<p>Faq will be add later</p>",
           "fix_tab2": "DISCLAIMER",
-          "fix_tab2_content": "<p><strong>Safety And Allergy Guidelines<\/strong><\/p><p>The information on this website has been compiled from published sources and is provided only as a guide. Although we make every effort to ensure that the information published on this site is correct and up to date, We cannot guarantee the accuracy of all information presented. We do not accept any liability in respect of any omission or error. Customers should always take full responsibility for their choices. Our Company accepts no liability in the unlikely event of an adverse reaction occurring when using one of its products.<\/p><p>We do not claim that our products cure or prevent any disease or medical problem and do not intend to substitute other therapy or medical advice. The statements made on our website have not been approved by the Food and Drug Administration. <\/p><p>Our products contain oils and butter from natural nuts, seeds, and fruits. If you have any allergies consult with your doctor before ordering. Please read our product description carefully. We recommend that people with sensitive skin perform a patch test first to ensure that there is no reaction.<\/p><p>Beware that sea moss is an alga. If you are allergic to shellfish please consult with your healthcare professional. In the case of pregnancy, nursing, illness, if taking medications, please consult with your health care professional.<\/p><p><\/p>",
+          "fix_tab2_content": "<p><strong>Safety And Allergy Guidelines</strong></p><p>The information on this website has been compiled from published sources and is provided only as a guide. Although we make every effort to ensure that the information published on this site is correct and up to date, We cannot guarantee the accuracy of all information presented. We do not accept any liability in respect of any omission or error. Customers should always take full responsibility for their choices. Our Company accepts no liability in the unlikely event of an adverse reaction occurring when using one of its products.</p><p>We do not claim that our products cure or prevent any disease or medical problem and do not intend to substitute other therapy or medical advice. The statements made on our website have not been approved by the Food and Drug Administration. </p><p>Our products contain oils and butter from natural nuts, seeds, and fruits. If you have any allergies consult with your doctor before ordering. Please read our product description carefully. We recommend that people with sensitive skin perform a patch test first to ensure that there is no reaction.</p><p>Beware that sea moss is an alga. If you are allergic to shellfish please consult with your healthcare professional. In the case of pregnancy, nursing, illness, if taking medications, please consult with your health care professional.</p><p></p>",
           "image_position": "left",
           "image_size": "medium",
           "thumbnail_position": "below",
@@ -308,7 +317,7 @@
               "image_width": 500,
               "subtitle": "Improved",
               "title": "Image with text",
-              "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+              "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>",
               "button_label": "Optional button",
               "button_link": "",
               "layout": "left"
@@ -319,7 +328,7 @@
             "settings": {
               "subtitle": "Impressive",
               "title": "Large image with text box",
-              "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+              "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
               "button_label": "",
               "button_link": "",
               "image": "",
@@ -339,21 +348,21 @@
               "image_1": "",
               "image_width_1": 650,
               "title_1": "Example title",
-              "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
               "button_label_1": "",
               "button_link_1": "",
               "enable_image_2": true,
               "image_2": "",
               "image_width_2": 650,
               "title_2": "Example title",
-              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
               "button_label_2": "",
               "button_link_2": "",
               "enable_image_3": true,
               "image_3": "",
               "image_width_3": 650,
               "title_3": "Example title",
-              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
               "button_label_3": "",
               "button_link_3": ""
             }
@@ -367,7 +376,7 @@
               "link_text": "Optional button",
               "link": "",
               "text_align": "vertical-bottom horizontal-left",
-              "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+              "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
               "section_height": "650px",
               "mobile_height": "auto"
             }
@@ -416,7 +425,7 @@
             "type": "rich-text",
             "settings": {
               "title": "Rich text block",
-              "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.<\/p>",
+              "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.</p>",
               "align_text": "center",
               "narrow_column": true,
               "enlarge_text": true
@@ -431,21 +440,21 @@
               "image_1": "",
               "image_width_1": 650,
               "title_1": "Example title",
-              "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
               "button_label_1": "",
               "button_link_1": "",
               "enable_image_2": true,
               "image_2": "",
               "image_width_2": 650,
               "title_2": "Example title",
-              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
               "button_label_2": "",
               "button_link_2": "",
               "enable_image_3": true,
               "image_3": "",
               "image_width_3": 650,
               "title_3": "Example title",
-              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
               "button_label_3": "",
               "button_link_3": ""
             }
@@ -455,7 +464,7 @@
             "settings": {
               "subtitle": "Impressive",
               "title": "Large image with text box",
-              "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+              "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
               "button_label": "",
               "button_link": "",
               "image": "",
@@ -497,7 +506,7 @@
           "popup_seconds": 5,
           "popup_days": 30,
           "popup_title": "Sign up and save",
-          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.</p>",
           "close_text": "No thanks",
           "enable_newsletter": true,
           "button_label": "Optional button",
@@ -515,13 +524,13 @@
               "title": "Shopify Experts",
               "title_size": 60,
               "subheading": "\"Learn Shopify with Us\"",
-              "link": "https:\/\/theecommbuilder.com\/collections\/discovery-call",
+              "link": "https://theecommbuilder.com/collections/discovery-call",
               "link_text": "learn more",
-              "link_2": "https:\/\/theecommbuilder.com\/collections\/discovery-call",
+              "link_2": "https://theecommbuilder.com/collections/discovery-call",
               "link_text_2": "",
               "color_accent": "#d4a04e",
               "text_align": "vertical-center horizontal-right",
-              "image": "shopify:\/\/shop_images\/banner7.jpg",
+              "image": "shopify://shop_images/banner7.jpg",
               "focal_point": "20% 50%"
             }
           },
@@ -532,13 +541,13 @@
               "title": "Business Workshops",
               "title_size": 45,
               "subheading": "\"Engaging Minds, Empowering Success.\"",
-              "link": "shopify:\/\/collections\/workshops",
+              "link": "shopify://collections/workshops",
               "link_text": "LEARN MORE",
-              "link_2": "shopify:\/\/collections\/workshops",
+              "link_2": "shopify://collections/workshops",
               "link_text_2": "",
               "color_accent": "#d4a04e",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/banner10.jpg",
+              "image": "shopify://shop_images/banner10.jpg",
               "focal_point": "80% 50%"
             }
           },
@@ -550,13 +559,13 @@
               "title": "Consultation",
               "title_size": 59,
               "subheading": "We would love to help you, What is your goal?",
-              "link": "shopify:\/\/collections\/consultation",
+              "link": "shopify://collections/consultation",
               "link_text": "LETS TALK",
-              "link_2": "shopify:\/\/collections\/consultation",
+              "link_2": "shopify://collections/consultation",
               "link_text_2": "",
               "color_accent": "#d4a04e",
               "text_align": "vertical-center horizontal-right",
-              "image": "shopify:\/\/shop_images\/Sea_Moss_6.png",
+              "image": "shopify://shop_images/Sea_Moss_6.png",
               "focal_point": "20% 50%"
             }
           },
@@ -567,13 +576,13 @@
               "title": "BUSINESS COURSE",
               "title_size": 80,
               "subheading": "Learn At Your Own Pace",
-              "link": "shopify:\/\/collections\/business-development-course",
+              "link": "shopify://collections/business-development-course",
               "link_text": "sign up",
               "link_2": "",
               "link_text_2": "",
               "color_accent": "#d4a04e",
               "text_align": "vertical-center horizontal-right",
-              "image": "shopify:\/\/shop_images\/banner_2_b52ad8ce-a73c-4b70-b38e-bc56cc6f7e9c.png",
+              "image": "shopify://shop_images/banner_2_b52ad8ce-a73c-4b70-b38e-bc56cc6f7e9c.png",
               "focal_point": "20% 50%"
             }
           },
@@ -585,13 +594,13 @@
               "title": "ECCOMERCE AGENCY",
               "title_size": 66,
               "subheading": "Let Us Develop Your Website",
-              "link": "shopify:\/\/collections\/bundles",
+              "link": "shopify://collections/bundles",
               "link_text": "LEARN MORE",
-              "link_2": "shopify:\/\/collections\/website-design",
+              "link_2": "shopify://collections/website-design",
               "link_text_2": "",
               "color_accent": "#d4a04e",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/Website_Banner_Shop_Our_Most_Loved_Products_Brown_Tan_18.png",
+              "image": "shopify://shop_images/Website_Banner_Shop_Our_Most_Loved_Products_Brown_Tan_18.png",
               "focal_point": "80% 50%"
             }
           }
@@ -639,9 +648,9 @@
               "promo_collection": "seo",
               "heading": "Don’t see a package that fits your need",
               "text": "Schedule An Appointment",
-              "link": "https:\/\/tidycal.com\/theecommbuilderbooking\/ecommbuilder15discoverymeeting",
+              "link": "https://tidycal.com/theecommbuilderbooking/ecommbuilder15discoverymeeting",
               "label": "book a MEETING",
-              "image": "shopify:\/\/shop_images\/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
+              "image": "shopify://shop_images/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
               "color_tint": "#ffffff",
               "color_tint_opacity": 12,
               "framed": false
@@ -653,9 +662,9 @@
               "promo_collection": "content-writing",
               "heading": "Don’t see a package that fits your need",
               "text": "Schedule An Appointment",
-              "link": "https:\/\/tidycal.com\/theecommbuilderbooking\/ecommbuilder15discoverymeeting",
+              "link": "https://tidycal.com/theecommbuilderbooking/ecommbuilder15discoverymeeting",
               "label": "book a meeting",
-              "image": "shopify:\/\/shop_images\/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
+              "image": "shopify://shop_images/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
               "color_tint": "#ffffff",
               "color_tint_opacity": 12,
               "framed": false
@@ -667,9 +676,9 @@
               "promo_collection": "branding-services",
               "heading": "Don’t see a package that fits your need",
               "text": "Schedule An Appointment",
-              "link": "https:\/\/tidycal.com\/theecommbuilderbooking\/ecommbuilder15discoverymeeting",
+              "link": "https://tidycal.com/theecommbuilderbooking/ecommbuilder15discoverymeeting",
               "label": "Book a meeting",
-              "image": "shopify:\/\/shop_images\/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
+              "image": "shopify://shop_images/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
               "color_tint": "#ffffff",
               "color_tint_opacity": 12,
               "framed": false
@@ -681,9 +690,9 @@
               "promo_collection": "digital-marketing",
               "heading": "Don’t see a package that fits your need",
               "text": "Schedule An Appointment",
-              "link": "https:\/\/tidycal.com\/theecommbuilderbooking\/ecommbuilder15discoverymeeting",
+              "link": "https://tidycal.com/theecommbuilderbooking/ecommbuilder15discoverymeeting",
               "label": "Book a meeting",
-              "image": "shopify:\/\/shop_images\/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
+              "image": "shopify://shop_images/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
               "color_tint": "#ffffff",
               "color_tint_opacity": 12,
               "framed": false
@@ -695,9 +704,9 @@
               "promo_collection": "website-design",
               "heading": "Don’t see a package that fits your need",
               "text": "Schedule An Appointment",
-              "link": "https:\/\/tidycal.com\/theecommbuilderbooking\/ecommbuilder15discoverymeeting",
+              "link": "https://tidycal.com/theecommbuilderbooking/ecommbuilder15discoverymeeting",
               "label": "book a meeting",
-              "image": "shopify:\/\/shop_images\/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
+              "image": "shopify://shop_images/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
               "color_tint": "#ffffff",
               "color_tint_opacity": 12,
               "framed": false
@@ -709,9 +718,9 @@
               "promo_collection": "digital-marketing-service",
               "heading": "Don’t see a package that fits your need",
               "text": "Schedule An Appointment",
-              "link": "https:\/\/tidycal.com\/theecommbuilderbooking\/ecommbuilder15discoverymeeting",
+              "link": "https://tidycal.com/theecommbuilderbooking/ecommbuilder15discoverymeeting",
               "label": "book a meeting",
-              "image": "shopify:\/\/shop_images\/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
+              "image": "shopify://shop_images/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
               "color_tint": "#ffffff",
               "color_tint_opacity": 8,
               "framed": false
@@ -723,9 +732,9 @@
               "promo_collection": "social-media",
               "heading": "Don’t see a package that fits your need",
               "text": "Schedule An Appointment",
-              "link": "https:\/\/tidycal.com\/theecommbuilderbooking\/ecommbuilder15discoverymeeting",
+              "link": "https://tidycal.com/theecommbuilderbooking/ecommbuilder15discoverymeeting",
               "label": "Book a meeting",
-              "image": "shopify:\/\/shop_images\/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
+              "image": "shopify://shop_images/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
               "color_tint": "#ffffff",
               "color_tint_opacity": 8,
               "framed": false
@@ -737,9 +746,9 @@
               "promo_collection": "discovery-call",
               "heading": "Don’t see a package that fits your need",
               "text": "Schedule An Appointment",
-              "link": "https:\/\/tidycal.com\/theecommbuilderbooking\/ecommbuilder15discoverymeeting",
+              "link": "https://tidycal.com/theecommbuilderbooking/ecommbuilder15discoverymeeting",
               "label": "Book a meeting",
-              "image": "shopify:\/\/shop_images\/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
+              "image": "shopify://shop_images/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
               "color_tint": "#ffffff",
               "color_tint_opacity": 8,
               "framed": false
@@ -751,9 +760,9 @@
               "promo_collection": "shopify-agency",
               "heading": "Don’t see a package that fits your need",
               "text": "Schedule An Appointment",
-              "link": "https:\/\/tidycal.com\/theecommbuilderbooking\/ecommbuilder15discoverymeeting",
+              "link": "https://tidycal.com/theecommbuilderbooking/ecommbuilder15discoverymeeting",
               "label": "Book a meeting",
-              "image": "shopify:\/\/shop_images\/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
+              "image": "shopify://shop_images/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
               "color_tint": "#ffffff",
               "color_tint_opacity": 8,
               "framed": false
@@ -783,11 +792,11 @@
             "disabled": true,
             "settings": {
               "enable_image": false,
-              "image": "shopify:\/\/shop_images\/Website_Banner_Shop_Our_Most_Loved_Products_Brown_Tan_15.png",
+              "image": "shopify://shop_images/Website_Banner_Shop_Our_Most_Loved_Products_Brown_Tan_15.png",
               "title": "Don’t see a package that fits your need",
-              "text": "<p>BOOK A CALL WITH OUR TEAM TO CUSTOM A PACKAGE FOR YOUR BUSINESS. <\/p>",
+              "text": "<p>BOOK A CALL WITH OUR TEAM TO CUSTOM A PACKAGE FOR YOUR BUSINESS. </p>",
               "button_label": "BOOK A CALL",
-              "button_link": "https:\/\/calendly.com\/theecommbuilder\/15min"
+              "button_link": "https://calendly.com/theecommbuilder/15min"
             }
           },
           "51919a3f-395e-41f4-bdbb-de09b8e1cf37": {
@@ -796,7 +805,7 @@
             "settings": {
               "enable_image": true,
               "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
               "button_label": "Optional button",
               "button_link": ""
             }
@@ -807,7 +816,7 @@
             "settings": {
               "enable_image": true,
               "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
               "button_label": "Optional button",
               "button_link": ""
             }
@@ -818,9 +827,7 @@
           "51919a3f-395e-41f4-bdbb-de09b8e1cf37",
           "dad0f1e1-eb82-4c71-bd30-1abe92291984"
         ],
-        "custom_css": [
-
-        ],
+        "custom_css": [],
         "settings": {
           "hide_homepage": true,
           "image_size": "natural"
@@ -846,7 +853,7 @@
             "type": "rich-text",
             "settings": {
               "title": "",
-              "text": "<p>Hi all! Feel free to reach out to ask any questions or let us know if you have any issues. We will reply in a timely manner of 1-3 business days. Stay cozy&nbsp;😊<\/p>",
+              "text": "<p>Hi all! Feel free to reach out to ask any questions or let us know if you have any issues. We will reply in a timely manner of 1-3 business days. Stay cozy&nbsp;😊</p>",
               "align_text": "center",
               "narrow_column": true,
               "enlarge_text": false
@@ -877,7 +884,7 @@
             "type": "rich-text",
             "settings": {
               "title": "CARE INSTRUCTIONS:",
-              "text": "<p>Easy &amp; care-free! Toss your&nbsp;CozyPooches in the wash on cold&nbsp;&amp; tumble dry separately at a low temperature. Your CozyPooches will come out like new!<\/p>",
+              "text": "<p>Easy &amp; care-free! Toss your&nbsp;CozyPooches in the wash on cold&nbsp;&amp; tumble dry separately at a low temperature. Your CozyPooches will come out like new!</p>",
               "align_text": "left"
             }
           },
@@ -885,7 +892,7 @@
             "type": "rich-text",
             "settings": {
               "title": "Returns",
-              "text": "<p>Our policy lasts 30 days. If 30 days have gone by since your purchase, unfortunately we can&rsquo;t offer you a refund or exchange.<\/p>\n<p>To be eligible for a return, your item must be unused and in the same condition that you received it. It must also be in the original packaging.<\/p>\n<p>Several types of goods are exempt from being returned. Perishable goods such as food, flowers, newspapers or magazines cannot be returned. We also do not accept products that are intimate or sanitary goods, hazardous materials, or flammable liquids or gases.<\/p>",
+              "text": "<p>Our policy lasts 30 days. If 30 days have gone by since your purchase, unfortunately we can&rsquo;t offer you a refund or exchange.</p>\n<p>To be eligible for a return, your item must be unused and in the same condition that you received it. It must also be in the original packaging.</p>\n<p>Several types of goods are exempt from being returned. Perishable goods such as food, flowers, newspapers or magazines cannot be returned. We also do not accept products that are intimate or sanitary goods, hazardous materials, or flammable liquids or gases.</p>",
               "align_text": "left"
             }
           },
@@ -893,7 +900,7 @@
             "type": "rich-text",
             "settings": {
               "title": "TO COMPLETE YOUR RETURN, WE REQUIRE A RECEIPT OR PROOF OF PURCHASE.",
-              "text": "<p>Please do not send your purchase back to the manufacturer.<\/p>\n<p>There are certain situations where only partial refunds are granted (if applicable)<\/p>\n<p>- Book with obvious signs of use<\/p>\n<p>- CD, DVD, VHS tape, software, video game, cassette tape, or vinyl record that has been opened<\/p>\n<p>- Any item not in its original condition, is damaged or missing parts for reasons not due to our error<\/p>\n<p>- Any item that is returned more than 30 days after delivery<\/p>",
+              "text": "<p>Please do not send your purchase back to the manufacturer.</p>\n<p>There are certain situations where only partial refunds are granted (if applicable)</p>\n<p>- Book with obvious signs of use</p>\n<p>- CD, DVD, VHS tape, software, video game, cassette tape, or vinyl record that has been opened</p>\n<p>- Any item not in its original condition, is damaged or missing parts for reasons not due to our error</p>\n<p>- Any item that is returned more than 30 days after delivery</p>",
               "align_text": "left"
             }
           },
@@ -901,7 +908,7 @@
             "type": "rich-text",
             "settings": {
               "title": "Refunds (if applicable)",
-              "text": "<p>Once your return is received and inspected, we will send you an email to notify you that we have received your returned item. We will also notify you of the approval or rejection of your refund.<\/p>\n<p>If you are approved, then your refund will be processed, and a credit will automatically be applied to your credit card or original method of payment, within a certain amount of days.<\/p>",
+              "text": "<p>Once your return is received and inspected, we will send you an email to notify you that we have received your returned item. We will also notify you of the approval or rejection of your refund.</p>\n<p>If you are approved, then your refund will be processed, and a credit will automatically be applied to your credit card or original method of payment, within a certain amount of days.</p>",
               "align_text": "left"
             }
           },
@@ -909,7 +916,7 @@
             "type": "rich-text",
             "settings": {
               "title": "Late or missing refunds (if applicable)",
-              "text": "<p>If you haven&rsquo;t received a refund yet, first check your bank account again.<\/p>\n<p>Then contact your credit card company, it may take some time before your refund is officially posted.<\/p>\n<p>Next contact your bank. There is often some processing time before a refund is posted.<\/p>\n<p>If you&rsquo;ve done all of this and you still have not received your refund yet, please contact us at&nbsp;cozypoochesshop@gmail.com<\/p>",
+              "text": "<p>If you haven&rsquo;t received a refund yet, first check your bank account again.</p>\n<p>Then contact your credit card company, it may take some time before your refund is officially posted.</p>\n<p>Next contact your bank. There is often some processing time before a refund is posted.</p>\n<p>If you&rsquo;ve done all of this and you still have not received your refund yet, please contact us at&nbsp;cozypoochesshop@gmail.com</p>",
               "align_text": "left"
             }
           },
@@ -917,7 +924,7 @@
             "type": "rich-text",
             "settings": {
               "title": "Sale items (if applicable)",
-              "text": "<p>Only regular priced items may be refunded, unfortunately sale items cannot be refunded.<\/p>",
+              "text": "<p>Only regular priced items may be refunded, unfortunately sale items cannot be refunded.</p>",
               "align_text": "left"
             }
           },
@@ -925,7 +932,7 @@
             "type": "rich-text",
             "settings": {
               "title": "Exchanges (if applicable)",
-              "text": "<p>We only replace items if they are defective or damaged. If you need to exchange it for the same item, send us an email at cozypoochesshop@gmail.com<\/p>",
+              "text": "<p>We only replace items if they are defective or damaged. If you need to exchange it for the same item, send us an email at cozypoochesshop@gmail.com</p>",
               "align_text": "left"
             }
           },
@@ -933,7 +940,7 @@
             "type": "rich-text",
             "settings": {
               "title": "REFUND POLICY:",
-              "text": "<p>Make sure we receive your item(s) back within 30 days to be eligible for a refund. Just a heads up, you are responsible for sending the item(s) back to us and will be charged a&nbsp;return&nbsp;&amp; restocking fee. &nbsp;Once we receive your item(s), it takes about 3-10 business days for the money to be credited to your account.<\/p>\n<p>If your&nbsp;Cozypooches does not arrive in perfect condition, please reach out to cozypoochesshop@gmail.com within 30 days so we can assist you!<\/p>",
+              "text": "<p>Make sure we receive your item(s) back within 30 days to be eligible for a refund. Just a heads up, you are responsible for sending the item(s) back to us and will be charged a&nbsp;return&nbsp;&amp; restocking fee. &nbsp;Once we receive your item(s), it takes about 3-10 business days for the money to be credited to your account.</p>\n<p>If your&nbsp;Cozypooches does not arrive in perfect condition, please reach out to cozypoochesshop@gmail.com within 30 days so we can assist you!</p>",
               "align_text": "left"
             }
           },
@@ -941,7 +948,7 @@
             "type": "rich-text",
             "settings": {
               "title": "SHIPPING:",
-              "text": "<p>We know you needed your&nbsp;CozyPooches yesterday, so we process orders in 1-2 business days. Depending on what shipping method you select, that is when you will receive your CozyPooches. An email will be sent to you once your item(s) depart on their journey to you.<\/p>",
+              "text": "<p>We know you needed your&nbsp;CozyPooches yesterday, so we process orders in 1-2 business days. Depending on what shipping method you select, that is when you will receive your CozyPooches. An email will be sent to you once your item(s) depart on their journey to you.</p>",
               "align_text": "left"
             }
           },
@@ -949,7 +956,7 @@
             "type": "rich-text",
             "settings": {
               "title": "INTERNATIONAL SHIPPING:",
-              "text": "<p>No free shipping on any international orders.<\/p>",
+              "text": "<p>No free shipping on any international orders.</p>",
               "align_text": "left"
             }
           },
@@ -957,7 +964,7 @@
             "type": "rich-text",
             "settings": {
               "title": "TAXES:",
-              "text": "<p>Did you notice the sales tax charge on your receipt email? This is governed by the state that you live in.<\/p>",
+              "text": "<p>Did you notice the sales tax charge on your receipt email? This is governed by the state that you live in.</p>",
               "align_text": "left"
             }
           }
@@ -1024,10 +1031,10 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Test_1.png",
+              "image": "shopify://shop_images/Test_1.png",
               "image_width": 120,
               "title": "Alyssa",
-              "text": "<p>Item Exactly As Described ,Very Quick To Ship, And Good Communication From Seller.<\/p>",
+              "text": "<p>Item Exactly As Described ,Very Quick To Ship, And Good Communication From Seller.</p>",
               "button_label": "",
               "button_link": ""
             }
@@ -1036,10 +1043,10 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/Test_2.png",
+              "image": "shopify://shop_images/Test_2.png",
               "image_width": 120,
               "title": "Binta",
-              "text": "<p>Great Service at Good Price .Bought a Few Stuff and Have never been disappointed.<\/p>",
+              "text": "<p>Great Service at Good Price .Bought a Few Stuff and Have never been disappointed.</p>",
               "button_label": "",
               "button_link": ""
             }
@@ -1048,10 +1055,10 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/New_Project_10.png",
+              "image": "shopify://shop_images/New_Project_10.png",
               "image_width": 120,
               "title": "Candice",
-              "text": "<p>&quot;I will refer everyone I know. Thank You! Wow what great service, I love it!&quot;<\/p>",
+              "text": "<p>&quot;I will refer everyone I know. Thank You! Wow what great service, I love it!&quot;</p>",
               "button_label": "",
               "button_link": ""
             }
@@ -1073,7 +1080,7 @@
         "type": "newsletter",
         "settings": {
           "title": "Sign up with THE ECOMM BUILDER!",
-          "text": "<p>Get the latest news, sales, updates and more.<\/p>",
+          "text": "<p>Get the latest news, sales, updates and more.</p>",
           "color_background": "#d4a04e",
           "color_text": "#0f0f0f"
         }
@@ -1114,11 +1121,11 @@
               "subheading": "\"Have a book and hold your dream.\"",
               "link": "",
               "link_text": "",
-              "link_2": "shopify:\/\/collections\/ebook",
+              "link_2": "shopify://collections/ebook",
               "link_text_2": "buy now",
               "color_accent": "#d4a04e",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/ebooks.jpg",
+              "image": "shopify://shop_images/ebooks.jpg",
               "focal_point": "center center"
             }
           }
@@ -1142,69 +1149,69 @@
           "59d0e464-440e-479c-96f5-84b7688eb7f2": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Copy_of_Computer_Screen_digital_mock_up_19.png",
+              "image": "shopify://shop_images/Copy_of_Computer_Screen_digital_mock_up_19.png",
               "text": "",
-              "link": "https:\/\/outrageousenergy.com\/"
+              "link": "https://outrageousenergy.com/"
             }
           },
           "65d2ebd1-f528-457f-8df7-68439363ec62": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Copy_of_Computer_Screen_digital_mock_up_23.png",
+              "image": "shopify://shop_images/Copy_of_Computer_Screen_digital_mock_up_23.png",
               "text": "",
-              "link": "https:\/\/stigmastomping.com\/"
+              "link": "https://stigmastomping.com/"
             }
           },
           "1aeae333-500d-490a-9520-29632255d4f2": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Copy_of_Computer_Screen_digital_mock_up_25.png",
+              "image": "shopify://shop_images/Copy_of_Computer_Screen_digital_mock_up_25.png",
               "text": "",
-              "link": "https:\/\/www.taylorsuccess.com\/"
+              "link": "https://www.taylorsuccess.com/"
             }
           },
           "56ef3ffd-73b6-4b91-aab0-045a3a4cb3d9": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Copy_of_Computer_Screen_digital_mock_up_22.png",
+              "image": "shopify://shop_images/Copy_of_Computer_Screen_digital_mock_up_22.png",
               "text": "",
-              "link": "https:\/\/www.citybabywhisperers.com\/"
+              "link": "https://www.citybabywhisperers.com/"
             }
           },
           "f377bbc2-517f-43da-8d88-f8a6f693188e": {
             "type": "slide",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Computer_Screen_digital_mock_up_33.png",
+              "image": "shopify://shop_images/Computer_Screen_digital_mock_up_33.png",
               "text": "Beauty Business",
-              "link": "https:\/\/www.mylipes.com\/?ltclid=ac2d611f-3c86-46ea-bc99-dc8671bdead6"
+              "link": "https://www.mylipes.com/?ltclid=ac2d611f-3c86-46ea-bc99-dc8671bdead6"
             }
           },
           "ab5b200a-3f41-4498-af2e-8d7248f48624": {
             "type": "slide",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Portfolio_4_993cc71a-4448-41fa-9de0-ff1a3d598ba3.png",
+              "image": "shopify://shop_images/Portfolio_4_993cc71a-4448-41fa-9de0-ff1a3d598ba3.png",
               "text": "Drop shipping",
-              "link": "https:\/\/minishopusa.com\/"
+              "link": "https://minishopusa.com/"
             }
           },
           "30f578c8-3b40-46fe-a96d-a6181a6ad2cb": {
             "type": "slide",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Portfolio_6.png",
+              "image": "shopify://shop_images/Portfolio_6.png",
               "text": "Tech Store",
-              "link": "https:\/\/instyleitems.com\/"
+              "link": "https://instyleitems.com/"
             }
           },
           "1a7f3baf-901b-4b14-8887-eb4aa1a23481": {
             "type": "slide",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/27-inch-imac-2011.png",
+              "image": "shopify://shop_images/27-inch-imac-2011.png",
               "text": "One Product",
-              "link": "https:\/\/khristianslemonade.com\/"
+              "link": "https://khristianslemonade.com/"
             }
           }
         },
@@ -1222,7 +1229,7 @@
           "title": "OUR SHOPIFY WEBSITE PORTFOLIO",
           "sub_title": "CLICK ANY PORTFOLIO TO VIEW WEBSITE",
           "btn": "View More",
-          "btn_url": "shopify:\/\/pages\/portfolio"
+          "btn_url": "shopify://pages/portfolio"
         }
       },
       "portfolio": {
@@ -1232,7 +1239,7 @@
             "type": "slide",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Computer_Screen_digital_mock_up_32.png",
+              "image": "shopify://shop_images/Computer_Screen_digital_mock_up_32.png",
               "text": "Heading",
               "link": ""
             }
@@ -1240,106 +1247,106 @@
           "96858ba1-528a-462e-bacd-66bec0430652": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Untitled_design_19.png",
+              "image": "shopify://shop_images/Untitled_design_19.png",
               "text": "drink store",
-              "link": "https:\/\/outrageousenergy.com\/"
+              "link": "https://outrageousenergy.com/"
             }
           },
           "0119d246-5b60-4674-847f-2f53376afc3b": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Portfolio_3.png",
+              "image": "shopify://shop_images/Portfolio_3.png",
               "text": "Print on demand",
-              "link": "https:\/\/stigmastomping.com\/"
+              "link": "https://stigmastomping.com/"
             }
           },
           "2817e1fa-43a2-4447-9db9-c2130a6f13bf": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Portfolio_5.png",
+              "image": "shopify://shop_images/Portfolio_5.png",
               "text": "Ebook Store",
-              "link": "https:\/\/www.taylorsuccess.com\/"
+              "link": "https://www.taylorsuccess.com/"
             }
           },
           "a3130229-2be0-46e9-ba33-0d1d9a501c5c": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Computer_Screen_digital_mock_up_34.png",
+              "image": "shopify://shop_images/Computer_Screen_digital_mock_up_34.png",
               "text": "Consulting",
-              "link": "https:\/\/www.citybabywhisperers.com\/"
+              "link": "https://www.citybabywhisperers.com/"
             }
           },
           "71760ce6-579d-46f3-8b9b-501fe831cc38": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Portfolio_1.png",
+              "image": "shopify://shop_images/Portfolio_1.png",
               "text": "Beauty Business",
-              "link": "https:\/\/www.mylipes.com\/?ltclid=ac2d611f-3c86-46ea-bc99-dc8671bdead6"
+              "link": "https://www.mylipes.com/?ltclid=ac2d611f-3c86-46ea-bc99-dc8671bdead6"
             }
           },
           "6db4a7fc-1e81-4d2d-aefc-51591e16a6a2": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Computer_Screen_digital_mock_up_36.png",
+              "image": "shopify://shop_images/Computer_Screen_digital_mock_up_36.png",
               "text": "Skincare Business",
-              "link": "https:\/\/kinoritualsskincare.com\/"
+              "link": "https://kinoritualsskincare.com/"
             }
           },
           "14f60b2d-c1df-47c7-8fb5-8af7ee8851f0": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Blue_White_Modern_Photo_Membership_ID_Card_2.png",
+              "image": "shopify://shop_images/Blue_White_Modern_Photo_Membership_ID_Card_2.png",
               "text": "Pet Store",
-              "link": "https:\/\/oreospetpalace.com\/"
+              "link": "https://oreospetpalace.com/"
             }
           },
           "bf861b71-bea9-4855-88d9-7412ee61a981": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Sea_Mosz_Business.png",
+              "image": "shopify://shop_images/Sea_Mosz_Business.png",
               "text": "Sea Moss Business",
-              "link": "https:\/\/www.92seamoss.com\/"
+              "link": "https://www.92seamoss.com/"
             }
           },
           "54707d40-aab5-4f70-ab9c-3d0c557fe7e3": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Computer_Screen_digital_mock_up_27.png",
+              "image": "shopify://shop_images/Computer_Screen_digital_mock_up_27.png",
               "text": "baby Store",
-              "link": "https:\/\/trendybabyitems.com\/"
+              "link": "https://trendybabyitems.com/"
             }
           },
           "736c1989-9ddc-4719-ad9a-894fb46eb8db": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Computer_Screen_digital_mock_up_38.png",
+              "image": "shopify://shop_images/Computer_Screen_digital_mock_up_38.png",
               "text": "Faith base business",
-              "link": "https:\/\/www.divinetouchproducts.com\/"
+              "link": "https://www.divinetouchproducts.com/"
             }
           },
           "ffc5d076-2996-4ca5-a2bc-349fbc4d1c1f": {
             "type": "slide",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Blue_White_Modern_Photo_Membership_ID_Card_2.png",
+              "image": "shopify://shop_images/Blue_White_Modern_Photo_Membership_ID_Card_2.png",
               "text": "Pet Business",
-              "link": "https:\/\/oreospetpalace.com\/"
+              "link": "https://oreospetpalace.com/"
             }
           },
           "0a8253b2-5de7-4622-b7ee-603ed0857139": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Blue_White_Modern_Photo_Membership_ID_Card_3.png",
+              "image": "shopify://shop_images/Blue_White_Modern_Photo_Membership_ID_Card_3.png",
               "text": "Beauty Business",
-              "link": "https:\/\/www.glowbeautysupply.com\/"
+              "link": "https://www.glowbeautysupply.com/"
             }
           },
           "f95f9d84-1af6-4892-a553-c3b2e90b6f2a": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Computer_Screen_digital_mock_up_37.png",
+              "image": "shopify://shop_images/Computer_Screen_digital_mock_up_37.png",
               "text": "DIGITAL ART STORE",
-              "link": "https:\/\/aaydshop.com\/"
+              "link": "https://aaydshop.com/"
             }
           }
         },
@@ -1369,17 +1376,15 @@
       "16536469821cb667a7": {
         "type": "text-and-image",
         "disabled": true,
-        "custom_css": [
-
-        ],
+        "custom_css": [],
         "settings": {
-          "image": "shopify:\/\/shop_images\/Testimonial_for_your_product_template_Social_Media.png",
+          "image": "shopify://shop_images/Testimonial_for_your_product_template_Social_Media.png",
           "image_width": 460,
           "subtitle": "LIMITED SEATS",
           "title": "shopify ecommerce community",
-          "text": "<p>Join the Shopify exclusive e-commerce community. The community's purpose is to educate, motivate and empower you. This community is for entrepreneurs who have an online business and struggling to scale their business.<strong> Membership is limited to 30 students. <\/strong><\/p>",
+          "text": "<p>Join the Shopify exclusive e-commerce community. The community's purpose is to educate, motivate and empower you. This community is for entrepreneurs who have an online business and struggling to scale their business.<strong> Membership is limited to 30 students. </strong></p>",
           "button_label": "LEARN MORE",
-          "button_link": "shopify:\/\/products\/1944246",
+          "button_link": "shopify://products/1944246",
           "layout": "left",
           "divider": false
         }
@@ -1388,13 +1393,13 @@
         "type": "text-and-image",
         "disabled": true,
         "settings": {
-          "image": "shopify:\/\/shop_images\/105.png",
+          "image": "shopify://shop_images/105.png",
           "image_width": 430,
           "subtitle": "hire us today",
           "title": "SHOPIFY EXPERTS for entrepreneurs",
-          "text": "<p>Hire us to design your Shopify website.  We take all the hard work off your hand. Not only do we build your website we actually teach you how to use your Shopify website. <\/p>",
+          "text": "<p>Hire us to design your Shopify website.  We take all the hard work off your hand. Not only do we build your website we actually teach you how to use your Shopify website. </p>",
           "button_label": "Learn more",
-          "button_link": "shopify:\/\/collections\/website-design",
+          "button_link": "shopify://collections/website-design",
           "layout": "right",
           "divider": false
         }
@@ -1419,36 +1424,36 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/WEBSITE_DESIGN.png",
+              "image": "shopify://shop_images/WEBSITE_DESIGN.png",
               "image_width": 300,
               "title": "Website DESIGN",
-              "text": "<p>Whether creating a new website or modernizing an existing one, our team of qualified website designers provides a range of custom website solution packages to accommodate your needs.<\/p><p><\/p>",
+              "text": "<p>Whether creating a new website or modernizing an existing one, our team of qualified website designers provides a range of custom website solution packages to accommodate your needs.</p><p></p>",
               "button_label": "see packages",
-              "button_link": "shopify:\/\/collections\/website-design"
+              "button_link": "shopify://collections/website-design"
             }
           },
           "cf99ff72-4ce4-474a-9958-fcde24f61fa5-1677183554b864a260-2": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/SOCIAL_MEDIA.png",
+              "image": "shopify://shop_images/SOCIAL_MEDIA.png",
               "image_width": 300,
               "title": "SOCIAL MEDIA",
-              "text": "<p>Our social media marketing packages are made to assist brands in managing their social media profiles and online presence.<\/p>",
+              "text": "<p>Our social media marketing packages are made to assist brands in managing their social media profiles and online presence.</p>",
               "button_label": "Learn More",
-              "button_link": "shopify:\/\/collections\/social-media"
+              "button_link": "shopify://collections/social-media"
             }
           },
           "cf99ff72-4ce4-474a-9958-fcde24f61fa5-1677183554b864a260-1": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/BRAND_DESIGN_1.png",
+              "image": "shopify://shop_images/BRAND_DESIGN_1.png",
               "image_width": 300,
               "title": "BRAND DESIGN",
-              "text": "<p>Create a new or more clearly defined brand identity and boost your brand authority with our brand design packages ideal for businesses.<\/p>",
+              "text": "<p>Create a new or more clearly defined brand identity and boost your brand authority with our brand design packages ideal for businesses.</p>",
               "button_label": "see packages",
-              "button_link": "shopify:\/\/collections\/branding-services"
+              "button_link": "shopify://collections/branding-services"
             }
           }
         },
@@ -1458,7 +1463,7 @@
           "cf99ff72-4ce4-474a-9958-fcde24f61fa5-1677183554b864a260-1"
         ],
         "custom_css": [
-          "img:hover {\/* Start the shake animation and make the animation last for 0.5 seconds *\/ animation: shake 0.5s; \/* When the animation is finished, start again *\/ animation-iteration-count: infinite;}"
+          "img:hover {/* Start the shake animation and make the animation last for 0.5 seconds */ animation: shake 0.5s; /* When the animation is finished, start again */ animation-iteration-count: infinite;}"
         ],
         "settings": {
           "title": "",
@@ -1484,36 +1489,36 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/SEARCH_ENGINE_OPTIMIZATION.png",
+              "image": "shopify://shop_images/SEARCH_ENGINE_OPTIMIZATION.png",
               "image_width": 300,
               "title": "SEARCH ENGINE OPTIMIZATION",
-              "text": "<p>Increase your online presence and searchability using our SEO services to drive traffic, increase your awareness, and improve your ranking on Google and other search engines.<\/p>",
+              "text": "<p>Increase your online presence and searchability using our SEO services to drive traffic, increase your awareness, and improve your ranking on Google and other search engines.</p>",
               "button_label": "see packages",
-              "button_link": "shopify:\/\/collections\/seo"
+              "button_link": "shopify://collections/seo"
             }
           },
           "0c750415-5166-489a-b5ca-90f4f2383f5a-1677183554b864a260-2": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/DIGITAL_MARKETING_v2.png",
+              "image": "shopify://shop_images/DIGITAL_MARKETING_v2.png",
               "image_width": 300,
               "title": "Digital marketing",
-              "text": "<p>Our team of creative marketers are hyper-focused on growing our clientele’s bottom line and boosting their revenue through unique digital marketing solutions.<\/p>",
+              "text": "<p>Our team of creative marketers are hyper-focused on growing our clientele’s bottom line and boosting their revenue through unique digital marketing solutions.</p>",
               "button_label": "LEARN MORE",
-              "button_link": "shopify:\/\/collections\/digital-marketing-service"
+              "button_link": "shopify://collections/digital-marketing-service"
             }
           },
           "0c750415-5166-489a-b5ca-90f4f2383f5a-1677183554b864a260-1": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/CONTENT_WRITING_v2.png",
+              "image": "shopify://shop_images/CONTENT_WRITING_v2.png",
               "image_width": 300,
               "title": "Content writing",
-              "text": "<p>Our content marketing packages and our team of content writers will produce content that will compel your audience to convert.<\/p>",
+              "text": "<p>Our content marketing packages and our team of content writers will produce content that will compel your audience to convert.</p>",
               "button_label": "see packages",
-              "button_link": "shopify:\/\/collections\/content-writing"
+              "button_link": "shopify://collections/content-writing"
             }
           }
         },
@@ -1523,7 +1528,7 @@
           "0c750415-5166-489a-b5ca-90f4f2383f5a-1677183554b864a260-1"
         ],
         "custom_css": [
-          "img:hover {\/* Start the shake animation and make the animation last for 0.5 seconds *\/ animation: shake 0.5s; \/* When the animation is finished, start again *\/ animation-iteration-count: infinite;}"
+          "img:hover {/* Start the shake animation and make the animation last for 0.5 seconds */ animation: shake 0.5s; /* When the animation is finished, start again */ animation-iteration-count: infinite;}"
         ],
         "settings": {
           "title": "",
@@ -1537,13 +1542,13 @@
           ".feature-row {overflow: hidden;}"
         ],
         "settings": {
-          "image": "shopify:\/\/shop_images\/WE_ARE_A_SHOPIFY_AGENCY.png",
+          "image": "shopify://shop_images/WE_ARE_A_SHOPIFY_AGENCY.png",
           "image_width": 500,
           "subtitle": "Shopify experts",
           "title": "We are a SHOPIFY agency",
-          "text": "<p>We specialize in building ecommerce brands that elevate your authority, establish your identity, and enhance your sales. From creating custom Shopify website experiences to optimizing search engine rankings for increased traffic to developing customizable digital marketing solutions, we have the expertise, strategies, partnerships, and tools you need to grow online. <\/p>",
+          "text": "<p>We specialize in building ecommerce brands that elevate your authority, establish your identity, and enhance your sales. From creating custom Shopify website experiences to optimizing search engine rankings for increased traffic to developing customizable digital marketing solutions, we have the expertise, strategies, partnerships, and tools you need to grow online. </p>",
           "button_label": "Schedule Your Ecommerce Consultation",
-          "button_link": "shopify:\/\/collections\/discovery-call",
+          "button_link": "shopify://collections/discovery-call",
           "layout": "right",
           "divider": false
         }
@@ -1555,10 +1560,10 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/EXPERIENCED_PROFESSIONALS_v3_3x_726bff89-f136-438e-a80c-eda788b5764f.png",
+              "image": "shopify://shop_images/EXPERIENCED_PROFESSIONALS_v3_3x_726bff89-f136-438e-a80c-eda788b5764f.png",
               "image_width": 280,
               "title": "Certified Professionals",
-              "text": "<p>We are certified marketing experts, brand specialists, copywriters, and web developers ready to take your business to the next level.<\/p>",
+              "text": "<p>We are certified marketing experts, brand specialists, copywriters, and web developers ready to take your business to the next level.</p>",
               "button_label": "",
               "button_link": ""
             }
@@ -1568,10 +1573,10 @@
             "disabled": true,
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/chat.png",
+              "image": "shopify://shop_images/chat.png",
               "image_width": 100,
               "title": "Customized Approach",
-              "text": "<p>We understand that every business is unique, and we believe that a one-size-fits-all approach just doesn't cut it.<\/p>",
+              "text": "<p>We understand that every business is unique, and we believe that a one-size-fits-all approach just doesn't cut it.</p>",
               "button_label": "",
               "button_link": ""
             }
@@ -1581,10 +1586,10 @@
             "disabled": true,
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/results.png",
+              "image": "shopify://shop_images/results.png",
               "image_width": 100,
               "title": "Results-Oriented",
-              "text": "<p>At the end of the day, what matters most is results. We're committed to delivering results that help you achieve your business goals.<\/p>",
+              "text": "<p>At the end of the day, what matters most is results. We're committed to delivering results that help you achieve your business goals.</p>",
               "button_label": "",
               "button_link": ""
             }
@@ -1594,10 +1599,10 @@
             "disabled": true,
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/express-delivery.png",
+              "image": "shopify://shop_images/express-delivery.png",
               "image_width": 100,
               "title": "Fast Delivery",
-              "text": "<p>We understand that time is of the essence when it comes to online marketing. That's why we pride ourselves on delivering fast and efficient service.<\/p>",
+              "text": "<p>We understand that time is of the essence when it comes to online marketing. That's why we pride ourselves on delivering fast and efficient service.</p>",
               "button_label": "",
               "button_link": ""
             }
@@ -1606,10 +1611,10 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/COMPETITIVE_PRICING_v2.png",
+              "image": "shopify://shop_images/COMPETITIVE_PRICING_v2.png",
               "image_width": 300,
               "title": "Scalable Solutions",
-              "text": "<p>We provide customizable solutions built around your needs and budget, designed to scale with your growing business.<\/p>",
+              "text": "<p>We provide customizable solutions built around your needs and budget, designed to scale with your growing business.</p>",
               "button_label": "",
               "button_link": ""
             }
@@ -1618,10 +1623,10 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/EXCELLENT_CUSTOMER_SERVICE_v2_3x_10fd97e9-32cc-4aa9-93d9-54937db8b53c.png",
+              "image": "shopify://shop_images/EXCELLENT_CUSTOMER_SERVICE_v2_3x_10fd97e9-32cc-4aa9-93d9-54937db8b53c.png",
               "image_width": 290,
               "title": "Unparalleled Service",
-              "text": "<p>We believe great customer service is the key to greater success. Our number one priority is to provide an excellent experience for our clients.<\/p>",
+              "text": "<p>We believe great customer service is the key to greater success. Our number one priority is to provide an excellent experience for our clients.</p>",
               "button_label": "",
               "button_link": ""
             }
@@ -1636,7 +1641,7 @@
           "9eb1f5f5-070c-49cd-a65e-30b3b115497d"
         ],
         "custom_css": [
-          "img:hover {\/* Start the shake animation and make the animation last for 0.5 seconds *\/ animation: shake 0.5s; \/* When the animation is finished, start again *\/ animation-iteration-count: infinite;}"
+          "img:hover {/* Start the shake animation and make the animation last for 0.5 seconds */ animation: shake 0.5s; /* When the animation is finished, start again */ animation-iteration-count: infinite;}"
         ],
         "settings": {
           "title": "Our Competitive Advantage",
@@ -1647,13 +1652,13 @@
       "cd83e2fd-614e-49ef-8da3-49b557bb36fc": {
         "type": "text-and-image",
         "settings": {
-          "image": "shopify:\/\/shop_images\/DISCOVERY_CALL.png",
+          "image": "shopify://shop_images/DISCOVERY_CALL.png",
           "image_width": 300,
           "subtitle": "",
           "title": "Book A Free Consultation",
-          "text": "<p>Struggling to launch, acquire customers, increase sales, or scale your business? Our Shopify experts and marketing specialists are here to assist you in discovering the best solution for you to move forward. <strong>Ready to take that first step? Schedule a complimentary consultation. <\/strong><\/p>",
+          "text": "<p>Struggling to launch, acquire customers, increase sales, or scale your business? Our Shopify experts and marketing specialists are here to assist you in discovering the best solution for you to move forward. <strong>Ready to take that first step? Schedule a complimentary consultation. </strong></p>",
           "button_label": "Get Your Complimentary Consultation",
-          "button_link": "shopify:\/\/collections\/discovery-call",
+          "button_link": "shopify://collections/discovery-call",
           "layout": "left",
           "divider": false
         }
@@ -1670,11 +1675,11 @@
               "subheading": "\"An opportunity for success\"",
               "link": "",
               "link_text": "",
-              "link_2": "shopify:\/\/collections\/bundles",
+              "link_2": "shopify://collections/bundles",
               "link_text_2": "buy now",
               "color_accent": "#d4a04e",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/business_kits.jpg",
+              "image": "shopify://shop_images/business_kits.jpg",
               "focal_point": "center center"
             }
           },
@@ -1687,11 +1692,11 @@
               "subheading": "\"One solution for business education\"",
               "link": "",
               "link_text": "buy now",
-              "link_2": "shopify:\/\/collections\/business-development-course",
+              "link_2": "shopify://collections/business-development-course",
               "link_text_2": "",
               "color_accent": "#d4a04e",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/business_courses.jpg",
+              "image": "shopify://shop_images/business_courses.jpg",
               "focal_point": "center center"
             }
           }
@@ -1722,11 +1727,11 @@
               "subheading": "\"An opportunity for success\"",
               "link": "",
               "link_text": "",
-              "link_2": "shopify:\/\/collections\/bundles",
+              "link_2": "shopify://collections/bundles",
               "link_text_2": "buy now",
               "color_accent": "#d4a04e",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/business_kits.jpg",
+              "image": "shopify://shop_images/business_kits.jpg",
               "focal_point": "center center"
             }
           },
@@ -1739,11 +1744,11 @@
               "subheading": "\"One solution for business education\"",
               "link": "",
               "link_text": "buy now",
-              "link_2": "shopify:\/\/collections\/business-development-course",
+              "link_2": "shopify://collections/business-development-course",
               "link_text_2": "",
               "color_accent": "#d4a04e",
               "text_align": "vertical-center horizontal-left",
-              "image": "shopify:\/\/shop_images\/business_courses.jpg",
+              "image": "shopify://shop_images/business_courses.jpg",
               "focal_point": "center center"
             }
           }
@@ -1781,36 +1786,36 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/EBOOKS_v2_3x_8e9c96e8-2309-471f-94c3-217e4c9ff6eb.png",
+              "image": "shopify://shop_images/EBOOKS_v2_3x_8e9c96e8-2309-471f-94c3-217e4c9ff6eb.png",
               "image_width": 300,
               "title": "eBOOKS",
-              "text": "<p>Our knowledge base glossary of ecommerce topics and insights was designed and developed to empower you to unlock the growth of your online store.<\/p>",
+              "text": "<p>Our knowledge base glossary of ecommerce topics and insights was designed and developed to empower you to unlock the growth of your online store.</p>",
               "button_label": "SHOP NOW",
-              "button_link": "shopify:\/\/collections\/ebook"
+              "button_link": "shopify://collections/ebook"
             }
           },
           "6c4b3215-ef94-43b3-b172-cffe8bc44705-1678030517a4e700b2-1": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/COURSES_3x_1498f22c-cfc2-4294-a340-59690056e84b.png",
+              "image": "shopify://shop_images/COURSES_3x_1498f22c-cfc2-4294-a340-59690056e84b.png",
               "image_width": 300,
               "title": "COURSES",
-              "text": "<p>Our self-paced courses are designed to educate busy business owners on various e-commerce subject matters and best practices.<\/p>",
+              "text": "<p>Our self-paced courses are designed to educate busy business owners on various e-commerce subject matters and best practices.</p>",
               "button_label": "SHOP NOW",
-              "button_link": "shopify:\/\/collections\/business-development-course"
+              "button_link": "shopify://collections/business-development-course"
             }
           },
           "6c4b3215-ef94-43b3-b172-cffe8bc44705-1678030517a4e700b2-2": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/WORKSHOPS_3x_27ab6fc1-b58b-4c89-b284-821a921e4006.png",
+              "image": "shopify://shop_images/WORKSHOPS_3x_27ab6fc1-b58b-4c89-b284-821a921e4006.png",
               "image_width": 300,
               "title": "WORKSHOPS",
-              "text": "<p>Our live and on-demand workshops simplify the principles and processes required to build a strong ecommerce business. <\/p>",
+              "text": "<p>Our live and on-demand workshops simplify the principles and processes required to build a strong ecommerce business. </p>",
               "button_label": "SHOP NOW",
-              "button_link": "shopify:\/\/collections\/workshops"
+              "button_link": "shopify://collections/workshops"
             }
           }
         },
@@ -1821,7 +1826,7 @@
           "6c4b3215-ef94-43b3-b172-cffe8bc44705-1678030517a4e700b2-2"
         ],
         "custom_css": [
-          "img:hover {\/* Start the shake animation and make the animation last for 0.5 seconds *\/ animation: shake 0.5s; \/* When the animation is finished, start again *\/ animation-iteration-count: infinite;}"
+          "img:hover {/* Start the shake animation and make the animation last for 0.5 seconds */ animation: shake 0.5s; /* When the animation is finished, start again */ animation-iteration-count: infinite;}"
         ],
         "settings": {
           "title": "EDUCATIONAL RESOURCES",
@@ -1834,7 +1839,7 @@
         "disabled": true,
         "settings": {
           "title": "EDUCATION RESOUCRES",
-          "text": "<p>Learn &  Grow your b<\/p>",
+          "text": "<p>Learn &  Grow your b</p>",
           "align_text": "center",
           "narrow_column": false,
           "enlarge_text": true,
@@ -1843,17 +1848,15 @@
       },
       "f26d79dd-b27f-4c69-bbc4-d6e5fd6a9fca": {
         "type": "text-and-image",
-        "custom_css": [
-
-        ],
+        "custom_css": [],
         "settings": {
-          "image": "shopify:\/\/shop_images\/Red_Gradient_Profile_Photo_Instagram_Post.png",
+          "image": "shopify://shop_images/Red_Gradient_Profile_Photo_Instagram_Post.png",
           "image_width": 500,
           "subtitle": "Our Commitment To Excellence",
           "title": "aneka grandison",
-          "text": "<p>“We are committed to providing the highest quality services, productions, solutions, and resources to our clients to scale their ecommerce businesses online. As the founder of The Ecomm Builder, I understand the challenges and complexities involved in growing a successful online business, having worked hard to build a multi-six figure business on Shopify myself. \"We value your trust and the opportunity to serve you in reaching your business goals.”<\/p><p>--Aneka Grandison<\/p>",
+          "text": "<p>“We are committed to providing the highest quality services, productions, solutions, and resources to our clients to scale their ecommerce businesses online. As the founder of The Ecomm Builder, I understand the challenges and complexities involved in growing a successful online business, having worked hard to build a multi-six figure business on Shopify myself. \"We value your trust and the opportunity to serve you in reaching your business goals.”</p><p>--Aneka Grandison</p>",
           "button_label": "Our Commitment To You",
-          "button_link": "shopify:\/\/pages\/founder-committment",
+          "button_link": "shopify://pages/founder-committment",
           "layout": "right",
           "divider": false
         }
@@ -1879,7 +1882,7 @@
               "image_width": 650,
               "title": "introudction",
               "title_number": "1",
-              "text": "<p>From the options below, pick a package that meets your needs and price range.<\/p>",
+              "text": "<p>From the options below, pick a package that meets your needs and price range.</p>",
               "button_label": "",
               "button_link": ""
             }
@@ -1891,7 +1894,7 @@
               "image_width": 650,
               "title": "SCHEDULE",
               "title_number": "2",
-              "text": "<p>Our Shopify expert will contact you by phone or email to schedule a project meeting. <\/p>",
+              "text": "<p>Our Shopify expert will contact you by phone or email to schedule a project meeting. </p>",
               "button_label": "",
               "button_link": ""
             }
@@ -1903,7 +1906,7 @@
               "image_width": 650,
               "title": "MEETING",
               "title_number": "3",
-              "text": "<p>At the initial meeting, our Shopify specialist will discuss your vision and intended outcomes.<\/p>",
+              "text": "<p>At the initial meeting, our Shopify specialist will discuss your vision and intended outcomes.</p>",
               "button_label": "",
               "button_link": ""
             }
@@ -1915,7 +1918,7 @@
               "image_width": 650,
               "title": "Final Product",
               "title_number": "4",
-              "text": "<p>Our team will arrange a meeting to deliver the finished products when our expert has finished executing your idea.<\/p>",
+              "text": "<p>Our team will arrange a meeting to deliver the finished products when our expert has finished executing your idea.</p>",
               "button_label": "",
               "button_link": ""
             }
@@ -1948,11 +1951,11 @@
       "image-with-text-brand-one": {
         "type": "image-with-text-brand-one",
         "settings": {
-          "image": "shopify:\/\/shop_images\/BRAND_DESIGN_v3.png",
+          "image": "shopify://shop_images/BRAND_DESIGN_v3.png",
           "image_width": 500,
           "subtitle": "",
           "title": "BRANDING AWARENESS, AUTHORITY, & AMPLIFICATION",
-          "text": "<p>Our branding services help increase the brand awareness and identity for our clients through a combination of social media marketing, public relations, and effective marketing efforts concentrating on brand messsaging and positioning to create their visual identity and presence. Our team is incredibly skilled in refreshing current brands or creating new ones from conception.<\/p>",
+          "text": "<p>Our branding services help increase the brand awareness and identity for our clients through a combination of social media marketing, public relations, and effective marketing efforts concentrating on brand messsaging and positioning to create their visual identity and presence. Our team is incredibly skilled in refreshing current brands or creating new ones from conception.</p>",
           "button_label": "Get Package",
           "button_link": "#",
           "layout": "right",
@@ -1962,11 +1965,11 @@
       "image-with-text-brand-two": {
         "type": "image-with-text-brand-two",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Makeup_Beauty_Photo_Looks_Camera_Phone_UI_Instagram_Post_74.png",
+          "image": "shopify://shop_images/Makeup_Beauty_Photo_Looks_Camera_Phone_UI_Instagram_Post_74.png",
           "image_width": 500,
           "subtitle": "",
           "title": "WORK WITH OUR BRANDING EXPERTS",
-          "text": "<p>Looking to build or revamp your branding to establish your identity in your desired marketplace? Our branding experts can hep you in creating a strong and memorable brand to differentiate you from your competitors and stand out to an audience that matches your ideal buyer profile. Let our team help you establish a unique brand positioning roadmap for your business. <strong>Pick your package below to get started. <\/strong><\/p>",
+          "text": "<p>Looking to build or revamp your branding to establish your identity in your desired marketplace? Our branding experts can hep you in creating a strong and memorable brand to differentiate you from your competitors and stand out to an audience that matches your ideal buyer profile. Let our team help you establish a unique brand positioning roadmap for your business. <strong>Pick your package below to get started. </strong></p>",
           "button_label": "Get Package",
           "button_link": "#",
           "layout": "left",
@@ -1976,11 +1979,11 @@
       "image-with-text-brand-three": {
         "type": "image-with-text-brand-three",
         "settings": {
-          "image": "shopify:\/\/shop_images\/sm-roi.png",
+          "image": "shopify://shop_images/sm-roi.png",
           "image_width": 500,
           "subtitle": "",
           "title": "Return On Investment.",
-          "text": "<p>You deserve to get the biggest bang for your buck. We offer monthly reports detailing in depth user demographics, acquisition, and engagement statistics based on Facebook’s inbuilt pay-per-click advertising model. We turn leads into conversions and have fun doing it!<\/p>",
+          "text": "<p>You deserve to get the biggest bang for your buck. We offer monthly reports detailing in depth user demographics, acquisition, and engagement statistics based on Facebook’s inbuilt pay-per-click advertising model. We turn leads into conversions and have fun doing it!</p>",
           "button_label": "View Plans",
           "button_link": "",
           "layout": "right",
@@ -1990,11 +1993,11 @@
       "image-with-text-content-one": {
         "type": "image-with-text-content-one",
         "settings": {
-          "image": "shopify:\/\/shop_images\/CONTENT_WRITING.png",
+          "image": "shopify://shop_images/CONTENT_WRITING.png",
           "image_width": 500,
           "subtitle": "",
           "title": "DYNAMIC CONTENT MARKETING SERVICES",
-          "text": "<p>Whether your business is expanding its brand, launching new products, exploring new audiences, or facilitating customer retention, our team knows how to create content that connects to your audiences, commands attention, and converts into sales.<\/p><p><\/p>",
+          "text": "<p>Whether your business is expanding its brand, launching new products, exploring new audiences, or facilitating customer retention, our team knows how to create content that connects to your audiences, commands attention, and converts into sales.</p><p></p>",
           "button_label": "Get Package",
           "button_link": "#",
           "layout": "right",
@@ -2004,11 +2007,11 @@
       "image-with-text-content-two": {
         "type": "image-with-text-content-two",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Makeup_Beauty_Photo_Looks_Camera_Phone_UI_Instagram_Post_70.png",
+          "image": "shopify://shop_images/Makeup_Beauty_Photo_Looks_Camera_Phone_UI_Instagram_Post_70.png",
           "image_width": 500,
           "subtitle": "",
           "title": "INTUITIVE CONTENT WRITING THAT CONNECTS & CONVERTS",
-          "text": "<p>Are you tired of writing your own content? Hiring a content writer can free up your time so you can focus on your business. We have a team of experienced writers who are experts in their field, so you can be sure that your content will be of the highest quality, original, SEO-focused, engaging, and informative.<\/p>",
+          "text": "<p>Are you tired of writing your own content? Hiring a content writer can free up your time so you can focus on your business. We have a team of experienced writers who are experts in their field, so you can be sure that your content will be of the highest quality, original, SEO-focused, engaging, and informative.</p>",
           "button_label": "Get Package",
           "button_link": "#",
           "layout": "left",
@@ -2018,11 +2021,11 @@
       "image-with-text-content-three": {
         "type": "image-with-text-content-three",
         "settings": {
-          "image": "shopify:\/\/shop_images\/sm-roi.png",
+          "image": "shopify://shop_images/sm-roi.png",
           "image_width": 500,
           "subtitle": "",
           "title": "Return On Investment.",
-          "text": "<p>You deserve to get the biggest bang for your buck. We offer monthly reports detailing in depth user demographics, acquisition, and engagement statistics based on Facebook’s inbuilt pay-per-click advertising model. We turn leads into conversions and have fun doing it!<\/p>",
+          "text": "<p>You deserve to get the biggest bang for your buck. We offer monthly reports detailing in depth user demographics, acquisition, and engagement statistics based on Facebook’s inbuilt pay-per-click advertising model. We turn leads into conversions and have fun doing it!</p>",
           "button_label": "View Plans",
           "button_link": "",
           "layout": "right",
@@ -2032,11 +2035,11 @@
       "image-with-text-seo-one": {
         "type": "image-with-text-seo-one",
         "settings": {
-          "image": "shopify:\/\/shop_images\/DIGITAL_MARKETING.png",
+          "image": "shopify://shop_images/DIGITAL_MARKETING.png",
           "image_width": 500,
           "subtitle": "WHY YOU NEED",
           "title": "SEO TO GROW AN ONLINE BUSINESS",
-          "text": "<p>Search Engine Optimization (SEO)  is the process of improving the visibility and ranking of a website on search engines. By optimizing your website's technical configuration, content relevance and link popularity, you can make your pages easier to find, more relevant, and more popular towards user search queries. As a result, your website will rank better in search engine results pages (SERPs).<\/p>",
+          "text": "<p>Search Engine Optimization (SEO)  is the process of improving the visibility and ranking of a website on search engines. By optimizing your website's technical configuration, content relevance and link popularity, you can make your pages easier to find, more relevant, and more popular towards user search queries. As a result, your website will rank better in search engine results pages (SERPs).</p>",
           "button_label": "Get Package",
           "button_link": "#",
           "layout": "right",
@@ -2046,11 +2049,11 @@
       "image-with-text-seo-two": {
         "type": "image-with-text-seo-two",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Makeup_Beauty_Photo_Looks_Camera_Phone_UI_Instagram_Post_67.png",
+          "image": "shopify://shop_images/Makeup_Beauty_Photo_Looks_Camera_Phone_UI_Instagram_Post_67.png",
           "image_width": 500,
           "subtitle": "INCREASE YOUR WEBSITE",
           "title": "WEBSITE RANKING ON GOOGLE",
-          "text": "<p>Is your business ranking on Google? If it isn’t, you’re missing out on untapped potential regarding revenue and new customers. Our SEO experts can help you find the best keywords for your business with the highest likelihood of generating conversions. We help you target your marketing efforts to what your key customers are actually searching for, bringing them to you before any of your competitors.<\/p>",
+          "text": "<p>Is your business ranking on Google? If it isn’t, you’re missing out on untapped potential regarding revenue and new customers. Our SEO experts can help you find the best keywords for your business with the highest likelihood of generating conversions. We help you target your marketing efforts to what your key customers are actually searching for, bringing them to you before any of your competitors.</p>",
           "button_label": "Get Package",
           "button_link": "#",
           "layout": "left",
@@ -2060,11 +2063,11 @@
       "image-with-text-seo-three": {
         "type": "image-with-text-seo-three",
         "settings": {
-          "image": "shopify:\/\/shop_images\/sm-roi.png",
+          "image": "shopify://shop_images/sm-roi.png",
           "image_width": 500,
           "subtitle": "",
           "title": "Return On Investment.",
-          "text": "<p>You deserve to get the biggest bang for your buck. We offer monthly reports detailing in depth user demographics, acquisition, and engagement statistics based on Facebook’s inbuilt pay-per-click advertising model. We turn leads into conversions and have fun doing it!<\/p>",
+          "text": "<p>You deserve to get the biggest bang for your buck. We offer monthly reports detailing in depth user demographics, acquisition, and engagement statistics based on Facebook’s inbuilt pay-per-click advertising model. We turn leads into conversions and have fun doing it!</p>",
           "button_label": "View Plans",
           "button_link": "",
           "layout": "right",
@@ -2074,13 +2077,13 @@
       "image-with-text-web-one": {
         "type": "image-with-text-web-one",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Makeup_Beauty_Photo_Looks_Camera_Phone_UI_Instagram_Post_59_97fd6eac-52cc-4130-ba32-e4dd06eb0152.png",
+          "image": "shopify://shop_images/Makeup_Beauty_Photo_Looks_Camera_Phone_UI_Instagram_Post_59_97fd6eac-52cc-4130-ba32-e4dd06eb0152.png",
           "image_width": 500,
           "subtitle": "Custom Websites Built",
           "title": "Around User Experience",
-          "text": "<p>We specialize in building ecommerce websites using Shopify’s platform and interface that takes your product or service to the forefront of your ideal buyers’ mind with clear navigation, product or service placement, and seamless webflow that emphasizes the value of your online store from a UX perspective to increase sales volume and upsells.<\/p>",
+          "text": "<p>We specialize in building ecommerce websites using Shopify’s platform and interface that takes your product or service to the forefront of your ideal buyers’ mind with clear navigation, product or service placement, and seamless webflow that emphasizes the value of your online store from a UX perspective to increase sales volume and upsells.</p>",
           "button_label": "Get Package",
-          "button_link": "shopify:\/\/collections\/website-design",
+          "button_link": "shopify://collections/website-design",
           "layout": "right",
           "divider": false
         }
@@ -2088,13 +2091,13 @@
       "image-with-text-web-two": {
         "type": "image-with-text-web-two",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Makeup_Beauty_Photo_Looks_Camera_Phone_UI_Instagram_Post_60.png",
+          "image": "shopify://shop_images/Makeup_Beauty_Photo_Looks_Camera_Phone_UI_Instagram_Post_60.png",
           "image_width": 500,
           "subtitle": "Responsive, Interactive, Visual",
           "title": "Website Design Intergrations",
-          "text": "<p>The intangibles of a website that drives traffic, engagement, sessions, and conversions comes down to load time, responsiveness across desktop and mobile, and visual and interactive elements. We know what apps and Shopify integrations will elevate your website user interface that makes it effortless to identify what a buyer wants, reinforces its value, and clearly find items and price making it easy to purchase. <\/p>",
+          "text": "<p>The intangibles of a website that drives traffic, engagement, sessions, and conversions comes down to load time, responsiveness across desktop and mobile, and visual and interactive elements. We know what apps and Shopify integrations will elevate your website user interface that makes it effortless to identify what a buyer wants, reinforces its value, and clearly find items and price making it easy to purchase. </p>",
           "button_label": "Get Package",
-          "button_link": "shopify:\/\/collections\/website-design",
+          "button_link": "shopify://collections/website-design",
           "layout": "left",
           "divider": false
         }
@@ -2102,11 +2105,11 @@
       "image-with-text-web-three": {
         "type": "image-with-text-web-three",
         "settings": {
-          "image": "shopify:\/\/shop_images\/sm-roi.png",
+          "image": "shopify://shop_images/sm-roi.png",
           "image_width": 500,
           "subtitle": "",
           "title": "Return On Investment.",
-          "text": "<p>You deserve to get the biggest bang for your buck. We offer monthly reports detailing in depth user demographics, acquisition, and engagement statistics based on Facebook’s inbuilt pay-per-click advertising model. We turn leads into conversions and have fun doing it!<\/p>",
+          "text": "<p>You deserve to get the biggest bang for your buck. We offer monthly reports detailing in depth user demographics, acquisition, and engagement statistics based on Facebook’s inbuilt pay-per-click advertising model. We turn leads into conversions and have fun doing it!</p>",
           "button_label": "View Plans",
           "button_link": "",
           "layout": "right",
@@ -2116,11 +2119,11 @@
       "image-with-text-dm-one": {
         "type": "image-with-text-dm-one",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Makeup_Beauty_Photo_Looks_Camera_Phone_UI_Instagram_Post_68.png",
+          "image": "shopify://shop_images/Makeup_Beauty_Photo_Looks_Camera_Phone_UI_Instagram_Post_68.png",
           "image_width": 500,
           "subtitle": "",
           "title": "DIGITAL MARKETING SERVICES",
-          "text": "<p>We produce customized digital marketing services that aligns with your unique business needs. We become an extension of your team, a partner that understands your market and goals, and develop a full-turnkey array of custom marketing solutions that meeds all of your needs.<\/p>",
+          "text": "<p>We produce customized digital marketing services that aligns with your unique business needs. We become an extension of your team, a partner that understands your market and goals, and develop a full-turnkey array of custom marketing solutions that meeds all of your needs.</p>",
           "button_label": "SCHEDULE A MEETING BELOW",
           "button_link": "",
           "layout": "right",
@@ -2130,11 +2133,11 @@
       "image-with-text-dm-two": {
         "type": "image-with-text-dm-two",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Makeup_Beauty_Photo_Looks_Camera_Phone_UI_Instagram_Post_69.png",
+          "image": "shopify://shop_images/Makeup_Beauty_Photo_Looks_Camera_Phone_UI_Instagram_Post_69.png",
           "image_width": 500,
           "subtitle": "",
           "title": "PPC ADVERTISING SERVICES",
-          "text": "<p>If you're looking to take your marketing efforts to the next level, pay per click advertising is a great option. With this type of marketing, you are able to target specific individuals with your ads. This can be a great way to reach new customers or increase traffic to your website. Facebook, Instagram, Google, has  billions of activer users, so why not take advantage? <\/p>",
+          "text": "<p>If you're looking to take your marketing efforts to the next level, pay per click advertising is a great option. With this type of marketing, you are able to target specific individuals with your ads. This can be a great way to reach new customers or increase traffic to your website. Facebook, Instagram, Google, has  billions of activer users, so why not take advantage? </p>",
           "button_label": "SCHEDULE A MEETING BELOW",
           "button_link": "",
           "layout": "left",
@@ -2144,11 +2147,11 @@
       "image-with-text-dm-three": {
         "type": "image-with-text-dm-three",
         "settings": {
-          "image": "shopify:\/\/shop_images\/sm-roi.png",
+          "image": "shopify://shop_images/sm-roi.png",
           "image_width": 500,
           "subtitle": "",
           "title": "Return On Investment.",
-          "text": "<p>You deserve to get the biggest bang for your buck. We offer monthly reports detailing in depth user demographics, acquisition, and engagement statistics based on Facebook’s inbuilt pay-per-click advertising model. We turn leads into conversions and have fun doing it!<\/p>",
+          "text": "<p>You deserve to get the biggest bang for your buck. We offer monthly reports detailing in depth user demographics, acquisition, and engagement statistics based on Facebook’s inbuilt pay-per-click advertising model. We turn leads into conversions and have fun doing it!</p>",
           "button_label": "View Plans",
           "button_link": "",
           "layout": "right",
@@ -2158,11 +2161,11 @@
       "image-with-text-smm-one": {
         "type": "image-with-text-smm-one",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Makeup_Beauty_Photo_Looks_Camera_Phone_UI_Instagram_Post_64.png",
+          "image": "shopify://shop_images/Makeup_Beauty_Photo_Looks_Camera_Phone_UI_Instagram_Post_64.png",
           "image_width": 500,
           "subtitle": "",
           "title": "hire a social media expert",
-          "text": "<p>Are you tired of managing your social media on your own? Our social media experts can design the ideal social media plan for your company. We use the latest techniques and tools to produce engaging posts and ads that will keep your audience coming back for more. Our team of experts can take over and design a plan that is perfect for your business. Schedule a call today to get a customized plan. <\/p>",
+          "text": "<p>Are you tired of managing your social media on your own? Our social media experts can design the ideal social media plan for your company. We use the latest techniques and tools to produce engaging posts and ads that will keep your audience coming back for more. Our team of experts can take over and design a plan that is perfect for your business. Schedule a call today to get a customized plan. </p>",
           "button_label": "SCHEDULE A MEETING BELOW",
           "button_link": "",
           "layout": "right",
@@ -2172,11 +2175,11 @@
       "image-with-text-smm-two": {
         "type": "image-with-text-smm-two",
         "settings": {
-          "image": "shopify:\/\/shop_images\/DIGITAL_MARKETING_v3.png",
+          "image": "shopify://shop_images/DIGITAL_MARKETING_v3.png",
           "image_width": 500,
           "subtitle": "",
           "title": "platfrom we specilaze in",
-          "text": "<p>Are you looking for a social media manager that specializes in all social media platforms? Look no further than our expert! Our social media manager will help you with Facebook, Instagram, Twitter, Google+, Pinterest, and TikTok. They will make sure your account is running smoothly and that all of your posts are going out correctly. Schedule a call today to get started!<\/p>",
+          "text": "<p>Are you looking for a social media manager that specializes in all social media platforms? Look no further than our expert! Our social media manager will help you with Facebook, Instagram, Twitter, Google+, Pinterest, and TikTok. They will make sure your account is running smoothly and that all of your posts are going out correctly. Schedule a call today to get started!</p>",
           "button_label": "SCHEDULE A MEETING BELOW",
           "button_link": "",
           "layout": "left",
@@ -2186,11 +2189,11 @@
       "image-with-text-smm-three": {
         "type": "image-with-text-smm-three",
         "settings": {
-          "image": "shopify:\/\/shop_images\/sm-roi.png",
+          "image": "shopify://shop_images/sm-roi.png",
           "image_width": 500,
           "subtitle": "",
           "title": "Return On Investment.",
-          "text": "<p>You deserve to get the biggest bang for your buck. We offer monthly reports detailing in depth user demographics, acquisition, and engagement statistics based on Facebook’s inbuilt pay-per-click advertising model. We turn leads into conversions and have fun doing it!<\/p>",
+          "text": "<p>You deserve to get the biggest bang for your buck. We offer monthly reports detailing in depth user demographics, acquisition, and engagement statistics based on Facebook’s inbuilt pay-per-click advertising model. We turn leads into conversions and have fun doing it!</p>",
           "button_label": "View Plans",
           "button_link": "",
           "layout": "left",
@@ -2200,11 +2203,11 @@
       "image-with-text-discovery-one": {
         "type": "image-with-text-discovery-one",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Makeup_Beauty_Photo_Looks_Camera_Phone_UI_Instagram_Post_72.png",
+          "image": "shopify://shop_images/Makeup_Beauty_Photo_Looks_Camera_Phone_UI_Instagram_Post_72.png",
           "image_width": 500,
           "subtitle": "",
           "title": "discovery call",
-          "text": "<p>Do you have inquiries about any of the following services we provide: marketing, branding, website construction, or services for creating social media content? Use our complimentary consultation service. Any questions you may have can be answered by one of our specialists. We'll assist you in identifying the ideal solution for your company and address any queries you might have.<strong>Set up a free exploration call right away to learn more about how we can assist you with growing your company.<\/strong><\/p>",
+          "text": "<p>Do you have inquiries about any of the following services we provide: marketing, branding, website construction, or services for creating social media content? Use our complimentary consultation service. Any questions you may have can be answered by one of our specialists. We'll assist you in identifying the ideal solution for your company and address any queries you might have.<strong>Set up a free exploration call right away to learn more about how we can assist you with growing your company.</strong></p>",
           "button_label": "SCHEDULE A MEETING BELOW",
           "button_link": "",
           "layout": "right",
@@ -2214,11 +2217,11 @@
       "image-with-text-discovery-two": {
         "type": "image-with-text-discovery-two",
         "settings": {
-          "image": "shopify:\/\/shop_images\/sm-profile-management.png",
+          "image": "shopify://shop_images/sm-profile-management.png",
           "image_width": 500,
           "subtitle": "",
           "title": "Profile Management.",
-          "text": "<p>Facebook and Instagram are two of the largest platforms on the planet, so why not take advantage? Both possess in built advertising and analytics tools that can help you microtarget to exactly the customers you want to engage.<\/p>",
+          "text": "<p>Facebook and Instagram are two of the largest platforms on the planet, so why not take advantage? Both possess in built advertising and analytics tools that can help you microtarget to exactly the customers you want to engage.</p>",
           "button_label": "View Plans",
           "button_link": "",
           "layout": "left",
@@ -2228,11 +2231,11 @@
       "image-with-text-discovery-three": {
         "type": "image-with-text-discovery-three",
         "settings": {
-          "image": "shopify:\/\/shop_images\/sm-roi.png",
+          "image": "shopify://shop_images/sm-roi.png",
           "image_width": 500,
           "subtitle": "",
           "title": "Return On Investment.",
-          "text": "<p>You deserve to get the biggest bang for your buck. We offer monthly reports detailing in depth user demographics, acquisition, and engagement statistics based on Facebook’s inbuilt pay-per-click advertising model. We turn leads into conversions and have fun doing it!<\/p>",
+          "text": "<p>You deserve to get the biggest bang for your buck. We offer monthly reports detailing in depth user demographics, acquisition, and engagement statistics based on Facebook’s inbuilt pay-per-click advertising model. We turn leads into conversions and have fun doing it!</p>",
           "button_label": "View Plans",
           "button_link": "",
           "layout": "right",
@@ -2242,11 +2245,11 @@
       "image-with-text-shopify-agency-one": {
         "type": "image-with-text-shopify-agency-one",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Social-Media-Marketing.png",
+          "image": "shopify://shop_images/Social-Media-Marketing.png",
           "image_width": 500,
           "subtitle": "",
           "title": "Social Media",
-          "text": "<p>social media managers and designers use their experience and passion to develop the best strategy for your business. They know just the right tricks to create engaging posts and ads that notonly hook your customer’s interest, but bring them back for more.<\/p>",
+          "text": "<p>social media managers and designers use their experience and passion to develop the best strategy for your business. They know just the right tricks to create engaging posts and ads that notonly hook your customer’s interest, but bring them back for more.</p>",
           "button_label": "View Plans",
           "button_link": "",
           "layout": "right",
@@ -2256,11 +2259,11 @@
       "image-with-text-shopify-agency-two": {
         "type": "image-with-text-shopify-agency-two",
         "settings": {
-          "image": "shopify:\/\/shop_images\/sm-profile-management.png",
+          "image": "shopify://shop_images/sm-profile-management.png",
           "image_width": 500,
           "subtitle": "",
           "title": "Profile Management.",
-          "text": "<p>Facebook and Instagram are two of the largest platforms on the planet, so why not take advantage? Both possess in built advertising and analytics tools that can help you microtarget to exactly the customers you want to engage.<\/p>",
+          "text": "<p>Facebook and Instagram are two of the largest platforms on the planet, so why not take advantage? Both possess in built advertising and analytics tools that can help you microtarget to exactly the customers you want to engage.</p>",
           "button_label": "View Plans",
           "button_link": "",
           "layout": "left",
@@ -2270,11 +2273,11 @@
       "image-with-text-shopify-agency-three": {
         "type": "image-with-text-shopify-agency-three",
         "settings": {
-          "image": "shopify:\/\/shop_images\/sm-roi.png",
+          "image": "shopify://shop_images/sm-roi.png",
           "image_width": 500,
           "subtitle": "",
           "title": "Return On Investment.",
-          "text": "<p>You deserve to get the biggest bang for your buck. We offer monthly reports detailing in depth user demographics, acquisition, and engagement statistics based on Facebook’s inbuilt pay-per-click advertising model. We turn leads into conversions and have fun doing it!<\/p>",
+          "text": "<p>You deserve to get the biggest bang for your buck. We offer monthly reports detailing in depth user demographics, acquisition, and engagement statistics based on Facebook’s inbuilt pay-per-click advertising model. We turn leads into conversions and have fun doing it!</p>",
           "button_label": "View Plans",
           "button_link": "",
           "layout": "right",
@@ -2284,9 +2287,9 @@
       "image-with-text-book-call": {
         "type": "image-with-text-book-call",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
+          "image": "shopify://shop_images/Red_and_Grey_Back_in_Stock_Photo_Collage_Instagram_Post_9.png",
           "image_width": 500,
-          "embded_calnder": "<!-- Calendly inline widget begin --> <div class=\"\" calendly-inline-widget data-url=\"\" style=\"\" https:=\"\" min-width:320px=\"\"><\/div> <script type=\"\" text src=\"\" async https:=\"\"><\/script> <!-- Calendly inline widget end -->\"",
+          "embded_calnder": "<!-- Calendly inline widget begin --> <div class=\"\" calendly-inline-widget data-url=\"\" style=\"\" https:=\"\" min-width:320px=\"\"></div> <script type=\"\" text src=\"\" async https:=\"\"></script> <!-- Calendly inline widget end -->\"",
           "subtitle": "",
           "title": "",
           "text": "",
@@ -2331,51 +2334,39 @@
     ],
     "blocks": {
       "3720565183479497137": {
-        "type": "shopify:\/\/apps\/product-options-variant-option\/blocks\/app-embed-block\/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
+        "type": "shopify://apps/product-options-variant-option/blocks/app-embed-block/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "6279071938380501511": {
-        "type": "shopify:\/\/apps\/form-builder-contact-form\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "type": "shopify://apps/form-builder-contact-form/blocks/app-embed/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "341186785192672687": {
-        "type": "shopify:\/\/apps\/seal-subscriptions-loyalty\/blocks\/subscription-script-append\/13b25004-a140-4ab7-b5fe-29918f759699",
+        "type": "shopify://apps/seal-subscriptions-loyalty/blocks/subscription-script-append/13b25004-a140-4ab7-b5fe-29918f759699",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "6174324309569838175": {
-        "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-shopify-app\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+        "type": "shopify://apps/smile-loyalty-rewards/blocks/smile-shopify-app/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
         "disabled": false,
-        "settings": {
-        }
-      },
-      "11825749942329260384": {
-        "type": "shopify:\/\/apps\/fueled-google-analytics-ga4\/blocks\/fueled-embed\/b7733e10-32a6-41fd-a62d-3195dc211aa9",
-        "disabled": false,
-        "settings": {
-          "track": true
-        }
+        "settings": {}
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#d8b74c",
           "button_icon": "chat_bubble",
+          "button_text": "no_text",
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
-          "button_text": "no_text",
           "greeting_message": "👋 Hello! Let me know if you have a specific question, or give me an idea of what you're looking for and I am happy to make a recommendation."
         }
       }
@@ -2445,9 +2436,9 @@
       "share_pinterest": true,
       "share_twitter": true,
       "sku_enable": false,
-      "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
-      "social_instagram_link": "https:\/\/instagram.com\/shopify",
-      "social_pinterest_link": "https:\/\/www.pinterest.com\/shopify",
+      "social_facebook_link": "https://www.facebook.com/shopify",
+      "social_instagram_link": "https://instagram.com/shopify",
+      "social_pinterest_link": "https://www.pinterest.com/shopify",
       "type_base_font_family": "futura_n4",
       "type_base_line_height": 1.6,
       "type_base_size": 16,
@@ -2593,23 +2584,19 @@
           "blocks": {
             "1499789718857-0": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             },
             "1499789718857-1": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             },
             "1499789718857-2": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             },
             "1499789718857-3": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -2628,7 +2615,7 @@
         "1499790633921": {
           "type": "background-image-text",
           "settings": {
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "focal_point": "80% 0",
             "color_border": "#cdb8ac",
             "layout": "left",
@@ -2665,8 +2652,7 @@
             },
             "product-text-columns": {
               "type": "text-columns",
-              "settings": {
-              }
+              "settings": {}
             },
             "product-hero-video": {
               "type": "hero-video",
@@ -2695,8 +2681,7 @@
           "blocks": {
             "page-image-hero": {
               "type": "image-hero",
-              "settings": {
-              }
+              "settings": {}
             },
             "page-rich-text": {
               "type": "rich-text",
@@ -2708,8 +2693,7 @@
             },
             "page-text-columns": {
               "type": "text-columns",
-              "settings": {
-              }
+              "settings": {}
             },
             "page-background-image-text": {
               "type": "background-image-text",
@@ -2744,8 +2728,7 @@
         },
         "newsletter-popup": {
           "type": "newsletter-popup",
-          "settings": {
-          }
+          "settings": {}
         },
         "1524769873765": {
           "type": "slideshow",
@@ -2754,9 +2737,9 @@
               "type": "image",
               "settings": {
                 "title_size": 80,
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "link_text": "Shop this",
-                "link_2": "shopify:\/\/collections\/all",
+                "link_2": "shopify://collections/all",
                 "link_text_2": "Shop all",
                 "color_accent": "#000000",
                 "text_align": "vertical-center horizontal-center",
@@ -2767,9 +2750,9 @@
               "type": "image",
               "settings": {
                 "title_size": 80,
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "link_text": "Shop all",
-                "link_2": "shopify:\/\/collections\/all",
+                "link_2": "shopify://collections/all",
                 "link_text_2": "Shop all",
                 "color_accent": "#000000",
                 "text_align": "vertical-bottom horizontal-left",
@@ -2803,13 +2786,11 @@
           "blocks": {
             "1524772785241": {
               "type": "subcollections",
-              "settings": {
-              }
+              "settings": {}
             },
             "1524772580942": {
               "type": "tags_all",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -2840,8 +2821,7 @@
         },
         "1525118065355": {
           "type": "map",
-          "settings": {
-          }
+          "settings": {}
         },
         "1525295772132": {
           "type": "featured-collection",
@@ -2858,7 +2838,7 @@
             "1525886482727": {
               "type": "advanced",
               "settings": {
-                "cta_link1": "shopify:\/\/collections\/all",
+                "cta_link1": "shopify://collections/all",
                 "width": "100",
                 "height": 720,
                 "text_size": 120,
@@ -2902,7 +2882,7 @@
             "1525912530555-0": {
               "type": "advanced",
               "settings": {
-                "cta_link1": "shopify:\/\/collections\/all",
+                "cta_link1": "shopify://collections/all",
                 "width": "50",
                 "height": 800,
                 "text_size": 100,
@@ -2915,7 +2895,7 @@
             "1525912530555-1": {
               "type": "advanced",
               "settings": {
-                "cta_link1": "shopify:\/\/collections\/all",
+                "cta_link1": "shopify://collections/all",
                 "width": "50",
                 "height": 500,
                 "text_size": 100,
@@ -2939,8 +2919,7 @@
         },
         "1526068199595": {
           "type": "instagram",
-          "settings": {
-          }
+          "settings": {}
         },
         "collection-promotions": {
           "type": "collection-promotions",
@@ -2948,7 +2927,7 @@
             "1526403837307": {
               "type": "banner",
               "settings": {
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "label": "Shop now",
                 "color_tint": "#e95454",
                 "color_tint_opacity": 10,
@@ -2958,7 +2937,7 @@
             "1526496043079": {
               "type": "advanced",
               "settings": {
-                "cta_link1": "shopify:\/\/collections\/all",
+                "cta_link1": "shopify://collections/all",
                 "width": "100",
                 "height": 500,
                 "text_size": 120,
@@ -3060,10 +3039,10 @@
       "cart_notes_enable": false,
       "cart_terms_conditions_enable": false,
       "currency_format": "money_format",
-      "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
-      "social_twitter_link": "https:\/\/twitter.com\/shopify",
-      "social_instagram_link": "https:\/\/instagram.com\/shopify",
-      "social_youtube_link": "https:\/\/www.youtube.com\/user\/shopify",
+      "social_facebook_link": "https://www.facebook.com/shopify",
+      "social_twitter_link": "https://twitter.com/shopify",
+      "social_instagram_link": "https://instagram.com/shopify",
+      "social_youtube_link": "https://www.youtube.com/user/shopify",
       "share_facebook": true,
       "share_twitter": true,
       "share_pinterest": true,
@@ -3083,15 +3062,14 @@
           "blocks": {
             "1520882467782": {
               "type": "logo",
-              "settings": {
-              }
+              "settings": {}
             },
             "1521051841065": {
               "type": "announcement",
               "settings": {
                 "text": "Free shipping",
                 "link_text": "On all orders over $100",
-                "link": "shopify:\/\/collections\/all"
+                "link": "shopify://collections/all"
               }
             },
             "1520888647304": {
@@ -3099,7 +3077,7 @@
               "settings": {
                 "text": "Hassle-free returns",
                 "link_text": "30-day postage paid returns",
-                "link": "shopify:\/\/collections\/all"
+                "link": "shopify://collections/all"
               }
             }
           },
@@ -3201,7 +3179,7 @@
         "1499790633921": {
           "type": "background-image-text",
           "settings": {
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "focal_point": "center",
             "color_border": "#6a635b",
             "layout": "right",
@@ -3238,8 +3216,7 @@
             },
             "product-text-columns": {
               "type": "text-columns",
-              "settings": {
-              }
+              "settings": {}
             },
             "product-hero-video": {
               "type": "hero-video",
@@ -3276,8 +3253,7 @@
             },
             "page-text-columns": {
               "type": "text-columns",
-              "settings": {
-              }
+              "settings": {}
             },
             "page-background-image-text": {
               "type": "background-image-text",
@@ -3310,8 +3286,7 @@
         },
         "newsletter-popup": {
           "type": "newsletter-popup",
-          "settings": {
-          }
+          "settings": {}
         },
         "collection-header": {
           "type": "collection-header",
@@ -3326,13 +3301,11 @@
           "blocks": {
             "1524772785241": {
               "type": "subcollections",
-              "settings": {
-              }
+              "settings": {}
             },
             "1524772580942": {
               "type": "tags_all",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -3351,8 +3324,7 @@
           "blocks": {
             "1523298253705-0": {
               "type": "image",
-              "settings": {
-              }
+              "settings": {}
             },
             "1523298253705-1": {
               "type": "image",
@@ -3391,33 +3363,27 @@
           "blocks": {
             "1523380258742-0": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             },
             "1523380258742-1": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             },
             "1523380258742-2": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             },
             "1524685811204": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             },
             "1524685816171": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             },
             "1524685829380": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -3437,7 +3403,7 @@
         "1524685456938": {
           "type": "background-image-text",
           "settings": {
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "focal_point": "center",
             "color_border": "#655147",
             "layout": "right",
@@ -3476,13 +3442,11 @@
           "blocks": {
             "1524686876171-0": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             },
             "1524686876171-1": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -3501,7 +3465,7 @@
             "1525879359021": {
               "type": "advanced",
               "settings": {
-                "cta_link1": "shopify:\/\/collections\/all",
+                "cta_link1": "shopify://collections/all",
                 "width": "100",
                 "height": 500,
                 "text_size": 120,
@@ -3528,7 +3492,7 @@
             "1525881312850": {
               "type": "banner",
               "settings": {
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "label": "Learn more",
                 "color_tint": "#d69344",
                 "color_tint_opacity": 14,
@@ -3588,8 +3552,7 @@
         },
         "1526333080570": {
           "type": "instagram",
-          "settings": {
-          }
+          "settings": {}
         },
         "1526493275292": {
           "type": "promo-grid",
@@ -3628,7 +3591,7 @@
               "type": "banner",
               "settings": {
                 "heading": "Free shipping",
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "label": "Learn more",
                 "color_tint": "#d69344",
                 "color_tint_opacity": 14,
@@ -3740,9 +3703,9 @@
       "collection_grid_gutter": true,
       "cart_type": "drawer",
       "currency_format": "money_format",
-      "social_facebook_link": "https:\/\/www.facebook.com\/shopify",
-      "social_twitter_link": "https:\/\/twitter.com\/shopify",
-      "social_youtube_link": "https:\/\/www.youtube.com\/user\/shopify",
+      "social_facebook_link": "https://www.facebook.com/shopify",
+      "social_twitter_link": "https://twitter.com/shopify",
+      "social_youtube_link": "https://www.youtube.com/user/shopify",
       "share_facebook": true,
       "share_twitter": true,
       "share_pinterest": true,
@@ -3780,8 +3743,7 @@
           "blocks": {
             "1524768779513": {
               "type": "logo",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -3802,8 +3764,7 @@
           "blocks": {
             "1494292487693": {
               "type": "newsletter",
-              "settings": {
-              }
+              "settings": {}
             },
             "1526406521795": {
               "type": "menu",
@@ -3868,7 +3829,7 @@
         "1499790633921": {
           "type": "background-image-text",
           "settings": {
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "focal_point": "center",
             "color_border": "#090909",
             "layout": "right",
@@ -3883,7 +3844,7 @@
             "product-background-image-text": {
               "type": "background-image-text",
               "settings": {
-                "button_link": "shopify:\/\/collections\/all",
+                "button_link": "shopify://collections/all",
                 "alignment": "top left",
                 "color_border": "#3a6815",
                 "layout": "right",
@@ -3893,8 +3854,7 @@
             },
             "product-text-columns": {
               "type": "text-columns",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -3921,8 +3881,7 @@
             },
             "page-text-columns": {
               "type": "text-columns",
-              "settings": {
-              }
+              "settings": {}
             },
             "page-background-image-text": {
               "type": "background-image-text",
@@ -3955,8 +3914,7 @@
         },
         "newsletter-popup": {
           "type": "newsletter-popup",
-          "settings": {
-          }
+          "settings": {}
         },
         "1524768368258": {
           "type": "slideshow",
@@ -3964,7 +3922,7 @@
             "1524768368258-0": {
               "type": "image",
               "settings": {
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "link_text": "Shop all",
                 "text_align": "vertical-center horizontal-left",
                 "focal_point": "top center"
@@ -3996,13 +3954,11 @@
           "blocks": {
             "1524772785241": {
               "type": "subcollections",
-              "settings": {
-              }
+              "settings": {}
             },
             "1524772580942": {
               "type": "tags_all",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -4021,18 +3977,15 @@
           "blocks": {
             "1525290496166-0": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             },
             "1525290496166-2": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             },
             "1525290496166-1": {
               "type": "collection",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -4048,8 +4001,7 @@
         },
         "1525899982112": {
           "type": "instagram",
-          "settings": {
-          }
+          "settings": {}
         },
         "1525969132569": {
           "type": "promo-grid",
@@ -4129,7 +4081,7 @@
             "1526501090474": {
               "type": "advanced",
               "settings": {
-                "cta_link1": "shopify:\/\/collections\/all",
+                "cta_link1": "shopify://collections/all",
                 "width": "50",
                 "height": 400,
                 "text_size": 120,
@@ -4169,7 +4121,7 @@
         "1526480838446": {
           "type": "background-image-text",
           "settings": {
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "focal_point": "center",
             "color_border": "#f4f4f4",
             "layout": "left",
