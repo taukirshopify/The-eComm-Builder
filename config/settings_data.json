@@ -1253,14 +1253,6 @@
               "link": ""
             }
           },
-          "96858ba1-528a-462e-bacd-66bec0430652": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify://shop_images/Untitled_design_19.png",
-              "text": "drink store",
-              "link": ""
-            }
-          },
           "0119d246-5b60-4674-847f-2f53376afc3b": {
             "type": "slide",
             "settings": {
@@ -1357,11 +1349,18 @@
               "text": "DIGITAL ART STORE",
               "link": "https://aaydshop.com/"
             }
+          },
+          "96858ba1-528a-462e-bacd-66bec0430652": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify://shop_images/Untitled_design_19.png",
+              "text": "drink store",
+              "link": ""
+            }
           }
         },
         "block_order": [
           "cfa13216-e723-4b28-b515-c79f249a0d44",
-          "96858ba1-528a-462e-bacd-66bec0430652",
           "0119d246-5b60-4674-847f-2f53376afc3b",
           "2817e1fa-43a2-4447-9db9-c2130a6f13bf",
           "a3130229-2be0-46e9-ba33-0d1d9a501c5c",
@@ -1373,7 +1372,8 @@
           "736c1989-9ddc-4719-ad9a-894fb46eb8db",
           "ffc5d076-2996-4ca5-a2bc-349fbc4d1c1f",
           "0a8253b2-5de7-4622-b7ee-603ed0857139",
-          "f95f9d84-1af6-4892-a553-c3b2e90b6f2a"
+          "f95f9d84-1af6-4892-a553-c3b2e90b6f2a",
+          "96858ba1-528a-462e-bacd-66bec0430652"
         ],
         "settings": {
           "title": "",
