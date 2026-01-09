@@ -264,7 +264,7 @@
         "type": "product-template",
         "settings": {
           "first_tab": "DESCRIPTION",
-          "second_tab": "HOW TO USE",
+          "second_tab": "",
           "fix_tab1": "",
           "fix_tab1_content": "",
           "fix_tab2": "",
